@@ -1,0 +1,32 @@
+ENTRY            B0001   20020220   20050616                  Y000
+SUBENT        B0001001   20020220   20050616                  Y000
+BIB                  8         16
+TITLE       (P,XN) And (P,PXN) Reactions of Yttrium-89 with 5-85
+           MeV Protons
+AUTHOR     (G.B.SAHA,N.T.PORILE,L.YAFFE)
+INSTITUTE  (1CANMCG)
+REFERENCE  (J,PR,144,962,1966)
+METHOD     (SITA,INTB,CHSEP,MOMIX)
+FACILITY   (SYNCY,1CANMCG)
+SAMPLE     Y-Oxide+Cu-Oxide Mixture
+HISTORY    (19741101C)Lamz
+           (19940504A) Some Corrections have Been Included by
+            CAJAD
+           (19971112A) Some Reaction Lines are Corrected. Lower
+           Case.
+           (20001029A) Correction According to O.Schwerer Remark.
+           (20020220D) Deleted. The Entry has Been Moved to T0196
+           (20020220U) Last checking has been done.
+ENDBIB              16
+NOCOMMON             0          0
+ENDSUBENT           19
+NOSUBENT      B0001002   20020725   20050616                  Y000
+NOSUBENT      B0001003   20020725   20050616                  Y000
+NOSUBENT      B0001004   20020725   20050616                  Y000
+NOSUBENT      B0001005   20020725   20050616                  Y000
+NOSUBENT      B0001006   20020725   20050616                  Y000
+NOSUBENT      B0001007   20020725   20050616                  Y000
+NOSUBENT      B0001008   20020725   20050616                  Y000
+NOSUBENT      B0001009   20020725   20050616                  Y000
+NOSUBENT      B0001010   20020725   20050616                  Y000
+ENDENTRY            10
