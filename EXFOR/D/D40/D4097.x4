@@ -1,13 +1,13 @@
-ENTRY            D4097   20020410   20040120
-SUBENT        D4097001   20020410   20040120
-BIB                 13         42
+ENTRY            D4097   20020410   20060720   20060609       D046
+SUBENT        D4097001   20020410   20060720   20060609       D046
+BIB                 13         43
 TITLE      Study on alternative production of 103Pd and
            characterisation of contaminants in the deuteron
            irradiation of 103Rh up to 21 MeV
 AUTHOR     (A.Hermanne,M.Sonck,S.Takacs,F.Tarkanyi,Y.Shubin)
 INSTITUTE  (2BLGVUB) Free University of Brussels, Belgium,
            (3HUNDEB) Inst. Of Nucl. Res. Debrecen, Hungary
-REFERENCE  (J,NIM/B,187,03,2002)
+REFERENCE  (J,NIM/B,187,3,2002)
 FACILITY   (CYCLO,2BLGVUB) Cgr 560 Cyclotron, Brussels, Belgium
 SAMPLE     High purity, >99.9%, 6.8 and 12.3 micron thick Rh Foils
            Major impurities: 40 ppm Fe, 40ppm Ru, 100 ppm in.
@@ -43,10 +43,11 @@ ERR-ANALYS (EN-ERR)The uncertainty of the primary beam energy was
                Number of target nuclei              5%
                Nuclear data                         5%
 HISTORY    (20011213C) TS
-ENDBIB              42
+           (20060530U) Page number in ref. was corrected
+ENDBIB              43
 NOCOMMON             0          0
-ENDSUBENT           45
-SUBENT        D4097002   20020410   20040120
+ENDSUBENT           46
+SUBENT        D4097002   20020410   20040120   20050926       0000
 BIB                  3          7
 REACTION  1(45-RH-103(D,2N)46-PD-103,,SIG)
           2(45-RH-103(D,2N)46-PD-103,,SIG)
@@ -106,7 +107,7 @@ MEV        MEV        MB         MB         MB         MB
         4.1         1.         4.        0.4
 ENDDATA             46
 ENDSUBENT           58
-SUBENT        D4097003   20020410   20040120
+SUBENT        D4097003   20020410   20040120   20050926       0000
 BIB                  3         11
 REACTION  1(45-RH-103(D,X)45-RH-102-M,,SIG)
           2(45-RH-103(D,X)45-RH-102-G,,SIG)
@@ -160,7 +161,7 @@ MEV        MEV        MB         MB         MB         MB
         8.7        0.6                               2.        0.2
 ENDDATA             36
 ENDSUBENT           52
-SUBENT        D4097004   20020410   20040120
+SUBENT        D4097004   20020410   20040120   20050926       0000
 BIB                  3          9
 REACTION  1(45-RH-103(D,X)45-RH-101-M,,SIG)
           2(45-RH-103(D,X)45-RH-101-G,,SIG)
