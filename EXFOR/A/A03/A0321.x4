@@ -1,0 +1,311 @@
+ENTRY            A0321   20010207   20050616                  Y000
+SUBENT        A0321001   20010207   20050616                  Y000
+BIB                 12         25
+INSTITUTE  (1USADAV)
+REFERENCE  (J,ARI,34,631,1983)
+           (J,RCA,60,57,1993) Data compared to ALICE calculations.
+AUTHOR     (E.LITTLE,C.LAGUNAS-SOLAR)
+TITLE      Cyclotron Production Of 67Ga. Cross Sections and
+            Thick-Target Yields for the 67Zn(p,n) and 68Zn(p,2n)
+            Reactions.
+FACILITY   (CYCLO,1USADAV)
+INC-SPECT  Proton incident energy 35.7 MeV.
+SAMPLE     Zinc foils of 0.1-mm thickness (99.9% purity) were cut
+            into pieces approximately 1 cm**2; 40 foils were
+            numbered and stacked onto a target holder.
+METHOD     (STTA,ACTIV,BCINT)
+DETECTOR   (GELI)
+ANALYSIS   (AREA)
+ADD-RES    (TTY-C)
+HISTORY    (19870220C)
+           (19870326U)
+           (19870327U)
+           (19870410U)
+           (19870420U)
+           (19870421U)
+           (19880218U)
+           (20010207A) Converted to new date formats, lower case;
+                       reference added.
+ENDBIB              25
+NOCOMMON             0          0
+ENDSUBENT           28
+SUBENT        A0321002     880218   20050616                  Y000
+BIB                  5         28
+REACTION   (30-ZN-0(P,X)31-GA-66,IND,SIG,,,EXP)
+DECAY-DATA (31-GA-66,9.5HR). HALF-LIFE FOR 66-GA WAS OBTAINED
+           FROM ORIGINAL PAPER.
+COMMENT    /BY AUTHORS/. 1.AUTHOR HAVE SAID 'THE DECAY SCHEMES,
+           PHYSICAL HALF-LIFE AND GAMMA-ROY PROBABILITIES
+           PER DECAY WERE OBTAINED FROM LEDERER AND SHIRLEY'.
+           HOWEVER, LEDERER AND SHIRLEY HAVE GIVEN 9.4HR HALF-
+           LIFE. 'ENSDE'-DATA IS 9.49 HR.
+           2. AUTHOR DATA (MEASURMET UNITS MUCI/MUAHR) WERE
+           RECALCULATED BY COMPILER. THE FORMULAE SIGMA(MB)=
+           1.42E-5*Y(MUCI/MUAHR)*W(G/MOL)*T(HOUR)/L(G/CM**2)
+           WAS USED. IN THIS FORMULAE - Y IS AUTHOR DATUM,
+           W -AVERAGE ATOMIC WEIGHT (65.39 A.E.M.),
+           T - HALF-LIFE (9.49 HR), L - TARGET THICKNESS
+            (7.133E-2).
+STATUS     (CURVE). BY CAJAD.THE FIGURE IS DEFECTIVE.
+ERR-ANALYS (ERR-T). TOTAL UNSERTAINTY. THIS UNSERTAINTY WAS
+           DETERMINED BY ADDING THE FOLLOWING UNCERTAINTIES IN
+           QUADRATURE.
+           (ERR-1). VARIATION IN FOIL THICKNESS,
+           (ERR-2). BEAM CURRENT INTEGRATION,
+           (ERR-3). COMPILER INTAGRATION OF SPECTRA,
+           (ERR-4). DETECTOR EFFICIENCY,
+           (ERR-5). HALF-LIFE DECAY CORRECTIONS,
+           (ERR-6). GAMMA-RAY PROBABILITIES PER DECAY,
+           (ERR-7). COUNTING GEOMETRY.
+           (ERR-S). COUNTING STATISTICS.
+           (DATA-ERR). THE UNCERTAINTY OF DATA-POINT READER.
+ENDBIB              28
+COMMON              10          6
+ERR-T      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5
+ERR-6      ERR-7      ERR-S      EN-ERR
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   MEV
+   13.0        4.         5.         6.         5.         3.
+    5.         1.         1.         0.07
+ENDCOMMON            6
+DATA                 3         24
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       8.56       19.7        0.3
+      10.46       72.8        1.2
+      12.46      108.         1.8
+      13.91      110.5        1.8
+      15.2       118.9        2.
+      16.73       89.8        1.5
+      19.12       55.1        0.9
+      20.24       44.2        0.7
+      22.34       37.3        0.6
+      23.4        31.6        0.5
+      24.36       31.8        0.5
+      25.4        29.3        0.5
+      26.32       29.1        0.5
+      27.22       26.3        0.4
+      28.09       28.7        0.5
+      29.01       32.         0.5
+      29.84       32.2        0.5
+      30.58       37.5        0.6
+      31.39       38.2        0.6
+      32.15       43.5        0.7
+      32.92       44.         0.7
+      33.72       45.1        0.7
+      34.52       48.5        0.8
+      35.28       44.6        0.7
+ENDDATA             26
+ENDSUBENT           66
+SUBENT        A0321003     880218   20050616                  Y000
+BIB                  5         26
+REACTION   (30-ZN-0(P,X)31-GA-67,IND,SIG,,,EXP)
+DECAY-DATA (31-GA-67,78.2HR)
+COMMENT    /BY COMPILER/. 1. AUTHORS HAVE SAID 'THE DECAY
+           SCHEMES, PHISICAL HALF-LIFE AND GAMMA-RAY PROBABILITI
+           PROBABILITIES PER DECAY WERE OBTAINED FROM LEDERES AN
+           AND SHIRLEY'. HOWEVER, LEDERER AND SHIRLEY HAVE
+           GIVEN 9.4 HR HALF-LIFE. 'ENSDF'-DATA IS 9.49 HR.
+           2. AUTHOR DATA (MEASURMENT UNITS MUCI/MUAHR) WERE
+           RECALCULATED BY COMPILER. THE FORMULAE SIGMA(MB)=
+           42E-5*Y(MUCI/MUAHR)*W(G/MEL)*T(HOUR)/L(G/CM)
+           L(G/CM**2)
+           AUTHOR DATUM, W-AVERAGE ATOMIC WEIGHT (65.39 A.E.M.),
+           T-HALF-LIFE (9.49 HR), L-TARGET THICKNESS (7.133E-3).
+STATUS     (CURVE). BY CAJAD.THE FIGURE IS DEFECTIVE.
+ERR-ANALYS (ERR-T). TOTAL UNCERTAINTY. THIS UNCERTAINTY WAS
+           DETERMINED BY ADDING THE FOLLOWING UNCERTAINTY IN
+           QUADRATURE.
+           (ERR-1). VARIATION IN FOIL THICKNESS,
+           (ERR-2). BEAM CURRENT INTEGRATION,
+           (ERR-3). COMPILERINTEGRATION OF SPECTRA,
+           (ERR-4). DETECTOR EFFICIENCY,
+           (ERR-5). HALF-LIFE DECAY CORRECTIONS,
+           (ERR-6). GAMMA-RAY PROBABILITIES PER DECAY,
+           (ERR-7). COUNTING GEOMETRY.
+           (ERR-S). COUNTING STATISTICS.
+           (DATA-ERR). THE UNCERTAINTY OF DATA-POINT READER.
+ENDBIB              26
+COMMON              10          6
+ERR-T      ERR-1      ERR-2      ERR-3      ERR-4      ERR-5
+ERR-6      ERR-7      ERR-S      EN-ERR
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
+PER-CENT   PER-CENT   PER-CENT   MEV
+   13.0        4.         5.         6.         5.         3.
+    5.         1.         4.         0.07
+ENDCOMMON            6
+DATA                 3         26
+EN         DATA       DATA-ERR
+MEV        MB         MB
+       6.57       2.73       0.05
+       8.85      12.68       0.21
+      10.77      22.6         0.4
+      12.78      28.          0.5
+      14.19      22.5         0.4
+      15.53      44.5         0.7
+      16.96      76.1         1.3
+      19.35      99.4         1.7
+      20.47     108.          1.8
+      21.6      109.          1.8
+      22.52     103.8         1.7
+      23.59     110.8         1.8
+      24.61     103.8         1.7
+      25.54      91.9         1.5
+      26.41      91.5         1.5
+      27.38      83.3         1.4
+      28.28      76.3         1.3
+      29.23      71.          1.2
+      29.94      62.1         1.
+      30.73      60.4         1.
+      31.6       49.9         0.8
+      32.33      52.6         0.9
+      33.93      45.7         0.8
+      34.22      50.1         0.8
+      34.78      43.5         0.7
+      35.51      37.6         0.6
+ENDDATA             28
+ENDSUBENT           66
+SUBENT        A0321004   20010207   20050616                  Y000
+BIB                  6          9
+REACTION   (30-ZN-66(P,N)31-GA-66,,SIG)
+ANALYSIS   Cross sections for the reactions were calculated from
+            the experimentally determined yield measurments.
+ERR-ANALYS (DATA-ERR). No information on source of uncertainties.
+REL-REF    (N,,M.C.LAGUNAS-SOLAR+,J,ARI,29,159,1978). Details of
+            calculation method.
+           (D,B0058003,HILLE+,J,NP/A,198,625,1972)
+STATUS     (DEP,A0321002)
+HISTORY    (20010207A) Data set split into 3 subentries by target.
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3         31
+EN         DATA       DATA-ERR
+MEV        MB         MB
+    6.         1.
+    7.         4.
+    8.        21.
+    9.        93.        12.
+   10.       200.        26.
+   11.       298.        39.
+   12.       375.        49.
+   13.       428.        56.
+   14.       452.        59.
+   15.        45.        57.
+   16.       415.        54.
+   17.       357.
+   18.       279.
+   19.       216.
+   20.       166.
+   21.       124.
+   22.       102.
+   23.        86.
+   24.        78.
+   25.        72.
+   26.        67.
+   27.        63.
+   28.        60.
+   29.        57.
+   30.        54.
+   31.        52.
+   32.        50.
+   33.        48.
+   34.        46.
+   35.        44.
+   35.5       43.
+ENDDATA             33
+ENDSUBENT           47
+SUBENT        A0321005   20010207   20050616                  Y000
+BIB                  5         10
+REACTION  1(30-ZN-67(P,N)31-GA-67,,SIG)
+          2(30-ZN-67(P,2N)31-GA-66,,SIG)
+ERR-ANALYS No information on uncertainties.
+ANALYSIS   Cross sections for the reactions were calculated from
+            the experimentally determined yield measurments.
+            See subent A0321002 and A0321003.
+REL-REF    (N,,M.C.LAGUNAS-SOLAR+,J,ARI,29,159,1978). Details of
+            calculation method.
+STATUS    2(DEP,A0321002)
+          1(DEP,A0321003)
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 3         31
+EN         DATA      1DATA      2
+MEV        MB         MB
+    6.        42.
+    7.        86.
+    8.       157.
+    9.       360.
+   10.       533.
+   11.       656.
+   12.       691.
+   13.       640.
+   14.       476.
+   15.       342.
+   16.       276.         1.
+   17.       232.         2.
+   18.       210.        14.
+   19.       192.        71.
+   20.       180.       160.
+   21.       173.       229.
+   22.       164.       282.
+   23.       146.       317.
+   24.       136.       327.
+   25.       130.       319.
+   26.       125.       287.
+   27.       119.       250.
+   28.       114.       213.
+   29.       110.       179.
+   30.       106.       156.
+   31.       103.       132.
+   32.       100.       117.
+   33.        97.       101.
+   34.        95.        92.
+   35.        93.        84.
+   35.5       92.        79.
+ENDDATA             33
+ENDSUBENT           48
+SUBENT        A0321006   20010207   20050616                  Y000
+BIB                  5         12
+REACTION  1(30-ZN-68(P,2N)31-GA-67,,SIG)
+          2(30-ZN-68(P,3N)31-GA-66,,SIG)
+ANALYSIS   Cross sections for the reactions were calculated from
+            the experimentally determined yield measurments.
+            See subent A0321002 and A0321003.
+ERR-ANALYS (DATA-ERR). No information on source of uncertainties.
+REL-REF    (N,,M.C.LAGUNAS-SOLAR+,J,ARI,29,159,1978). Details of
+            calculation method.
+          1(D,B0053003,MCGEE+,J,NP/A,150,11,1970)
+          2(A,B0053004,MCGEE+,J,NP/A,150,11,1970)
+STATUS    2(DEP,A0321002)
+          1(DEP,A0321003)
+ENDBIB              12
+NOCOMMON             0          0
+DATA                 5         23
+EN         DATA      1DATA-ERR  1DATA      2DATA-ERR  2
+MEV        MB         MB         MB         MB
+   14.        30.
+   15.       101.        13.
+   16.       252.
+   17.       355.
+   18.       456.
+   19.       504.
+   20.       553.
+   21.       575.
+   22.       588.
+   23.       575.
+   24.       553.        72.
+   25.       522.        68.         1.
+   26.       493.                    2.
+   27.       448.                    6.
+   28.       408.                   17.
+   29.       373.                   43.
+   30.       340.        44.        71.         9.
+   31.       300.                   97.
+   32.       272.                  144.
+   33.       249.                  157.
+   34.       230.                  173.
+   35.       217.        28.       176.        23.
+   35.5      212.                  173.
+ENDDATA             25
+ENDSUBENT           42
+ENDENTRY             6
