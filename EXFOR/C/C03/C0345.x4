@@ -1,0 +1,239 @@
+ENTRY            C0345   20050126   20050610                  C073
+SUBENT        C0345001   20050126   20050610                  C073
+BIB                 13         29
+INSTITUTE  (1USACAR)
+REFERENCE  (J,PR,178,1887,1969)
+AUTHOR     (W.J.Nieckarz,A.A.Caretto)
+TITLE      Production of In111 and In114-m from the Separated
+            Isotopes of Cadmium Using 70- to 400-MeV Protons
+FACILITY   (SYNCY,1USACAR)
+INC-SOURCE The uncertainty of the proton energy estimated as
+            being < 5% at 400 MeV and 15% at 70 MeV.
+SAMPLE     All targets consisted of pellets composed of 0.5 - 2 mg
+            of separated cadmium isotope, as the oxide, and 120
+            - 200 mg of 99.99% pure aluminum powder.
+METHOD     (ACTIV,CHSEP)
+DETECTOR   (NAICR)
+MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)
+MONIT-REF  (B0022003,J.B.CUMMING,J,ARN,13,261,1963)
+ERR-ANALYS (ERR-S) Statistical uncertainty.
+           In addition there are systematic uncertainties in:
+           . monitor cross section (about 8%),
+           . target alignment (3%),
+           . decay curve resolution (5%),
+           . pellet preparation (3%),
+           . chemical yield determination (3%),
+           . crystal calibration (5%).
+           (ERR-T) Overall uncertainty, taken as geometric
+            mean of individual uncertainties.
+HISTORY    (19870812C)
+           (20050126A) Converted to new date formats, lower case.
+             Lab code updated. Sample moved to appropriate SANs.
+           (20050405A) DR Decay data corrected
+ENDBIB              29
+NOCOMMON             0          0
+ENDSUBENT           32
+SUBENT        C0345002   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-111(P,N)49-IN-111,,SIG)
+SAMPLE     Enriched 111Cd target; isotopic composition:
+            111Cd (96.5%), 112Cd (0.35%), 113Cd (0.26%),
+            114Cd (0.09%), 116Cd (0.24%),
+DECAY-DATA (49-IN-111-G,,DG,247.)
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       6.55       0.45
+ 100.       5.96       0.34
+ 150.       3.11       0.16
+ 200.       1.96       0.15
+ 300.       1.27       0.06
+ 400.       0.92       0.01
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        C0345003   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-112(P,2N)49-IN-111,,SIG)
+SAMPLE     Enriched 112Cd target; isotopic composition:
+            111Cd (1.84), 112Cd (98.5%), 113Cd (1.01%),
+            114Cd (0.26%), 116Cd (0.53%),
+DECAY-DATA (49-IN-111-G,,DG,247.)
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          7
+EN         DATA       ERR-S
+MEV        MB         MB
+  50.       77.8       12.8
+  70.       29.7        1.9
+ 100.       20.4        0.6
+ 150.       10.8        0.1
+ 200.        8.83       0.18
+ 300.        5.86       0.11
+ 400.        4.05       0.22
+ENDDATA              9
+ENDSUBENT           25
+SUBENT        C0345004   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-113(P,3N)49-IN-111,,SIG)
+SAMPLE     Enriched 113Cd target; isotopic composition:
+            111Cd (0.44%), 112Cd (0.44%), 113Cd (96.3%),
+            114Cd (0.33%), 116Cd (0.37%),
+DECAY-DATA (49-IN-111-G,,DG,247.)
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       39.5       1.7
+ 100.       26.7       1.2
+ 150.       16.7       0.3
+ 200.       12.3       0.1
+ 300.        8.15      0.10
+ 400.        5.77      0.21
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        C0345005   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-114(P,4N)49-IN-111,,SIG)
+SAMPLE     Enriched 114Cd target; isotopic composition:
+            111Cd (0.59%), 112Cd (0.55%), 113Cd (2.13%),
+            114Cd (99.1%), 116Cd (1.44%),
+DECAY-DATA (49-IN-111-G,,DG,247.)
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       74.4       0.3
+ 100.       44.3       3.5
+ 150.       20.7       0.8
+ 200.       14.5       0.8
+ 300.       10.1       0.1
+ 400.        7.12      0.21
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        C0345006   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-116(P,6N)49-IN-111,,SIG)
+SAMPLE     Enriched 116Cd target; isotopic composition:
+            111Cd (0.05%), 112Cd (0.07%), 113Cd (0.15%),
+            114Cd (0.07%), 116Cd (97.2%),
+DECAY-DATA (49-IN-111-G,,DG,247.)
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       129.0      1.0
+ 100.        45.2      5.5
+ 150.        14.9      0.8
+ 200.        11.6      0.4
+ 300.         7.40     0.46
+ 400.         6.01     0.05
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        C0345007   20050126   20050610                  C073
+BIB                  5         10
+REACTION   (48-CD-114(P,N)49-IN-114-M,,SIG)
+SAMPLE     Enriched 114Cd target; isotopic composition:
+            111Cd (0.59%), 112Cd (0.55%), 113Cd (2.13%),
+            114Cd (99.1%), 116Cd (1.44%),
+DECAY-DATA (49-IN-114-M,,DG,191.) e/gamma taken as 4.25.
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ERR-ANALYS Additional 10% uncertainty in cross section due to
+            uncertainty in conversion coefficient od 191-keV
+            gamma.
+ENDBIB              10
+COMMON               1          3
+ERR-T
+PER-CENT
+ 16.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       4.29       0.09
+ 100.       3.45       0.09
+ 150.       2.02       0.08
+ 200.       1.41       0.08
+ 300.       0.98       0.03
+ 400.       0.83       0.05
+ENDDATA              8
+ENDSUBENT           27
+SUBENT        C0345008   20050126   20050610                  C073
+BIB                  4          7
+REACTION   (48-CD-116(P,3N)49-IN-114-M,,SIG)
+SAMPLE     Enriched 116Cd target; isotopic composition:
+            111Cd (0.05%), 112Cd (0.07%), 113Cd (0.15%),
+            114Cd (0.07%), 116Cd (97.2%),
+DECAY-DATA (49-IN-114-M,,DG,191.) e/gamma taken as 4.25.
+CORRECTION Corrected for contamination of other isotopes in
+            target.
+ENDBIB               7
+COMMON               1          3
+ERR-T
+PER-CENT
+ 16.
+ENDCOMMON            3
+DATA                 3          6
+EN         DATA       ERR-S
+MEV        MB         MB
+  70.       28.6       0.3
+ 100.       19.3       2.0
+ 150.        9.15      0.46
+ 200.        7.59      0.18
+ 300.        4.89      0.20
+ 400.        4.26      0.03
+ENDDATA              8
+ENDSUBENT           24
+SUBENT        C0345009   20050126   20050610                  C073
+BIB                  3          3
+REACTION   (48-CD-0(P,X)49-IN-111,,SIG)
+SAMPLE     Natural cadmium target.
+DECAY-DATA (49-IN-111-G,,DG,247.)
+ENDBIB               3
+COMMON               1          3
+ERR-T
+PER-CENT
+ 12.
+ENDCOMMON            3
+DATA                 3          1
+EN         DATA       ERR-S
+MEV        MB         MB
+ 400.       6.37       0.13
+ENDDATA              3
+ENDSUBENT           15
+ENDENTRY             9
