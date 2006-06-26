@@ -1,8 +1,8 @@
-ENTRY            22879   20051109   20060202                  2174
-SUBENT        22879001   20051109   20060202                  2174
+ENTRY            22879   20060627   20061116   20061102       2178
+SUBENT        22879001   20060627   20061116   20061102       2178
 BIB                 18         71
 TITLE      .Neutron capture cross section of La-139.
-AUTHOR     (S.O'BREIN, S.DABABNEH, M.HEIL, F.KAEPPELER, R.PLAG,
+AUTHOR     (S.O'BRIEN, S.DABABNEH, M.HEIL, F.KAEPPELER, R.PLAG,
            R.REIFARTH, R.GALLINO, M.PIGNATARI)
 INSTITUTE  (2GERKFK)
            (1USALAS)
@@ -71,7 +71,7 @@ ERR-ANALYS  The uncertainty in the monitor reaction-
            (ERR-IDD) Au-198 intensity error
            (MONIT-ERR).Error in monitor.
 HISTORY    (20051108C)
-           (20051109U) Last checking has been done.
+           (20060627A) SM - Author name corrected to O'Brien
 ENDBIB              71
 COMMON              15          9
 MONIT      MONIT-ERR  ERR-S      ERR-1      ERR-2      ERR-3
@@ -85,7 +85,7 @@ PER-CENT   PER-CENT   PER-CENT
    1.3            0.7      2.2
 ENDCOMMON            9
 ENDSUBENT           84
-SUBENT        22879002   20051109   20060202                  2174
+SUBENT        22879002   20051109   20060202   20051225       2174
 BIB                  5         17
 REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,MXW)
 RAD-DET    (57-LA-140,DG)
@@ -112,7 +112,7 @@ KEV        MB         MB
   45.       33.2         0.7
 ENDDATA              3
 ENDSUBENT           25
-SUBENT        22879003   20051109   20060202                  2174
+SUBENT        22879003   20051109   20060202   20051225       2174
 BIB                  6         26
 REACTION   (57-LA-139(N,G)57-LA-140,,SIG,,MXW) Table VI
 COMMENT    *By authors*.To obtained the maxwellian averged cross
