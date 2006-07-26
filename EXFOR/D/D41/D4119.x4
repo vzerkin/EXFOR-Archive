@@ -1,6 +1,6 @@
-ENTRY            D4119   20030521   20040120
-SUBENT        D4119001   20030521   20040120
-BIB                 12         44
+ENTRY            D4119   20060727   20061121   20061120       D048
+SUBENT        D4119001   20060727   20061121   20061120       D048
+BIB                 12         45
 TITLE      Excitation functions of a- and 3He-particle induced
            nuclear reactions on highly enriched 144Sm and 147Sm:
            Comparative evaluation of production routes For 147Gd
@@ -35,7 +35,7 @@ METHOD     (ACTIV,EXTB,STTA,GSPEC) Stacked target technique was
 MONITOR   1(22-TI-0(A,X)24-CR-51,,SIG)
           2(22-TI-0(HE3,X)23-V-48,,SIG)
 MONIT-REF 1(,R.WEINREICH+,J,ARI,31,223,1980)
-          2(,F.TARKANYI+,C,91JUELIC,,529,1992)
+          2(,F.TARKANYI+,C,91JUELIC,,529,1991)
 DETECTOR   (GELI),(HPGE) GeLi and HpGe  gamma detectors
 ERR-ANALYS (EN-ERR) 0.3-0.5MeV for alpha beams and 0.3-0.7 MeV for
            3He beam.
@@ -45,10 +45,11 @@ ERR-ANALYS (EN-ERR) 0.3-0.5MeV for alpha beams and 0.3-0.7 MeV for
                Detector efficiency                  5%
                Nuclear data                         3%
 HISTORY    (20030220C) Ts
-ENDBIB              44
+           (20060727A) Ref. in MONIT-REF corrected.
+ENDBIB              45
 NOCOMMON             0          0
-ENDSUBENT           47
-SUBENT        D4119002   20030521   20040120
+ENDSUBENT           48
+SUBENT        D4119002   20030521   20040120   20050926       0000
 BIB                  3          8
 REACTION  1(62-SM-147(HE3,3N)64-GD-147,,SIG)
           2(62-SM-147(HE3,N)64-GD-149,,SIG)
@@ -88,7 +89,7 @@ MEV        MEV        MB         MB         MB         MB
        34.5        0.3       252.        40.
 ENDDATA             25
 ENDSUBENT           38
-SUBENT        D4119003   20030521   20040120
+SUBENT        D4119003   20030521   20040120   20050926       0000
 BIB                  3          8
 REACTION  1(62-SM-147(HE3,4N)64-GD-146,,SIG)
           2(62-SM-147(HE3,N+P)63-EU-148,,SIG)
@@ -128,7 +129,7 @@ MEV        MEV        MB         MB         MB         MB
        34.5        0.3       514.        77.        95.       14.3
 ENDDATA             25
 ENDSUBENT           38
-SUBENT        D4119004   20030521   20040120
+SUBENT        D4119004   20030521   20040120   20050926       0000
 BIB                  3          7
 REACTION  1(62-SM-147(HE3,X)63-EU-147,CUM,SIG)
           2(62-SM-147(HE3,X)63-EU-146,CUM,SIG)
@@ -166,7 +167,7 @@ MEV        MEV        MB         MB         MB         MB
        34.5        0.3       275.        41.       140.        21.
 ENDDATA             24
 ENDSUBENT           36
-SUBENT        D4119005   20030521   20040120
+SUBENT        D4119005   20030521   20040120   20050926       0000
 BIB                  3          8
 REACTION  1(62-SM-144(A,N)64-GD-147,,SIG)
           2(62-SM-144(A,2N)64-GD-146,,SIG)
