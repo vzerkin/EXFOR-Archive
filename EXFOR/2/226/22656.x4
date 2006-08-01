@@ -1,26 +1,26 @@
-ENTRY            22656   20030426   20031222
-SUBENT        22656001   20030426   20031222
+ENTRY            22656   20060802   20061116   20061102       2178
+SUBENT        22656001   20060802   20061116   20061102       2178
 BIB                 19        158
-TITLE      Reaction Mechanisms of Fast Neutrons on 51V
-           Below 21 MeV
+TITLE      .Reaction Mechanisms of Fast Neutrons on 51V
+            Below 21 MeV
 AUTHOR     (P.REIMER, V.AVRIGEANU, A.J.M.PLOMPEN, S.M.QAIM)
 INSTITUTE  (2ZZZGEL)  Reimer, Avrigeanu, Plompen
            (2GERJUL)  Reimer, Qaim
            (3RUMBUC)  Avrigeanu
-REFERENCE  (J,PR/C,65,(1),014604,2001) Main Reference, Data are
-                                       Given
+REFERENCE  (J,PR/C,65,(1),014604,200201) Main reference, data are
+                                       given
            (J,NSTS,2,(1),283,200208) Report on the 2001-TSUKUBA
-                                     Conference, Graphs are Given
+                                     conference, graphs are given
            (C,2001TSUKUB,,(93),200110) Abstracts
            ((P,INDC(GER)-048,8,200207)=(R,JUEL-3996,8,200207))
-FACILITY   (VDG,2ZZZGEL) 7-MV Van De Graaff Accelerator,
-                 Neutron Physics Unit, IRMM, Geel, Belgium
-           (CYCLO,2GERJUL) Compact Cyclotron CV-28,
+FACILITY   (VDG,2ZZZGEL) 7-MV Van De Graaff accelerator,
+                 neutron physics unit, IRMM, Geel, Belgium
+           (CYCLO,2GERJUL) Compact cyclotron CV-28,
             Institute For Nuclear Chemistry, Forschungszentrum
             Juelich, Juelich, Germany.
-INC-SOURCE (D-D) 1-H-2(D,N)2-He-3. 9-MeV Deuterons Incident on a
-            Deuterium Gas Target. Primary Neutrons with 11.7-MeV
-            Energy-Scale Uncertainty is 5 KeV.
+INC-SOURCE (D-D) 1-H-2(D,N)2-He-3. 9-MeV deuterons incident on a
+            deuterium gas target. Primary neutrons with 11.7-MeV
+            energy-scale uncertainty is 5 keV.
            (D-T) 1-H-3(D,N)2-He-4. Deuterons Incident on a Metal
             Titanium-Tritide Target (1.923 MG/CM**2 THICK)
             On a Silver Backing (0.5 MM THICK).Primary Neutrons
@@ -155,10 +155,10 @@ STATUS     (TABLE) Data Provided in Tabular Form by an Author.
            (APRVD) Manuscript Obtained from an Author.
 HISTORY    (20010713C) Compiled by the Authors
            (20020710A) Corrected, J.O.S.
-           (20021128U) New References Added
-           (20030426U) Free Text Corrections, Several New Keywrds,
-                       Decay-Data Information
-           (20030426U) Last checking has been done.
+           (20021128U) New references added
+           (20030426U) Free text corrections, several new keywrds,
+                       Decay-data information
+           (20060802U) Reference PR/C,65 ... corrected, SM
 ENDBIB             158
 COMMON              16          9
 ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6
@@ -172,7 +172,7 @@ PER-CENT   PER-CENT   PER-CENT   KEV
         0.5        10.         3.         5.
 ENDCOMMON            9
 ENDSUBENT          171
-SUBENT        22656002   20030426   20031222
+SUBENT        22656002   20030426   20031222   20050926       0000
 BIB                  3         12
 REACTION   (23-V-0(N,X)21-SC-47,,SIG)
 DECAY-DATA (21-SC-47,3.3492D,B-,,1.0,
@@ -202,7 +202,7 @@ MEV        MEV        MB         MB
        20.5        0.3     17.300      1.300
 ENDDATA             11
 ENDSUBENT           28
-SUBENT        22656003   20030426   20031222
+SUBENT        22656003   20030426   20031222   20050926       0000
 BIB                  2          6
 REACTION   (23-V-51(N,A)21-SC-48,,SIG)
 DECAY-DATA (21-SC-48,43.67HR,B-,,1.0,
@@ -226,7 +226,7 @@ MEV        MEV        MB         MB
        20.5        0.3       14.6        1.6
 ENDDATA             11
 ENDSUBENT           22
-SUBENT        22656004   20030426   20031222
+SUBENT        22656004   20030426   20031222   20050926       0000
 BIB                  2          3
 REACTION   (23-V-51(N,P)22-TI-51,,SIG)
 DECAY-DATA (22-TI-51,5.76MIN,B-,,1.0,
