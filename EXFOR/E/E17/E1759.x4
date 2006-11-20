@@ -1,10 +1,10 @@
-ENTRY            E1759   20040622
-SUBENT        E1759001   20040622
-BIB                 12         53
+ENTRY            E1759   20061121   20061122   20061121       E040
+SUBENT        E1759001   20061121   20061122   20061121       E040
+BIB                 12         54
 TITLE      Measurements of secondary neutrons produced from thick
            targets bombarded by high energy neon ions
-AUTHOR     (T.Kurosawa, N.Nakao, T.Nakamura, Y.Uwamino,
-           T.Shibata, A.Fukumura, K.Murakami)
+AUTHOR     (T.Kurosawa, N.Nakao, T.Nakamura, Y.Uwamino, T.Shibata,
+           A.Fukumura, K.Murakami)
 INSTITUTE  (2JPNTOH) Cyclotron and Radioisotope Center
            (2JPNKEK)
            (2JPNIPC)
@@ -19,7 +19,7 @@ SAMPLE     - Target is natural. The enrichments of targets are
            - Chemical-form of target is element.
            - Physical-form of target is solid.
            - Backing is unknown.
-METHOD     (TOF) to measure the energy of neutron
+METHOD     (TOF) To measure the energy of neutron
 FACILITY   (SYNCH,2JPNIRS) Heavy Ion Medical Accelerator in Chiba
                            (HIMAC) at The mass numbers of
                            projectiles are not given in the
@@ -39,6 +39,7 @@ DETECTOR   - Detector resolution: The neutron energy resolutions
                   delta-E counter and the beam pick-up counter.
                   Liquid scintillator (NE213) was used as the E
                   counter.
+           (SCIN) Liquid scintillator
 ERR-ANALYS The statistical uncertainties vary in a range of 2 to
            5 % for the low- to medium-energy (5-50 MeV) region of
            the spectra and increase to about 30% at the highest
@@ -52,16 +53,16 @@ ERR-ANALYS The statistical uncertainties vary in a range of 2 to
                    energies near threshold (8% in Table 2, but 7%
                    in text)
            (ERR-4) Total normalization uncertainty
-HISTORY    (20020224C)
-           (20040423A) MLT in SF6 are replaced by PY.
-ENDBIB              53
+HISTORY    (20020224C) Sr + kS
+           (20040423A) On. MLT in SF6 replaced by PY
+ENDBIB              54
 COMMON               4          3
 ERR-1      ERR-2      ERR-3      ERR-4
 PER-CENT   PER-CENT   PER-CENT   PER-CENT
  3.         10.        8.         14.
 ENDCOMMON            3
-ENDSUBENT           60
-SUBENT        E1759002   20040622
+ENDSUBENT           61
+SUBENT        E1759002   20040622              20050926       0000
 BIB                  6         12
 REACTION   (6-C-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -285,7 +286,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        73.6188     5.124E-06
 ENDDATA            201
 ENDSUBENT          222
-SUBENT        E1759003   20040622
+SUBENT        E1759003   20040622              20050926       0000
 BIB                  6         12
 REACTION   (13-AL-27(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -505,7 +506,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        73.6188     3.268E-06
 ENDDATA            197
 ENDSUBENT          218
-SUBENT        E1759004   20040622
+SUBENT        E1759004   20040622              20050926       0000
 BIB                  6         12
 REACTION   (29-CU-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -724,7 +725,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        93.46825    1.049E-06
 ENDDATA            196
 ENDSUBENT          217
-SUBENT        E1759005   20040622
+SUBENT        E1759005   20040622              20050926       0000
 BIB                  6         12
 REACTION   (82-PB-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -932,7 +933,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        83.3458     2.463E-06
 ENDDATA            185
 ENDSUBENT          206
-SUBENT        E1759006   20040622
+SUBENT        E1759006   20040622              20050926       0000
 BIB                  5         11
 REACTION   (6-C-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -1187,7 +1188,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        101.982     1.804E-05
 ENDDATA            233
 ENDSUBENT          253
-SUBENT        E1759007   20040622
+SUBENT        E1759007   20040622              20050926       0000
 BIB                  5         11
 REACTION   (13-AL-27(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -1455,7 +1456,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        144.255     1.167E-05
 ENDDATA            246
 ENDSUBENT          266
-SUBENT        E1759008   20040622
+SUBENT        E1759008   20040622              20050926       0000
 BIB                  5         11
 REACTION   (29-CU-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -1732,7 +1733,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        140.217     1.112E-05
 ENDDATA            255
 ENDSUBENT          275
-SUBENT        E1759009   20040622
+SUBENT        E1759009   20040622              20050926       0000
 BIB                  5         11
 REACTION   (82-PB-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -1996,7 +1997,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        140.217     1.029E-05
 ENDDATA            242
 ENDSUBENT          262
-SUBENT        E1759010   20040622
+SUBENT        E1759010   20040622              20050926       0000
 BIB                  5         11
 REACTION   (6-C-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -2309,7 +2310,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        297.635     1.325E-05
 ENDDATA            291
 ENDSUBENT          311
-SUBENT        E1759011   20040622
+SUBENT        E1759011   20040622              20050926       0000
 BIB                  5         11
 REACTION   (13-AL-27(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -2602,7 +2603,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        173.958     1.497E-05
 ENDDATA            271
 ENDSUBENT          291
-SUBENT        E1759012   20040622
+SUBENT        E1759012   20040622              20050926       0000
 BIB                  5         11
 REACTION   (29-CU-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -2903,7 +2904,7 @@ ADEG       MEV        P/IN/MEVSR
  90.        258.169     3.258E-05
 ENDDATA            279
 ENDSUBENT          299
-SUBENT        E1759013   20040622
+SUBENT        E1759013   20040622              20050926       0000
 BIB                  5         11
 REACTION   (82-PB-0(10-NE-20,X)0-NN-1,,PY/DA/DE,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
@@ -3198,9 +3199,9 @@ ADEG       MEV        P/IN/MEVSR
  90.        201.292     1.840E-05
 ENDDATA            273
 ENDSUBENT          293
-SUBENT        E1759014   20040622
-BIB                  5          9
-REACTION   (6-C-0(10-NE-20,X)0-NN-1,,PY/DA,,TT/IPA)
+SUBENT        E1759014   20061121   20061122   20061121       E040
+BIB                  6         11
+REACTION   (6-C-0(10-NE-20,X)0-NN-1,,PY/IPA,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
            laboratory system
 SAMPLE     Target-thickness: 1770 mg/cm**2 for 100MeV/nucleon Ne
@@ -3209,7 +3210,9 @@ SAMPLE     Target-thickness: 1770 mg/cm**2 for 100MeV/nucleon Ne
 ANALYSIS   (INTED) Integrated over neutron energy above 5 MeV
            (INTAD)
 STATUS     (CURVE) Data scanned from Fig.16-A, p52 in reference
-ENDBIB               9
+HISTORY    (20061013A) Mh + On. Re-digitized, and SF6 and 8
+                       corrected
+ENDBIB              11
 COMMON               2          3
 ANG-MIN    ANG-MAX
 ADEG       ADEG
@@ -3218,14 +3221,14 @@ ENDCOMMON            3
 DATA                 2          3
 EN         DATA
 MEV/A      PRD/INC
-  1.000E+02  2.590E-01
-  1.800E+02  9.943E-01
-  4.000E+02  4.745E+00
+ 100.        2.550E-01
+ 180.        9.525E-01
+ 400.        4.388E+00
 ENDDATA              5
-ENDSUBENT           23
-SUBENT        E1759015   20040622
-BIB                  5          9
-REACTION   (13-AL-27(10-NE-20,X)0-NN-1,,PY/DA,,TT/IPA)
+ENDSUBENT           25
+SUBENT        E1759015   20061121   20061122   20061121       E040
+BIB                  6         11
+REACTION   (13-AL-27(10-NE-20,X)0-NN-1,,PY/IPA,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
            laboratory system
 SAMPLE     Target-thickness: 2700 mg/cm**2 for 100MeV/nucleon Ne
@@ -3234,7 +3237,9 @@ SAMPLE     Target-thickness: 2700 mg/cm**2 for 100MeV/nucleon Ne
 ANALYSIS   (INTED) Integrated over neutron energy above 5 MeV
            (INTAD)
 STATUS     (CURVE) Data scanned from Fig.16-B, p52 in reference
-ENDBIB               9
+HISTORY    (20061013A) Mh + On. Re-digitized, and SF6 and 8
+                       corrected
+ENDBIB              11
 COMMON               2          3
 ANG-MIN    ANG-MAX
 ADEG       ADEG
@@ -3243,14 +3248,14 @@ ENDCOMMON            3
 DATA                 2          3
 EN         DATA
 MEV/A      PRD/INC
-  1.000E+02  2.283E-01
-  1.800E+02  7.568E-01
-  4.000E+02  4.549E+00
+ 100.        2.195E-01
+ 180.        7.274E-01
+ 400.        4.388E+00
 ENDDATA              5
-ENDSUBENT           23
-SUBENT        E1759016   20040622
-BIB                  5          9
-REACTION   (29-CU-0(10-NE-20,X)0-NN-1,,PY/DA,,TT/IPA)
+ENDSUBENT           25
+SUBENT        E1759016   20061121   20061122   20061121       E040
+BIB                  6         11
+REACTION   (29-CU-0(10-NE-20,X)0-NN-1,,PY/IPA,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
            laboratory system
 SAMPLE     Target-thickness: 4465 mg/cm**2 for 100MeV/nucleon Ne
@@ -3259,7 +3264,9 @@ SAMPLE     Target-thickness: 4465 mg/cm**2 for 100MeV/nucleon Ne
 ANALYSIS   (INTED) Integrated over neutron energy above 5 MeV
            (INTAD)
 STATUS     (CURVE) Data scanned from Fig.16-C, p52 in reference
-ENDBIB               9
+HISTORY    (20061013A) Mh + On. Re-digitized, and SF6 and 8
+                       corrected
+ENDBIB              11
 COMMON               2          3
 ANG-MIN    ANG-MAX
 ADEG       ADEG
@@ -3268,14 +3275,14 @@ ENDCOMMON            3
 DATA                 2          3
 EN         DATA
 MEV/A      PRD/INC
-  1.000E+02  2.100E-01
-  1.800E+02  7.568E-01
-  4.000E+02  4.184E+00
+ 100.        2.099E-01
+ 180.        7.495E-01
+ 400.        3.893E+00
 ENDDATA              5
-ENDSUBENT           23
-SUBENT        E1759017   20040622
-BIB                  5          9
-REACTION   (82-PB-0(10-NE-20,X)0-NN-1,,PY/DA,,TT/IPA)
+ENDSUBENT           25
+SUBENT        E1759017   20061121   20061122   20061121       E040
+BIB                  6         11
+REACTION   (82-PB-0(10-NE-20,X)0-NN-1,,PY/IPA,,TT)
 EN-SEC     ANG is polar angle between beam and neutron in
            laboratory system
 SAMPLE     Target-thickness: 5670 mg/cm**2 for 100MeV/nucleon Ne
@@ -3284,7 +3291,9 @@ SAMPLE     Target-thickness: 5670 mg/cm**2 for 100MeV/nucleon Ne
 ANALYSIS   (INTED) Integrated over neutron energy above 5 MeV
            (INTAD)
 STATUS     (CURVE) Data scanned from Fig.16-D, p52 in reference
-ENDBIB               9
+HISTORY    (20061013A) Mh + On. Re-digitized, and SF6 and 8
+                       corrected
+ENDBIB              11
 COMMON               2          3
 ANG-MIN    ANG-MAX
 ADEG       ADEG
@@ -3293,9 +3302,9 @@ ENDCOMMON            3
 DATA                 2          3
 EN         DATA
 MEV/A      PRD/INC
-  1.000E+02  2.236E-01
-  1.800E+02  8.405E-01
-  4.000E+02  5.271E+00
+ 100.        2.331E-01
+ 180.        8.577E-01
+ 400.        5.097E+00
 ENDDATA              5
-ENDSUBENT           23
+ENDSUBENT           25
 ENDENTRY            17
