@@ -1,6 +1,6 @@
-ENTRY            D4125   20030728   20040319
-SUBENT        D4125001   20030728   20040319
-BIB                 12         44
+ENTRY            D4125   20060727   20061121   20061120       D048
+SUBENT        D4125001   20060727   20061121   20061120       D048
+BIB                 12         45
 TITLE      Measuremets and nuclear model calculation on proton-
            induced reactions on 103Rh up to 40MeV: evaluation of
            the excitation function of the 103Rh(p,n)103Pd reaction
@@ -10,7 +10,7 @@ AUTHOR     (S.SUDAR,F.CSERPAK,S.M.Qaim)
 INSTITUTE  (3HUNKOS) Inst. for Exp. Phys. Univ. Deb.
                       first two authors
            (2GERJUL) Kernforschungsanlage Juelich, Germany
-REFERENCE  (J,RCA,56,821,2002)
+REFERENCE  (J,ARI,56,821,2002)
 FACILITY   (CYCLO,2GERJUL), CV 28 cyclotron, Juelich, Germany
            (CYCLO,2GERJUL) injector of the COSY Cooler Synchrotron
 SAMPLE     High purity, (99.9%) natRh foils of 25 microns from
@@ -45,10 +45,11 @@ ERR-ANALYS (EN-ERR) The uncertainty of the primary beam energy was
                Number of target nuclei               1.5%
                Nuclear data                            1%
 HISTORY    (20030728C) TS
-ENDBIB              44
+           (20060727A) Ref. corrected.
+ENDBIB              45
 NOCOMMON             0          0
-ENDSUBENT           47
-SUBENT        D4125002   20030728   20040319
+ENDSUBENT           48
+SUBENT        D4125002   20030728   20040319   20050926       0000
 BIB                  3          4
 REACTION   (45-RH-103(P,N)46-PD-103,,SIG)
 DECAY-DATA (46-PD-103,16.96D,XR,20.2,0.6502,DG,39.7,0.0683,
@@ -87,7 +88,7 @@ MEV        MEV        MB         MB
       39.65       0.15       16.       4.
 ENDDATA             28
 ENDSUBENT           37
-SUBENT        D4125003   20030728   20040319
+SUBENT        D4125003   20030728   20040319   20050926       0000
 BIB                  3          8
 REACTION  1(45-RH-103(P,3N)46-PD-101,,SIG)
           2(45-RH-103(P,4N)46-PD-100,,SIG)
@@ -113,7 +114,7 @@ MEV        MEV        MB         MB         MB         MB
       39.65       0.15       219.      22.       280.       19.
 ENDDATA             11
 ENDSUBENT           24
-SUBENT        D4125004   20030728   20040319
+SUBENT        D4125004   20030728   20040319   20050926       0000
 BIB                  2          3
 REACTION  1(45-RH-103(P,N)46-PD-103,,SIG,,,EVAL)
           2(45-RH-103(P,N)46-PD-103,,TTY,,DT,DERIV)
