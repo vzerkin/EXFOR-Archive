@@ -1,24 +1,25 @@
-ENTRY            12571   19841018
-SUBENT        12571001     841018
-BIB                  9         13
+ENTRY            12571   20061127   20070306   20070213       1341
+SUBENT        12571001   20061127   20070306   20070213       1341
+BIB                  9         14
 INSTITUTE  (1USALRL)
-REFERENCE  (J,PR/B,137,326,6501)
-AUTHOR     (C.D.BOWMAN,M.S.COOPS,G.F.AUCHAMPAUGH,S.C.FULTZ)
-TITLE      SUBTHRESHOLD NEUTRON-INDUCED FISSION CROSS SECTION OF
-           AM241.
-FACILITY   (LINAC) LINAC
-SAMPLE     99.95 PERCENT 241-AM.
-DETECTOR   (TRD) SPARK CHAMBER.
+REFERENCE  (J,PR,137,B326,1965)
+AUTHOR     (C.D.Bowman,M.S.Coops,G.F.Auchampaugh,S.C.Fultz)
+TITLE      Subthreshold neutron-induced fission cross section of
+           Am241.
+FACILITY   (LINAC) Linac
+SAMPLE     99.95 percent 241-Am.
+DETECTOR   (TRD) Spark chamber.
 STATUS     (SCSRS)
-HISTORY    (760804T) TRANSLATED FROM SCISRS
-           (841004A) CONVERTED TO REACTION FORMALISM
-           (841018A) SUBENTRY 2 REMOVED. RESONANCE NOT FOUND IN
-            THIS EXPERIMENT. BIB CORRECTIONS.
-ENDBIB              13
+HISTORY    (19760804T) Translated from SCISRS
+           (19841004A) Converted to reaction formalism
+           (19841018A) Subentry 2 removed. Resonance not found in
+            this experiment. BIB corrections.
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              14
 NOCOMMON             0          0
-ENDSUBENT           16
-NOSUBENT      12571002     841018
-SUBENT        12571003     860403
+ENDSUBENT           17
+NOSUBENT      12571002     841018              20050926       0000
+SUBENT        12571003     860403              20050926       0000
 BIB                  5          7
 REACTION   ((95-AM-241(N,F),,WID)/(95-AM-241(N,TOT),,WID))
 ANALYSIS   (AREA) AREA ANALYSIS.
@@ -46,7 +47,7 @@ EV         NO-DIM     NO-DIM     NO-DIM     MILLI-EV   MILLI-EV
  15.04      .73        .15                   1.20       0.25
 ENDDATA             14
 ENDSUBENT           26
-SUBENT        12571004     841018
+SUBENT        12571004     841018              20050926       0000
 BIB                  4          5
 REACTION  1(95-AM-241(N,F),,WID)
           2(95-AM-241(N,TOT),,WID)
@@ -68,7 +69,7 @@ MILLI-EV
  0.010
 ENDDATA             10
 ENDSUBENT           20
-SUBENT        12571005     841018
+SUBENT        12571005     841018              20050926       0000
 BIB                  2          2
 REACTION   ((95-AM-241(N,EL),,WID/RED,,G)*(95-AM-241(N,F),,WID))
 ANALYSIS   (SHAPE)    SHAPE ANALYSIS
@@ -80,7 +81,7 @@ MEV        EV-SQ
 -6.6    -07 6.7    -08
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        12571006     860403
+SUBENT        12571006     860403              20050926       0000
 BIB                  4          5
 REACTION   ((95-AM-241(N,F),,WID)/(95-AM-241(N,TOT),,WID))
 ANALYSIS   (AREA)  AREA ANALYSIS ATTA-HARVEY CODE
@@ -101,7 +102,7 @@ EV         NO-DIM
    6.20      0.62
 ENDDATA              9
 ENDSUBENT           19
-SUBENT        12571007     860403
+SUBENT        12571007     860403              20050926       0000
 BIB                  4          5
 REACTION   (95-AM-241(N,F),,SIG)
 MONITOR    (95-AM-241(N,F),,SIG)
