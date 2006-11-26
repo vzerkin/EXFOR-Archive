@@ -1,8 +1,8 @@
-ENTRY            11904   20050427   20050707                  1333
-SUBENT        11904001   20050427   20050707                  1333
-BIB                  8         13
+ENTRY            11904   20061127   20070306   20070213       1341
+SUBENT        11904001   20061127   20070306   20070213       1341
+BIB                  8         14
 INSTITUTE  (1USABNL)
-REFERENCE  (J,PR,B137,83,1965)
+REFERENCE  (J,PR,137,B83,1965)
 AUTHOR     (A.P.Jain,R.E.Chrien,J.A.Moore,H.Palevsky)
 TITLE      Optical-Model Interpretation of Average Total Neutron
             Cross Sections in the keV Region.
@@ -14,10 +14,11 @@ HISTORY    (19760802T) Translated from SCISRS
            (19831108A) Converted to REACTION formalism
            (20050427A) Converted to new date formats, lower case.
                        Reference updated.
-ENDBIB              13
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              14
 NOCOMMON             0          0
-ENDSUBENT           16
-SUBENT        11904002   20050427   20050707                  1333
+ENDSUBENT           17
+SUBENT        11904002   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (41-NB-93(N,TOT),,SIG)
 ENDBIB               1
@@ -37,7 +38,7 @@ MEV        B          B
  1.00   -01 8.52   +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11904003   20050427   20050707                  1333
+SUBENT        11904003   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (42-MO-0(N,TOT),,SIG)
 ENDBIB               1
@@ -57,7 +58,7 @@ MEV        B          B
  1.00   -01 9.15   +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11904004   20050427   20050707                  1333
+SUBENT        11904004   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (45-RH-103(N,TOT),,SIG)
 ENDBIB               1
@@ -77,7 +78,7 @@ MEV        B          B
  1.00   -01 7.9    +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11904005   20050427   20050707                  1333
+SUBENT        11904005   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (47-AG-0(N,TOT),,SIG)
 ENDBIB               1
@@ -97,7 +98,7 @@ MEV        B          B
  1.00   -01 7.8    +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11904006   20050427   20050707                  1333
+SUBENT        11904006   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (48-CD-0(N,TOT),,SIG)
 ENDBIB               1
@@ -117,7 +118,7 @@ MEV        B          B
  1.00   -01 7.25   +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11904007   20050427   20050707                  1333
+SUBENT        11904007   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (49-IN-0(N,TOT),,SIG)
 ENDBIB               1
