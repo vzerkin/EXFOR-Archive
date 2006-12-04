@@ -1,42 +1,44 @@
-ENTRY            20105   20040727
-SUBENT        20105001   20040727
-BIB                 12         32
+ENTRY            20105   20061205   20070306   20070214       2181
+SUBENT        20105001   20061205   20070306   20070214       2181
+BIB                 13         34
 INSTITUTE  (2DENRIS)
-REFERENCE  (J,PR,B133,925,196402)  MAIN REFERENCE
-           (J,JNE,21,373,196704) REVISED ISOTOPIC COMPOSITION
-            FOR B-10 IN THE MOL BORON STANDARD.
-           (P,EANDC(E)-21,1,1963) PROGRESS REPORT.
-AUTHOR     (J.ALS-NIELSEN, O.DIETRICH)
-TITLE      -SLOW NEUTRON CROSS SECTIONS FOR HELIUM-3, BORON
-            AND GOLD.-
-FACILITY   (SPECC)    SINGLE CRYSTAL NEUTRON SPECTROMETER
-           (SELVE)    VELOCITY SELECTOR.
-INC-SOURCE (REAC)     DANISH REACTOR DR3
-METHOD     .HIGHER ORDER CONTAMINATION WAS COMPLETELY
-            AVOIDED BELOW 0.05 EV BY MEANS OF MECANICAL
-            VELOCITY SELECTOR, FOR E(N) GREATER THAN
-            0.05 EV THE HIGHER ORDER CONTAMINATION WAS
-            CALCULATED AND MEASURED.
-           .TRANSMISSION MEASUREMENTS OF TOTAL NEUTRON
-            CROSS SECTION.
-COMMENT    .THE CROSS-SECTIONS OF NATURAL BORON AND GOLD HAVE BEEN
-            MEASURED TO CHECK THE EQUIPMENT.
-STATUS     .DATA FROM PUBLICATION.
-           (APRVD) DATA AND COMMENT APPROVED BY THE AUTHOR.
-HISTORY    (19701013T)  FROM NEUDADA FILES.
+REFERENCE  (J,PR,133,B925,196402)  Main reference
+           (J,JNE,21,373,196704) Revised isotopic composition
+            for B-10 in the mol boron standard.
+           (P,EANDC(E)-21,1,1963) Progress report.
+AUTHOR     (J.Als-Nielsen, O.Dietrich)
+TITLE      -Slow neutron cross sections for helium-3, boron
+            and gold.-
+FACILITY   (SPECC)    Single crystal neutron spectrometer
+           (SELVE)    Velocity selector.
+INC-SOURCE (REAC)     Danish reactor DR3
+METHOD     .Higher order contamination was completely
+            avoided below 0.05 eV by means of mecanical
+            velocity selector, for E(N) greater than
+            0.05 eV the higher order contamination was
+            calculated and measured.
+           .Transmission measurements of total neutron
+            cross section.
+DETECTOR   (BF3)
+COMMENT    .The cross-sections of natural boron and gold have been
+            measured to check the equipment.
+STATUS     .Data from publication.
+           (APRVD) Data and comment approved by the author.
+CORRECTION .For transmission of sample container,
+           .For higher order contamination,
+           .For dead time of BF3-counter.
+ERR-ANALYS (ERR-T) Fluctuations in repetition of measurements,
+            and the uncertainties in corrections applied.
+HISTORY    (19701013T)  From NEUDADA files.
            (19710908E)
-           (19810213A) REACTION CODINGS REVISED.
+           (19810213A) Reaction codings revised.
            (19810310E)
-           (20040727A) DATE is corrected. REFERENCE CORRECTED
-CORRECTION .TRANSMISSION OF SAMPLE CONTAINER,
-           .HIGHER ORDER CONTAMINATION,
-           .DEAD TIME OF BF3-COUNTER.
-ERR-ANALYS (ERR-T) FLUCTUATIONS IN REPETITION OF MEASUREMENTS,
-            AND THE UNCERTAINTIES IN CORRECTIONS APPLIED.
-ENDBIB              32
+           (20040727A) Date is corrected. Reference corrected
+           (20061205U) Reference corrected. DETECTOR keywrd added
+ENDBIB              34
 NOCOMMON             0          0
-ENDSUBENT           35
-SUBENT        20105002   20040727
+ENDSUBENT           37
+SUBENT        20105002   20040727              20050926       0000
 BIB                  4          9
 REACTION   (2-HE-3(N,P)1-H-3,,SIG) CROSS SECTION.
 SAMPLE     .HE-3 IN AL-BOX (5*12*36CM), PRESSURE 0.5 ATM
@@ -55,7 +57,7 @@ EV         B          B
  2.5300E-02 5.3270E+03 1.0000E+01
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        20105003   20040727
+SUBENT        20105003   20040727              20050926       0000
 BIB                  5          9
 REACTION   (2-HE-3(N,TOT),,SIG) TOTAL CROSS SECTION.
 SAMPLE     .HE-3 IN AL-BOX (5*12*36CM), PRESSURE 0.5 ATM
@@ -95,7 +97,7 @@ MEV        CM         B          PER-CENT
  1.1036E-05 3.6000E+01 2.7630E+02 4.2300E+00
 ENDDATA             24
 ENDSUBENT           38
-SUBENT        20105004   20040727
+SUBENT        20105004   20040727              20050926       0000
 BIB                  5         13
 REACTION   (5-B-0(N,A),,SIG) ABSORPTION CROSS SECTION.
 SAMPLE     .SOLUTION OF B2O3 IN D2O IN QUARTZ CONTAINER
@@ -118,7 +120,7 @@ EV         B          B
  2.5300E-02 7.5910E+02 2.0000E+00
 ENDDATA              3
 ENDSUBENT           21
-SUBENT        20105005   20040727
+SUBENT        20105005   20040727              20050926       0000
 BIB                  4          8
 REACTION   (5-B-0(N,TOT),,SIG) TOTAL CROSS SECTION.
 SAMPLE     .SOLUTION OF B2O3 IN D2O IN QUARTZ CONTAINER
@@ -144,7 +146,7 @@ EV         B
  1.0047E-01 3.8190E+02
 ENDDATA              7
 ENDSUBENT           24
-SUBENT        20105006   20040727
+SUBENT        20105006   20040727              20050926       0000
 BIB                  5         12
 REACTION   (79-AU-197(N,G)79-AU-198,,SIG)
 SAMPLE     .TWO GOLD PLATES OF THICKNESS 8.6E+21 AND 3.6E+21
@@ -166,7 +168,7 @@ EV         B          B
  2.5300E-02 9.8600E+01 2.0000E-01
 ENDDATA              3
 ENDSUBENT           20
-SUBENT        20105007   20040727
+SUBENT        20105007   20040727              20050926       0000
 BIB                  4          8
 REACTION   (79-AU-197(N,TOT),,SIG) TOTAL CROSS SECTION.
 SAMPLE     .TWO GOLD PLATES OF THICKNESS 8.6E+21 AND 3.6E+21
