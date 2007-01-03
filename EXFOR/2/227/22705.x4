@@ -1,6 +1,6 @@
-ENTRY            22705   20011018   20040705
-SUBENT        22705001   20011018   20040705
-BIB                 12         51
+ENTRY            22705   20060911   20070104   20061127       2180
+SUBENT        22705001   20060911   20070104   20061127       2180
+BIB                 13         53
 TITLE      Proton and deuteron production in neutron-induced
            reactions on carbon at En=42.5,62.7 and 72.8 MeV
 AUTHOR     (I.SLYPEN,V.CORCALCIUC,J.P.MEULDERS)
@@ -51,15 +51,17 @@ ERR-ANALYS (ERR-1) The uncertainty of the cross section absolute
            1%- solid-angle corrections
            1%- number of target nuclei
            (ERR-2) Relative error
-HISTORY    (20010330C)
-ENDBIB              51
+STATUS     (COREL,22303001)
+HISTORY    (20010330C)   SD
+           (20060911A)   Correlation established
+ENDBIB              53
 COMMON               2          3
 ERR-1      ERR-2
 PER-CENT   PER-CENT
   6.0        5.0
 ENDCOMMON            3
-ENDSUBENT           58
-SUBENT        22705002   20011018   20040705
+ENDSUBENT           60
+SUBENT        22705002   20011018   20040705   20050926       0000
 BIB                  3          4
 REACTION   (6-C-12(N,X)1-H-1,,DA/DE)
 ERR-ANALYS (E-ERR) Digitizing error
@@ -207,7 +209,7 @@ MEV        ADEG       MEV        MB/SR/MEV
   62.70      130.0      37.11     0.1928E-02
 ENDDATA            133
 ENDSUBENT          146
-SUBENT        22705003   20011018   20040705
+SUBENT        22705003   20011018   20040705   20050926       0000
 BIB                  3          5
 REACTION   (6-C-12(N,X)1-H-2,,DA/DE)
 ERR-ANALYS (E-ERR) Digitizing error
@@ -331,7 +333,7 @@ MEV        ADEG       MEV        MB/SR/MEV  MB/SR/MEV
   62.70      130.0      29.13     0.2482E-02
 ENDDATA            108
 ENDSUBENT          122
-SUBENT        22705004   20011018   20040705
+SUBENT        22705004   20011018   20040705   20050926       0000
 BIB                  3          6
 REACTION   (6-C-12(N,X)1-H-1,,SIG)
 ERR-ANALYS (ERR-T) The estimated experimental errors indicated
@@ -349,7 +351,7 @@ MEV        MB         MB
   72.80      198.6      14.00
 ENDDATA              5
 ENDSUBENT           16
-SUBENT        22705005   20011018   20040705
+SUBENT        22705005   20011018   20040705   20050926       0000
 BIB                  3          6
 REACTION   (6-C-12(N,X)1-H-2,,SIG)
 ERR-ANALYS (ERR-T) The estimated experimental errors indicated
