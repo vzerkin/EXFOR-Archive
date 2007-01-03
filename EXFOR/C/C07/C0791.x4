@@ -1,10 +1,10 @@
-ENTRY            C0791   20030822   20040123
-SUBENT        C0791001   20030822   20040123
-BIB                 10         16
+ENTRY            C0791   20030822   20070104   20061127       C078
+SUBENT        C0791001   20030822   20070104   20061127       C078
+BIB                 10         19
 INSTITUTE  (2SF ABA,1USAFSU,3VENVEN)
              Univ. Simon Boliver, Caracas, and Univ. Carabobo,
              Venezuela
-REFERENCE  (J,HIP,11,221,2000)
+REFERENCE  (J,AHP/N,11,221,2000)
            (J,BAS,64,818,2000)
 AUTHOR     (M.Brenner,N.R.Fletcher,J.A.Liendo,S.E.Belov,
            D.D.Caussyn,T.Kurtukian Nieto,S.H.Myers)
@@ -17,14 +17,17 @@ ERR-ANALYS (ERR-S) Statistical uncertainty given.
 STATUS     (APRVD) Approved by M.Brenner, 6 Septemebr 2001.
 HISTORY    (20010306C) VM
            (20030822A) Reference added.
-ENDBIB              16
+           (20060406C) DR Main reference corrected: HIP ->AHP/N
+                       for "Acta Phys. Hungarica - New Series
+                       (Heavy Ion Physics)"
+ENDBIB              19
 COMMON               1          3
 EN-RSL
 KEV
   10.
 ENDCOMMON            3
-ENDSUBENT           23
-SUBENT        C0791002   20010905   20011130
+ENDSUBENT           26
+SUBENT        C0791002   20010905   20011130   20050926       0000
 BIB                  2          2
 REACTION   (14-SI-28(A,EL)14-SI-28,,DA)
 STATUS     Data received by email from M. Brenner, 6 March 2001.
@@ -2069,7 +2072,7 @@ ADEG       MEV        MB/SR      MB/SR
  174.34      15.425    1.0315E+02 5.5184E+00
 ENDDATA           2036
 ENDSUBENT         2043
-SUBENT        C0791003   20010905   20011130
+SUBENT        C0791003   20010905   20011130   20050926       0000
 BIB                  2          2
 REACTION   (14-SI-28(A,INL)14-SI-28,PAR,DA)
 STATUS     Data received by email from M. Brenner, 6 March 2001.
@@ -4118,7 +4121,7 @@ ADEG       MEV        MB/SR      MB/SR
  174.34     15.425     9.6417E+00 5.1650E-01
 ENDDATA           2036
 ENDSUBENT         2047
-SUBENT        C0791004   20010905   20011130
+SUBENT        C0791004   20010905   20011130   20050926       0000
 BIB                  3          4
 REACTION   (14-SI-28(A,INL)14-SI-28,PAR,DA)
 STATUS     Data received by email from M. Brenner, 3 September
