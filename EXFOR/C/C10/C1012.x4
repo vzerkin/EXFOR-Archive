@@ -1,6 +1,6 @@
-ENTRY            C1012   20040407   20040513
-SUBENT        C1012001   20040407   20040513
-BIB                  8          9
+ENTRY            C1012   20040407   20070104   20061127       C078
+SUBENT        C1012001   20040407   20070104   20061127       C078
+BIB                  8         10
 INSTITUTE  (1USAROC)
 REFERENCE  (W,EWART,1964)
 AUTHOR     (H.A.Ewart,M.Blann)
@@ -10,10 +10,11 @@ DETECTOR   (PROPC)
 STATUS     Data taken from McGowen et al., ORNL-CPX-2 (1964).
             Tabulated data received from authors.
 HISTORY    (20040407C) VM
-ENDBIB               9
+           (20060604C) DR Subentry 2 at 14.2 MeV, data corrected
+ENDBIB              10
 NOCOMMON             0          0
-ENDSUBENT           12
-SUBENT        C1012002   20040407   20040513
+ENDSUBENT           13
+SUBENT        C1012002   20040407   20070104   20061127       C078
 BIB                  2          2
 REACTION   (28-NI-58(P,A)27-CO-55,,SIG)
 ERR-ANALYS (ERR-S) Fractional standard deviation.
@@ -31,7 +32,7 @@ MEV        MB
  11.10        1.70E+01
  12.20        1.80E+01
  13.20        2.70E+01
- 14.20        2.80E+03
+ 14.20        2.80E+01
  15.10        2.40E+01
  16.00        3.20E+01
  16.90        3.20E+01
@@ -60,7 +61,7 @@ MEV        MB
  39.70        7.90E+00
 ENDDATA             34
 ENDSUBENT           45
-SUBENT        C1012003   20040407   20040513
+SUBENT        C1012003   20040407   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(P,X)27-CO-56,,SIG)
 ERR-ANALYS No information on uncertainty given.
@@ -85,7 +86,7 @@ MEV        MB
  39.70        1.54E+02
 ENDDATA             16
 ENDSUBENT           23
-SUBENT        C1012004   20040407   20040513
+SUBENT        C1012004   20040407   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(P,2P)27-CO-57,,SIG)
 ERR-ANALYS No information on uncertainty given.
@@ -125,7 +126,7 @@ MEV        MB
  39.70        1.80E+02
 ENDDATA             31
 ENDSUBENT           38
-SUBENT        C1012005   20040407   20040513
+SUBENT        C1012005   20040407   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(P,X)28-NI-56,,SIG)
 ERR-ANALYS No information on uncertainty given.
@@ -146,7 +147,7 @@ MEV        MB
  39.70        1.60E+01
 ENDDATA             12
 ENDSUBENT           19
-SUBENT        C1012006   20040407   20040513
+SUBENT        C1012006   20040407   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(P,X)28-NI-57,,SIG)
 ERR-ANALYS No information on uncertainty given.
