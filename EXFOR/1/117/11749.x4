@@ -1,8 +1,8 @@
-ENTRY            11749   20050427   20050707                  1333
-SUBENT        11749001   20050427   20050707                  1333
-BIB                 10         15
+ENTRY            11749   20061127   20070306   20070213       1341
+SUBENT        11749001   20061127   20070306   20070213       1341
+BIB                 10         16
 INSTITUTE  (1USAANL)
-REFERENCE  (J,PR,B135,76,1964)
+REFERENCE  (J,PR,135,B76,1964)
 AUTHOR     (A.B.Smith,C.A.Engelbrecht,D.Reitmann)
 TITLE      Elastic and Inelastic Scattering of Fast Neutrons from
             Co, Cu, Zn.
@@ -16,10 +16,11 @@ HISTORY    (19760730T) Translated from SCISRS
            (19860421A) BIB UPDATE.
            (20050427A) Converted to new date formats, lower case.
                        Reference updated.
-ENDBIB              15
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              16
 NOCOMMON             0          0
-ENDSUBENT           18
-SUBENT        11749002   20050427   20050707                  1333
+ENDSUBENT           19
+SUBENT        11749002   20050427   20050707   20050926       1333
 BIB                  3          3
 REACTION   (27-CO-59(N,EL)27-CO-59,,DA,,LEG/RS)
 FLAG       (1.) Data taken from private comm.,Smith, Dec. 1966.
@@ -161,7 +162,7 @@ MEV        NO-DIM     NO-DIM     NO-DIM     NO-DIM
  1.50   +00    4.      2.90   -01 3.5    -02
 ENDDATA            132
 ENDSUBENT          140
-SUBENT        11749003   20050427   20050707                  1333
+SUBENT        11749003   20050427   20050707   20050926       1333
 BIB                  4          4
 REACTION   (27-CO-59(N,EL)27-CO-59,,SIG)
 CORRECTION Corrected for multiple scattering.
@@ -209,7 +210,7 @@ MEV        B          NO-DIM
  1.50   +00 2.65   +00
 ENDDATA             33
 ENDSUBENT           46
-SUBENT        11749004   20050427   20050707                  1333
+SUBENT        11749004   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (27-CO-59(N,INL)27-CO-59,PAR,SIG)
 CORRECTION Corrected for multiple scattering.
@@ -223,7 +224,7 @@ MEV        MEV        B          B
     1.190   1.50   +00 3.90   -01 1.10   -01
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        11749005   20050427   20050707                  1333
+SUBENT        11749005   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (29-CU-0(N,EL)29-CU-0,,DA,,LEG/RS)
 STATUS     (COREL,11749006)
@@ -338,7 +339,7 @@ MEV        NO-DIM     NO-DIM     NO-DIM
  1.50   +00    4.      4.61   -01 7.7    -02
 ENDDATA            106
 ENDSUBENT          113
-SUBENT        11749006   20050427   20050707                  1333
+SUBENT        11749006   20050427   20050707   20050926       1333
 BIB                  4          5
 REACTION   (29-CU-0(N,EL)29-CU-0,,SIG)
 CORRECTION Corrected for multiple scattering.
@@ -382,7 +383,7 @@ MEV        B
  1.50   +00 2.41   +00
 ENDDATA             28
 ENDSUBENT           42
-SUBENT        11749007   20050427   20050707                  1333
+SUBENT        11749007   20050427   20050707   20050926       1333
 BIB                  3          3
 REACTION   (29-CU-0(N,INL)29-CU-0,PAR,SIG)
 CORRECTION Corrected for multiple scattering.
@@ -441,7 +442,7 @@ MEV        MEV        B          B          B
      1.11   1.50   +00 2.20   -01 4.0    -02
 ENDDATA             49
 ENDSUBENT           57
-SUBENT        11749008   20050427   20050707                  1333
+SUBENT        11749008   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (30-ZN-0(N,EL)30-ZN-0,,DA,,LEG/RS)
 STATUS     (COREL,11749009)
@@ -556,7 +557,7 @@ MEV        NO-DIM     NO-DIM     NO-DIM
  1.50   +00    4.      3.62   -01 4.0    -02
 ENDDATA            106
 ENDSUBENT          113
-SUBENT        11749009   20050427   20050707                  1333
+SUBENT        11749009   20050427   20050707   20050926       1333
 BIB                  3          3
 REACTION   (30-ZN-0(N,EL)30-ZN-0,,SIG)
 CORRECTION Corrected for multiple scattering.
@@ -598,7 +599,7 @@ MEV        B
  1.50   +00 2.63   +00
 ENDDATA             28
 ENDSUBENT           40
-SUBENT        11749010   20050427   20050707                  1333
+SUBENT        11749010   20050427   20050707   20050926       1333
 BIB                  3          4
 REACTION   (30-ZN-0(N,INL)30-ZN-0,PAR,SIG)
 CORRECTION Corrected for multiple scattering.
