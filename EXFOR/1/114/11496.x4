@@ -1,8 +1,8 @@
-ENTRY            11496   20050427   20050707                  1333
-SUBENT        11496001   20050427   20050707                  1333
-BIB                 11         17
+ENTRY            11496   20061127   20070306   20070213       1341
+SUBENT        11496001   20061127   20070306   20070213       1341
+BIB                 11         18
 INSTITUTE  (1USABNL)
-REFERENCE  (J,PR,B135,412,1964)
+REFERENCE  (J,PR,135,B412,1964)
 AUTHOR     (D.J.Bredin)
 TITLE      Scattering and Polarization of Neutrons from Al, Si,
            Fe, and Co at 2 MeV.
@@ -10,7 +10,7 @@ FACILITY   (CYCLO,1USABNL)
 INC-SOURCE (POLNS,P-T)
            Maximum neutron polarization 25+-5%.
 DETECTOR   (SCIN) NE213 liquid organic scintillator
-MONITOR    (1-H-PLE(N,SCT),,SIG)
+MONITOR    (1-H-PLE(N,SCT)1-H-PLE,,SIG)
 ERR-ANALYS (ERR-S) Statistical uncertainty
 STATUS     (CURVE) Data read from curve in article
 HISTORY    (19760715T) Translated from SCISRS
@@ -18,14 +18,15 @@ HISTORY    (19760715T) Translated from SCISRS
            (19930325A) BIB update. Converted to lower case.
            (20050427A) Converted to new date formats, lower case.
              Data error heading updated. Reference corrected.
-ENDBIB              17
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              18
 COMMON               3          3
 EN         EN-RSL     ANG-ERR
 MEV        MEV        ADEG
  1.95       0.09       1.
 ENDCOMMON            3
-ENDSUBENT           24
-SUBENT        11496002   20050427   20050707                  1333
+ENDSUBENT           25
+SUBENT        11496002   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 ENDBIB               1
@@ -45,7 +46,7 @@ ADEG       MB/SR      MB/SR
 120.        1.10   +02 1.0    +01
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11496003   20050427   20050707                  1333
+SUBENT        11496003   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (14-SI-0(N,EL)14-SI-0,,DA)
 ENDBIB               1
@@ -65,7 +66,7 @@ ADEG       MB/SR      MB/SR
 120.        1.40   +02 7.     +00
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        11496004   20050427   20050707                  1333
+SUBENT        11496004   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (26-FE-0(N,EL)26-FE-0,,DA)
 HISTORY    (19930325A) Data added
@@ -86,7 +87,7 @@ ADEG       MB/SR      MB/SR
 120.        115.       7.
 ENDDATA             12
 ENDSUBENT           19
-SUBENT        11496005   20050427   20050707                  1333
+SUBENT        11496005   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (26-FE-56(N,INL)26-FE-56,PAR,DA)
 HISTORY    (19930325A) Data added
@@ -111,7 +112,7 @@ ADEG       MB/SR      MB/SR
 120.        75.        2.
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        11496006   20050427   20050707                  1333
+SUBENT        11496006   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (27-CO-59(N,EL)27-CO-59,,DA)
 HISTORY    (19930325A) Data added
