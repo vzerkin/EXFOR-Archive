@@ -1,8 +1,8 @@
-ENTRY            11836   19991005   20050707                  1333
-SUBENT        11836001   19991005   20050707                  1333
-BIB                  8         10
+ENTRY            11836   20061127   20070306   20070213       1341
+SUBENT        11836001   20061127   20070306   20070213       1341
+BIB                  8         11
 INSTITUTE  (1USAANL)
-REFERENCE  (J,PR,B136,703,1964)
+REFERENCE  (J,PR,136,B703,1964)
 AUTHOR     (R.E.Cote,L.M.Bollinger,G.E.Thomas)
 TITLE      Neutron Resonances in Selenium.
 FACILITY   (CHOPF,1USAANL) Fast chopper
@@ -11,10 +11,11 @@ DETECTOR   (SCIN) Boron-loaded liquid scintillator.
 HISTORY    (19760731T) Translated from SCISRS
            (20050427A) Converted to new date formats, lower case.
                        Reference updated.
-ENDBIB              10
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              11
 NOCOMMON             0          0
-ENDSUBENT           13
-SUBENT        11836002   20050427   20050707                  1333
+ENDSUBENT           14
+SUBENT        11836002   20050427   20050707   20050926       1333
 BIB                  3          3
 REACTION   (34-SE-0(N,TOT),,SIG)
 METHOD     (TOF)      Time-of-flight
@@ -562,7 +563,7 @@ MEV        NSEC/M     B          B          G/CM-SQ
  5.186  -03   10.      5.046  +01 8.4    -01  2.667
 ENDDATA            538
 ENDSUBENT          546
-SUBENT        11836003   20050427   20050707                  1333
+SUBENT        11836003   20050427   20050707   20050926       1333
 BIB                  4          5
 REACTION  1(34-SE-0(N,0),,EN)
           2(34-SE-0(N,EL),,WID,,AG)
@@ -591,7 +592,7 @@ MEV        EV         EV         NO-DIM
  7.14   -03
 ENDDATA             17
 ENDSUBENT           27
-SUBENT        11836004   20050427   20050707                  1333
+SUBENT        11836004   20050427   20050707   20050926       1333
 BIB                  4          8
 REACTION  1(34-SE-74(N,0),,EN)
           2(34-SE-74(N,TOT),,SIG,,RES)
@@ -616,7 +617,7 @@ EV         EV         EV
  0.8        256.   -03 50.    -03
 ENDDATA              6
 ENDSUBENT           23
-SUBENT        11836005   20050427   20050707                  1333
+SUBENT        11836005   20050427   20050707   20050926       1333
 BIB                  3          7
 REACTION  1(34-SE-76(N,0),,EN)
           2(34-SE-76(N,TOT),,SIG,,RES)
@@ -648,7 +649,7 @@ EV         EV         EV         EV
  2.        162.    -03 27.    -03
 ENDDATA             14
 ENDSUBENT           30
-SUBENT        11836006   20050427   20050707                  1333
+SUBENT        11836006   20050427   20050707   20050926       1333
 BIB                  4          8
 REACTION  1(34-SE-77(N,0),,EN)
           2(34-SE-77(N,0),,J)
@@ -697,7 +698,7 @@ NO-DIM
  1.
 ENDDATA             34
 ENDSUBENT           47
-SUBENT        11836007   20050427   20050707                  1333
+SUBENT        11836007   20050427   20050707   20050926       1333
 BIB                  5          7
 REACTION  1(34-SE-77(N,EL),,WID)
           2(34-SE-77(N,G),,WID)
@@ -737,7 +738,7 @@ MILLI-EV   EV         NO-DIM
   6.        0.5        1.
 ENDDATA             22
 ENDSUBENT           38
-SUBENT        11836008   20050427   20050707                  1333
+SUBENT        11836008   20050427   20050707   20050926       1333
 BIB                  4          5
 REACTION  1(34-SE-77(N,EL),,WID,,G)
           2(34-SE-77(N,EL),,WID/RED,,G)
@@ -759,7 +760,7 @@ EV         EV         EV         EV         EV         EV
  855.                             0.46       0.16
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        11836009   20050427   20050707                  1333
+SUBENT        11836009   20050427   20050707   20050926       1333
 BIB                  4          8
 REACTION  1(34-SE-78(N,0),,EN)
           2(34-SE-78(N,TOT),,SIG,,RES)
@@ -784,7 +785,7 @@ EV         MILLI-EV   MILLI-EV
  0.07       15.5        3.9
 ENDDATA              6
 ENDSUBENT           23
-SUBENT        11836010   20050427   20050707                  1333
+SUBENT        11836010   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (34-SE-78(N,0),,EN)
 STATUS     Data taken from reference.
@@ -796,7 +797,7 @@ EV
 3190.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11836011   20050427   20050707                  1333
+SUBENT        11836011   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (34-SE-80(N,0),,EN)
 STATUS     Data taken from reference.
