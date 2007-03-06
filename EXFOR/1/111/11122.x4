@@ -1,8 +1,8 @@
-ENTRY            11122   20050427   20050707                  1333
-SUBENT        11122001   20050427   20050707                  1333
-BIB                  9         13
+ENTRY            11122   20061127   20070306   20070213       1341
+SUBENT        11122001   20061127   20070306   20070213       1341
+BIB                  9         14
 INSTITUTE  (1USAANL)
-REFERENCE  (J,PR,B133,353,1964)
+REFERENCE  (J,PR,133,B353,1964)
 AUTHOR     (C.T.Hibdon)
 TITLE      Nuclear Levels in F20.
 FACILITY   (VDG,1USAANL)
@@ -14,10 +14,11 @@ HISTORY    (19760628T) Translated from SCISRS
            (19820107U) BIB update
            (20050427A) Converted to new date formats, lower case.
                        Reference corrected.
-ENDBIB              13
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              14
 NOCOMMON             0          0
-ENDSUBENT           16
-SUBENT        11122002   20050427   20050707                  1333
+ENDSUBENT           17
+SUBENT        11122002   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (3-LI-0(N,TOT),,SIG)
 ENDBIB               1
@@ -454,7 +455,7 @@ MEV        B          B
  3.920  -01 1.32   +00
 ENDDATA            425
 ENDSUBENT          435
-SUBENT        11122003   20050427   20050707                  1333
+SUBENT        11122003   20050427   20050707   20050926       1333
 BIB                  1          2
 REACTION  1(9-F-19(N,0),,J)
           2(9-F-19(N,0),,L)
@@ -477,7 +478,7 @@ MEV        MEV        NO-DIM     NO-DIM
  2.677  -01 2.0    -03 1.     +00 0.
 ENDDATA             14
 ENDSUBENT           21
-SUBENT        11122004   20050427   20050707                  1333
+SUBENT        11122004   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (9-F-19(N,0),,EN)
 ENDBIB               1
@@ -492,7 +493,7 @@ MEV        MEV
  7.05   -02 2.0    -03
 ENDDATA              7
 ENDSUBENT           13
-SUBENT        11122005   20050427   20050707                  1333
+SUBENT        11122005   20050427   20050707   20050926       1333
 BIB                  1          1
 REACTION   (9-F-19(N,TOT),,WID)
 ENDBIB               1
@@ -514,7 +515,7 @@ MEV        MEV        MILLI-EV
  2.677  -01 2.0    -03 1.4    +06
 ENDDATA             14
 ENDSUBENT           20
-SUBENT        11122006   20050427   20050707                  1333
+SUBENT        11122006   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (9-F-19(N,TOT),,SIG)
 METHOD     Flat detection
@@ -1358,7 +1359,7 @@ MEV        B          B
  3.005  -01 7.30   +00
 ENDDATA            831
 ENDSUBENT          842
-SUBENT        11122007   20050427   20050707                  1333
+SUBENT        11122007   20050427   20050707   20050926       1333
 BIB                  2          2
 REACTION   (9-F-19(N,TOT),,SIG)
 METHOD     Self-indication
