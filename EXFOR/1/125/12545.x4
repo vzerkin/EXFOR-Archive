@@ -1,8 +1,8 @@
-ENTRY            12545   20050518
-SUBENT        12545001   20050518
-BIB                 10         15
+ENTRY            12545   20061127   20070306   20070213       1341
+SUBENT        12545001   20061127   20070306   20070213       1341
+BIB                 10         16
 INSTITUTE  (1USARPI,1USAMTR)
-REFERENCE  (J,PR,B135,945,1964)
+REFERENCE  (J,PR,135,B945,1964)
            (R,IDO-16976,1964)
 AUTHOR     (M.S.Moore,O.D.Simpson,T.Watanabe,J.E.Russell,
            R.W.Hockenbury)
@@ -14,16 +14,17 @@ MONITOR    (94-PU-241(N,F),,SIG)
 STATUS     (SCSRS)
 HISTORY    (19760804T) Translated from SCISRS
            (19841024A) BIB, DATA heading corrections.
-           (20050518A) Converted to new date formats, lower case.
+           (20061127A) Converted to new date formats, lower case.
                        Reference corrected.
-ENDBIB              15
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              16
 COMMON               3          3
 EN-NRM     MONIT      EN-RSL
 EV         B          MICROSEC/M
  6.         406.       0.0284
 ENDCOMMON            3
-ENDSUBENT           22
-SUBENT        12545002   20050518
+ENDSUBENT           23
+SUBENT        12545002   20050518              20050926       0000
 BIB                  3          3
 REACTION   (94-PU-241(N,F),,SIG)
 COMMENT    Run A.
@@ -486,7 +487,7 @@ MEV        B
  9.881  -05 3.355  +01
 ENDDATA            453
 ENDSUBENT          461
-SUBENT        12545003   20050518
+SUBENT        12545003   20050518              20050926       0000
 BIB                  3          3
 REACTION   (94-PU-241(N,F),,SIG)
 COMMENT    Run B.
@@ -1065,7 +1066,7 @@ MEV        B
  9.951  -05 3.583  +01
 ENDDATA            569
 ENDSUBENT          577
-SUBENT        12545004   20050518
+SUBENT        12545004   20050518              20050926       0000
 BIB                  4          7
 REACTION  1(94-PU-241(N,0),,EN)
           2(94-PU-241(N,EL),,WID/RED,,RM/2G)
