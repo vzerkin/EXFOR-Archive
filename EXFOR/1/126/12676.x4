@@ -1,8 +1,8 @@
-ENTRY            12676   20050518
-SUBENT        12676001   20050518
-BIB                 13         24
+ENTRY            12676   20061127   20070306   20070213       1341
+SUBENT        12676001   20061127   20070306   20070213       1341
+BIB                 13         25
 INSTITUTE  (1USATNC)
-REFERENCE  (J,PR,B140,1541,1965)
+REFERENCE  (J,PR,140,B1541,1965)
            (R,ORO-2791-32,1971)
 AUTHOR     (W.E.Tucker)
 TITLE      Angular Distributions of the Fast-Neutron-Induced
@@ -23,16 +23,17 @@ CORRECTION The integrated counts suitably corrected for detector
              efficiency and self absorption of the gamma-rays in
              the scatterer
 HISTORY    (19850108C)
-           (20050518A) Converted to new date formats, lower case.
+           (20061127A) Converted to new date formats, lower case.
                        Reference corrected.
-ENDBIB              24
+           (20061127A) DR Reference corrected to follow APS format
+ENDBIB              25
 COMMON               1          3
 E-NRM
 MEV
  0.845
 ENDCOMMON            3
-ENDSUBENT           31
-SUBENT        12676002   20050518
+ENDSUBENT           32
+SUBENT        12676002   20050518              20050926       0000
 BIB                  4          4
 REACTION   (20-CA-0(N,X)0-G-0,PAR,DA)
 ERR-ANALYS No uncertainties given.
@@ -73,7 +74,7 @@ MEV        MEV        MB/SR      NO-DIM
  5.00       3.900      7.0
 ENDDATA             26
 ENDSUBENT           39
-SUBENT        12676003   20050518
+SUBENT        12676003   20050518              20050926       0000
 BIB                  3         17
 REACTION   (20-CA-40(N,P)19-K-40,PAR,DA,G)
 ERR-ANALYS (DATA-ERR) The uncertainties were mainly the errors
@@ -110,7 +111,7 @@ MEV        MB/SR      MB/SR
  5.00      10.7       2.1
 ENDDATA              9
 ENDSUBENT           35
-SUBENT        12676004   20050518
+SUBENT        12676004   20050518              20050926       0000
 BIB                  3         17
 REACTION   (20-CA-40(N,INL)20-CA-40,PAR,DA,G)
 ERR-ANALYS (DATA-ERR) The uncertainties were mainly the errors
@@ -151,7 +152,7 @@ MEV        MEV        MB/SR      MB/SR
  5.00       3.900       7.2       1.4
 ENDDATA             13
 ENDSUBENT           39
-SUBENT        12676005   20050518
+SUBENT        12676005   20050518              20050926       0000
 BIB                  3         17
 REACTION   (20-CA-44(N,INL)20-CA-44,PAR,DA,G)
 ERR-ANALYS (DATA-ERR) The uncertainties were mainly the errors
@@ -188,7 +189,7 @@ MEV        MB/SR      MB/SR
  5.00       146.       37.
 ENDDATA              9
 ENDSUBENT           35
-SUBENT        12676006   20050518
+SUBENT        12676006   20050518              20050926       0000
 BIB                  4         19
 REACTION   (20-CA-40(N,INL)20-CA-40,PAR,DA,G)
 CORRECTION Corrected for positron escape probablilty from calcium
@@ -227,7 +228,7 @@ MEV        MB/SR      MB/SR
  5.00      15.7        3.1
 ENDDATA              9
 ENDSUBENT           37
-SUBENT        12676007   20050518
+SUBENT        12676007   20050518              20050926       0000
 BIB                  3         17
 REACTION   (20-CA-40(N,X)0-G-0,PAR,DA,G,RSD)
 ERR-ANALYS (DATA-ERR) The uncertainties were mainly the errors
