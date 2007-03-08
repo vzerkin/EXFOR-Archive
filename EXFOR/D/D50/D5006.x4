@@ -1,12 +1,13 @@
-ENTRY            D5006   20060609              20060811       0000
-SUBENT        D5006001   20060609              20060811       0000
-BIB                 11         20
+ENTRY            D5006   20070309   20070824   20070822       D053
+SUBENT        D5006001   20070309   20070824   20070822       D053
+BIB                 11         22
 TITLE      Research of Sn-116 states population in the (p,gamma)
            reaction.
 AUTHOR     (I.M.Vishnevskyy, O.I.Davidovskaya, V.A.Zheltonozhskyy,
             M.V.Strilchuk, P.N.Trifonov)
 INSTITUTE  (4UKRIJD)
-REFERENCE  (J,IZV,69,(1),81,2005)
+REFERENCE  (J,IZV,69,(1),81,2005) on Russian lang.
+           (J,BAS,69,84,2005) English transl.
 DETECTOR   (HPGE)Spectrometer of the GG coincidences with two Ge
            detectors with efficiencies of the registration in 40
            and 30% as compared to NaJ(Tl)detector with size
@@ -21,10 +22,11 @@ ERR-ANALYS (ERR-T) An error is mainly conditioned with "thick"
            targets used in measurements.
 STATUS     (APRVD) Approved by author(V.A.Zheltonozhskyy)
 HISTORY    (20060609C)NK and MV
-ENDBIB              20
+           (20070308A) SD: ref. added
+ENDBIB              22
 NOCOMMON             0          0
-ENDSUBENT           23
-SUBENT        D5006002   20060609              20060811       0000
+ENDSUBENT           25
+SUBENT        D5006002   20060609              20060811       D047
 BIB                  3          3
 REACTION   (49-IN-115(P,G)50-SN-116,,SIG)
 MONITOR    (49-IN-115(P,G+N)50-SN-115,,SIG)
@@ -38,7 +40,7 @@ MEV        MICRO-B    MICRO-B    MB
 4.0        0.9        0.1        2.39
 ENDDATA              4
 ENDSUBENT           12
-SUBENT        D5006003   20060609              20060811       0000
+SUBENT        D5006003   20060609              20060811       D047
 BIB                  4          9
 REACTION   (49-IN-115(P,G)50-SN-116,,SPC,,REL)
 FLAG       (1.)Data were taken only from the spectrum of gg
