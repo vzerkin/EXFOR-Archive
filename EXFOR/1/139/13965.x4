@@ -1,8 +1,9 @@
-ENTRY            13965   20050217   20050610                  1332
-SUBENT        13965001   20050217   20050610                  1332
-BIB                  8          9
+ENTRY            13965   20070417   20070719   20070713       1343
+SUBENT        13965001   20070417   20070719   20070713       1343
+BIB                  8         11
 INSTITUTE  (1USAANL)
 REFERENCE  (R,ANL-NDM-160,2005)
+           (J,ANE,32,1926,2005)
 AUTHOR     (A.B.Smith)
 TITLE      Fast Neutrons Incident on Rotors: Tantalum
 FACILITY   (ACCEL,1USAANL)
@@ -10,10 +11,11 @@ INC-SOURCE (P-LI7) up to 0.5 MeV
            (D-D) from 4.5 to 10 MeV
 DETECTOR   (SCIN)  liquid scintillator
 HISTORY    (20050217C) DR
-ENDBIB               9
+           (20061205A) DR ANE reference added
+ENDBIB              11
 NOCOMMON             0          0
-ENDSUBENT           12
-SUBENT        13965002   20050217   20050610                  1332
+ENDSUBENT           14
+SUBENT        13965002   20050217   20050610   20050926       1332
 BIB                  3          3
 REACTION   (73-TA-181(N,EL)73-TA-181,,DA)
 ERR-ANALYS (DATA-ERR) No information
@@ -739,7 +741,7 @@ MEV        ADEG       B/SR       PER-CENT
  0.9990E+01 0.1574E+03 0.1551E-01 0.1282E+02
 ENDDATA            716
 ENDSUBENT          724
-SUBENT        13965003   20050217   20050610                  1332
+SUBENT        13965003   20050217   20050610   20050926       1332
 BIB                  3          3
 REACTION   (73-TA-181(N,INL)73-TA-181,PAR,SIG)
 ERR-ANALYS (DATA-ERR) No information
