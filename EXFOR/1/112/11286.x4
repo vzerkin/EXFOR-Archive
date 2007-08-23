@@ -1,28 +1,30 @@
-ENTRY            11286   19860120
-SUBENT        11286001     860120
-BIB                  9         14
+ENTRY            11286   20070706   20070824   20070809       1344
+SUBENT        11286001   20070706   20070824   20070809       1344
+BIB                  9         16
 INSTITUTE  (1CANCRC)
-REFERENCE  (J,NP,53,177,6404)
-           (J,NP/A,95,320,6704) NOTE ON DATA ADJUSTMENT FOR C,SI,S
-AUTHOR     (R.L.CLARKE,W.G.CROSS)
-TITLE      ELASTIC AND INELASTIC SCATTERING OF 14.1MEV NEUTRONS
-           FROM C, MG, SI AND S.
+REFERENCE  (J,NP,53,177,1964)
+           (J,NP/A,95,320,1967) Note on data adjustment for C,Si,S
+AUTHOR     (R.L.Clarke,W.G.Cross)
+TITLE      Elastic and inelastic scattering of 14.1 MeV Neutrons
+           from C, Mg, Si and S.
 INC-SOURCE (D-T)
-METHOD     (TOF) TIME-OF-FLIGHT
-DETECTOR   (SCIN) PLASTIC SCINTILLATOR. ANGULAR RESOLUTION 5 OR
-            10 DEGR. (DEPENDING ON APERTURE USED).
+METHOD     (TOF) Time-of-flight
+DETECTOR   (SCIN) PLastic scintillator. Angular resolution 5 or
+            10 degr. (depending on aperture used).
 STATUS     (SCSRS)
-HISTORY    (760714T) TRANSLATED FROM SCISRS
-           (810428A) CONVERTED TO REACTION FORMALISM
-           (860120A) BIB UPDATE. ENERGY MOVED TO SUBENTRY 1.
-ENDBIB              14
+HISTORY    (19760714T) Translated from SCISRS
+           (19810428A) Converted to reaction formalism
+           (19860120A) BIB updatE. Energy moved to subentry 1.
+           (20070706A) DR Data unit corrected in subentry 18
+                          B-> mb according to publication
+ENDBIB              16
 COMMON               2          3
 EN         EN-RSL-FW
 MEV        MEV
  14.1       0.150
 ENDCOMMON            3
-ENDSUBENT           21
-SUBENT        11286002     860120
+ENDSUBENT           23
+SUBENT        11286002     860120              20050926       0000
 BIB                  4          5
 REACTION   (6-C-0(N,EL)6-C-0,,SIG)
 CORRECTION DATA INCREASED BY 8 PERCENT TO CORRECT FOR PRESENCE OF
@@ -37,7 +39,7 @@ B          B
  0.79       0.08
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11286003     860120
+SUBENT        11286003     860120              20050926       0000
 BIB                  4          7
 REACTION   (6-C-0(N,EL)6-C-0,,DA)
 MONITOR    (6-C-12(N,EL)6-C-12,,DA) NORMALIZED AT ANGLE NEAR
@@ -74,7 +76,7 @@ NO-DIM     MB/SR      MB/SR
 -0.9613     2.18   +01 1.6    +00
 ENDDATA             23
 ENDSUBENT           35
-SUBENT        11286004     860120
+SUBENT        11286004     860120              20050926       0000
 BIB                  5          6
 REACTION   (6-C-0(N,EL)6-C-0,,DA)
 STATUS     (SPSDD,11286003)
@@ -86,7 +88,7 @@ ENDBIB               6
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT           10
-SUBENT        11286005     860120
+SUBENT        11286005     860120              20050926       0000
 BIB                  4          6
 REACTION   (6-C-12(N,INL)6-C-12,PAR,SIG)
 CORRECTION DATA INCREASED BY 8 PERCENT TO CORRECT FOR PRESENCE OF
@@ -103,7 +105,7 @@ MEV        B          B
  9.6        0.049      0.011
 ENDDATA              4
 ENDSUBENT           15
-SUBENT        11286006     860120
+SUBENT        11286006     860120              20050926       0000
 BIB                  4          6
 REACTION   (6-C-12(N,INL)6-C-12,PAR,DA)
 MONITOR    (6-C-0(N,EL)6-C-0,,DA)
@@ -140,7 +142,7 @@ NO-DIM     MB/SR      MB/SR
 -0.9135     2.10   +01 2.2    +00
 ENDDATA             20
 ENDSUBENT           35
-SUBENT        11286007     860417
+SUBENT        11286007     860417              20050926       0000
 BIB                  5          6
 REACTION   (6-C-12(N,INL)6-C-12,PAR,DA)
 STATUS     (SPSDD,11286006)
@@ -152,7 +154,7 @@ ENDBIB               6
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT           10
-SUBENT        11286008     860120
+SUBENT        11286008     860120              20050926       0000
 BIB                  2          2
 REACTION   (12-MG-0(N,EL)12-MG-0,,SIG)
 STATUS     (DEP,11286009) INTEGRATED ANGULAR DISTRIBUTION.
@@ -164,7 +166,7 @@ B          B
  8.2    -01 1.0    -01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11286009     860417
+SUBENT        11286009     860417              20050926       0000
 BIB                  4          5
 REACTION   (12-MG-0(N,EL)12-MG-0,,DA)
 MONITOR    (12-MG-0(N,EL)12-MG-0,,DA) NORMALIZED AT ANGLE NEAR
@@ -195,7 +197,7 @@ NO-DIM     MB/SR      MB/SR
 -0.8829     1.25   +01 1.1    +00
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        11286010     860120
+SUBENT        11286010     860120              20050926       0000
 BIB                  2          2
 REACTION   (12-MG-0(N,INL)12-MG-24,PAR,DA)
 MONITOR    (12-MG-0(N,EL)12-MG-0,,DA)
@@ -224,7 +226,7 @@ NO-DIM     MB/SR      MB/SR
 -0.8829     6.4    +00 8.     -01
 ENDDATA             16
 ENDSUBENT           27
-SUBENT        11286011     860120
+SUBENT        11286011     860120              20050926       0000
 BIB                  3          3
 REACTION   (14-SI-0(N,EL)14-SI-0,,SIG)
 STATUS     (DEP,11286013) INTEGRATED ANGULAR DISTRIBUTION
@@ -237,7 +239,7 @@ B          B
  0.81       0.08
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        11286012     860120
+SUBENT        11286012     860120              20050926       0000
 BIB                  4          5
 REACTION   (14-SI-0(N,INL)14-SI-28,PAR,SIG)
 CORRECTION DATA INCREASED BY 8 PERCENT TO CORRECT FOR PRESENCE OF
@@ -256,7 +258,7 @@ B          B
  0.118      0.17
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        11286013     860417
+SUBENT        11286013     860417              20050926       0000
 BIB                  5          8
 REACTION   (14-SI-0(N,EL)14-SI-0,,DA)
 MONITOR    (14-SI-0(N,EL)14-SI-0,,DA) NORMALIZED AT ANGLE NEAR
@@ -291,7 +293,7 @@ NO-DIM     MB/SR      MB/SR
 -0.8788     9.0    +00 1.0    +00
 ENDDATA             20
 ENDSUBENT           33
-SUBENT        11286014     860120
+SUBENT        11286014     860120              20050926       0000
 BIB                  3          4
 REACTION   (14-SI-0(N,EL)14-SI-0,,DA)
 STATUS     (SPSDD,11286013)
@@ -301,7 +303,7 @@ ENDBIB               4
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            8
-SUBENT        11286015     860120
+SUBENT        11286015     860120              20050926       0000
 BIB                  3          4
 REACTION   (14-SI-0(N,INL)14-SI-28,PAR,DA)
 STATUS     (SPSDD,11286016)
@@ -315,7 +317,7 @@ MEV
 ENDCOMMON            3
 NODATA               0          0
 ENDSUBENT           12
-SUBENT        11286016     860120
+SUBENT        11286016     860120              20050926       0000
 BIB                  4          6
 REACTION   (14-SI-0(N,INL)14-SI-28,PAR,DA)
 MONITOR    (14-SI-0(N,EL)14-SI-0,,DA)
@@ -347,7 +349,7 @@ NO-DIM     MB/SR      MB/SR
 -0.8829     7.3    +00 2.1    +00
 ENDDATA             15
 ENDSUBENT           30
-SUBENT        11286017     860120
+SUBENT        11286017     860120              20050926       0000
 BIB                  5          7
 REACTION   (16-S-0(N,EL)16-S-0,,SIG)
 CORRECTION DATA INCREASED BY 8 PERCENT TO CORRECT FOR PRESENCE OF
@@ -364,23 +366,23 @@ B          B
  0.80       0.09
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        11286018     860120
+SUBENT        11286018   20070706   20070824   20070809       1344
 BIB                  4          5
 REACTION   (16-S-0(N,INL)16-S-32,PAR,SIG)
-CORRECTION DATA INCREASED BY 8 PERCENT TO CORRECT FOR PRESENCE OF
-            ROOM SCATTERED NEUTRONS.
-STATUS     (DEP,11286022) INTEGRATED ANGULAR DISTRIBUTION
-HISTORY    (860120A) DATA CORRECTED.
+CORRECTION Data increased by 8 percent to correct for presence of
+            room scattered neutrons.
+STATUS     (DEP,11286022) Integrated angular distribution
+HISTORY    (19860120A) Data corrected.
 ENDBIB               5
 NOCOMMON             0          0
 DATA                 3          2
 E-LVL      DATA       DATA-ERR
-MEV        B          B
+MEV        MB         MB
     2.24    69.        11.
     4.6     54.        22.
 ENDDATA              4
 ENDSUBENT           14
-SUBENT        11286019     860120
+SUBENT        11286019     860120              20050926       0000
 BIB                  2          2
 REACTION   (16-S-0(N,EL)16-S-0,,DA)
 STATUS     (SPSDD,11286020)
@@ -388,7 +390,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        11286020     860120
+SUBENT        11286020     860120              20050926       0000
 BIB                  4          7
 REACTION   (16-S-0(N,EL)16-S-0,,DA)
 MONITOR    (16-S-0(N,EL)16-S-0,,DA) NORMALIZED AT ANGLE NEAR
@@ -426,7 +428,7 @@ NO-DIM     MB/SR      MB/SR
 -0.9205     5.0    +00 5.     -01
 ENDDATA             24
 ENDSUBENT           36
-SUBENT        11286021     860120
+SUBENT        11286021     860120              20050926       0000
 BIB                  2          2
 REACTION   (16-S-32(N,INL)16-S-32,PAR,DA)
 STATUS     (SPSDD,11286022)
@@ -438,7 +440,7 @@ MEV
 ENDCOMMON            3
 NODATA               0          0
 ENDSUBENT           10
-SUBENT        11286022     860120
+SUBENT        11286022     860120              20050926       0000
 BIB                  4          6
 REACTION   (16-S-0(N,INL)16-S-32,PAR,DA)
 MONITOR    (16-S-0(N,EL)16-S-32,,DA)
@@ -473,7 +475,7 @@ NO-DIM     MB/SR      MB/SR
 -0.7193     3.2    +00 7.     -01
 ENDDATA             18
 ENDSUBENT           33
-SUBENT        11286023     860120
+SUBENT        11286023     860120              20050926       0000
 BIB                  3          3
 REACTION   (12-MG-0(N,INL)12-MG-24,PAR,SIG)
 STATUS     (DEP,11286010)
