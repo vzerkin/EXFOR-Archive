@@ -1,13 +1,14 @@
-ENTRY            D5005   20060707              20060811       0000
-SUBENT        D5005001   20060707              20060811       0000
-BIB                 12         33
+ENTRY            D5005   20070309   20070824   20070822       D053
+SUBENT        D5005001   20070309   20070824   20070822       D053
+BIB                 12         35
 TITLE      Analysis of partial cross sections of Zn-68(p,g)Ga-69
            reaction.
 AUTHOR     (B.A. Nemashkalo, I.D. Fedorets, R.P. Slabospicskij,
             K.B. Shebeko, S.N. Utenkov)
 INSTITUTE  (4UKRKFT)
-REFERENCE  (J,IZV,69,(1),102,2005) B.A.Nemashkalo,K.B.Shebeko,
-            S.N.Utenkov
+REFERENCE  (J,IZV,69,(1),102,2005) (in Russian) B.A.Nemashkalo,
+            K.B.Shebeko, S.N.Utenkov
+           (J,BAS,69,108,2005) English transl.
            (J,VKHU,22,(2),86,2003) B.A.Nemashkalo,I.D.Fedorets,
             R.P.Slabospicskij,K.B.Shebeko,S.N.Utenkov;the data
             in both works are the same, the texts are practically
@@ -34,10 +35,11 @@ ERR-ANALYS (DATA-ERR) Uncertainties include:
             Systematical error of target charge meagurement(2%)
 HISTORY    (20051007C) NK and MV
            (20060616) Finalized
-ENDBIB              33
+           (20070308A) SD: ref. added
+ENDBIB              35
 NOCOMMON             0          0
-ENDSUBENT           36
-SUBENT        D5005002   20060707              20060811       0000
+ENDSUBENT           38
+SUBENT        D5005002   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -67,7 +69,7 @@ MEV        MICRO-B    MICRO-B
  2.9479     109.79     19.197
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        D5005003   20060707              20060811       0000
+SUBENT        D5005003   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -98,7 +100,7 @@ MEV        MICRO-B    MICRO-B
  2.9410     34.557     8.4697
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        D5005004   20060707              20060811       0000
+SUBENT        D5005004   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -128,7 +130,7 @@ MEV        MICRO-B    MICRO-B
  2.9416     37.222     5.2602
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        D5005005   20060707              20060811       0000
+SUBENT        D5005005   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -159,7 +161,7 @@ MEV        MICRO-B    MICRO-B
  2.9534     45.794     6.2479
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        D5005006   20060707              20060811       0000
+SUBENT        D5005006   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -190,7 +192,7 @@ MEV        MICRO-B    MICRO-B
  2.9469     33.084     4.2789
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        D5005007   20060707              20060811       0000
+SUBENT        D5005007   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -221,7 +223,7 @@ MEV        MICRO-B    MICRO-B
  2.9391     43.535     7.6701
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        D5005008   20060707              20060811       0000
+SUBENT        D5005008   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -245,7 +247,7 @@ MEV        MICRO-B    MICRO-B
  2.9536     5.5930     1.4282
 ENDDATA              8
 ENDSUBENT           22
-SUBENT        D5005009   20060707              20060811       0000
+SUBENT        D5005009   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
@@ -275,7 +277,7 @@ MEV        MICRO-B    MICRO-B
  2.9436     30.282     3.9051
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        D5005010   20060707              20060811       0000
+SUBENT        D5005010   20060707              20060811       D047
 BIB                  4          5
 REACTION   (30-ZN-68(P,G)31-GA-69,PAR,SIG)
 EN-SEC     (E-LVL,31-GA-69)
