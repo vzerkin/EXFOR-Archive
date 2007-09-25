@@ -1,12 +1,13 @@
-ENTRY            M0670   20050520   20050811                  M037
-SUBENT        M0670001   20050520   20050811                  M037
-BIB                 14         29
+ENTRY            M0670   20070906   20070911   20070906       M043
+SUBENT        M0670001   20070906   20070911   20070906       M043
+BIB                 14         31
 TITLE      Investigation of excitation of matastable  states  of
             197Pt and 197Hg in (g,n) and (d,2n) reactions.
 AUTHOR     (V.A.ZHELTONOZHSKY,V.M.MAZUR,Z.M.BIGAN)
 INSTITUTE  (4UKRIJD,4UKRIEP)
 REFERENCE  (J,YF,67,899,2004)
            (J,PAN,67,875,2004)
+           (J,UFZ,48,(5),403,2003)
 INC-SOURCE (BRST)
 FACILITY   (MICRT,4UKRIEP)
 SAMPLE     The samples of natural mercury (HgO), weight 4 g.
@@ -30,10 +31,11 @@ COMMENT    Isomeric ratios of 197m,gPt and  197m,gHg  yields  in
             performed.  The influence of  low-lying  states  and
             yrast line has been shown.
 HISTORY    (20050518C)
-ENDBIB              29
+           (20070906A) REFERENCE added.
+ENDBIB              31
 NOCOMMON             0          0
-ENDSUBENT           32
-SUBENT        M0670002   20050520   20050811                  M037
+ENDSUBENT           34
+SUBENT        M0670002   20050520   20050811   20050926       M037
 BIB                  1          1
 REACTION   (78-PT-198(G,N)78-PT-197-M,,SIG,,BRS)
 ENDBIB               1
@@ -60,7 +62,7 @@ MEV        MB         MB
   17.5       15.47      5.94
 ENDDATA             19
 ENDSUBENT           25
-SUBENT        M0670003   20050520   20050811                  M037
+SUBENT        M0670003   20050520   20050811   20050926       M037
 BIB                  1          1
 REACTION   (80-HG-198(G,N)80-HG-197-M,,SIG,,BRS)
 ENDBIB               1
@@ -85,7 +87,7 @@ MEV        MB         MB
   17.        20.75      5.97
 ENDDATA             17
 ENDSUBENT           23
-SUBENT        M0670004   20050520   20050811                  M037
+SUBENT        M0670004   20050520   20050811   20050926       M037
 BIB                  1          3
 REACTION   (78-PT-198(G,N)78-PT-197-M/T,,SIG/RAT,,BRS)
            The isomeric  yield ratio d = Y(M)/Y(G) because 197Pt
@@ -113,7 +115,7 @@ MEV        NO-DIM     NO-DIM
   17.          .182      .0093
 ENDDATA             18
 ENDSUBENT           26
-SUBENT        M0670005   20050520   20050811                  M037
+SUBENT        M0670005   20050520   20050811   20050926       M037
 BIB                  1          3
 REACTION   (80-HG-198(G,N)80-HG-197-M/G,,SIG/RAT,,BRS)
            The isomeric  yield ratio d = Y(M)/Y(G) because 197Hg
