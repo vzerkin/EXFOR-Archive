@@ -1,8 +1,8 @@
-ENTRY            P0119   20000815   20010330
-SUBENT        P0119001   20000815   20010330
-BIB                  8         14
+ENTRY            P0119   20071109   20080131   20080124       Y003
+SUBENT        P0119001   20071109   20080131   20080124       Y003
+BIB                  8         15
 INSTITUTE  (2JPNOSA,2JPNKTO)
-REFERENCE  (J,NP,107,427,1968)
+REFERENCE  (J,NP/A,107,427,1968)
 AUTHOR     (K.OTOZAI,S.KUZE,H.OKAMURA,A.MITO,T.NISHI,I.FUJIWARA)
 TITLE      Excitation fnctions for deuterium-induced reactions
 METHOD     (STTA)
@@ -15,10 +15,11 @@ HISTORY    (19830620T) Converted to EXFOR format by IAEA-NDS.
            (19850215U) OS. COUNTRY CODE CORRECTED.
            (19850829A) CORRECTED BY NNDC
            (20000815A) Converted to new date formats; BIB updated.
-ENDBIB              14
+           (20071109A) Reference corrected
+ENDBIB              15
 NOCOMMON             0          0
-ENDSUBENT           17
-SUBENT        P0119002   20000815   20010330
+ENDSUBENT           18
+SUBENT        P0119002   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (32-GE-70(D,P)32-GE-71,,SIG)
 ENDBIB               1
@@ -38,7 +39,7 @@ MEV        MB         MB
    14.1      280.
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        P0119003   20000815   20010330
+SUBENT        P0119003   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (32-GE-70(D,N)33-AS-71,,SIG)
 ENDBIB               1
@@ -58,7 +59,7 @@ MEV        MB         MB
    14.1      139.         3.
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        P0119004   20000815   20010330
+SUBENT        P0119004   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (40-ZR-96(D,P)40-ZR-97,,SIG)
 ENDBIB               1
@@ -80,7 +81,7 @@ MEV        MB         MB
    14.1      150.        50.
 ENDDATA             14
 ENDSUBENT           20
-SUBENT        P0119005   20000815   20010330
+SUBENT        P0119005   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (40-ZR-96(D,N)41-NB-97,,SIG)
 ENDBIB               1
@@ -102,7 +103,7 @@ MEV        MB         MB
    14.1       80.        10.
 ENDDATA             14
 ENDSUBENT           20
-SUBENT        P0119006   20000815   20010330
+SUBENT        P0119006   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (40-ZR-96(D,2N)41-NB-96,,SIG)
 ENDBIB               1
@@ -124,7 +125,7 @@ MEV        MB         MB
    14.1      900.       300.
 ENDDATA             14
 ENDSUBENT           20
-SUBENT        P0119007   20000815   20010330
+SUBENT        P0119007   20000815   20010330   20050926       0000
 BIB                  1          1
 REACTION   (32-GE-70(D,A)31-GA-68,,SIG)
 ENDBIB               1
