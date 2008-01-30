@@ -1,17 +1,20 @@
-ENTRY            11177   19800814
-SUBENT        11177001     800814
-BIB                  6          7
+ENTRY            11177   20071108   20080131   20080131       Y001
+SUBENT        11177001   20071108   20080131   20080131       Y001
+BIB                  7         10
 INSTITUTE  (1USABRK)
-REFERENCE  (J,PR,81,919,5103)
+REFERENCE  (J,PR,81,919,195103)
+TITLE      Variation with Energy of Nuclear Collision Cross
+            Sections for High Energy Neutrons
 AUTHOR     (J.DE JUREN,B.J.MOYER)
-DETECTOR   (FISCH) BI FISSION IONIZATION CHAMBER
+DETECTOR   (FISCH) Bi fission ionization chamber
 STATUS     (SCSRS)
-HISTORY    (760924T) TRANSLATED FROM SCISRS
-           (800814A) CONVERTED TO REACTION FORMALISM
-ENDBIB               7
+HISTORY    (19760924T) Translated from SCISRS
+           (19800814A) Converted to REACTION formalism
+           (20071108A) Title added, BIB update.
+ENDBIB              10
 NOCOMMON             0          0
-ENDSUBENT           10
-SUBENT        11177002     800814
+ENDSUBENT           13
+SUBENT        11177002     800814              20050926       0000
 BIB                  1          1
 REACTION   (1-H-1(N,TOT),,SIG)
 ENDBIB               1
@@ -23,7 +26,7 @@ MEV        B          B
  2.20   +02 4.10   -02 4.1    -03
 ENDDATA              4
 ENDSUBENT           10
-SUBENT        11177003     800814
+SUBENT        11177003     800814              20050926       0000
 BIB                  1          1
 REACTION   (6-C-0(N,TOT),,SIG)
 ENDBIB               1
@@ -36,7 +39,7 @@ MEV        B          B
  2.20   +02 2.85   -01 6.     -02
 ENDDATA              5
 ENDSUBENT           11
-SUBENT        11177004     800814
+SUBENT        11177004     800814              20050926       0000
 BIB                  1          1
 REACTION   (13-AL-27(N,TOT),,SIG)
 ENDBIB               1
@@ -50,7 +53,7 @@ MEV        B          B
  2.40   +02 5.76   -01 1.2    -02
 ENDDATA              6
 ENDSUBENT           12
-SUBENT        11177005     800814
+SUBENT        11177005     800814              20050926       0000
 BIB                  1          1
 REACTION   (29-CU-0(N,TOT),,SIG)
 ENDBIB               1
@@ -67,7 +70,7 @@ MEV        B          B
  2.40   +02 1.15   +00 2.     -02
 ENDDATA              9
 ENDSUBENT           15
-SUBENT        11177006     800814
+SUBENT        11177006     800814              20050926       0000
 BIB                  1          1
 REACTION   (50-SN-0(N,TOT),,SIG)
 ENDBIB               1
@@ -78,7 +81,7 @@ MEV        B          B
  1.90   +02 1.90   +00 7.     -02
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        11177007     800814
+SUBENT        11177007     800814              20050926       0000
 BIB                  1          1
 REACTION   (82-PB-0(N,TOT),,SIG)
 ENDBIB               1
@@ -92,7 +95,7 @@ MEV        B          B
  2.40   +02 2.88   +00 5.     -02
 ENDDATA              6
 ENDSUBENT           12
-SUBENT        11177008     800814
+SUBENT        11177008     800814              20050926       0000
 BIB                  1          1
 REACTION   (92-U-0(N,TOT),,SIG)
 ENDBIB               1
