@@ -1,8 +1,8 @@
-ENTRY            C0572   19990916   20000119
-SUBENT        C0572001   19990916   20000119
-BIB                 12         16
+ENTRY            C0572   20081015   20081028   20081023       Y007
+SUBENT        C0572001   20081015   20081028   20081023       Y007
+BIB                 12         18
 INSTITUTE  (1USABRK)
-REFERENCE  (J,PR/B,135,1105,196409)
+REFERENCE  (J,PR,135,B1105,196409)
 AUTHOR     (L.WINSBERG)
 TITLE      Recoil Studies of Nuclear Reactions Induced by High-
             Energy Particles. I. Production of Tb149
@@ -17,10 +17,12 @@ CORRECTION Corrected for counting efficiency and alpha branching
             ratio.
 STATUS     Data taken from Table I of reference.
 HISTORY    (19990916C) VM
-ENDBIB              16
+           (20081013A) NDS: reference on Phys.Rev. corrected.
+                       PR/B,135,1105,1964 ==> PR,135,B1105,1964
+ENDBIB              18
 NOCOMMON             0          0
-ENDSUBENT           19
-SUBENT        C0572002   19990916   20000119
+ENDSUBENT           21
+SUBENT        C0572002   19990916   20000119   20050926       0000
 BIB                  4          4
 REACTION   (73-TA-181(P,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USABRK)
@@ -47,7 +49,7 @@ GEV        MB
  6.2         7.9
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        C0572003   19990916   20000119
+SUBENT        C0572003   19990916   20000119   20050926       0000
 BIB                  4          4
 REACTION   (73-TA-181(P,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USANAL)
@@ -61,7 +63,7 @@ GEV        MB
  0.45        4.1
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0572004   19990916   20000119
+SUBENT        C0572004   19990916   20000119   20050926       0000
 BIB                  4          4
 REACTION   (79-AU-197(P,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USABRK)
@@ -87,7 +89,7 @@ GEV        MB
  6.2         8.7
 ENDDATA             15
 ENDSUBENT           24
-SUBENT        C0572005   19990916   20000119
+SUBENT        C0572005   19990916   20000119   20050926       0000
 BIB                  4          4
 REACTION   (83-BI-209(P,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USABRK)
@@ -111,7 +113,7 @@ GEV        MB
  6.2         8.0
 ENDDATA             13
 ENDSUBENT           22
-SUBENT        C0572006   19990916   20000119
+SUBENT        C0572006   19990916   20000119   20050926       0000
 BIB                  4          6
 REACTION   (73-TA-181(A,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USABRK)
@@ -129,7 +131,7 @@ GEV        MB         MB
  0.88       20.0       14.
 ENDDATA              5
 ENDSUBENT           16
-SUBENT        C0572007   19990916   20000119
+SUBENT        C0572007   19990916   20000119   20050926       0000
 BIB                  4          4
 REACTION   (79-AU-197(A,X)65-TB-149-G,M+,SIG)
 FACILITY   (CYCLO,1USABRK)
