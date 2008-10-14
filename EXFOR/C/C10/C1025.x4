@@ -1,8 +1,8 @@
-ENTRY            C1025   20040419
-SUBENT        C1025001   20040419
-BIB                 11         16
+ENTRY            C1025   20081015   20081028   20081023       Y007
+SUBENT        C1025001   20081015   20081028   20081023       Y007
+BIB                 11         18
 INSTITUTE  (1USABRK)
-REFERENCE  (J,PR/B,134,42,196404)
+REFERENCE  (J,PR,134,B42,196404)
            (R,UCRL-11054,1964)
 AUTHOR     (P.Darriulat,G.Igo,H.G.Pugh,J.M.Meriwether,S.Yamabe)
 TITLE      Scattering of 64.3-MeV Alpha Particles from Nickel-58
@@ -17,14 +17,16 @@ ERR-ANALYS (DATA-ERR) Combined uncertainty on absolute cross
             uncertainty is given in journal article.
 HISTORY    (20040415C) VM
            (20050201A) Reference updated
-ENDBIB              16
+           (20081013A) NDS: reference on Phys.Rev. corrected.
+                       PR/B,134,42,1964 ==> PR,134,B42,1964
+ENDBIB              18
 COMMON               2          3
 EN         EN-ERR
 MEV        MEV
  64.5        1.
 ENDCOMMON            3
-ENDSUBENT           23
-SUBENT        C1025002   20040419   20040513
+ENDSUBENT           25
+SUBENT        C1025002   20040419   20040513   20050926       0000
 BIB                  2          2
 REACTION   (26-FE-58(A,EL)26-FE-58,,DA,,RTH)
 STATUS     (CPX) Taken from ORNL-CPX-1; tabulated data in report.
@@ -221,7 +223,7 @@ ADEG       NO-DIM
  81.12       0.00812
 ENDDATA            184
 ENDSUBENT          195
-SUBENT        C1025003   20040419   20040513
+SUBENT        C1025003   20040419   20040513   20050926       0000
 BIB                  2          2
 REACTION   (26-FE-58(A,INL)26-FE-58,PAR,DA)
 STATUS     (CPX) Taken from ORNL-CPX-1; tabulated data in report.
@@ -417,7 +419,7 @@ ADEG       MB/SR
  81.16      0.0670
 ENDDATA            183
 ENDSUBENT          194
-SUBENT        C1025004   20040419   20040513
+SUBENT        C1025004   20040419   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(A,EL)28-NI-58,,DA,,RTH)
 STATUS     (UNOBT) data given in Fig. 5 in journal reference.
@@ -425,7 +427,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        C1025005   20040419   20040513
+SUBENT        C1025005   20040419   20040513   20050926       0000
 BIB                  2          2
 REACTION   (28-NI-58(A,INL)28-NI-58,PAR,DA)
 STATUS     (CPX) Taken from ORNL-CPX-2; tabulated data in report.
