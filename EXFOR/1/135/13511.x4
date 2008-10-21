@@ -1,6 +1,6 @@
-ENTRY            13511   20000306   20000306
-SUBENT        13511001   19     3   20000306
-BIB                 11         15
+ENTRY            13511   20081022   20081219   20081211       1350
+SUBENT        13511001   20081022   20081219   20081211       1350
+BIB                 11         16
 INSTITUTE  (1USAORL)
 REFERENCE  (C,91JUELIC,41,199105)
 AUTHOR     (C.M.PEREY,F.G.PEREY,J.A.HARVEY,N.W.HILL,N.M.LARSON)
@@ -16,10 +16,11 @@ STATUS     No reply to author proof from D.C. Larson
 HISTORY    (19910830C)
            (20000103A) Reference updated. Updated to new date
              formalism, lower case.
-ENDBIB              15
+           (20081022A) Bookeeping correction
+ENDBIB              16
 NOCOMMON             0          0
-ENDSUBENT           18
-SUBENT        13511002   20000209   20000306
+ENDSUBENT           19
+SUBENT        13511002   20000209   20000306   20050926       0000
 BIB                  7         16
 REACTION   (26-FE-0(N,TOT),,SIG)
             Run ID: 10756TE3
@@ -2056,7 +2057,7 @@ KEV        B          B
  1.1997E+02 1.9420E+00 4.7715E-02
 ENDDATA           2014
 ENDSUBENT         2035
-SUBENT        13511003   20000209   20000306
+SUBENT        13511003   20000209   20000306   20050926       0000
 BIB                  8         14
 REACTION   (26-FE-56(N,TOT),,SIG)
             Run ID 10588TS.
@@ -11028,7 +11029,7 @@ EV         B          B
  8.4993E+02 1.5952E+00 5.6623E-02
 ENDDATA           8951
 ENDSUBENT         8970
-SUBENT        13511004   20000209   20000306
+SUBENT        13511004   20000209   20000306   20050926       0000
 BIB                  9         15
 REACTION   (26-FE-56(N,EL)26-FE-56,,DA)
             Run ID: FE56-DESC
@@ -48414,7 +48415,7 @@ ADEG       EV         B/SR
  160.       3.5015E+04     0.602
 ENDDATA          37364
 ENDSUBENT        37384
-SUBENT        13511005   20000209   20000306
+SUBENT        13511005   20000209   20000306   20050926       0000
 BIB                  6         18
 REACTION  1(26-FE-56(N,0),,EN)
           2(26-FE-56(N,EL),,WID)
@@ -48993,7 +48994,7 @@ NO-DIM     NO-DIM     NO-DIM     NO-DIM
      2.        2.5     1.
 ENDDATA            554
 ENDSUBENT          577
-SUBENT        13511006   20000209   20000306
+SUBENT        13511006   20000209   20000306   20050926       0000
 BIB                  6          7
 REACTION   (28-NI-60(N,TOT),,SIG)
             Run ID: 11690
@@ -53105,7 +53106,7 @@ EV         B          B
  6.0372E+00 1.9805E+00 1.9362E-01
 ENDDATA           4098
 ENDSUBENT         4110
-SUBENT        13511007   20000209   20000306
+SUBENT        13511007   20000209   20000306   20050926       0000
 BIB                  6          7
 REACTION   (28-NI-60(N,TOT),,SIG)
             Run ID: 11690
