@@ -1,10 +1,10 @@
-ENTRY            A1092   20040630
-SUBENT        A1092001   20040630
-BIB                 10         17
+ENTRY            A1092   20081015   20081028   20081023       Y007
+SUBENT        A1092001   20081015   20081028   20081023       Y007
+BIB                 10         19
 TITLE      Protons from the deuteron bombardment of helium-4
 AUTHOR     (G.G.Ohlsen, P.G.Young)
 INSTITUTE  (3AULCBR)
-REFERENCE  (J,PR,B136,1632,196412)
+REFERENCE  (J,PR,136,B1632,196412)
 SAMPLE     He-4 gas target
 METHOD     (PHD)
 FACILITY   (VDGT)
@@ -18,10 +18,12 @@ HISTORY    (19810420C) This compilation has been produced
            Reference corrected too.
            (20040630A) Reference is corrected. Updated too
            (20040630U) Last checking has been done.
-ENDBIB              17
-NOCOMMON
-ENDSUBENT           20
-SUBENT        A1092002   20040630
+           (20081015A) NDS: ref.was corrected.
+                          PR,B136,1632 ==>PR,136,B1632
+ENDBIB              19
+NOCOMMON             0          0
+ENDSUBENT           22
+SUBENT        A1092002   20040630              20050926       0000
 BIB                  3          4
 REACTION   (2-HE-4(D,N+P)2-HE-4,,DA,P)
 ERR-ANALYS (ANG-ERR) Digitizing error
@@ -63,7 +65,7 @@ ADEG       ADEG       MB/SR      MB/SR
       108.1     0.3719      12.81
 ENDDATA             27
 ENDSUBENT           40
-SUBENT        A1092003   20040630
+SUBENT        A1092003   20040630              20050926       0000
 BIB                  3          4
 REACTION   (2-HE-4(D,N+P)2-HE-4,,DA,P)
 ERR-ANALYS (ANG-ERR) Digitizing error
@@ -97,7 +99,7 @@ ADEG       ADEG       MB/SR      MB/SR
       134.4     0.4157       6.63
 ENDDATA             19
 ENDSUBENT           32
-SUBENT        A1092004   20040630
+SUBENT        A1092004   20040630              20050926       0000
 BIB                  3          3
 REACTION   (2-HE-4(D,X)1-H-1,,SIG)
 PART-DET   (P)
@@ -111,7 +113,7 @@ MEV        MB         MB
         11.       460.        50.
 ENDDATA              4
 ENDSUBENT           12
-SUBENT        A1092005   20040630
+SUBENT        A1092005   20040630              20050926       0000
 BIB                  3          3
 REACTION   (2-HE-4(D,P)2-HE-5,,SIG)
 PART-DET   (P)
@@ -129,7 +131,7 @@ MEV        MB
         11.       100.
 ENDDATA              4
 ENDSUBENT           16
-SUBENT        A1092006   20040630
+SUBENT        A1092006   20040630              20050926       0000
 BIB                  2          3
 REACTION   ((2-HE-4(D,N)3-LI-5,,SIG)+
            (2-HE-4(D,N+P)2-HE-4,,SIG))
