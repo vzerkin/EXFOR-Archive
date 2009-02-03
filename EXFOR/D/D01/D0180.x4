@@ -1,10 +1,10 @@
-ENTRY            D0180   20060609              20060811       0000
-SUBENT        D0180001   20060609              20060811       0000
-BIB                  9         14
+ENTRY            D0180   20090204   20090416   20090407       D065
+SUBENT        D0180001   20090204   20090416   20090407       D065
+BIB                  9         15
 TITLE      Effect of the 18O Nuclear Density on the Nuclear
            Potentials of the 18O  + 58, 60Ni Systems
-AUTHOR     (E.S.Rossi,Jr.,D.Pereira,L.C.Chamon,C.P.Silva,
-           M.A.G.Alvarez,L.R.Gasques,J.Lubian,B.V.Carlson,
+AUTHOR     (E.S.Rossi Jr, D.Pereira, L.C.Chamon, C.P.Silva,
+           M.A.G.Alvarez, L.R.Gasques, J.Lubian, B.V.Carlson,
            C.De Conti)
 INSTITUTE  (3BZLUSP,3BZLUFF,3BZLITA)
 REFERENCE  (J,NP/A,707,325,2002)
@@ -15,10 +15,11 @@ DETECTOR   (TELES,SIBAR,PS) nine surface barrier detectors
 STATUS     (TABLE) Data received from Dr. L.C.Chamon
            (APRVD) Entry approved by Dr. L.C.Chamon
 HISTORY    (20060609C) SD
-ENDBIB              14
+           (20090204U) On. AUTHOR corrected
+ENDBIB              15
 NOCOMMON             0          0
-ENDSUBENT           17
-SUBENT        D0180002   20060609              20060811       0000
+ENDSUBENT           18
+SUBENT        D0180002   20060609              20060811       D047
 BIB                  1          1
 REACTION   (28-NI-58(8-O-18,EL)28-NI-58,,DA,,RTH) (on fig. 3)
 ENDBIB               1
@@ -120,7 +121,7 @@ MEV        ADEG       NO-DIM     NO-DIM
   38.0       173.1      0.48625    0.01694
 ENDDATA             94
 ENDSUBENT          100
-SUBENT        D0180003   20060609              20060811       0000
+SUBENT        D0180003   20060609              20060811       D047
 BIB                  1          1
 REACTION   (28-NI-60(8-O-18,EL)28-NI-60,,DA,,RTH) (on fig. 3)
 ENDBIB               1
@@ -233,7 +234,7 @@ MEV        ADEG       NO-DIM     NO-DIM
   38.0       173.       0.39556    0.00784
 ENDDATA            105
 ENDSUBENT          111
-SUBENT        D0180004   20060609              20060811       0000
+SUBENT        D0180004   20060609              20060811       D047
 BIB                  1          1
 REACTION   (28-NI-58(8-O-18,INL)28-NI-58,PAR,DA) (on fig. 4)
 ENDBIB               1
@@ -292,7 +293,7 @@ MEV        ADEG       MB/SR      MB/SR
   38.0       162.5      0.073     0.018
 ENDDATA             47
 ENDSUBENT           57
-SUBENT        D0180005   20060609              20060811       0000
+SUBENT        D0180005   20060609              20060811       D047
 BIB                  1          1
 REACTION   (28-NI-60(8-O-18,INL)28-NI-60,PAR,DA) (on fig. 4)
 ENDBIB               1
@@ -352,7 +353,7 @@ MEV        ADEG       MB/SR      MB/SR
   38.0       173.1      0.26      0.065
 ENDDATA             48
 ENDSUBENT           58
-SUBENT        D0180006   20060609              20060811       0000
+SUBENT        D0180006   20060609              20060811       D047
 BIB                  2          6
 REACTION   (28-NI-58(8-O-18,8-O-17)28-NI-59,PAR,DA) (on fig. 5)
            The data include transitions for the ground-state,
@@ -434,7 +435,7 @@ MEV        ADEG       MB/SR      MB/SR
   38.0       173.1      4.69814    0.36745
 ENDDATA             65
 ENDSUBENT           80
-SUBENT        D0180007   20060609              20060811       0000
+SUBENT        D0180007   20060609              20060811       D047
 BIB                  2          6
 REACTION   (28-NI-58(8-O-18,8-O-16)28-NI-60,PAR,DA) (on fig. 6)
            The data include transitions to the set of states
@@ -483,7 +484,7 @@ MEV        ADEG       MB/SR      MB/SR
   38.0       173.1      1.10236    0.34121
 ENDDATA             32
 ENDSUBENT           47
-SUBENT        D0180008   20060609              20060811       0000
+SUBENT        D0180008   20060609              20060811       D047
 BIB                  2          6
 REACTION   (28-NI-60(8-O-18,8-O-16)28-NI-62,PAR,DA) (on fig. 6)
            The data include transitions to the set of states
