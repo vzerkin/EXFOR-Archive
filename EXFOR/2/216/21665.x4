@@ -1,33 +1,34 @@
-ENTRY            21665   19830324
-SUBENT        21665001     830324
-BIB                  8         23
+ENTRY            21665   20090315   20090508   20090507       2208
+SUBENT        21665001   20090315   20090508   20090507       2208
+BIB                  8         24
 INSTITUTE  (2ZZZGEL)
-REFERENCE  (C,82ANTWER ,,131,8209) FINAL RESULTS PUBLISHED.
-           (C,79GEEL,,,7909) TOPICAL DISCUSSION AT THE NEANDC
-            MEETING AT GEEL.
-           (C,79KNOX,,163,7910)
-           (J,BAP,27,7,867,79) ABSTRACT FOR 79KNOX.
-           (P,NEANDC(E)-212,(3),11,8006)
-           (C,77GEEL,,606,7712)
-           (P,NEANDC(E)-192,(3),,7803)
-AUTHOR     (F.CORVI,A.BRUSEGAN,R.BUYL,G.ROHR,
-            R.SHELLEY,T.VAN DER VEEN)
-TITLE      -NEUTRON CAPTURE CROSS SECTION MEASUREMENTS
-            OF FE-56.-
-FACILITY   (LINAC) LINEAR ELECTRON ACCELERATOR AT GEEL.
+REFERENCE  (C,82ANTWER,,131,198209) Final results published.
+           (C,79GEEL,,197909) Topical discussion at the NEANDC
+            meeting at Geel.
+           (C,79KNOX,163,197910)
+           (J,BAP,27,(7),867,1979) Abstract for 79Knox.
+           (P,NEANDC(E)-212,(3),11,198006)
+           (C,77GEEL,606,197712)
+           (P,NEANDC(E)-192,(3),197803)
+AUTHOR     (F.Corvi,A.Brusegan,R.Buyl,G.Rohr,
+            R.Shelley,T.Van Der Veen)
+TITLE      -Neutron capture cross section measurements
+            of Fe-56.-
+FACILITY   (LINAC) Linear electron accelerator at geel.
 INC-SOURCE (PHOTO)
-STATUS     .DATA TAKEN FROM 79GEEL AND 82ANTWER  REFERENCES.
-HISTORY    (800910C) CN.
-           (801015E)
-           (801127A) G.C., MONITOR REACTION IN SUBWORK 3 COORECTED
-           (801218E)
-           (821222A) A.P.T., FINAL RESULTS PUBLISHED SUPERSEDING
-                     SUBWORK 4. SUBWORKS 5 AND 6 ADDED.
-           (830111E)
-ENDBIB              23
+STATUS     .Data taken from 79geel and 82antwer  references.
+HISTORY    (19800910C) Cn.
+           (19801015E)
+           (19801127A) Monitor reaction in subwork 3 coorected
+           (19801218E)
+           (19821222A) A.P.T., Final results published
+            superseding subwork 4. Subworks 5 and 6 added.
+           (19830111E)
+           (20090315U) Last checking has been done.
+ENDBIB              24
 NOCOMMON             0          0
-ENDSUBENT           26
-SUBENT        21665002     810415
+ENDSUBENT           27
+SUBENT        21665002     810415              20050926       0000
 BIB                  8         14
 REACTION  1(26-FE-56(N,EL),,WID)
           2(26-FE-56(N,G),,WID)
@@ -51,7 +52,7 @@ KEV        MILLI-EV   MILLI-EV   MILLI-EV   MILLI-EV
  1.1500E+00 5.8000E+01 4.0000E+00 6.1000E+02 6.0000E+01
 ENDDATA              3
 ENDSUBENT           22
-SUBENT        21665003     810722
+SUBENT        21665003     810722              20050926       0000
 BIB                 10         19
 REACTION   (26-FE-56(N,EL),,WID)
 SAMPLE     .A 1 MM THICK NATURAL METALLIC IRON SAMPLE.
@@ -84,7 +85,7 @@ KEV        MILLI-EV   MILLI-EV
  1.1500E+00 5.6000E+01 6.0000E+00
 ENDDATA              3
 ENDSUBENT           31
-SUBENT        21665004     821222
+SUBENT        21665004     821222              20050926       0000
 BIB                 11         41
 REACTION  1(26-FE-56(N,G),,ARE,,FCT)
             THE FACTOR IS 1/(2*(PI**2)*(LAMBDA**2)).
@@ -135,7 +136,7 @@ MILLI-EV   MILLI-EV
 ENDCOMMON            3
 NODATA               0          0
 ENDSUBENT           49
-SUBENT        21665005     830111
+SUBENT        21665005     830111              20050926       0000
 BIB                 13         66
 REACTION  1(26-FE-56(N,0),,EN)
           2(26-FE-56(N,G),,ARE,,FCT)
@@ -455,7 +456,7 @@ NO-DIM
  1.0000E+00
 ENDDATA            243
 ENDSUBENT          318
-SUBENT        21665006     830111
+SUBENT        21665006     830111              20050926       0000
 BIB                  5          9
 REACTION   (26-FE-56(N,G),,WID,,AV)
 MISC-COL   (MISC) EFFECTIVE NUMBER OF DEGREES OF FREEDOM.
