@@ -1,6 +1,6 @@
-ENTRY            31515   20021105   20030317
-SUBENT        31515001   20021105   20030317
-BIB                 17         58
+ENTRY            31515   20090605   20090724   20090724       3138
+SUBENT        31515001   20090605   20090724   20090724       3138
+BIB                 17         60
 INSTITUTE  (3ARGCAB)
 REFERENCE  (J,JRN,244,(2),417,200011) Data are given
            (J,RCA,78,11,1997) Some details of method are given
@@ -26,7 +26,7 @@ INC-SPECT  Undisturbed U-235 fission spectrum. Set of 8
            neutrons is undisturbed
 SAMPLE     High purity metallic (Al - 99.9998% purity, Mg, Si -
            spectrographic purity) and pure chemical compounds
-           (SiO2, PO4KH2, PO4K2H) dried and kept in a
+             (SiO2, PO4KH2, PO4K2H) dried and kept in a
            dessicator up to a moment of irradiation
 METHOD     (ACTIV) Activation method with registration of
            secondary gamma-ray spectra.
@@ -59,14 +59,16 @@ STATUS     Data from main reference.
 HISTORY    (20010507C) Compiled by VP
            (20011105U) OS. STATUS and MONIT-REF added, other small
              BIB changes.
-ENDBIB              58
+           (20090604A) SD: shifted opening parenthesis from
+                      column 12  in SAMPLE
+ENDBIB              60
 COMMON               3          3
 EN-DUMMY   MONIT      MONIT-ERR
 MEV        MB         MB
  1.5        111.       3.
 ENDCOMMON            3
-ENDSUBENT           65
-SUBENT        31515002   20010507   20011221
+ENDSUBENT           67
+SUBENT        31515002   20010507   20011221   20050926       0000
 BIB                  4          6
 REACTION   (12-MG-24(N,P)11-NA-24,,SIG,,FIS)
 DECAY-DATA (11-NA-24,14.9590HR,DG,1368.60,1.0)
@@ -82,7 +84,7 @@ MB         MB
  1.441      0.092
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        31515003   20010507   20011221
+SUBENT        31515003   20010507   20011221   20050926       0000
 BIB                  3          6
 REACTION   (12-MG-25(N,P)11-NA-25,,SIG,,FIS)
 DECAY-DATA (11-NA-25,59.1SEC,DG,389.698,0.1265)
@@ -98,7 +100,7 @@ MB         MB
  1.57       0.12
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        31515004   20010507   20011221
+SUBENT        31515004   20010507   20011221   20050926       0000
 BIB                  4          6
 REACTION   (13-AL-27(N,P)12-MG-27,,SIG,,FIS)
 DECAY-DATA (12-MG-27,9.458MIN,DG,843.762,0.731)
@@ -114,7 +116,7 @@ MB         MB
  3.84       0.18
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        31515005   20010507   20011221
+SUBENT        31515005   20010507   20011221   20050926       0000
 BIB                  4          6
 REACTION   (13-AL-27(N,A)11-NA-24,,SIG,,FIS)
 DECAY-DATA (11-NA-24,14.9590HR,DG,1368.60,1.0)
@@ -130,7 +132,7 @@ MB         MB
  0.721      0.028
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        31515006   20010507   20011221
+SUBENT        31515006   20010507   20011221   20050926       0000
 BIB                  4          5
 REACTION   (14-SI-28(N,P)13-AL-28,,SIG,,FIS)
 DECAY-DATA (13-AL-28,2.2414MIN,DG,1778.99,1.0)
