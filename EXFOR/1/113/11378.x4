@@ -1,17 +1,19 @@
-ENTRY            11378   19820324
-SUBENT        11378001     820324
-BIB                  6          7
+ENTRY            11378   20090507   20090724   20090712       1353
+SUBENT        11378001   20090507   20090724   20090712       1353
+BIB                  7          9
 INSTITUTE  (1USALOK)
-REFERENCE  (P,LMSC-4-50-62-1,22,6210)
-AUTHOR     (R.G.JOHNSON,M.WALT)
-METHOD     (TOF) TIME-OF-FLIGHT
+TITLE      No title
+REFERENCE  (P,LMSC-4-50-62-1,22,196210)
+AUTHOR     (R.G.Johnson,M.Walt)
+METHOD     (TOF) Time-of-flight
 STATUS     (SCSRS)
-HISTORY    (760714T) TRANSLATED FROM SCISRS
-           (820324A) CONVERTED TO REACTION FORMALISM
-ENDBIB               7
+HISTORY    (19760714T) Translated from SCISRS
+           (19820324A) Converted to reaction formalism
+           (20090108U) Virtual title added
+ENDBIB               9
 NOCOMMON             0          0
-ENDSUBENT           10
-SUBENT        11378002     820324
+ENDSUBENT           12
+SUBENT        11378002     820324              20050926       0000
 BIB                  1          1
 REACTION   (11-NA-23(N,TOT),,SIG)
 ENDBIB               1
@@ -25,7 +27,7 @@ MEV        MEV        B          B
  1.159  +01 7.0    -01 1.53   +00 5.     -02
 ENDDATA              6
 ENDSUBENT           12
-SUBENT        11378003     820324
+SUBENT        11378003     820324              20050926       0000
 BIB                  1          1
 REACTION   (19-K-0(N,TOT),,SIG)
 ENDBIB               1
@@ -39,7 +41,7 @@ MEV        MEV        B          B
  1.159  +01 7.0    -01 1.92   +00 9.     -02
 ENDDATA              6
 ENDSUBENT           12
-SUBENT        11378004     820324
+SUBENT        11378004     820324              20050926       0000
 BIB                  1          1
 REACTION   (20-CA-0(N,TOT),,SIG)
 ENDBIB               1
