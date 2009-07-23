@@ -1,19 +1,22 @@
-ENTRY            11011   19840711
-SUBENT        11011001     840711
-BIB                  5          9
+ENTRY            11011   20090507   20090724   20090712       1353
+SUBENT        11011001   20090507   20090724   20090712       1353
+BIB                  6         12
 INSTITUTE  (1USADKE)
-REFERENCE  (P,WASH-1034,10,6112)
-           (P,WASH-1033,12,6108)
-AUTHOR     (E.G.BILPUCH,J.A.FARRELL,G.C.KYKER,P.B.PARKS,
-           H.W.NEWSON)
-STATUS     (SCSRS) DATA TAKEN FROM PRIVATE COMM., BILPUCH, 62/11.
-HISTORY    (760628T) TRANSLATED FROM SCISRS
-           (820106A) CONVERTED TO REACTION FORMALISM
-           (840711A) SUBENTRIES 6-8 MOVED TO DATA SET 12684.
-ENDBIB               9
+TITLE      Resonance cross section measurements with
+           continuous beam
+REFERENCE  (P,WASH-1034,10,196112)
+           (P,WASH-1033,12,196108)
+AUTHOR     (E.G.Bilpuch,J.A.Farrell,G.C.Kyker,P.B.Parks,
+           H.W.Newson)
+STATUS     (SCSRS) Data taken from private comm., Bilpuch, 62/11.
+HISTORY    (19760628T) Translated from SCISRS
+           (19820106A) Converted to reaction formalism
+           (19840711A) Subentries 6-8 moved to data set 12684.
+           (20090108U) No title added
+ENDBIB              12
 NOCOMMON             0          0
-ENDSUBENT           12
-SUBENT        11011002     820106
+ENDSUBENT           15
+SUBENT        11011002     820106              20050926       0000
 BIB                  1          1
 REACTION   (3-LI-0(N,TOT),,SIG)
 ENDBIB               1
@@ -694,7 +697,7 @@ MEV        B
  7.04   -01 1.31   +00
 ENDDATA            673
 ENDSUBENT          679
-SUBENT        11011003     820106
+SUBENT        11011003     820106              20050926       0000
 BIB                  2          2
 REACTION   (4-BE-9(N,TOT),,SIG)
 COMMENT    RUNNING AVERAGE.
@@ -1501,7 +1504,7 @@ MEV        B
  8.51   -01 3.47   +00
 ENDDATA            798
 ENDSUBENT          805
-SUBENT        11011004     820106
+SUBENT        11011004     820106              20050926       0000
 BIB                  1          1
 REACTION   (4-BE-9(N,TOT),,SIG)
 ENDBIB               1
@@ -1613,7 +1616,7 @@ MEV        B
  8.25   -01 3.669  +00
 ENDDATA            104
 ENDSUBENT          110
-SUBENT        11011005     820106
+SUBENT        11011005     820106              20050926       0000
 BIB                  2          2
 REACTION   (7-N-0(N,TOT),,SIG)
 SAMPLE     BE(3)N(2),SAMPLE
@@ -2375,10 +2378,10 @@ MEV        B
  8.49   -01 1.50   +00
 ENDDATA            753
 ENDSUBENT          760
-NOSUBENT      11011006     840711
-NOSUBENT      11011007     840711
-NOSUBENT      11011008     840711
-SUBENT        11011009     820106
+NOSUBENT      11011006     840711              20050926       0000
+NOSUBENT      11011007     840711              20050926       0000
+NOSUBENT      11011008     840711              20050926       0000
+SUBENT        11011009     820106              20050926       0000
 BIB                  3          3
 REACTION   (7-N-0(N,TOT),,SIG)
 SAMPLE     BE(3)N(2),SAMPLE
