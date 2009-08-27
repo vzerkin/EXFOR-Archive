@@ -1,18 +1,19 @@
-ENTRY            O1109   20040430
-SUBENT        O1109001   20040430
-BIB                 14         32
+ENTRY            O1109   20090828   20100128   20100120       O040
+SUBENT        O1109001   20090828   20100128   20100120       O040
+BIB                 14         33
 TITLE      Scattering of 20.4-MeV polarized protons from even-mass
            zinc isotopes.
 AUTHOR     (W.H.L.Moonen, J.H.A.M.Krabbenborg, H.P.Offermans,
            J.F.A.G.Ruyl, P.J.Van Hall, S.S.Klein, G.J.Nijgh,
-           C.W.A.M Van Overveld, R.M.A.L.Petit, O.J.Poppema)
+           C.W.A.M.van Overveld, R.M.A.L.Petit, O.J.Poppema)
 INSTITUTE  (2NEDENT)
 REFERENCE  (J,JP/G,19,1191,1993)
 REL-REF    (N,O1103001,W.H.L.MOONEN+,J,JP/G,19,635,1993)
            Polarized-proton scattering by even-mass Ge and Se
            isotopes.  Some details of experimental setup.
 HISTORY    (20040114C)
-           (20040430U) Last checking has been done.
+           (20090828A).Correction in author' list has been done,
+           according V.Zerkin remarks.
 SAMPLE     The targets were self-supporting metallic foils of
            about 1-mg/cm**2.
            They were enriched to over 96% in the relevant isotope,
@@ -33,14 +34,14 @@ CORRECTION The corrections for isotopic impurities were
            some contamination of carbon and oxygen.  Corrections
            were made using data obtained by scattering from mylar
            and polyethylene foils.
-ENDBIB              32
+ENDBIB              33
 COMMON               1          3
 EN
 MEV
        20.4
 ENDCOMMON            3
-ENDSUBENT           39
-SUBENT        O1109002   20040430
+ENDSUBENT           40
+SUBENT        O1109002   20040430              20050926       0000
 BIB                  2          2
 REACTION   (30-ZN-64(P,EL)30-ZN-64,,DA,,RTH)  Figure 2
 ERR-ANALYS (ERR-DIG).Data-point reader uncertainty.
@@ -85,7 +86,7 @@ ADEG       NO-DIM
       166.8      0.609
 ENDDATA             32
 ENDSUBENT           43
-SUBENT        O1109003   20040430
+SUBENT        O1109003   20040430              20050926       0000
 BIB                  2          3
 REACTION   (30-ZN-64(P,EL)30-ZN-64,,POL/DA,,ANA) Figure 2.
 ERR-ANALYS (DATA-ERR).The errors is shown by authors on figure.
@@ -130,7 +131,7 @@ ADEG       NO-DIM     NO-DIM
       166.8      0.863     7.E-03
 ENDDATA             31
 ENDSUBENT           43
-SUBENT        O1109004   20040430
+SUBENT        O1109004   20040430              20050926       0000
 BIB                  2          2
 REACTION   (30-ZN-66(P,EL)30-ZN-66,,DA,,RTH)  Figure 2
 ERR-ANALYS (ERR-DIG).Data-point reader uncertainty.
@@ -175,7 +176,7 @@ ADEG       NO-DIM
       169.1      0.635
 ENDDATA             32
 ENDSUBENT           43
-SUBENT        O1109005   20040430
+SUBENT        O1109005   20040430              20050926       0000
 BIB                  2          2
 REACTION   (30-ZN-66(P,EL)30-ZN-66,,POL/DA,,ANA)  Figure 2.
 ERR-ANALYS (ERR-DIG).Data-point reader uncertainty.
@@ -221,7 +222,7 @@ ADEG       NO-DIM
       167.3      0.905
 ENDDATA             33
 ENDSUBENT           44
-SUBENT        O1109006   20040430
+SUBENT        O1109006   20040430              20050926       0000
 BIB                  2          2
 REACTION   (30-ZN-68(P,EL)30-ZN-68,,DA,,RTH)   Figure 2
 ERR-ANALYS (ERR-DIG).Data-point reader uncertainty.
@@ -267,7 +268,7 @@ ADEG       NO-DIM
       169.6      0.619
 ENDDATA             33
 ENDSUBENT           44
-SUBENT        O1109007   20040430
+SUBENT        O1109007   20040430              20050926       0000
 BIB                  2          3
 REACTION   (30-ZN-68(P,EL)30-ZN-68,,POL/DA,,ANA)  Figure 2.
 ERR-ANALYS (DATA-ERR).The errors is shown by authors on figure
@@ -312,7 +313,7 @@ ADEG       NO-DIM     NO-DIM
       163.1      0.715
 ENDDATA             31
 ENDSUBENT           43
-SUBENT        O1109008   20040430
+SUBENT        O1109008   20040430              20050926       0000
 BIB                  2          2
 REACTION   (30-ZN-70(P,EL)30-ZN-70,,DA,,RTH)    Figure 2.
 ERR-ANALYS (ERR-DIG).Data-point reader uncertainty.
@@ -357,7 +358,7 @@ ADEG       NO-DIM
       173.9      0.584
 ENDDATA             32
 ENDSUBENT           43
-SUBENT        O1109009   20040430
+SUBENT        O1109009   20040430              20050926       0000
 BIB                  2          3
 REACTION   (30-ZN-70(P,EL)30-ZN-70,,POL/DA,,ANA)   Figure 2
 ERR-ANALYS (DATA-ERR).The errors is shown by authors on figure.
@@ -402,7 +403,7 @@ ADEG       NO-DIM     NO-DIM
       167.5      0.973     2.E-02
 ENDDATA             31
 ENDSUBENT           43
-SUBENT        O1109010   20040430
+SUBENT        O1109010   20040430              20050926       0000
 BIB                  4         10
 REACTION   (30-ZN-64(P,INL)30-ZN-64,PAR,DA)    Figures 3-7
 EN-SEC     (E-LVL,30-ZN-64)
@@ -555,7 +556,7 @@ MEV        ADEG       MB/SR      PER-CENT
       2.999      166.9      0.216
 ENDDATA            132
 ENDSUBENT          151
-SUBENT        O1109011   20040430
+SUBENT        O1109011   20040430              20050926       0000
 BIB                  4         10
 REACTION   (30-ZN-64(P,INL)30-ZN-64,PAR,POL/DA,,ANA)  Figure 3-7
 EN-SEC     (E-LVL,30-ZN-64)
@@ -708,7 +709,7 @@ MEV        ADEG       NO-DIM     NO-DIM
       2.999       166.       0.59       0.04
 ENDDATA            132
 ENDSUBENT          151
-SUBENT        O1109012   20040430
+SUBENT        O1109012   20040430              20050926       0000
 BIB                  4          8
 REACTION   (30-ZN-66(P,INL)30-ZN-66,PAR,DA)
 EN-SEC     (E-LVL,30-ZN-66)
@@ -813,7 +814,7 @@ MEV        ADEG       MB/SR      PER-CENT
       2.827      167.6      0.297
 ENDDATA             86
 ENDSUBENT          103
-SUBENT        O1109013   20040430
+SUBENT        O1109013   20040430              20050926       0000
 BIB                  4          8
 REACTION   (30-ZN-66(P,INL)30-ZN-66,PAR,POL/DA,,ANA)
 EN-SEC     (E-LVL,30-ZN-66)
@@ -922,7 +923,7 @@ MEV        ADEG       NO-DIM     NO-DIM
       2.827       168.       0.66       0.02
 ENDDATA             90
 ENDSUBENT          107
-SUBENT        O1109014   20040430
+SUBENT        O1109014   20040430              20050926       0000
 BIB                  4         10
 REACTION   (30-ZN-68(P,INL)30-ZN-68,PAR,DA)
 EN-SEC     (E-LVL,30-ZN-68)
@@ -1094,7 +1095,7 @@ MEV        ADEG       MB/SR      PER-CENT
        2.75      168.3      0.257
 ENDDATA            151
 ENDSUBENT          170
-SUBENT        O1109015   20040430
+SUBENT        O1109015   20040430              20050926       0000
 BIB                  4         10
 REACTION   (30-ZN-68(P,INL)30-ZN-68,PAR,POL/DA,,ANA)
 EN-SEC     (E-LVL,30-ZN-68)
@@ -1269,7 +1270,7 @@ MEV        ADEG       NO-DIM     NO-DIM
        2.75      166.5       0.73       0.04
 ENDDATA            154
 ENDSUBENT          173
-SUBENT        O1109016   20040430
+SUBENT        O1109016   20040430              20050926       0000
 BIB                  4          5
 REACTION   (30-ZN-70(P,INL)30-ZN-70,PAR,DA)
 EN-SEC     (E-LVL,30-ZN-70)
@@ -1340,7 +1341,7 @@ MEV        ADEG       MB/SR
       2.859      169.7     0.1537
 ENDDATA             55
 ENDSUBENT           69
-SUBENT        O1109017   20040430
+SUBENT        O1109017   20040430              20050926       0000
 BIB                  4          7
 REACTION   (30-ZN-70(P,INL)30-ZN-70,PAR,POL/DA,,ANA)
 EN-SEC     (E-LVL,30-ZN-70)
