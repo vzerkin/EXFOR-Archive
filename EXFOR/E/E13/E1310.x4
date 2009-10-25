@@ -1,31 +1,35 @@
-ENTRY            E1310   19941004
-SUBENT        E1310001     941004
-BIB                 10         21
-TITLE       NEW HIGH-SPIN STRETCHED STATES IN 208PB OBSERVED BY
-            THE (P,P) REACTION
-AUTHOR     (Y.FUJITA,T.YANAGIHARA,M.FUJIWARA,I,KATAYAMA,K.HOSONO,
-           S.MORINOBU,T.YAMAZAKI,T.YAMAZAKI,S.I.HAYAKAWA,K.KATORI,
-           K.MUTO,H.IKEGAMI)
-INSTITUTE  (2JPNOSA)
-           (2JPNHIR)
-           (2JPNJPN)
-           (2JPNTIT)
-REFERENCE  (J,PL/B,247,219,90)
-FACILITY   (CYCLO,2JPNOSA)
-DETECTOR   (MAGSP)
-            OVERALL-ENERGY-RESOLUTION IS BETWEEN 18. AND 23.KEV
-SAMPLE      TARGET IS ENRICHED 99.9PER-CENT
-            CHEMICAL-FORM OF TARGET IS ELEMENT
-            PHYSICAL-FORM OF TARGET IS SLD
-            TARGET-THICKNESS=1.0MG/CM**2
-            TARGET-BACKING IS SELF
+ENTRY            E1310   20091026   20091029   20091028       E059
+SUBENT        E1310001   20091026   20091029   20091028       E059
+BIB                 10         25
+TITLE      New high-spin stretched states in 208Pb observed by
+           the (p,p') reaction
+AUTHOR     (Y.Fujita, T.Yanagihara, M.Fujiwara, I.Katayama,
+           K.Hosono, S.Morinobu, T.Yamazaki, S.I.Hayakawa,
+           K.Katori, K.Muto, H.Ikegami)
+INSTITUTE  (2JPNOSA) College of General Education
+           (2JPNHIR) Faculty of Science
+           (2JPNOSA) Research Center for Nuclear Physics
+           (2JPNAIT)
+           (2JPNOSA) Laboratory of Nuclear Studies, Faculty of
+                     Science
+           (2JPNTIT) Department of Physics
+REFERENCE  (J,PL/B,247,(2-3),219,199009)
 PART-DET   (P)
-STATUS      DATA CONVERTED FROM NRDF
-HISTORY    (941004T) CONVERTED FROM NRDF DATA NO. D1310
-ENDBIB              21
-NOCOMMON
-ENDSUBENT           24
-SUBENT        E1310002     941004
+SAMPLE     - Target enrichment is 99.9%.
+           - Chemical-form of target is element.
+           - Physical-form of target is solid.
+           - Target-thickness is 1.0 mg/cm**2.
+           - Target is self-supported.
+FACILITY   (CYCLO,2JPNOSA) Research Center for Nuclear Physics
+DETECTOR   (MAGSP)
+           Overall-energy-resolution is 18 to 23 keV.
+STATUS     Data converted from NRDF
+HISTORY    (19941004T) Converted from NRDF D1310
+           (20090826U) Nf. BIB updated (formal corrections)
+ENDBIB              25
+NOCOMMON             0          0
+ENDSUBENT           28
+SUBENT        E1310002     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=4.893MEV,SPIN=10.0,PARITY=+1.)
@@ -49,7 +53,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.053E+01  3.863E+00  6.530E-01
 ENDDATA             11
 ENDSUBENT           22
-SUBENT        E1310003     941004
+SUBENT        E1310003     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=5.074MEV,SPIN=10.0,PARITY=+1.)
@@ -75,7 +79,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.534E+01  2.934E+00  4.087E-01
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        E1310004     941004
+SUBENT        E1310004     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=6.100MEV,SPIN=12.0,PARITY=+1.)
@@ -100,7 +104,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.597E+01  1.565E+00  4.382E-01
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        E1310005     941004
+SUBENT        E1310005     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=6.44MEV,SPIN=12.0,PARITY=-1.)
@@ -125,7 +129,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.619E+01  1.478E+00  5.205E-01
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        E1310006     941004
+SUBENT        E1310006     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=6.736MEV,SPIN=14.0,PARITY=-1.)
@@ -148,7 +152,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.567E+01  2.544E+00  5.333E-01
 ENDDATA             10
 ENDSUBENT           21
-SUBENT        E1310007     941004
+SUBENT        E1310007     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=7.057MEV,SPIN=12.0,PARITY=-1.)
@@ -174,7 +178,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.528E+01  2.116E+00  4.671E-01
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        E1310008     941004
+SUBENT        E1310008     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=7.46MEV,SPIN=11.0,PARITY=+1.)
@@ -198,7 +202,7 @@ ADEG       MU-B/SR    MU-B/SR
   7.963E+01  1.597E+00  2.933E-01
 ENDDATA             11
 ENDSUBENT           22
-SUBENT        E1310009     941004
+SUBENT        E1310009     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=7.656MEV,SPIN=10.0,PARITY=+1.)
@@ -223,7 +227,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.776E+01  9.168E-01  2.211E-01
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        E1310010     941004
+SUBENT        E1310010     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=7.825MEV,SPIN=10.0,PARITY=-1.)
@@ -247,7 +251,7 @@ ADEG       MU-B/SR    MU-B/SR
   8.891E+01  7.368E-01  2.060E-01
 ENDDATA             11
 ENDSUBENT           22
-SUBENT        E1310011     941004
+SUBENT        E1310011     941004              20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,INL)82-PB-208,PAR,DA)
 LEVEL-PROP (82-PB-208,E-LVL=8.369MEV,SPIN=12.0,PARITY=+1.)
