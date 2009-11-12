@@ -1,8 +1,9 @@
-ENTRY            10827   20030602   20031024
-SUBENT        10827001   20030602   20031024
-BIB                 13         42
+ENTRY            10827   20091113   20100128   20100119       1358
+SUBENT        10827001   20091113   20100128   20100119       1358
+BIB                 13         46
 INSTITUTE  (1USALRL)
 REFERENCE  (J,PR/C,19,2127,197906)
+           #doi:10.1134/S1063778808080024
            (C,80BNL,1,245,198007) Updated values.
 AUTHOR     (S.M.Grimes,R.C.Haight,K.R.Alvar,H.H.Barschall,
            R.R.Borchers)
@@ -34,7 +35,8 @@ ERR-ANALYS (DATA-ERR) Uncertainty given includes uncertainty in:
            . target foil thickness errors (2.5%),
            . effect of statistics and the Legendre polynomial fit
              (7% for protons, alphas to 15% for deuterons).
-STATUS     (APRVD) Approved by S.M.Grimes, 1986/11/21.
+STATUS     (APRVD) Approved by S.M.Grimes, 1986/11/21,
+             (subentries 2-103).
             Partial cross sections taken from private comm.,
             Grimes, 1979/5.
 HISTORY    (19790605C)
@@ -43,14 +45,16 @@ HISTORY    (19790605C)
            (19860422A) BIB updates.
            (19860709A) BIB updated, SUBENTS 71-103 added.
            (20030602A) Converted to new date formats.
-ENDBIB              42
+           (20091012A) Added subents 104-128, digitized from
+                       reference PR/C
+ENDBIB              46
 COMMON               1          3
 EN
 MEV
  14.8
 ENDCOMMON            3
-ENDSUBENT           49
-SUBENT        10827002   20030602   20031024
+ENDSUBENT           53
+SUBENT        10827002   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-50(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -92,7 +96,7 @@ MEV        MEV        MB         MB
  14.5       15.0         0.4
 ENDDATA             30
 ENDSUBENT           40
-SUBENT        10827003   20030602   20031024
+SUBENT        10827003   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (24-CR-50(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -109,7 +113,7 @@ MB         MB
  830.       100.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827004   20030602   20031024
+SUBENT        10827004   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (24-CR-50(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -149,7 +153,7 @@ MEV        MEV        MB         MB
  15.0       15.5        0.2       0.15
 ENDDATA             25
 ENDSUBENT           38
-SUBENT        10827005   20030602   20031024
+SUBENT        10827005   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (24-CR-50(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -168,7 +172,7 @@ MB         MB
  94.        15.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827006   20030602   20031024
+SUBENT        10827006   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-50(N,D)23-V-49,PAR,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -193,7 +197,7 @@ MEV        MEV        MB         MB
  7.0        7.5        2.5        0.6
 ENDDATA             13
 ENDSUBENT           23
-SUBENT        10827007   20030602   20031024
+SUBENT        10827007   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (24-CR-50(N,D)23-V-49,,SIG)
 SAMPLE     Sample is 3.5 milli-gms/sq-cm thick, enriched to
@@ -210,7 +214,7 @@ MB         MB
  12.        4.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827008   20030602   20031024
+SUBENT        10827008   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-52(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -246,7 +250,7 @@ MEV        MEV        MB         MB
  11.5       12.0        0.6       0.25
 ENDDATA             24
 ENDSUBENT           34
-SUBENT        10827009   20030602   20031024
+SUBENT        10827009   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (24-CR-52(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -262,7 +266,7 @@ MB         MB
  180.       25.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827010   20030602   20031024
+SUBENT        10827010   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (24-CR-52(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -299,7 +303,7 @@ MEV        MEV        MB         MB
  13.5       14.0       0.2        0.15
 ENDDATA             22
 ENDSUBENT           35
-SUBENT        10827011   20030602   20031024
+SUBENT        10827011   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (24-CR-52(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -318,7 +322,7 @@ MB         MB
  36.        6.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827012   20030602   20031024
+SUBENT        10827012   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-52(N,D)23-V-51,PAR,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -343,7 +347,7 @@ MEV        MEV        MB         MB
  6.5        7.0        1.4        0.45
 ENDDATA             13
 ENDSUBENT           23
-SUBENT        10827013   20030602   20031024
+SUBENT        10827013   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (24-CR-52(N,D)23-V-51,,SIG)
 SAMPLE     Sample is 2.1 milli-gms/sq-cm thick, enriched to
@@ -360,7 +364,7 @@ MB         MB
  8.         3.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827014   20030602   20031024
+SUBENT        10827014   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-0(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -396,7 +400,7 @@ MEV        MEV        MB         MB
  11.5       12.0        1.2       0.5
 ENDDATA             24
 ENDSUBENT           34
-SUBENT        10827015   20030602   20031024
+SUBENT        10827015   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (24-CR-0(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -413,7 +417,7 @@ MB         MB
  180.       25.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827016   20030602   20031024
+SUBENT        10827016   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (24-CR-0(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -449,7 +453,7 @@ MEV        MEV        MB         MB
  13.0       13.5       1.2        0.3
 ENDDATA             21
 ENDSUBENT           34
-SUBENT        10827017   20030602   20031024
+SUBENT        10827017   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (24-CR-0(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -468,7 +472,7 @@ MB         MB
  38.        6.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827018   20030602   20031024
+SUBENT        10827018   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (24-CR-0(N,D),PAR,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -495,7 +499,7 @@ MEV        MEV        MB         MB
  7.5        8.0        0.22       0.15
 ENDDATA             15
 ENDSUBENT           25
-SUBENT        10827019   20030602   20031024
+SUBENT        10827019   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (24-CR-0(N,D),,SIG)
 SAMPLE     Sample is 2.3 milli-gms/sq-cm thick, 4.3% 50Cr,
@@ -512,7 +516,7 @@ MB         MB
  10.        3.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827020   20030602   20031024
+SUBENT        10827020   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-54(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -552,7 +556,7 @@ MEV        MEV        MB         MB
  13.5       14.0         0.7       0.3
 ENDDATA             28
 ENDSUBENT           38
-SUBENT        10827021   20030602   20031024
+SUBENT        10827021   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-54(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -569,7 +573,7 @@ MB         MB
  900.       110.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827022   20030602   20031024
+SUBENT        10827022   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (26-FE-54(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -605,7 +609,7 @@ MEV        MEV        MB         MB
  13.5       14.0       0.6        0.25
 ENDDATA             21
 ENDSUBENT           34
-SUBENT        10827023   20030602   20031024
+SUBENT        10827023   20030602   20031024   20050926       0000
 BIB                  6         10
 REACTION   (26-FE-54(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -625,7 +629,7 @@ MB         MB
  79.        13.
 ENDDATA              3
 ENDSUBENT           18
-SUBENT        10827024   20030602   20031024
+SUBENT        10827024   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-54(N,D)25-MN-53,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -653,7 +657,7 @@ MEV        MEV        MB         MB
  8.0        8.5        0.3        0.1
 ENDDATA             16
 ENDSUBENT           26
-SUBENT        10827025   20030602   20031024
+SUBENT        10827025   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-54(N,D)25-MN-53,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -670,7 +674,7 @@ MB         MB
  10.        4.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827026   20030602   20031024
+SUBENT        10827026   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-56(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -708,7 +712,7 @@ MEV        MEV        MB         MB
  12.5       13.0        0.4       0.15
 ENDDATA             26
 ENDSUBENT           36
-SUBENT        10827027   20030602   20031024
+SUBENT        10827027   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-56(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -725,7 +729,7 @@ MB         MB
  190.       22.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827028   20030602   20031024
+SUBENT        10827028   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (26-FE-56(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -762,7 +766,7 @@ MEV        MEV        MB         MB
  14.0       14.5       0.3        0.2
 ENDDATA             22
 ENDSUBENT           35
-SUBENT        10827029   20030602   20031024
+SUBENT        10827029   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (26-FE-56(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -781,7 +785,7 @@ MB         MB
  41.        7.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827030   20030602   20031024
+SUBENT        10827030   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-56(N,D)25-MN-55,PAR,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -807,7 +811,7 @@ MEV        MEV        MB         MB
  7.5        8.0        0.3
 ENDDATA             14
 ENDSUBENT           24
-SUBENT        10827031   20030602   20031024
+SUBENT        10827031   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-56(N,D)25-MN-55,,SIG)
 SAMPLE     Sample is 5.0 milli-gms/sq-cm thick, enriched to
@@ -824,7 +828,7 @@ MB         MB
  8.         3.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827032   20030602   20031024
+SUBENT        10827032   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-0(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -862,7 +866,7 @@ MEV        MEV        MB         MB
  12.5       13.0       0.3        0.2
 ENDDATA             26
 ENDSUBENT           36
-SUBENT        10827033   20030602   20031024
+SUBENT        10827033   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-0(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -879,7 +883,7 @@ MB         MB
  230.       30.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827034   20030602   20031024
+SUBENT        10827034   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (26-FE-0(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -916,7 +920,7 @@ MEV        MEV        MB         MB
  13.5       14.0       0.4        0.2
 ENDDATA             22
 ENDSUBENT           35
-SUBENT        10827035   20030602   20031024
+SUBENT        10827035   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (26-FE-0(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -935,7 +939,7 @@ MB         MB
  43.        7.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827036   20030602   20031024
+SUBENT        10827036   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (26-FE-0(N,D),PAR,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -960,7 +964,7 @@ MEV        MEV        MB         MB
  7.0        7.5        0.3        0.2
 ENDDATA             13
 ENDSUBENT           23
-SUBENT        10827037   20030602   20031024
+SUBENT        10827037   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (26-FE-0(N,D),PAR,SIG)
 SAMPLE     Sample is 2.9 milli-gms/sq-cm, 5.8% 54Fe, 91.7% 56Fe,
@@ -977,7 +981,7 @@ MEV        MEV        MB         MB
  2.0        7.5        8.         3.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827038   20030602   20031024
+SUBENT        10827038   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1018,7 +1022,7 @@ MEV        MEV        MB         MB
  14.0       14.5        1.0        0.7
 ENDDATA             29
 ENDSUBENT           39
-SUBENT        10827039   20030602   20031024
+SUBENT        10827039   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (28-NI-58(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1035,7 +1039,7 @@ MB         MB
  1000.      120.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827040   20030602   20031024
+SUBENT        10827040   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (28-NI-58(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1077,7 +1081,7 @@ MEV        MEV        MB         MB
  16.5       17.0        0.35      0.2
 ENDDATA             27
 ENDSUBENT           40
-SUBENT        10827041   20030602   20031024
+SUBENT        10827041   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (28-NI-58(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1096,7 +1100,7 @@ MB         MB
  106.       17.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827042   20030602   20031024
+SUBENT        10827042   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(N,D)27-CO-57,PAR,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1126,7 +1130,7 @@ MEV        MEV        MB         MB
  9.0        9.5        0.9        0.5
 ENDDATA             18
 ENDSUBENT           28
-SUBENT        10827043   20030602   20031024
+SUBENT        10827043   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (28-NI-58(N,D)27-CO-57,,SIG)
 SAMPLE     Sample is 4.8 milli-gms/sq-cm thick, enriched to
@@ -1142,7 +1146,7 @@ MB         MB
  14.        6.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827044   20030602   20031024
+SUBENT        10827044   20030602   20031024   20050926       0000
 BIB                  3          4
 REACTION   (28-NI-60(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1179,7 +1183,7 @@ MEV        MEV        MB         MB
  12.5       13.0        0.9       0.4
 ENDDATA             26
 ENDSUBENT           35
-SUBENT        10827045   20030602   20031024
+SUBENT        10827045   20030602   20031024   20050926       0000
 BIB                  5          6
 REACTION   (28-NI-60(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1195,7 +1199,7 @@ MB         MB
  325.       40.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827046   20030602   20031024
+SUBENT        10827046   20030602   20031024   20050926       0000
 BIB                  4          7
 REACTION   (28-NI-60(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1232,7 +1236,7 @@ MEV        MEV        MB         MB
  14.5       15.0       0.4        0.25
 ENDDATA             23
 ENDSUBENT           35
-SUBENT        10827047   20030602   20031024
+SUBENT        10827047   20030602   20031024   20050926       0000
 BIB                  5          8
 REACTION   (28-NI-60(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1250,7 +1254,7 @@ MB         MB
  76.        12.
 ENDDATA              3
 ENDSUBENT           16
-SUBENT        10827048   20030602   20031024
+SUBENT        10827048   20030602   20031024   20050926       0000
 BIB                  3          4
 REACTION   (28-NI-60(N,D)27-CO-59,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1276,7 +1280,7 @@ MEV        MEV        MB         MB
  8.0        8.5        0.2        0.1
 ENDDATA             15
 ENDSUBENT           24
-SUBENT        10827049   20030602   20031024
+SUBENT        10827049   20030602   20031024   20050926       0000
 BIB                  4          5
 REACTION   (28-NI-60(N,D)27-CO-59,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm, enriched to 99.8% 60Ni.
@@ -1291,7 +1295,7 @@ MB         MB
  11.        4.
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        10827050   20030602   20031024
+SUBENT        10827050   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (28-NI-0(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1333,7 +1337,7 @@ MEV        MEV        MB         MB
  14.0       14.5        0.2        0.15
 ENDDATA             29
 ENDSUBENT           40
-SUBENT        10827051   20030602   20031024
+SUBENT        10827051   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (28-NI-0(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1350,7 +1354,7 @@ MB         MB
  790.       100.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827052   20030602   20031024
+SUBENT        10827052   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (28-NI-0(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1388,7 +1392,7 @@ MEV        MEV        MB         MB
  14.5       15.0        0.4       0.25
 ENDDATA             23
 ENDSUBENT           36
-SUBENT        10827053   20030602   20031024
+SUBENT        10827053   20030602   20031024   20050926       0000
 BIB                  6         10
 REACTION   (28-NI-0(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1408,7 +1412,7 @@ MB         MB
  97.        16.
 ENDDATA              3
 ENDSUBENT           18
-SUBENT        10827054   20030602   20031024
+SUBENT        10827054   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (28-NI-0(N,D),PAR,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1437,7 +1441,7 @@ MEV        MEV        MB         MB
  8.5        9.0        0.4        0.2
 ENDDATA             17
 ENDSUBENT           27
-SUBENT        10827055   20030602   20031024
+SUBENT        10827055   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (28-NI-0(N,D),,SIG)
 SAMPLE     Sample is 5.7 milli-gms/sq-cm, 67.8% 58Ni, 26.2% 60Ni,
@@ -1454,7 +1458,7 @@ MB         MB
  13.        5.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827056   20030602   20031024
+SUBENT        10827056   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (29-CU-63(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1493,7 +1497,7 @@ MEV        MEV        MB         MB
  13.0       13.5        0.9       0.3
 ENDDATA             27
 ENDSUBENT           37
-SUBENT        10827057   20030602   20031024
+SUBENT        10827057   20030602   20031024   20050926       0000
 BIB                  5          7
 REACTION   (29-CU-63(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1510,7 +1514,7 @@ MB         MB
  320.       45.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        10827058   20030602   20031024
+SUBENT        10827058   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (29-CU-63(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1552,7 +1556,7 @@ MEV        MEV        MB         MB
  16.0       16.5       0.2        0.15
 ENDDATA             27
 ENDSUBENT           40
-SUBENT        10827059   20030602   20031024
+SUBENT        10827059   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (29-CU-63(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1571,7 +1575,7 @@ MB         MB
  56.        10.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827060   20030602   20031024
+SUBENT        10827060   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (29-CU-63(N,D)28-NI-62,PAR,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1602,7 +1606,7 @@ MEV        MEV        MB         MB
  10.0       10.5       0.15       0.10
 ENDDATA             19
 ENDSUBENT           29
-SUBENT        10827061   20030602   20031024
+SUBENT        10827061   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-63(N,D)28-NI-62,,SIG)
 SAMPLE     Sample is 3.9 milli-gms/sq-cm thick, enriched to 99.9%
@@ -1618,7 +1622,7 @@ MB         MB
  9.         4.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827062   20030602   20031024
+SUBENT        10827062   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (29-CU-65(N,X)1-H-1,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1656,7 +1660,7 @@ MEV        MEV        MB         MB
  13.0       13.5       0.4        0.2
 ENDDATA             26
 ENDSUBENT           36
-SUBENT        10827063   20030602   20031024
+SUBENT        10827063   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-65(N,X)1-H-1,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1672,7 +1676,7 @@ MB         MB
  44.        5.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827064   20030602   20031024
+SUBENT        10827064   20030602   20031024   20050926       0000
 BIB                  4          8
 REACTION   (29-CU-65(N,X)2-HE-4,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1710,7 +1714,7 @@ MEV        MEV        MB         MB
  14.5       15.0       0.35       0.15
 ENDDATA             23
 ENDSUBENT           36
-SUBENT        10827065   20030602   20031024
+SUBENT        10827065   20030602   20031024   20050926       0000
 BIB                  5          9
 REACTION   (29-CU-65(N,X)2-HE-4,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1729,7 +1733,7 @@ MB         MB
  13.        3.
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10827066   20030602   20031024
+SUBENT        10827066   20030602   20031024   20050926       0000
 BIB                  3          5
 REACTION   (29-CU-65(N,D)28-NI-64,PAR,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1760,7 +1764,7 @@ MEV        MEV        MB         MB
  10.0       10.5       0.2         0.1
 ENDDATA             19
 ENDSUBENT           29
-SUBENT        10827067   20030602   20031024
+SUBENT        10827067   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-65(N,D)28-NI-64,,SIG)
 SAMPLE     Sample is 4.0 milli-gms/sq-cm thick, enriched to 99.7%
@@ -1776,7 +1780,7 @@ MB         MB
  10.        4.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827068   20030602   20031024
+SUBENT        10827068   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-0(N,X)1-H-1,,SIG,,,DERIV)
 ANALYSIS   Inferred from isotopic data.
@@ -1792,7 +1796,7 @@ MB         MB
  237.       28.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827069   20030602   20031024
+SUBENT        10827069   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-0(N,D),,SIG,,,DERIV)
 ANALYSIS   Inferred from isotopic data.
@@ -1808,7 +1812,7 @@ MB         MB
  10.        4.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827070   20030602   20031024
+SUBENT        10827070   20030602   20031024   20050926       0000
 BIB                  4          6
 REACTION   (29-CU-0(N,X)2-HE-4,,SIG,,,DERIV)
 ANALYSIS   Inferred from isotopic data.
@@ -1824,7 +1828,7 @@ MB         MB
  42.        7.
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        10827071   20030602   20031024
+SUBENT        10827071   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-50(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -1946,7 +1950,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.5       15.0       135.        .01        .03
 ENDDATA            112
 ENDSUBENT          120
-SUBENT        10827072   20030602   20031024
+SUBENT        10827072   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-50(N,D)23-V-49,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2001,7 +2005,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  7.0        7.5       135.        .10        .03
 ENDDATA             45
 ENDSUBENT           53
-SUBENT        10827073   20030602   20031024
+SUBENT        10827073   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-50(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2102,7 +2106,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 15.0       15.5       135.        .01        .01
 ENDDATA             91
 ENDSUBENT           99
-SUBENT        10827074   20030602   20031024
+SUBENT        10827074   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-52(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2200,7 +2204,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 11.5       12.0        90.        .03        .03
 ENDDATA             88
 ENDSUBENT           96
-SUBENT        10827075   20030602   20031024
+SUBENT        10827075   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-52(N,D)23-V-51,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2254,7 +2258,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  6.5        7.0       135.        .005       .005
 ENDDATA             44
 ENDSUBENT           52
-SUBENT        10827076   20030602   20031024
+SUBENT        10827076   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-52(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2346,7 +2350,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.5       14.0       135.        .004       .005
 ENDDATA             82
 ENDSUBENT           90
-SUBENT        10827077   20030602   20031024
+SUBENT        10827077   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-0(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2446,7 +2450,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 11.5       12.0       135.        .02        .01
 ENDDATA             90
 ENDSUBENT           98
-SUBENT        10827078   20030602   20031024
+SUBENT        10827078   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-0(N,D),PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2507,7 +2511,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  7.5        8.0        90.        .001       .001
 ENDDATA             51
 ENDSUBENT           59
-SUBENT        10827079   20030602   20031024
+SUBENT        10827079   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (24-CR-0(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2591,7 +2595,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.0       13.5       135.        .03        .015
 ENDDATA             74
 ENDSUBENT           82
-SUBENT        10827080   20030602   20031024
+SUBENT        10827080   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-54(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2702,7 +2706,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.5       14.0       135.        .01        .01
 ENDDATA            101
 ENDSUBENT          109
-SUBENT        10827081   20030602   20031024
+SUBENT        10827081   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-54(N,D)25-MN-53,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2770,7 +2774,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  8.0        8.5       135.        .001       .003
 ENDDATA             58
 ENDSUBENT           66
-SUBENT        10827082   20030602   20031024
+SUBENT        10827082   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-54(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2858,7 +2862,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.5       14.0       135.        .024       .01
 ENDDATA             78
 ENDSUBENT           86
-SUBENT        10827083   20030602   20031024
+SUBENT        10827083   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-56(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -2963,7 +2967,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 12.5       13.0       135.        .005       .01
 ENDDATA             95
 ENDSUBENT          103
-SUBENT        10827084   20030602   20031024
+SUBENT        10827084   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-56(N,D)25-MN-55,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3019,7 +3023,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  7.0        7.5       135.        .001       .002
 ENDDATA             46
 ENDSUBENT           54
-SUBENT        10827085   20030602   20031024
+SUBENT        10827085   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-56(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3111,7 +3115,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.0       14.5       135.        .003       .004
 ENDDATA             82
 ENDSUBENT           90
-SUBENT        10827086   20030602   20031024
+SUBENT        10827086   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-0(N,D),PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3216,7 +3220,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 12.5       13.0        90.        .003       .01
 ENDDATA             95
 ENDSUBENT          103
-SUBENT        10827087   20030602   20031024
+SUBENT        10827087   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-0(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3272,7 +3276,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  7.0        7.5       135.        .004       .008
 ENDDATA             46
 ENDSUBENT           54
-SUBENT        10827088   20030602   20031024
+SUBENT        10827088   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (26-FE-0(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3364,7 +3368,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.5       14.0       135.        .004       .008
 ENDDATA             82
 ENDSUBENT           90
-SUBENT        10827089   20030602   20031024
+SUBENT        10827089   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3480,7 +3484,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.0       14.5       135.        .02        .01
 ENDDATA            106
 ENDSUBENT          114
-SUBENT        10827090   20030602   20031024
+SUBENT        10827090   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(N,D)27-CO-57,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3553,7 +3557,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  9.0        9.5       135.        .004       .008
 ENDDATA             63
 ENDSUBENT           71
-SUBENT        10827091   20030602   20031024
+SUBENT        10827091   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3663,7 +3667,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 16.5       17.0       135.        .002       .008
 ENDDATA            100
 ENDSUBENT          108
-SUBENT        10827092   20030602   20031024
+SUBENT        10827092   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-60(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3771,7 +3775,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 12.5       13.0       135.        .01        .01
 ENDDATA             98
 ENDSUBENT          106
-SUBENT        10827093   20030602   20031024
+SUBENT        10827093   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-60(N,D)27-CO-59,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3834,7 +3838,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  8.0        8.5        90.        .007       .008
 ENDDATA             53
 ENDSUBENT           61
-SUBENT        10827094   20030602   20031024
+SUBENT        10827094   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-60(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -3928,7 +3932,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.5       15.0        90.        .01        .007
 ENDDATA             84
 ENDSUBENT           92
-SUBENT        10827095   20030602   20031024
+SUBENT        10827095   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-0(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4047,7 +4051,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.0       14.5        90.        .008       .006
 ENDDATA            109
 ENDSUBENT          117
-SUBENT        10827096   20030602   20031024
+SUBENT        10827096   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-0(N,D),PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4119,7 +4123,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  9.0        9.5       135.        .004       .008
 ENDDATA             62
 ENDSUBENT           70
-SUBENT        10827097   20030602   20031024
+SUBENT        10827097   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (28-NI-0(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4213,7 +4217,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.5       15.0        90.        .002       .000
 ENDDATA             84
 ENDSUBENT           92
-SUBENT        10827098   20030602   20031024
+SUBENT        10827098   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-63(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4356,7 +4360,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.0       13.5        45.        .06        .03
 ENDDATA            133
 ENDSUBENT          141
-SUBENT        10827099   20030602   20031024
+SUBENT        10827099   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-63(N,X)1-H-2,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4434,7 +4438,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 10.0       10.5        75.        .004       .003
 ENDDATA             68
 ENDSUBENT           76
-SUBENT        10827100   20030602   20031024
+SUBENT        10827100   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-63(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4575,7 +4579,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 16.0       16.5       105.        .001       .002
 ENDDATA            131
 ENDSUBENT          139
-SUBENT        10827101   20030602   20031024
+SUBENT        10827101   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-65(N,X)1-H-1,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4704,7 +4708,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 13.0       13.5       105.        .04        .02
 ENDDATA            119
 ENDSUBENT          127
-SUBENT        10827102   20030602   20031024
+SUBENT        10827102   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-65(N,X)1-H-2,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4790,7 +4794,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 10.0       10.5       105.        .004       .004
 ENDDATA             76
 ENDSUBENT           84
-SUBENT        10827103   20030602   20031024
+SUBENT        10827103   20030602   20031024   20050926       0000
 BIB                  3          3
 REACTION   (29-CU-65(N,X)2-HE-4,PAR,DA,,AV)
 STATUS     Taken from private comm., Grimes, 1979/11/13.
@@ -4914,4 +4918,822 @@ MEV        MEV        ADEG       MB/SR      MB/SR
 14.5       15.0       105.        .004       .006
 ENDDATA            114
 ENDSUBENT          122
-ENDENTRY           103
+SUBENT        10827104   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-50(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827071)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         27
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         2.39E+01
+    1.5      2.0         1.30E+02   2.28E+01
+    2.0      2.5         1.53E+02
+    2.5      3.0         2.21E+02
+    3.0      3.5         2.09E+02   2.65E+01
+    3.5      4.0         1.42E+02
+    4.0      4.5         1.29E+02
+    4.5      5.0         9.85E+01
+    5.0      5.5         8.69E+01
+    5.5      6.0         8.29E+01
+    6.0      6.5         7.11E+01
+    6.5      7.0         6.27E+01
+    7.0      7.5         4.26E+01
+    7.5      8.0         4.70E+01
+    8.0      8.5         3.52E+01
+    8.5      9.0         2.87E+01   4.82E+00
+    9.0      9.5         2.15E+01
+    9.5     10.0         1.81E+01
+   10.0     10.5         1.29E+01
+   10.5     11.0         9.85E+00
+   11.0     11.5         6.89E+00
+   11.5     12.0         7.10E+00
+   12.0     12.5         3.31E+00   8.81E-01
+   12.5     13.0         3.79E+00
+   13.0     13.5         1.87E+00
+   13.5     14.0         1.09E+00
+   14.0     14.5         9.18E-01
+ENDDATA             29
+ENDSUBENT           38
+SUBENT        10827105   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-52(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827074)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         22
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         6.62E+00
+    1.5      2.0         3.10E+01
+    2.0      2.5         3.34E+01   5.20E+00
+    2.5      3.0         2.85E+01
+    3.0      3.5         3.67E+01
+    3.5      4.0         2.75E+01
+    4.0      4.5         2.13E+01
+    4.5      5.0         2.35E+01
+    5.0      5.5         2.02E+01
+    5.5      6.0         1.97E+01
+    6.0      6.5         1.66E+01
+    6.5      7.0         1.81E+01
+    7.0      7.5         1.38E+01   2.68E+00
+    7.5      8.0         1.03E+01
+    8.0      8.5         8.00E+00
+    8.5      9.0         7.57E+00
+    9.0      9.5         5.40E+00
+    9.5     10.0         4.39E+00
+   10.0     10.5         3.78E+00
+   10.5     11.0         2.75E+00
+   11.0     11.5         2.18E+00   5.50E-01
+   11.5     12.0         1.18E+00
+ENDDATA             24
+ENDSUBENT           33
+SUBENT        10827106   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-54(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827080)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         26
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+     1.0      1.5        2.08E+01
+     1.5      2.0        8.80E+01
+     2.0      2.5        1.52E+02
+     2.5      3.0        1.61E+02
+     3.0      3.5        1.88E+02
+     3.5      4.0        2.05E+02   2.36E+01
+     4.0      4.5        1.59E+02
+     4.5      5.0        1.25E+02
+     5.0      5.5        1.05E+02
+     5.5      6.0        9.36E+01
+     6.0      6.5        7.62E+01
+     6.5      7.0        7.14E+01
+     7.0      7.5        5.55E+01
+     7.5      8.0        5.10E+01
+     8.0      8.5        3.82E+01
+     8.5      9.0        3.23E+01   5.27E+00
+     9.0      9.5        2.63E+01
+     9.5     10.0        1.99E+01
+    10.0     10.5        1.81E+01
+    10.5     11.0        1.37E+01
+    11.0     11.5        1.29E+01
+    11.5     12.0        8.98E+00
+    12.0     12.5        8.57E+00   2.28E+00
+    12.5     13.0        4.41E+00
+    13.0     13.5        5.79E+00
+    13.5     14.0        1.45E+00
+ENDDATA             28
+ENDSUBENT           37
+SUBENT        10827107   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-56(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827083)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         22
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.5      2.0         2.50E+01
+    2.0      2.5         2.17E+01
+    2.5      3.0         2.32E+01
+    3.0      3.5         3.29E+01   3.24E+00
+    3.5      4.0         3.79E+01
+    4.0      4.5         3.11E+01
+    4.5      5.0         2.51E+01
+    5.0      5.5         2.73E+01
+    5.5      6.0         2.16E+01
+    6.0      6.5         2.16E+01
+    6.5      7.0         1.91E+01
+    7.0      7.5         1.68E+01
+    7.5      8.0         1.40E+01
+    8.0      8.5         1.16E+01   2.53E+00
+    8.5      9.0         1.02E+01
+    9.0      9.5         8.14E+00
+    9.5     10.0         4.90E+00
+   10.0     10.5         3.87E+00
+   10.5     11.0         3.09E+00
+   11.0     11.5         2.24E+00   5.21E-01
+   11.5     12.0         1.35E+00
+   12.0     12.5         8.20E-01
+ENDDATA             24
+ENDSUBENT           33
+SUBENT        10827108   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-58(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827089)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         27
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         1.71E+01
+    1.5      2.0         7.31E+01
+    2.0      2.5         1.42E+02   1.43E+01
+    2.5      3.0         1.52E+02
+    3.0      3.5         1.99E+02
+    3.5      4.0         2.25E+02
+    4.0      4.5         1.73E+02
+    4.5      5.0         1.53E+02
+    5.0      5.5         1.35E+02
+    5.5      6.0         1.19E+02
+    6.0      6.5         1.01E+02
+    6.5      7.0         9.42E+01
+    7.0      7.5         7.31E+01   1.49E+01
+    7.5      8.0         6.37E+01
+    8.0      8.5         5.59E+01
+    8.5      9.0         4.12E+01
+    9.0      9.5         3.17E+01
+    9.5     10.0         2.26E+01
+   10.0     10.5         1.88E+01
+   10.5     11.0         1.46E+01
+   11.0     11.5         1.66E+01
+   11.5     12.0         1.37E+01
+   12.0     12.5         1.11E+01
+   12.5     13.0         8.01E+00   2.02E+00
+   13.0     13.5         6.93E+00
+   13.5     14.0         3.35E+00
+   14.0     14.5         1.84E+00
+ENDDATA             29
+ENDSUBENT           38
+SUBENT        10827109   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-60(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827092)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         23
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         6.26E+00
+    1.5      2.0         4.25E+01
+    2.0      2.5         4.84E+01   5.57E+00
+    2.5      3.0         5.09E+01
+    3.0      3.5         6.29E+01
+    3.5      4.0         5.39E+01
+    4.0      4.5         4.77E+01
+    4.5      5.0         5.09E+01
+    5.0      5.5         4.12E+01
+    5.5      6.0         3.58E+01
+    6.0      6.5         3.25E+01
+    6.5      7.0         3.05E+01   6.02E+00
+    7.0      7.5         2.33E+01
+    7.5      8.0         1.91E+01
+    8.0      8.5         1.55E+01
+    8.5      9.0         1.27E+01
+    9.0      9.5         1.18E+01
+    9.5     10.0         8.61E+00
+   10.0     10.5         7.88E+00
+   10.5     11.0         5.78E+00
+   11.0     11.5         4.21E+00
+   11.5     12.0         3.94E+00   1.07E+00
+   12.0     12.5         1.80E+00
+ENDDATA             25
+ENDSUBENT           34
+SUBENT        10827110   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-63(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827098)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         25
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         9.94E+00
+    1.5      2.0         1.92E+01
+    2.0      2.5         6.46E+01   7.98E+00
+    2.5      3.0         8.00E+01
+    3.0      3.5         9.84E+01
+    3.5      4.0         8.62E+01
+    4.0      4.5         5.76E+01
+    4.5      5.0         4.88E+01
+    5.0      5.5         3.72E+01
+    5.5      6.0         2.93E+01   5.65E+00
+    6.0      6.5         2.27E+01
+    6.5      7.0         1.70E+01
+    7.0      7.5         1.70E+01
+    7.5      8.0         1.43E+01
+    8.0      8.5         9.16E+00
+    8.5      9.0         8.51E+00
+    9.0      9.5         5.73E+00
+    9.5     10.0         4.33E+00   1.06E+00
+   10.0     10.5         2.53E+00
+   10.5     11.0         2.89E+00
+   11.0     11.5         3.52E+00
+   11.5     12.0         2.55E+00
+   12.0     12.5         2.15E+00
+   12.5     13.0         1.37E+00
+   13.0     13.5         1.73E+00
+ENDDATA             27
+ENDSUBENT           36
+SUBENT        10827111   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-65(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827101)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         24
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         2.59E+00
+    1.5      2.0         5.18E+00   5.64E-01
+    2.0      2.5         4.18E+00
+    2.5      3.0         3.91E+00
+    3.0      3.5         6.69E+00
+    3.5      4.0         5.86E+00
+    4.0      4.5         6.80E+00
+    4.5      5.0         6.63E+00
+    5.0      5.5         5.86E+00
+    5.5      6.0         4.69E+00
+    6.0      6.5         3.92E+00   8.06E-01
+    6.5      7.0         3.61E+00
+    7.0      7.5         3.49E+00
+    7.5      8.0         3.11E+00
+    8.0      8.5         2.89E+00
+    8.5      9.0         3.11E+00
+    9.0      9.5         2.53E+00
+    9.5     10.0         1.74E+00
+   10.0     10.5         1.93E+00
+   10.5     11.0         1.74E+00
+   11.0     11.5         2.13E+00
+   11.5     12.0         1.52E+00
+   12.0     12.5         1.37E+00   4.00E-01
+   12.5     13.0         7.62E-01
+ENDDATA             26
+ENDSUBENT           35
+SUBENT        10827112   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-65(N,X)1-H-1,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 5 of the reference
+           (DEP,10827101)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         24
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.0      1.5         2.59E+00
+    1.5      2.0         5.18E+00   5.64E-01
+    2.0      2.5         4.18E+00
+    2.5      3.0         3.91E+00
+    3.0      3.5         6.69E+00
+    3.5      4.0         5.86E+00
+    4.0      4.5         6.80E+00
+    4.5      5.0         6.63E+00
+    5.0      5.5         5.86E+00
+    5.5      6.0         4.69E+00
+    6.0      6.5         3.92E+00   8.06E-01
+    6.5      7.0         3.61E+00
+    7.0      7.5         3.49E+00
+    7.5      8.0         3.11E+00
+    8.0      8.5         2.89E+00
+    8.5      9.0         3.11E+00
+    9.0      9.5         2.53E+00
+    9.5     10.0         1.74E+00
+   10.0     10.5         1.93E+00
+   10.5     11.0         1.74E+00
+   11.0     11.5         2.13E+00
+   11.5     12.0         1.52E+00
+   12.0     12.5         1.37E+00   4.00E-01
+   12.5     13.0         7.62E-01
+ENDDATA             26
+ENDSUBENT           35
+SUBENT        10827113   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-50(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827073)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         23
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.0      4.5         3.63E-01
+    4.5      5.0         2.03E+00
+    5.0      5.5         4.85E+00
+    5.5      6.0         8.35E+00   1.33E+00
+    6.0      6.5         1.49E+01
+    6.5      7.0         1.73E+01
+    7.0      7.5         2.24E+01
+    7.5      8.0         2.14E+01
+    8.0      8.5         1.68E+01
+    8.5      9.0         1.80E+01
+    9.0      9.5         1.68E+01
+    9.5     10.0         1.16E+01
+   10.0     10.5         9.44E+00
+   10.5     11.0         7.67E+00
+   11.0     11.5         4.35E+00
+   11.5     12.0         3.88E+00
+   12.0     12.5         2.28E+00   6.69E-01
+   12.5     13.0         1.22E+00
+   13.0     13.5         1.94E+00
+   13.5     14.0         1.01E+00
+   14.0     14.5         1.73E+00
+   14.5     15.0         6.05E-01
+   15.0     15.5         4.09E-01
+ENDDATA             25
+ENDSUBENT           34
+SUBENT        10827114   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-52(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827076)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         16
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.0      4.5         6.45E-01
+    4.5      5.0         1.00E+00
+    5.0      5.5         2.34E+00
+    5.5      6.0         4.18E+00
+    6.0      6.5         3.47E+00   5.89E-01
+    6.5      7.0         5.86E+00
+    7.0      7.5         9.43E+00
+    7.5      8.0         7.40E+00
+    8.0      8.5         7.94E+00
+    8.5      9.0         6.83E+00
+    9.0      9.5         4.45E+00
+    9.5     10.0         4.78E+00   1.28E+00
+   10.0     10.5         3.54E+00
+   10.5     11.0         2.59E+00
+   11.0     11.5         2.10E+00
+   11.5     12.0         2.56E+00
+ENDDATA             18
+ENDSUBENT           27
+SUBENT        10827115   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-54(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827082)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         22
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         2.07E-01
+    5.0      5.5         2.72E+00
+    5.5      6.0         5.50E+00
+    6.0      6.5         8.24E+00
+    6.5      7.0         1.21E+01   1.80E+00
+    7.0      7.5         1.31E+01
+    7.5      8.0         1.85E+01
+    8.0      8.5         1.71E+01
+    8.5      9.0         1.88E+01
+    9.0      9.5         1.39E+01
+    9.5     10.0         1.20E+01
+   10.0     10.5         1.06E+01
+   10.5     11.0         6.43E+00
+   11.0     11.5         7.84E+00   2.54E+00
+   11.5     12.0         5.55E+00
+   12.0     12.5         2.91E+00
+   12.5     13.0         2.21E+00
+   13.0     13.5         1.09E+00
+   13.5     14.0         1.23E+00
+   14.0     14.5         1.43E+00
+   14.5     15.0         1.08E+00
+   15.0     15.5         1.33E+00
+ENDDATA             24
+ENDSUBENT           33
+SUBENT        10827116   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-56(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827085)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         20
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         2.37E-01
+    5.0      5.5         8.96E-01
+    5.5      6.0         2.43E+00
+    6.0      6.5         3.42E+00   5.07E-01
+    6.5      7.0         5.60E+00
+    7.0      7.5         6.97E+00
+    7.5      8.0         9.07E+00
+    8.0      8.5         1.05E+01
+    8.5      9.0         9.62E+00
+    9.0      9.5         7.40E+00
+    9.5     10.0         6.38E+00
+   10.0     10.5         5.08E+00
+   10.5     11.0         2.84E+00
+   11.0     11.5         3.45E+00
+   11.5     12.0         2.65E+00   7.05E-01
+   12.0     12.5         1.66E+00
+   12.5     13.0         1.22E+00
+   13.0     13.5         6.14E-01
+   13.5     14.0         4.12E-01
+   14.0     14.5         6.08E-01
+ENDDATA             22
+ENDSUBENT           31
+SUBENT        10827117   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-58(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827090)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         25
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         2.88E-01
+    5.0      5.5         1.37E+00
+    5.5      6.0         2.75E+00
+    6.0      6.5         5.52E+00   9.08E-01
+    6.5      7.0         1.11E+01
+    7.0      7.5         1.33E+01
+    7.5      8.0         1.93E+01
+    8.0      8.5         2.08E+01
+    8.5      9.0         2.43E+01
+    9.0      9.5         2.26E+01
+    9.5     10.0         1.74E+01
+   10.0     10.5         1.46E+01
+   10.5     11.0         1.29E+01
+   11.0     11.5         9.94E+00
+   11.5     12.0         9.38E+00
+   12.0     12.5         6.25E+00
+   12.5     13.0         3.92E+00   9.80E-01
+   13.0     13.5         3.12E+00
+   13.5     14.0         2.16E+00
+   14.0     14.5         2.52E+00
+   14.5     15.0         1.54E+00
+   15.0     15.5         1.53E+00
+   15.5     16.0         1.12E+00
+   16.0     16.5         9.60E-01
+   16.5     17.0         6.87E-01
+ENDDATA             27
+ENDSUBENT           36
+SUBENT        10827118   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-60(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827094)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         19
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         1.95E+00
+    5.0      5.5         3.35E+00
+    5.5      6.0         7.18E+00
+    6.0      6.5         7.91E+00   1.30E+00
+    6.5      7.0         1.22E+01
+    7.0      7.5         1.26E+01
+    7.5      8.0         1.81E+01
+    8.0      8.5         1.51E+01
+    8.5      9.0         1.64E+01
+    9.0      9.5         1.19E+01
+    9.5     10.0         1.12E+01
+   10.0     10.5         8.35E+00
+   10.5     11.0         5.25E+00
+   11.0     11.5         4.61E+00   1.39E+00
+   11.5     12.0         2.66E+00
+   12.0     12.5         1.91E+00
+   12.5     13.0         2.10E+00
+   13.0     13.5         7.63E-01
+   13.5     14.0         7.46E-01
+ENDDATA             21
+ENDSUBENT           30
+SUBENT        10827119   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-63(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827100)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         21
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         1.82E+00
+    5.0      5.5         2.90E+00
+    5.5      6.0         7.76E+00
+    6.0      6.5         4.89E+00   1.08E+00
+    6.5      7.0         5.19E+00
+    7.0      7.5         8.35E+00
+    7.5      8.0         1.05E+01
+    8.0      8.5         9.53E+00
+    8.5      9.0         1.05E+01
+    9.0      9.5         9.66E+00
+    9.5     10.0         9.33E+00
+   10.0     10.5         6.78E+00
+   10.5     11.0         4.81E+00
+   11.0     11.5         3.54E+00
+   11.5     12.0         4.08E+00
+   12.0     12.5         2.40E+00   6.98E-01
+   12.5     13.0         2.16E+00
+   13.0     13.5         1.41E+00
+   13.5     14.0         1.09E+00
+   14.0     14.5         1.21E+00
+   14.5     15.0         8.90E-01
+ENDDATA             23
+ENDSUBENT           32
+SUBENT        10827120   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-65(N,X)2-HE-4,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 6 of the reference
+           (DEP,10827103)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         21
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    4.5      5.0         3.98E-01
+    5.0      5.5         3.99E-01
+    5.5      6.0         2.97E-01
+    6.0      6.5         5.88E-01
+    6.5      7.0         9.87E-01
+    7.0      7.5         1.68E+00   2.54E-01
+    7.5      8.0         2.75E+00
+    8.0      8.5         2.36E+00
+    8.5      9.0         2.39E+00
+    9.0      9.5         2.75E+00
+    9.5     10.0         2.57E+00
+   10.0     10.5         1.99E+00
+   10.5     11.0         1.48E+00
+   11.0     11.5         7.96E-01
+   11.5     12.0         9.17E-01
+   12.0     12.5         9.18E-01
+   12.5     13.0         4.99E-01   1.40E-01
+   13.0     13.5         9.08E-01
+   13.5     14.0         3.05E-01
+   14.0     14.5         6.10E-01
+   14.5     15.0         7.12E-01
+ENDDATA             23
+ENDSUBENT           32
+SUBENT        10827121   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-50(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827072)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         11
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         4.98E-01
+    2.5      3.0         8.50E-01
+    3.0      3.5         1.37E+00
+    3.5      4.0         1.59E+00   3.39E-01
+    4.0      4.5         1.06E+00
+    4.5      5.0         1.83E+00
+    5.0      5.5         2.51E+00
+    5.5      6.0         2.96E+00
+    6.0      6.5         4.07E+00
+    6.5      7.0         2.47E+00
+    7.0      7.5         4.91E+00   1.92E+00
+ENDDATA             13
+ENDSUBENT           22
+SUBENT        10827122   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (24-CR-52(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827075)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4          8
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         4.92E-01
+    2.5      3.0         6.86E-01
+    3.0      3.5         5.88E-01   1.18E-01
+    3.5      4.0         9.80E-01
+    4.0      4.5         2.94E-01
+    4.5      5.0         8.74E-01
+    5.0      5.5         4.94E-01
+    5.5      6.0         2.95E-01   1.20E-01
+ENDDATA             10
+ENDSUBENT           19
+SUBENT        10827123   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-54(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827081)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         13
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         1.93E-01
+    2.5      3.0         5.05E-01   1.03E-01
+    3.0      3.5         7.53E-01
+    3.5      4.0         1.68E+00
+    4.0      4.5         2.00E+00
+    4.5      5.0         1.88E+00
+    5.0      5.5         1.76E+00
+    5.5      6.0         1.56E+00
+    6.0      6.5         1.39E+00
+    6.5      7.0         4.84E-01   2.42E-01
+    7.0      7.5         2.40E+00
+    7.5      8.0         3.21E+00
+    8.0      8.5         5.83E-01
+ENDDATA             15
+ENDSUBENT           24
+SUBENT        10827124   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (26-FE-56(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827084)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         11
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         2.15E-01
+    2.5      3.0         3.35E-01
+    3.0      3.5         3.11E-01
+    3.5      4.0         1.13E+00   2.86E-01
+    4.0      4.5         2.08E+00
+    4.5      5.0         7.80E-01
+    5.0      5.5         2.18E+00
+    5.5      6.0         1.05E+00   4.27E-01
+    6.0      6.5         3.73E+00
+    6.5      7.0         2.74E+00
+    7.0      7.5         5.94E-01
+ENDDATA             13
+ENDSUBENT           22
+SUBENT        10827125   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-58(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827090)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         16
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    1.5      2.0         2.02E-01
+    2.0      2.5         3.10E-01
+    2.5      3.0         4.07E-01
+    3.0      3.5         4.04E-01
+    3.5      4.0         1.33E+00   2.40E-01
+    4.0      4.5         1.58E+00
+    4.5      5.0         1.70E+00
+    5.0      5.5         2.62E+00
+    5.5      6.0         2.29E+00
+    6.0      6.5         2.95E+00
+    6.5      7.0         3.23E+00   1.32E+00
+    7.0      7.5         2.19E+00
+    7.5      8.0         2.60E+00
+    8.0      8.5         1.19E+00
+    8.5      9.0         3.58E+00
+    9.0      9.5         1.83E+00
+ENDDATA             18
+ENDSUBENT           27
+SUBENT        10827126   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (28-NI-60(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827093)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         13
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         1.99E-01
+    2.5      3.0         5.86E-01
+    3.0      3.5         3.96E-01
+    3.5      4.0         5.82E-01
+    4.0      4.5         1.59E+00   3.37E-01
+    4.5      5.0         2.71E+00
+    5.0      5.5         3.17E+00
+    5.5      6.0         2.18E+00
+    6.0      6.5         1.59E+00
+    6.5      7.0         2.18E+00
+    7.0      7.5         3.95E+00
+    7.5      8.0         3.00E+00   1.36E+00
+    8.0      8.5         3.90E-01
+ENDDATA             15
+ENDSUBENT           24
+SUBENT        10827127   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-63(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827099)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         17
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         2.66E-01
+    2.5      3.0         4.97E-01
+    3.0      3.5         7.27E-01
+    3.5      4.0         6.95E-01   1.79E-01
+    4.0      4.5         8.80E-01
+    4.5      5.0         1.47E+00
+    5.0      5.5         1.97E+00
+    5.5      6.0         1.09E+00
+    6.0      6.5         1.80E+00
+    6.5      7.0         1.59E+00
+    7.0      7.5         1.09E+00
+    7.5      8.0         1.30E+00   5.39E-01
+    8.0      8.5         8.75E-01
+    8.5      9.0         9.94E-01
+    9.0      9.5         1.48E+00
+    9.5     10.0         6.80E-01
+   10.0     10.5         4.91E-01
+ENDDATA             19
+ENDSUBENT           28
+SUBENT        10827128   20091012   20100128   20100119       1358
+BIB                  3          4
+REACTION   (29-CU-65(N,X)1-H-2,,DE)
+HISTORY    (20091012C)Digitized from Ref. PR/C
+STATUS     (CURVE) Data taken from fig. 7 of the reference
+           (DEP,10827102)
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         17
+E-MIN      E-MAX      DATA       DATA-ERR
+MEV        MEV        MB/MEV     MB/MEV
+    2.0      2.5         7.37E-01
+    2.5      3.0         5.26E-01
+    3.0      3.5         7.31E-01
+    3.5      4.0         9.38E-01   1.87E-01
+    4.0      4.5         5.26E-01
+    4.5      5.0         1.25E+00
+    5.0      5.5         2.18E+00
+    5.5      6.0         1.48E+00
+    6.0      6.5         1.05E+00
+    6.5      7.0         1.88E+00
+    7.0      7.5         1.47E+00
+    7.5      8.0         1.27E+00   4.92E-01
+    8.0      8.5         1.68E+00
+    8.5      9.0         1.90E+00
+    9.0      9.5         7.34E-01
+    9.5     10.0         1.72E+00
+   10.0     10.5         4.43E-01
+ENDDATA             19
+ENDSUBENT           28
+ENDENTRY           128
