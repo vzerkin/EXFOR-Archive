@@ -1,75 +1,85 @@
-ENTRY            20416   20041212
-SUBENT        20416001   20041212
-BIB                 16         65
-INSTITUTE  (2FR BRC) SERVICE DE PHYSIQUE NEUTRONIQUE ET
-            NUCLEAIRE.
-REFERENCE  (W,FREHAUT,19800609) FULL PAPER OF CONTRIBUTION
-            TO SYMPOSIUM ON NEUTRON CROSS SECTIONS FROM
-            10-50 MEV, HELD AT UPTON, L.I.(U.S.A.), MAY,
-            12-14,1980, SUPERSEDES ALL FORMER PUBLICATIONS.
-           (C,75KIEV,,197506)
-           (C,75WASH,,(IB1),197503) PRELIMINARY, TABLES AND GRAPHS
-           (C,75GAUSSIG,,197511) X-SECT. PLOTTED AND TABULATED.
-           (R,CEA-R-4627,197411) DETAILS ON THE EXPERIMENT.
-            CROSS-SECTIONS GIVEN THERE ARE SUPERSEDED.
-TITLE      -STATUS OF (N,2N) CROSS SECTION MEASUREMENTS
-            AT BRUYERES-LE-CHATEL.-
-AUTHOR     (J.FREHAUT,A.BERTIN,R.BOIS,J.JARY)
-FACILITY   (VDG,2FR BRC) VAN DE GRAAFF, 14 MEV.
-INC-SOURCE (D-D)      DEUTERON-DEUTERIUM REACTION
-            IN A 10 CM LONG GASEOUS TARGET CONTAINING
-            DEUTERIUM AT 1 ATM.
-DETECTOR   (STANK)    LARGE GD-LOADED LIQUID SCINTILLATOR.
-PART-DET   (N)        NEUTRONS
-SAMPLE     .NATURAL ELEMENTS TI,V,CR,FE,CU,GA,ZR,MO,W,PT
-            AND PB.
-           .MONOISOTOPIC NATURAL ELEMENTS SC,CO,Y,NB,RH,TM,
-            AU, AND BI, (AND LU AND TA).
-           .SEPARATED ISOTOPES FOR THE EVEN ISOTOPES OF SE,ND,
-            SM,EU-151, AND THE MAIN ISOTOPES OF GD,W,TL AND
-            PB, AND FOR U-238.
-           .LU-175 AND TA-181 ARE ONLY THE MAJOR COMPONENTS OF
-            THE NATURAL ELEMENTS.
-           .CALCULATION BY S.PEARLSTEIN, NUCLEAR DATA B,
-            SECTION A, 3(1967) USED FOR CORRECTING SE-74 AND
-            SE-77 CONTRIBUTIONS AND TO DERIVE (N,2N) CROSS-
-            SECTIONS OF FE-56 AND LU-175.
-           .ABOUT 15 GRAM. DISKS OF 25 MM DIAM. METALLIC
-            SAMPLES EXCEPT FOR SEPARATED ISOTOPES OF SE, SM,
-            ND AND GD, WHICH WERE OXIDES.
-MONITOR    (92-U-238(N,F),,SIG) EVALUTION BY M.G.SOWERBY+,
+ENTRY            20416   20090901   20100209   20100209       2217
+SUBENT        20416001   20090901   20100209   20100209       2217
+BIB                 18         71
+INSTITUTE  (2FR BRC) Service De Physique Neutronique Et
+            Nucleaire.
+REFERENCE  (W,FREHAUT,19800609) Full paper of contribution
+            to Symposium On Neutron Cross Sections From
+            10-50 MeV, held at Upton, L.I.(U.S.A.), May,
+            12-14,1980, supersedes all former publications.
+           (C,75KIEV,4,303,197506)
+           (C,75WASH,,(IB1),197503) Preliminary, Tables and Graphs
+           (C,75GAUSSIG,,17,197511) X-sect. plotted and tabulated.
+           (R,CEA-R-4627,197411) Details on the experiment.
+            Cross-sections given there are superseded.
+TITLE      -Status of (n,2n) cross section measurements
+            at Bruyeres-le-Chatel.-
+AUTHOR     (J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski)
+FACILITY   (VDG,2FR BRC) Van De Graaff, 14 MeV.
+INC-SOURCE (D-D)      Deuteron-deuterium reaction
+            in a 10 cm long gaseous target containing
+            deuterium at 1 atm.
+DETECTOR   (STANK)    Large Gd-loaded liquid scintillator.
+PART-DET   (N)        Neutrons
+SAMPLE     .Natural elements Ti,V,Cr,Fe,Cu,Ga,Zr,Mo,W,Pt
+            and Pb.
+           .Monoisotopic natural elements Sc,Co,Y,Nb,Rh,Tm,
+            Au, and Bi, (and Lu and Ta).
+           .Separated isotopes for the even isotopes of Se,Nd,
+            Sm,Eu-151, and the main isotopes of Gd,W,Tl and
+            Pb, and For U-238.
+           .Lu-175 and Ta-181 are only the major components of
+            the natural elements.
+           .Calculation by S.Pearlstein, Nuclear Data B,
+            Section A, 3(1967) used for correcting Se-74 and
+            Se-77 contributions and to derive (n,2n) cross-
+            sections of Fe-56 and Lu-175.
+           .About 15 gram. Disks of 25 mm diam. Metallic
+            samples except for separated isotopes of Se, Sm,
+            Nd and Gd, which were oxides.
+MONITOR    (92-U-238(N,F),,SIG) Evaluation by M.G.Sowerby+,
             AERE-R-7373(1973).
-            THE LIQUID SCINTILLATOR EFFICIENCY DETERMINED USING
-            NU-BAR OF CF-252 = 3.732.
-ANALYSIS   .DETERMINATION OF THE NEUTRON MULTIPLICITY
-            DISTRIBUTION FOR THE DETECTED EVENTS.
-CORRECTION .BACKGROUND, DETECTION DEAD TIME, DETECTOR EFFICIENCY,
-            ELASTIC AND INELASTIC EVENTS.
-ERR-ANALYS .ERRORS GIVEN ARE STANDARD ERRORS DERIVED BY
-            QUADRATIC ADDITION OF THE STATISTICAL ERRORS OF THE
-            EXPERIMENTAL DATA AND THE ERRORS OF THE CORRECTION.
-           .UNCERTAINTIES OF CF-252(NU-BAR) AND U-238-FISSION
-            CROSS-SECTIONS ARE NOT INCLUDED.
-COMMENT    .THE DIRECT DETECTION TECHNIQUE OF EMITTED NEUTRONS
-            USED IN THIS EXPERIMENT IS NOT LIMITED TO NUCLEI
-            WITH SUITABLE ACTIVITY CHARACTERISTICS OF
-            RESIDUAL ISOTOPES AS IT IS THE CASE FOR ACTIVATION
-            MEASUREMENTS.
-STATUS     .DATA FROM PAPER OF UPTON CONFERENCE.
+MONIT-REF  (,M.G.Sowerby+,R,AERE-R-7373,1973)
+            The liquid scintillator efficiency of 75 % was
+            determined using NU-BAR of CF-252 = 3.732.
+ASSUMED    (ASSUM,98-CF-252(0,F),PR,NU)
+ANALYSIS   .Determination of the neutron multiplicity
+            distribution for the detected events.
+CORRECTION .Background, detection dead time, detector efficiency,
+            elastic and inelastic events.
+ERR-ANALYS (DATA-ERR) Errors given are standard errors derived by
+            quadratic addition of the statistical errors of the
+            experimental data and the errors of the correction.
+           .Uncertainties of Cf-252(NU-BAR) and U-238-fission
+            cross-sections are not included.
+COMMENT    .The direct detection technique of emitted neutrons
+            used in this experiment is not limited to nuclei
+            with suitable activity characteristics of
+            residual isotopes as it is the case for activation
+            measurements.
+STATUS     (TABLE) Data from paper of Upton Conference.
 HISTORY    (19750728C)
            (19750808E)
-           (19800603A) G.C. REACTION STRINGS CONVERTED,
-            DATA UPDATED WITH THE UPTON CONFERENCE PAPER.
-            DATA FROM EXFOR 20571 ADDED.
+           (19800603A) G.C. REACTION strings converted,
+            data updated with the Upton Conference Paper.
+            Data from EXFOR 20571 added.
            (19800612E)
-           (19831122A) SUBWORK 005 DELETED, AS NI-DATA WERE WITH-
-            DRAWN BEFORE THE WASHINGTON CONFERENCE 1975.
+           (19831122A) SUBWORK 005 deleted, as Ni-data were with-
+            drawn before the Washington Conference 1975.
            (19840202E)
            (20041212U)   HH
-ENDBIB              65
-NOCOMMON             0          0
-ENDSUBENT           68
-SUBENT        20416002   19860729
+           (20090901U) M.M. Page and volume numbers were added in
+            reference C,75KIEV. Author name G.Mosinski was added
+             from C,75KIEV. Page was added in C,75GAUSSIG .
+             MONIT-REF, ASSUM, COMMON were added.
+ENDBIB              71
+COMMON               1          3
+ASSUM
+PRT/FIS
+ 3.732
+ENDCOMMON            3
+ENDSUBENT           78
+SUBENT        20416002   19860729              20050926       0000
 BIB                  3          7
 REACTION   (21-SC-45(N,2N)21-SC-44,,SIG)
 STATUS     .TABLE 3, UPTON PAPER.
@@ -91,7 +101,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 3.0900E+02 2.5000E+01
 ENDDATA              8
 ENDSUBENT           20
-SUBENT        20416003   19800612
+SUBENT        20416003   19800612              20050926       0000
 BIB                  3          6
 REACTION   (26-FE-56(N,2N)26-FE-55,,SIG)
 STATUS     .75KIEV PAPER.
@@ -113,7 +123,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 5.1900E+02 4.1000E+01
 ENDDATA              9
 ENDSUBENT           20
-SUBENT        20416004   19800612
+SUBENT        20416004   19800612              20050926       0000
 BIB                  3          7
 REACTION   (27-CO-59(N,2N)27-CO-58,,SIG)
 STATUS     .DATA FROM TABLE 3 OF UPTON PAPER.
@@ -137,7 +147,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 7.3400E+02 5.0000E+01
 ENDDATA             10
 ENDSUBENT           22
-SUBENT        20416005   19860729
+SUBENT        20416005   19860729              20050926       0000
 BIB                  3          9
 REACTION   (28-NI-0(N,2N),,SIG)
 STATUS     .WASHINGTON PAPER.
@@ -152,7 +162,7 @@ ENDBIB               9
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT           13
-SUBENT        20416006   19800612
+SUBENT        20416006   19800612              20050926       0000
 BIB                  3          7
 REACTION   (31-GA-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON-PAPER.
@@ -179,7 +189,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 8.5400E+02 6.5000E+01
 ENDDATA             13
 ENDSUBENT           25
-SUBENT        20416007   19800612
+SUBENT        20416007   19800612              20050926       0000
 BIB                  3          7
 REACTION   (34-SE-76(N,2N)34-SE-75,,SIG)
 STATUS     .TABLE 5 OF UPTON PAPER.
@@ -202,7 +212,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 7.7400E+02 6.5000E+01
 ENDDATA              9
 ENDSUBENT           21
-SUBENT        20416008   19860411
+SUBENT        20416008   19860411              20050926       0000
 BIB                  3          9
 REACTION   (34-SE-78(N,2N)34-SE-77,,SIG)
 STATUS     .TABLE 5 OF UPTON PAPER.
@@ -229,7 +239,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 9.5100E+02 7.4000E+01
 ENDDATA             11
 ENDSUBENT           25
-SUBENT        20416009   19860411
+SUBENT        20416009   19860411              20050926       0000
 BIB                  3          9
 REACTION   (34-SE-80(N,2N)34-SE-79,,SIG)
 STATUS     .TABLE 5 OF UPTON PAPER.
@@ -257,7 +267,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.0430E+03 8.2000E+01
 ENDDATA             12
 ENDSUBENT           26
-SUBENT        20416010   19860411
+SUBENT        20416010   19860411              20050926       0000
 BIB                  3          9
 REACTION   (34-SE-82(N,2N)34-SE-81,,SIG)
 STATUS     .TABLE 5 OF UPTON PAPER.
@@ -286,7 +296,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.1010E+03 8.4000E+01
 ENDDATA             13
 ENDSUBENT           27
-SUBENT        20416011   19800612
+SUBENT        20416011   19800612              20050926       0000
 BIB                  3          7
 REACTION   (39-Y-89(N,2N)39-Y-88,,SIG)
 STATUS     .TABLE 3 OF UPTON PAPER.
@@ -309,7 +319,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 9.1400E+02 7.1000E+01
 ENDDATA              9
 ENDSUBENT           21
-SUBENT        20416012   19860729
+SUBENT        20416012   19860729              20050926       0000
 BIB                  3          7
 REACTION   (41-NB-93(N,2N)41-NB-92,,SIG)
 STATUS     .TABLE 3 OF UPTON PAPER.
@@ -337,7 +347,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.3130E+03 9.9000E+01
 ENDDATA             14
 ENDSUBENT           26
-SUBENT        20416013   19800612
+SUBENT        20416013   19800612              20050926       0000
 BIB                  3          8
 REACTION   (45-RH-103(N,2N)45-RH-102,,SIG)
 STATUS     .TABLE 3 OF UPTON PAPER.
@@ -365,7 +375,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.3400E+03 9.9000E+01
 ENDDATA             13
 ENDSUBENT           26
-SUBENT        20416014   19800612
+SUBENT        20416014   19800612              20050926       0000
 BIB                  3          7
 REACTION   (69-TM-169(N,2N)69-TM-168,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -395,7 +405,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.9260E+03 1.5500E+02
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        20416015   19860729
+SUBENT        20416015   19860729              20050926       0000
 BIB                  3          7
 REACTION   (71-LU-175(N,2N)71-LU-174,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -425,7 +435,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.8910E+03 1.6200E+02
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        20416016   19860729
+SUBENT        20416016   19860729              20050926       0000
 BIB                  3          7
 REACTION   (73-TA-181(N,2N)73-TA-180,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -455,7 +465,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.8560E+03 1.5900E+02
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        20416017   19800612
+SUBENT        20416017   19800612              20050926       0000
 BIB                  3          7
 REACTION   (74-W-0(N,2N),,SIG)
 STATUS     .TABLE 2 OF UPTON PAPER.
@@ -488,7 +498,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.9500E+03 1.6900E+02
 ENDDATA             19
 ENDSUBENT           31
-SUBENT        20416018   19800612
+SUBENT        20416018   19800612              20050926       0000
 BIB                  3          7
 REACTION   (78-PT-0(N,2N),,SIG)
 STATUS     .TABLE 2 OF UPTON PAPER.
@@ -519,7 +529,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.9420E+03 1.6400E+02
 ENDDATA             17
 ENDSUBENT           29
-SUBENT        20416019   19800612
+SUBENT        20416019   19800612              20050926       0000
 BIB                  3          7
 REACTION   (79-AU-197(N,2N)79-AU-196,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -549,7 +559,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 1.9350E+03 1.5500E+02
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        20416020   19800612
+SUBENT        20416020   19800612              20050926       0000
 BIB                  3          7
 REACTION   (83-BI-209(N,2N)83-BI-208,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -580,7 +590,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 2.0180E+03 1.7000E+02
 ENDDATA             17
 ENDSUBENT           29
-SUBENT        20416021   19800612
+SUBENT        20416021   19800612              20050926       0000
 BIB                  3          7
 REACTION   (92-U-238(N,2N)92-U-237,,SIG)
 STATUS     .TABLE 9 OF UPTON PAPER.
@@ -616,7 +626,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 6.4200E+02 6.4000E+01
 ENDDATA             22
 ENDSUBENT           34
-SUBENT        20416022   19860729
+SUBENT        20416022   19860729              20050926       0000
 BIB                  3          7
 REACTION   (92-U-238(N,3N)92-U-236,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -639,7 +649,7 @@ MEV        KEV        MB         MB         MB
  1.4760E+01 6.5000E+01 1.2160E+03 5.6800E+02 5.0000E+01
 ENDDATA              9
 ENDSUBENT           21
-SUBENT        20416023   19800612
+SUBENT        20416023   19800612              20050926       0000
 BIB                  3          6
 REACTION   (22-TI-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON PAPER.
@@ -666,7 +676,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 5.0100E+02 3.5000E+01 1.2160E+03
 ENDDATA             14
 ENDSUBENT           25
-SUBENT        20416024   19800612
+SUBENT        20416024   19800612              20050926       0000
 BIB                  3          6
 REACTION   (23-V-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON PAPER.
@@ -689,7 +699,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 5.5800E+02 4.4000E+01 1.2160E+03
 ENDDATA             10
 ENDSUBENT           21
-SUBENT        20416025   19800612
+SUBENT        20416025   19800612              20050926       0000
 BIB                  3          6
 REACTION   (24-CR-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON PAPER.
@@ -715,7 +725,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 4.0600E+02 3.2000E+01 1.2160E+03
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        20416026   19800612
+SUBENT        20416026   19800612              20050926       0000
 BIB                  3          6
 REACTION   (29-CU-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON PAPER.
@@ -740,7 +750,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 6.2800E+02 4.8000E+01 1.2160E+03
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        20416027   19800612
+SUBENT        20416027   19800612              20050926       0000
 BIB                  3          6
 REACTION   (40-ZR-0(N,2N),,SIG)
 STATUS     .TABLE 2 OF UPTON PAPER.
@@ -770,7 +780,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 9.8800E+02 7.4000E+01 1.2160E+03
 ENDDATA             17
 ENDSUBENT           28
-SUBENT        20416028   19800612
+SUBENT        20416028   19800612              20050926       0000
 BIB                  3          6
 REACTION   (42-MO-0(N,2N),,SIG)
 STATUS     .TABLE 2 OF UPTON PAPER.
@@ -800,7 +810,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.1090E+03 8.8000E+01 1.2160E+03
 ENDDATA             17
 ENDSUBENT           28
-SUBENT        20416029   19800612
+SUBENT        20416029   19800612              20050926       0000
 BIB                  3          7
 REACTION   (60-ND-142(N,2N)60-ND-141,,SIG)
 STATUS     .TABLE 6 OF UPTON PAPER.
@@ -822,7 +832,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9070E+03 1.4600E+02 1.2160E+03
 ENDDATA              8
 ENDSUBENT           20
-SUBENT        20416030   19800612
+SUBENT        20416030   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-144(N,2N)60-ND-143,,SIG)
 STATUS     .TABLE 4 OF UPTON PAPER.
@@ -849,7 +859,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7130E+03 1.3700E+02 1.2160E+03
 ENDDATA             14
 ENDSUBENT           25
-SUBENT        20416031   19800612
+SUBENT        20416031   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-146(N,2N)60-ND-145,,SIG)
 STATUS     .TABLE 6 OF UPTON PAPER.
@@ -875,7 +885,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8760E+03 1.5300E+02 1.2160E+03
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        20416032   19800612
+SUBENT        20416032   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-146(N,3N)60-ND-144,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -891,7 +901,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 2.9000E+01 5.0000E+00 1.2160E+03
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        20416033   19800612
+SUBENT        20416033   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-148(N,2N)60-ND-147,,SIG)
 STATUS     .TABLE 6 OF UPTON PAPER.
@@ -918,7 +928,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7000E+03 1.4200E+02 1.2160E+03
 ENDDATA             14
 ENDSUBENT           25
-SUBENT        20416034   19800612
+SUBENT        20416034   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-148(N,3N)60-ND-146,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -936,7 +946,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.3200E+02 1.1000E+01 1.2160E+03
 ENDDATA              5
 ENDSUBENT           16
-SUBENT        20416035   19800612
+SUBENT        20416035   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-150(N,2N)60-ND-149,,SIG)
 STATUS     .TABLE 6 OF UPTON PAPER.
@@ -962,7 +972,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.6520E+03 1.3800E+02 1.2160E+03
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        20416036   19800612
+SUBENT        20416036   19800612              20050926       0000
 BIB                  3          6
 REACTION   (60-ND-150(N,3N)60-ND-148,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -980,7 +990,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 2.4800E+02 1.8000E+01 1.2160E+03
 ENDDATA              5
 ENDSUBENT           16
-SUBENT        20416037   19800612
+SUBENT        20416037   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-148(N,2N)62-SM-147,,SIG)
 STATUS     .TABLE 7 OF UPTON-PAPER.
@@ -1005,7 +1015,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7830E+03 1.3900E+02 1.2160E+03
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        20416038   19800612
+SUBENT        20416038   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-150(N,2N)62-SM-149,,SIG)
 STATUS     .TABLE 7 OF UPTON PAPER.
@@ -1030,7 +1040,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8760E+03 1.4800E+02 1.2160E+03
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        20416039   19800612
+SUBENT        20416039   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-152(N,2N)62-SM-151,,SIG)
 STATUS     .TABLE 7 OF UPTON PAPER.
@@ -1055,7 +1065,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8400E+03 1.4300E+02 1.2160E+03
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        20416040   19800612
+SUBENT        20416040   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-152(N,3N)62-SM-150,,SIG)
 STATUS     .75GAUSSIG CONF.PAPER.
@@ -1071,7 +1081,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 7.0000E-02 1.0000E+01 4.0000E+00 1.2160E+03
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        20416041   19800612
+SUBENT        20416041   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-154(N,2N)62-SM-153,,SIG)
 STATUS     .TABLE 7 OF UPTON PAPER.
@@ -1096,7 +1106,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9580E+03 1.5600E+02 1.2160E+03
 ENDDATA             12
 ENDSUBENT           23
-SUBENT        20416042   19800612
+SUBENT        20416042   19800612              20050926       0000
 BIB                  3          6
 REACTION   (62-SM-154(N,3N)62-SM-152,,SIG)
 STATUS     .75GAUSSIG CONF PAPER.
@@ -1112,7 +1122,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 7.0000E-02 1.6000E+01 5.0000E+00 1.2160E+03
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        20416043   19800612
+SUBENT        20416043   19800612              20050926       0000
 BIB                  3          6
 REACTION   (82-PB-0(N,2N),,SIG)
 STATUS     .TABLE 2 OF UPTON PAPER.
@@ -1143,7 +1153,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 2.0060E+03 1.5600E+02 1.2160E+03
 ENDDATA             18
 ENDSUBENT           29
-SUBENT        20416044   19800612
+SUBENT        20416044   19800612              20050926       0000
 BIB                  3          4
 REACTION   (26-FE-0(N,2N),,SIG)
 STATUS     .TABLE 1 OF UPTON PAPER.
@@ -1163,7 +1173,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.2160E+03 4.7000E+02 3.6000E+01
 ENDDATA              9
 ENDSUBENT           18
-SUBENT        20416045   19800612
+SUBENT        20416045   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-155(N,2N)64-GD-154,,SIG)
 STATUS     .TABLE 8 OF UPTON PAPER.
@@ -1193,7 +1203,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8430E+03 1.6300E+02 1.2160E+03
 ENDDATA             19
 ENDSUBENT           28
-SUBENT        20416046   19800612
+SUBENT        20416046   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-156(N,2N)64-GD-155,,SIG)
 STATUS     .TABLE 8 OF UPTON PAPER.
@@ -1220,7 +1230,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7300E+03 1.4300E+02 1.2160E+03
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        20416047   19800612
+SUBENT        20416047   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-157(N,2N)64-GD-156,,SIG)
 STATUS     .TABLE 8 OF UPTON PAPER.
@@ -1250,7 +1260,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8200E+03 1.6900E+02 1.2160E+03
 ENDDATA             19
 ENDSUBENT           28
-SUBENT        20416048   19800612
+SUBENT        20416048   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-158(N,2N)64-GD-157,,SIG)
 STATUS     .TABLE 8 OF UPTON PAPER.
@@ -1277,7 +1287,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7940E+03 1.5000E+02 1.2160E+03
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        20416049   19800612
+SUBENT        20416049   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-160(N,2N)64-GD-159,,SIG)
 STATUS     .TABLE 8 OF UPTON PAPER.
@@ -1305,7 +1315,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7120E+03 1.5100E+02 1.2160E+03
 ENDDATA             17
 ENDSUBENT           26
-SUBENT        20416050   19800612
+SUBENT        20416050   19800612              20050926       0000
 BIB                  3          4
 REACTION   (74-W-182(N,2N)74-W-181,,SIG)
 STATUS     .TABLE 9 OF UPTON PAPER.
@@ -1332,7 +1342,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 2.0170E+03 1.5000E+02 1.2160E+03
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        20416051   19800612
+SUBENT        20416051   19800612              20050926       0000
 BIB                  3          4
 REACTION   (74-W-183(N,2N)74-W-182,,SIG)
 STATUS     .TABLE 9 OF UPTON PAPER.
@@ -1359,7 +1369,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8550E+03 1.7000E+02 1.2160E+03
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        20416052   19860729
+SUBENT        20416052   19860729              20050926       0000
 BIB                  3          4
 REACTION   (74-W-184(N,2N)74-W-183,,SIG)
 STATUS     .TABLE 9 OF UPTON PAPER.
@@ -1387,7 +1397,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8510E+03 1.5200E+02 1.2160E+03
 ENDDATA             17
 ENDSUBENT           26
-SUBENT        20416053   19860729
+SUBENT        20416053   19860729              20050926       0000
 BIB                  3          4
 REACTION   (74-W-186(N,2N)74-W-185,,SIG)
 STATUS     .TABLE 9 OF UPTON PAPER.
@@ -1416,7 +1426,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.7850E+03 1.4900E+02 1.2160E+03
 ENDDATA             18
 ENDSUBENT           27
-SUBENT        20416054   19860729
+SUBENT        20416054   19860729              20050926       0000
 BIB                  3          4
 REACTION   (81-TL-203(N,2N)81-TL-202,,SIG)
 STATUS     .TABLE 10 OF UPTON PAPER.
@@ -1442,7 +1452,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9270E+03 1.5500E+02 1.2160E+03
 ENDDATA             15
 ENDSUBENT           24
-SUBENT        20416055   19860729
+SUBENT        20416055   19860729              20050926       0000
 BIB                  3          4
 REACTION   (81-TL-205(N,2N)81-TL-204,,SIG)
 STATUS     .TABLE 10 OF UPTON PAPER.
@@ -1468,7 +1478,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.8410E+03 1.4800E+02 1.2160E+03
 ENDDATA             15
 ENDSUBENT           24
-SUBENT        20416056   19800612
+SUBENT        20416056   19800612              20050926       0000
 BIB                  3          4
 REACTION   (82-PB-206(N,2N)82-PB-205,,SIG)
 STATUS     .TABLE 10 OF UPTON PAPER.
@@ -1495,7 +1505,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9710E+03 1.6000E+02 1.2160E+03
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        20416057   19800612
+SUBENT        20416057   19800612              20050926       0000
 BIB                  3          4
 REACTION   (82-PB-207(N,2N)82-PB-206,,SIG)
 STATUS     .TABLE 10 OF UPTON PAPER.
@@ -1525,7 +1535,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9200E+03 1.6600E+02 1.2160E+03
 ENDDATA             19
 ENDSUBENT           28
-SUBENT        20416058   19860729
+SUBENT        20416058   19860729              20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(N,2N)82-PB-207,,SIG)
 STATUS     .TABLE 10 OF UPTON PAPER.
@@ -1554,7 +1564,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.9710E+03 1.6800E+02 1.2160E+03
 ENDDATA             18
 ENDSUBENT           27
-SUBENT        20416059   19800612
+SUBENT        20416059   19800612              20050926       0000
 BIB                  3          4
 REACTION   (64-GD-160(N,3N)64-GD-158,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -1569,7 +1579,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 5.3000E+01 6.0000E+00 1.2160E+03
 ENDDATA              4
 ENDSUBENT           13
-SUBENT        20416060   19800612
+SUBENT        20416060   19800612              20050926       0000
 BIB                  3          4
 REACTION   (74-W-184(N,3N)74-W-182,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -1583,7 +1593,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 2.2000E+01 4.0000E+00 1.2160E+03
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        20416061   19800612
+SUBENT        20416061   19800612              20050926       0000
 BIB                  3          4
 REACTION   (74-W-186(N,3N)74-W-184,,SIG)
 STATUS     .TABLE 11 OF UPTON PAPER.
@@ -1599,7 +1609,7 @@ MEV        MEV        MB         MB         MB
  1.4760E+01 6.5000E-02 1.4500E+02 1.2000E+01 1.2160E+03
 ENDDATA              5
 ENDSUBENT           14
-SUBENT        20416062   19860729
+SUBENT        20416062   19860729              20050926       0000
 BIB                  3          4
 REACTION   (63-EU-151(N,2N)63-EU-150,,SIG)
 STATUS     .TABLE 7 OF UPTON PAPER.
