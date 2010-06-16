@@ -1,21 +1,22 @@
-ENTRY            A0188   20020404   20020430
-SUBENT        A0188001   20020404   20020430
-BIB                  6         11
-TITLE      Evaluated (A,N) Reaction Data on Most Important
-           Nuclei Entered in Comrosition of Chemical Reagents
-           Which Used in Nuclear Fuel Work Process.
-AUTHOR     (V.A.VUKOLOV, F.E.CHUKREEV)
+ENTRY            A0188   20100617   20100915   20100802       A069
+SUBENT        A0188001   20100617   20100915   20100802       A069
+BIB                  6         12
+TITLE      Evaluated (a,n) reaction data on most important
+           nuclei entered in comrosition of chemical reagents
+           which used in nuclear fuel work process.
+AUTHOR     (V.A.Vukolov, F.E.Chukreev)
 INSTITUTE  (4RUSKUR)
-REFERENCE  (J,VAT/O,4,31,1983)
+REFERENCE  (J,VAT/O,4/25,31,1983)
 HISTORY    (19830516C)
-           (19991019A) Some Data are Corrected. Lower Case.
-           (20011010A) Date is Corrected
-           (20020404U) Last checking has been done.
+           (19991019A) Some data are corrected. Lower case.
+           (20011010A) date is corrected
+           (20100617A) BIB section upgrated.
+           Reference code was changed, according Memo CP-D/628
 STATUS     (APRVD).By V.A.Vukolov.
-ENDBIB              11
-NOCOMMON
-ENDSUBENT           14
-SUBENT        A0188002   20020404   20020430
+ENDBIB              12
+NOCOMMON             0          0
+ENDSUBENT           15
+SUBENT        A0188002   20020404   20020430   20050926       0000
 BIB                  4         11
 SAMPLE     O-17.
 REACTION   (8-O-17(A,N)10-NE-20,,SIG,,,EVAL)
@@ -84,7 +85,7 @@ MEV        MEV        MB
          9.        10.       403.
 ENDDATA             51
 ENDSUBENT           67
-SUBENT        A0188003   20020404   20020430
+SUBENT        A0188003   20020404   20020430   20050926       0000
 BIB                  4         11
 SAMPLE     O-18.
 REACTION   (8-O-18(A,N)10-NE-21,,SIG,,,EVAL)
@@ -153,7 +154,7 @@ MEV        MEV        MB
          9.        10.       610.
 ENDDATA             51
 ENDSUBENT           67
-SUBENT        A0188004   20020404   20020430
+SUBENT        A0188004   20020404   20020430   20050926       0000
 BIB                  4          9
 SAMPLE     Natural Oxygen.
 REACTION   (8-O-0(A,X)0-NN-1,,PY,,TT,EVAL)
@@ -220,7 +221,7 @@ MEV        PRT/INC
         10.     46.E-8
 ENDDATA             51
 ENDSUBENT           65
-SUBENT        A0188005   20020404   20020430
+SUBENT        A0188005   20020404   20020430   20050926       0000
 BIB                  4          9
 SAMPLE     Pu Dioxide.
 REACTION   (8-O-CMP(A,X)0-NN-1,,PY,,TT,EVAL)
@@ -287,7 +288,7 @@ MEV        PRT/INC
         10.     14.E-2
 ENDDATA             51
 ENDSUBENT           65
-SUBENT        A0188006   20020404   20020430
+SUBENT        A0188006   20020404   20020430   20050926       0000
 BIB                  4          7
 SAMPLE     F-19.
 REACTION   (9-F-19(A,N)11-NA-22,,SIG,,,EVAL)
@@ -334,7 +335,7 @@ MEV        MEV        MB         MB
         7.5         8.       280.        26.
 ENDDATA             33
 ENDSUBENT           45
-SUBENT        A0188007   20020404   20020430
+SUBENT        A0188007   20020404   20020430   20050926       0000
 BIB                  5          9
 SAMPLE     F-19.
 REACTION   (9-F-19(A,N)11-NA-22,,PY,,TT,EVAL)
@@ -383,7 +384,7 @@ MEV        PRT/INC    PRT/INC
          8.    423.E-1     39.E-1
 ENDDATA             33
 ENDSUBENT           47
-SUBENT        A0188008   20020404   20020430
+SUBENT        A0188008   20020404   20020430   20050926       0000
 BIB                  5          9
 SAMPLE     Uranium Fluoride.
 REACTION   (9-F-CMP(A,X)0-NN-1,,PY,,TT,EVAL)
