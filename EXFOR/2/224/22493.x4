@@ -1,52 +1,55 @@
-ENTRY            22493   20001221   20030506
-SUBENT        22493001   20001221   20030506
-BIB                 15         42
-TITLE      .High Resolution Inelastic Scattering Cross Sections
-            In 27Al and 23Na
-AUTHOR     (S.KOPECKY, R.SHELLEY, H.MAERTENS, J.WARTENA,
-            H.WEIGMANN)
+ENTRY            22493   20101102   20110803   20110721       2225
+SUBENT        22493001   20101102   20110803   20110721       2225
+BIB                 16         45
+TITLE      .High resolution inelastic scattering cross sections
+            in 27Al and 23Na
+AUTHOR     (S.Kopecky,R.Shelley,H.Maerten,J.Wartena,H.Weigmann)
 INSTITUTE  (2ZZZGEL)  Kopecky, Shelley, Weigmann, Wartena
            (2GERDRE)  Maertens
 REFERENCE  (C,97TRIEST,1,523,199705)  Main Reference, Graphs are
              Given. Experimental Details are to be Found in -
-             Irmm-Report Ge/R/Nd/02/94, 1994, Institute of
+             IRMM-Report GE/R/ND/02/94, 1994, Institute of
              Reference Materials and Measurements, Geel, Belgium
-           (W,KOPECKY,200011) Data For 27Al Obtained Via Internet
-           (W,KOPECKY,20001218) Data For 27Al and 23Na Elastic
-             Angular Differential Obtained Via Internet
-FACILITY   (LINAC,2ZZZGEL) Pulsed Geel Linear Accelerator- Gelina,
+           (W,KOPECKY,200011) Data for 27Al obtained via Internet
+           (W,KOPECKY,20001218) Data for 27Al and 23Na elastic
+             angular differential obtained via Internet
+FACILITY   (LINAC,2ZZZGEL) Pulsed Geel Linear Accelerator- GELINA,
               Electron Beam Energy is 140 MeV, Averaged Electron
-              Current 60 Micro-Amp, Electron Bursts Duration 1 Ns,
+              Current 60 Micro-Amp, Electron Bursts Duration 1 ns,
               Repetition Rate 800 Hz
-INC-SOURCE (PHOTO)  Mercury Cooled Rotary U Target As a Source of
-                    White Neutron Spectrum
-INC-SPECT   .26.5 M Downstream the Beam Two Filters of Pb and U
-             Were Inserted to Reduce Gamma-Flash Intensity
-METHOD     (TOF)  Time-Of-Flight For Determination of Neutron
-              Energy, Using the Electron Beam Reaching Uranium
-              Target As a Start Signal and Gamma Ray Detection As
-              A Stop Signal. Flight Base 400 M
+INC-SOURCE (PHOTO)  Mercury cooled rotary U target as a source of
+                    white neutron spectrum
+INC-SPECT   .26.5 M Downstream the beam two filters of Pb and U
+             were inserted to reduce gamma-flash intensity
+METHOD     (TOF)  Time-of-Flight for determination of neutron
+              energy, using the electron beam reaching Uranium
+              target as a start signal and gamma ray detection as
+              a stop signal. flight base 400 m
 MONITOR    (92-U-235(N,F),,SIG)
            (5-B-10(N,INL)5-B-10,PAR,SIG,G)
-DETECTOR   (STANK)  Eight 2*2 Inch Ne-213 Scintillators are Used
-                    As Gamma Detectors
-           (FISCH)  U-235 Fission Chamber For Neutron Flux
-                    Monitoring
-ANALYSIS   (MLA) Data Analysis was Performed with the Help of
-               'Sammy' Code Which Uses a Multi-Level Breit-Wigner
+DETECTOR   (STANK)  Eight 2*2 inch NE-213 scintillators are used
+                    as gamma detectors
+           (FISCH)  U-235 fission chamber for neutron flux
+                    monitoring
+ANALYSIS   (MLA) Data analysis was performed with the help of
+               'Sammy' code which uses a Multi-Level Breit-Wigner
                R-Matrix in the Reich-Moore Approximation
 PART-DET   (G,N)
 CORRECTION .No Information
-ERR-ANALYS .No Information
+ERR-ANALYS (DATA-ERR) No Information
+STATUS     (TABLE) Data were obtained from Dr. S.Kopecky
 HISTORY    (20001120C)   + +  Compiled by S.M.
            (20001218A)   + +  New Data Added
            (20001220U) Last Checking has Been done.
            (20001221U) Last Checking has Been done.
            (20001221U) Last checking has been done.
-ENDBIB              42
-NOCOMMON
-ENDSUBENT           45
-SUBENT        22493002   20001221   20030506
+           (20101102A) SD: PAR in SF5 of REACTION keyword and
+           LVL-NUMB=1 were deleted from Subent 004
+           Author's name corrected: H.Maertens => H.Maerten
+ENDBIB              45
+NOCOMMON             0          0
+ENDSUBENT           48
+SUBENT        22493002   20001221   20030506   20050926       0000
 BIB                  5          5
 REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
 SAMPLE     .No Information
@@ -614,7 +617,7 @@ MEV        MEV        B          B
     2.25017      .0032 .39846E-01 .14829E-01
 ENDDATA            552
 ENDSUBENT          566
-SUBENT        22493003   20001221   20030506
+SUBENT        22493003   20001221   20030506   20050926       0000
 BIB                  5          5
 REACTION   (13-AL-27(N,INL)13-AL-27,PAR,SIG)
 SAMPLE     .No Information
@@ -1267,20 +1270,15 @@ MEV        MEV        B          B
     2.25017      .0032     .15039 .10579E-01
 ENDDATA            637
 ENDSUBENT          651
-SUBENT        22493004   20001221   20030506
-BIB                  5          6
-REACTION   (11-NA-23(N,INL)11-NA-23,PAR,SIG)
+SUBENT        22493004   20101102   20110803   20110721       2225
+BIB                  4          5
+REACTION   (11-NA-23(N,INL)11-NA-23,,SIG)
 SAMPLE     .No Information
-EN-SEC     (LVL-NUMB,11-NA-23)  Energy Level is not Given
-COMMENT    .Level Number is Given For Consistency with EXFOR
-            Rules
 STATUS     (APRVD)  S.Kopecky, 2000-11-29
-ENDBIB               6
-COMMON               1          3
-LVL-NUMB
-NO-DIM
-         1.
-ENDCOMMON            3
+HISTORY    (20101102A) SD: PAR in SF5 of REACTION code and
+           LVL-NUMB=1 were deleted
+ENDBIB               5
+NOCOMMON             0          0
 DATA                 4       1452
 EN         EN-RSL     DATA       DATA-ERR
 MEV        MEV        B          B
@@ -2737,8 +2735,8 @@ MEV        MEV        B          B
     1.99022     .00266     .41948 .59433E-02
     1.99287     .00266     .39407  .5767E-02
 ENDDATA           1454
-ENDSUBENT         1469
-SUBENT        22493005   20001221   20030506
+ENDSUBENT         1464
+SUBENT        22493005   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -4369,7 +4367,7 @@ MEV        MEV        MB/SR      MB/SR
     2.01629     .00271 .74295E+03 .17485E+02
 ENDDATA           1617
 ENDSUBENT         1629
-SUBENT        22493006   20001221   20030506
+SUBENT        22493006   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -5984,7 +5982,7 @@ MEV        MEV        MB/SR      MB/SR
     2.01356     .00271 .55871E+03 .12966E+02
 ENDDATA           1601
 ENDSUBENT         1613
-SUBENT        22493007   20001221   20030506
+SUBENT        22493007   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -7387,7 +7385,7 @@ MEV        MEV        MB/SR      MB/SR
     2.01491     .00271  .3777E+03 .91753E+01
 ENDDATA           1389
 ENDSUBENT         1401
-SUBENT        22493008   20001221   20030506
+SUBENT        22493008   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -8822,7 +8820,7 @@ MEV        MEV        MB/SR      MB/SR
     2.01556     .00271 .33368E+03 .80544E+01
 ENDDATA           1421
 ENDSUBENT         1433
-SUBENT        22493009   20001221   20030506
+SUBENT        22493009   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -9845,7 +9843,7 @@ MEV        MEV        MB/SR      MB/SR
     2.00741     .00806 .10436E+03 .30917E+01
 ENDDATA           1009
 ENDSUBENT         1021
-SUBENT        22493010   20001221   20030506
+SUBENT        22493010   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -10909,7 +10907,7 @@ MEV        MEV        MB/SR      MB/SR
     2.01129     .01347 .83137E+02 .24473E+01
 ENDDATA           1050
 ENDSUBENT         1062
-SUBENT        22493011   20001221   20030506
+SUBENT        22493011   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -11932,7 +11930,7 @@ MEV        MEV        MB/SR      MB/SR
      2.0083     .01612 .69576E+02 .20089E+01
 ENDDATA           1009
 ENDSUBENT         1021
-SUBENT        22493012   20001221   20030506
+SUBENT        22493012   20001221   20030506   20050926       0000
 BIB                  3          3
 REACTION   (11-NA-23(N,EL)11-NA-23,,DA)
 SAMPLE     .No Information
@@ -12942,7 +12940,7 @@ MEV        MEV        MB/SR      MB/SR
      2.0058     .02145 .53801E+02 .17069E+01
 ENDDATA            996
 ENDSUBENT         1008
-SUBENT        22493013   20001221   20030506
+SUBENT        22493013   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -14614,7 +14612,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99749     .00267  507.19614   13.23859
 ENDDATA           1659
 ENDSUBENT         1670
-SUBENT        22493014   20001221   20030506
+SUBENT        22493014   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -16309,7 +16307,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99876     .00267  384.13251   10.31047
 ENDDATA           1682
 ENDSUBENT         1693
-SUBENT        22493015   20001221   20030506
+SUBENT        22493015   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -17888,7 +17886,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99875     .00268  271.96133    7.38029
 ENDDATA           1566
 ENDSUBENT         1577
-SUBENT        22493016   20001221   20030506
+SUBENT        22493016   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -19055,7 +19053,7 @@ MEV        MEV        MB/SR      MB/SR
      1.9967     .00265  176.22624    5.32462
 ENDDATA           1154
 ENDSUBENT         1165
-SUBENT        22493017   20001221   20030506
+SUBENT        22493017   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -19842,7 +19840,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99793     .00533  158.04482    4.77437
 ENDDATA            774
 ENDSUBENT          785
-SUBENT        22493018   20001221   20030506
+SUBENT        22493018   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -20631,7 +20629,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99373     .00533   116.8781      3.715
 ENDDATA            776
 ENDSUBENT          787
-SUBENT        22493019   20001221   20030506
+SUBENT        22493019   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
@@ -21422,7 +21420,7 @@ MEV        MEV        MB/SR      MB/SR
     1.99206     .00533  109.09207    3.51963
 ENDDATA            778
 ENDSUBENT          789
-SUBENT        22493020   20001221   20030506
+SUBENT        22493020   20001221   20030506   20050926       0000
 BIB                  2          2
 REACTION   (13-AL-27(N,EL)13-AL-27,,DA)
 STATUS     (APRVD)  S.Kopecky, 2000-12-18
