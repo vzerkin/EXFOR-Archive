@@ -1,39 +1,53 @@
-ENTRY            22413   20000319   20021212
-SUBENT        22413001   20000319   20021212
-BIB                 14         29
-TITLE       Fragments' Mass and Energy Characteristics in the
-            Spontaneous Fission of 236-Pu, 238-Pu, 240-Pu, 242-Pu
-            And 244-Pu
-AUTHOR     (L.DEMATTEE, C.WAGEMANS, R.BARTHELEMY, P.D.D'HONDT,
-            A.DERUYTTER, J.VAN GILS)
-INSTITUTE  (2ZZZGEL)  Demattee, Barthelemy, Deruytter, Van Gils
+ENTRY            22413   20110219   20110803   20110721       2225
+SUBENT        22413001   20110219   20110803   20110721       2225
+BIB                 14         43
+TITLE       Fragments' mass and energy characteristics in the
+            spontaneous fission of 236-Pu, 238-Pu, 240-Pu, 242-Pu
+            and 244-Pu
+AUTHOR     (L.Dematte,C.Wagemans,R.Barthelemy,P.D.D'hondt,
+           A.Deruytter,J.van Gils)
+INSTITUTE  (2ZZZGEL)  Dematte, Barthelemy, Deruytter, van Gils
            (2BLGGHT)  Wagemans
            (2BLGMOL)  D'Hondt
 REFERENCE  (J,NP/A,617,331,1997)  Main Reference
-           (R,INDC(EUR)-031/G,19,199706)
-                                            Preliminary Data
-           (W,DEMATTEE,19990719)  Data Given Via Internet
+           (R,INDC(EUR)-031,19,199706)  Preliminary Data
+           (W,Demattee,19990719)  Data Given Via Internet
 METHOD     (COINC) Coincidence of Fission Fragments Combined
             With Double-Energy Method
            (STTA)  Stack Target Method
 DETECTOR   (SIBAR) Silicon Surface-Barrier Detector
 MONITOR    .Given in Proper Subent If Relevant
-MONIT-REF  (22413000,L.DEMATTEE+,J,NP/A,617,331,1997)
-SAMPLE      Enriched Plutonium Isotope Mixed with Pu-239 and
-            Placed Between Two Detectors. Samples were Prepared
-            Under Vacuum Evaporation of Plutonium on Very
-            Thin Backing Foil Transparent For Fission Fragments
+MONIT-REF  (22413000,L.Demattee+,J,NP/A,617,331,1997)
+SAMPLE      Enriched plutonium isotope mixed with Pu-239 and
+            placed between two detectors. Samples were prepared
+            under vacuum evaporation of Plutonium on very
+            thin backing foil transparent for fission fragments
+             Sample    Isot.comp.          Thickness  Backing
+                        atoms %             mu-g/cm2  mu-g/cm2
+            236Pu-239Pu  1.9%(236);98.1%(239)  1.3    222. of Ni
+            238Pu-239Pu   46%(238);54%(239)    1.18   200. of Ni
+            240Pu-239Pu   76%(240);24%(239)   19.      29. of P.I.
+            242Pu-239Pu   82%(242);18%(239)    5.5     32. of P.I.
+            244Pu-239Pu   44%(244);50%(239)    7.     200. of Ni
+                          +1.5%(240);4.5(242)
 ANALYSIS    Schmidt-Neiler Calibration Procedure
 ADD-RES    (COMP,Z-DIS)
-ERR-ANALYS .Errors, If Present, are Mainly Statistical.
-            Total Errors Specified in Particular Subents
-CORRECTION  Corrections were Made For Prompt Neutron Emission
+ERR-ANALYS .Errors, if present, are mainly statistical.
+CORRECTION  Corrections were made for prompt neutron emission
 HISTORY    (20000317C)  + +  Compiled by S.M.
-           (20000319U)  Last Checking has Been done.
-ENDBIB              29
+           (20000319U)  Last checking has been done.
+           (20101102A) SD: Pointers in DATA  and ERR-T were added
+                in Subents 012, 016, 020, 024
+                Author's name corrected: P.D.D'hondt => P.D'hondt
+                Demattee => Dematte
+                Detailed description of samples added.
+                ERR-T changed on MISC1 in Subents: 008, 012, 016,
+                020, 024 - 029 according to description in the
+                Nucl.Phys. A617,331,1997 + MISC1-ERR added
+ENDBIB              43
 NOCOMMON             0          0
-ENDSUBENT           32
-SUBENT        22413002   20000319   20021212
+ENDSUBENT           46
+SUBENT        22413002   20000319   20021212   20050926       0000
 BIB                  5          8
 REACTION   (94-PU-239(N,F),PRE,AKE,FF,MXW) Averaged Kinetic
               Energy of Fission-Fragments
@@ -51,7 +65,7 @@ EV         MEV        MEV        NO-DIM
    2.53E-02     205.94       0.14      2631.
 ENDDATA              3
 ENDSUBENT           16
-SUBENT        22413003   20000319   20021212
+SUBENT        22413003   20000319   20021212   20050926       0000
 BIB                  5          7
 REACTION   (94-PU-239(N,F),PRE,AP,HF,MXW)  Averaged Mass of F-Frag
 FACILITY   (REAC,2BLGMOL) BR1 Reactor of SCK/GEN in Mol -
@@ -68,7 +82,7 @@ EV         NO-DIM     NO-DIM     NO-DIM
    2.53E-02     136.41       0.14      2631.
 ENDDATA              3
 ENDSUBENT           15
-SUBENT        22413004   20000319   20021212
+SUBENT        22413004   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-239(N,F)MASS,PRE,FY,,MXW) Averaged Fission
                 Yield For FF with Most Probable Mass
@@ -81,7 +95,7 @@ EV         NO-DIM     PC/FIS     PC/FIS     NO-DIM
    2.53E-02     136.41       0.19     0.0037      2631.
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        22413005   20000319   20021212
+SUBENT        22413005   20000319   20021212   20050926       0000
 BIB                  5         10
 REACTION   (94-PU-236(0,F)MASS,PRE,FY/DE,,RAW) Initial Data For
              Fission-Fragments Yield of Given Energy
@@ -3011,7 +3025,7 @@ MEV        NO-DIM     NO-DIM
        210.       160.         0.
 ENDDATA           2913
 ENDSUBENT         2928
-SUBENT        22413006   20000319   20021212
+SUBENT        22413006   20000319   20021212   20050926       0000
 BIB                  3          5
 REACTION   (94-PU-236(0,F),PRE,DE,FF,REL) Yield of Fission-
                Fragment with a Given Energy
@@ -3087,7 +3101,7 @@ MEV        ARB-UNITS  ARB-UNITS
        206.     0.1012   0.071533
 ENDDATA             64
 ENDSUBENT           74
-SUBENT        22413007   20000319   20021212
+SUBENT        22413007   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-236(0,F)MASS,PRE,FY,,REL) Pre-Neutron Ff Yield
 STATUS     (DEP,22413005)
@@ -3131,29 +3145,35 @@ NO-DIM     ARB-UNITS  ARB-UNITS
        156.     0.1012   0.071533
 ENDDATA             34
 ENDSUBENT           42
-SUBENT        22413008   20000319   20021212
-BIB                  5          9
-REACTION  1(94-PU-236(0,F),PRE,AKE,FF)
-          2(94-PU-236(0,F),PRE,AKE,FF)
-ANALYSIS  1.Averaged Total Ff Kinetic Energy Obtained from Mass-
+SUBENT        22413008   20110219   20110803   20110721       2225
+BIB                  6         15
+REACTION  1(94-PU-236(0,F),PRE,AKE,LF+HF)
+          2(94-PU-236(0,F),PRE,AKE,LF+HF)
+ANALYSIS  1.Averaged Total FF Kinetic Energy Obtained from Mass-
             Energy Distribution
-          2.Averaged Total Ff Kinetic Energy Obtained by the
+          2.Averaged Total FF Kinetic Energy Obtained by the
             Method of Selection
 MISC-COL   (MISC)  Number of Events
+           (MISC1)  Dispersion of Kin-E Distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                             Kin-E distribution
 STATUS     (DEP,22413005)
-ERR-ANALYS (ERR-T)  Dispersion of Kin-E Distribution
-ENDBIB               9
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              15
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 MEV        MEV        MEV        NO-DIM     MEV        MEV
-NO-DIM
-      175.3        11.        0.3      1977.      199.4       1.68
-        49.
+MEV        MEV
+      175.3        0.3      1977.        11.     0.2      199.4
+    1.68        49.
 ENDDATA              6
-ENDSUBENT           20
-SUBENT        22413009   20000319   20021212
+ENDSUBENT           26
+SUBENT        22413009   20000319   20021212   20050926       0000
 BIB                  5         10
 REACTION   (94-PU-238(0,F)MASS,PRE,FY/DE,,RAW) Initial Data For
              Fission-Fragments Yield of Given Energy
@@ -6083,7 +6103,7 @@ MEV        NO-DIM     NO-DIM
        210.       160.         0.
 ENDDATA           2913
 ENDSUBENT         2928
-SUBENT        22413010   20000319   20021212
+SUBENT        22413010   20000319   20021212   20050926       0000
 BIB                  3          4
 REACTION   (94-PU-238(0,F),PRE,DE,FF,REL)
 EN-SEC     (E,FF)
@@ -6160,7 +6180,7 @@ MEV        ARB-UNITS  ARB-UNITS
        207.     0.0488   0.048757
 ENDDATA             66
 ENDSUBENT           75
-SUBENT        22413011   20000319   20021212
+SUBENT        22413011   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-238(0,F)MASS,PRE,FY,,REL)
 STATUS     (DEP,22413009)
@@ -6206,30 +6226,35 @@ NO-DIM     ARB-UNITS  ARB-UNITS
        158.     0.1463   0.084449
 ENDDATA             36
 ENDSUBENT           44
-SUBENT        22413012   20000319   20021212
-BIB                  5         10
-REACTION  1(94-PU-238(0,F),PRE,AKE,FF)
-          2(94-PU-238(0,F),PRE,AKE,FF)
-ANALYSIS  1.Averaged Total Ff Kinetic Energy Obtained from Mass-
+SUBENT        22413012   20110219   20110803   20110721       2225
+BIB                  6         15
+REACTION  1(94-PU-238(0,F),PRE,AKE,LF+HF)
+          2(94-PU-238(0,F),PRE,AKE,LF+HF)
+ANALYSIS  1.Averaged Total FF Kinetic Energy Obtained from Mass-
             Energy Distribution
-          2.Averaged Total Ff Kinetic Energy Obtained by the
+          2.Averaged Total FF Kinetic Energy Obtained by the
             Method of Selection
-STATUS     .From Tables 3 and 4 of Main Reference
+STATUS     (TABLE) From Tables 3 and 4 of Nucl.Phys.,A617,331,1997
            (DEP,22413009)
 MISC-COL   (MISC) Number of Events
-ERR-ANALYS (ERR-T)  Dispersion of Kin-E Distribution
-ENDBIB              10
+           (MISC1)  Dispersion of Kin-E Distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                             Kin-E distribution
+HISTORY    (20101102A) SD: Pointers in DATA  and ERR-T were added
+               ERR-T changed on MISC1 according to description
+               in the  Nucl.Phys. A617,331,1997 + MISC1-ERR added
+ENDBIB              15
 NOCOMMON             0          0
-DATA                 7          1
-DATA       ERR-T      ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 MEV        MEV        MEV        NO-DIM     MEV        MEV
-NO-DIM
-      176.4       11.3        0.3      2051.     197.73       1.03
-        33.
+MEV        MEV
+      176.4        0.3      2051.    11.3     0.2        197.73
+   1.03       33.
 ENDDATA              6
-ENDSUBENT           21
-SUBENT        22413013   20000319   20021212
+ENDSUBENT           26
+SUBENT        22413013   20000319   20021212   20050926       0000
 BIB                  5          8
 REACTION   (94-PU-240(0,F)MASS,PRE,FY/DE,,RAW)
 EN-SEC     (E,FF)
@@ -9157,7 +9182,7 @@ MEV        NO-DIM     NO-DIM
        210.       160.         0.
 ENDDATA           2913
 ENDSUBENT         2926
-SUBENT        22413014   20000319   20021212
+SUBENT        22413014   20000319   20021212   20050926       0000
 BIB                  3          4
 REACTION   (94-PU-240(0,F),PRE,DE,FF,REL)
 EN-SEC     (E,FF)
@@ -9238,7 +9263,7 @@ MEV        ARB-UNITS  ARB-UNITS
        210.     0.0084   0.008427
 ENDDATA             70
 ENDSUBENT           79
-SUBENT        22413015   20000319   20021212
+SUBENT        22413015   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-240(0,F)MASS,PRE,FY,,REL)
 STATUS     (DEP,22413013)
@@ -9287,30 +9312,35 @@ NO-DIM     ARB-UNITS  ARB-UNITS
        160.     0.0253   0.014596
 ENDDATA             39
 ENDSUBENT           47
-SUBENT        22413016   20000319   20021212
-BIB                  5         10
-REACTION  1(94-PU-240(0,F),PRE,AKE,FF)
-          2(94-PU-240(0,F),PRE,AKE,FF)
-ANALYSIS  1.Averaged Total Ff Kinetic Energy Obtained from Mass-
-            Energy Distribution
-          2.Averaged Total Ff Kinetic Energy Obtained by the
-            Method of Selection
-STATUS     .From Tables 3 and 4 of Main Reference
+SUBENT        22413016   20110219   20110803   20110721       2225
+BIB                  6         15
+REACTION  1(94-PU-240(0,F),PRE,AKE,LF+HF)
+          2(94-PU-240(0,F),PRE,AKE,LF+HF)
+ANALYSIS  1.Averaged total FF kinetic energy obtained from mass-
+            energy distribution
+          2.Averaged total FF kinetic energy obtained by the
+            method of selection
+STATUS     (TABLE) From Tables 3 and 4 of Nucl.Phys.,A617,331,1997
            (DEP,22413013)
 MISC-COL   (MISC) Number of Events
-ERR-ANALYS (ERR-T)  Dispersion of Kin-E Distribution
-ENDBIB              10
+           (MISC1)  Dispersion of Kin-E Distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                             Kin-E distribution
+HISTORY    (20101102A) SD: Pointers in DATA  and ERR-T were added
+               ERR-T changed on MISC1 according to description
+               in the  Nucl.Phys. A617,331,1997 + MISC1-ERR added
+ENDBIB              15
 NOCOMMON             0          0
-DATA                 7          1
-DATA       ERR-T      ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 MEV        MEV        MEV        NO-DIM     MEV        MEV
-NO-DIM
-      178.5       11.5        0.1     11867.     200.63       0.44
-       208.
+MEV        MEV
+      178.5        0.1     11867.       11.5   0.1       200.63
+   0.44      208.
 ENDDATA              6
-ENDSUBENT           21
-SUBENT        22413017   20000319   20021212
+ENDSUBENT           26
+SUBENT        22413017   20000319   20021212   20050926       0000
 BIB                  5          9
 REACTION   (94-PU-242(0,F)MASS,PRE,FY/DE,,RAW)
 EN-SEC     (E,FF)
@@ -12239,7 +12269,7 @@ MEV        NO-DIM     NO-DIM
        210.       160.         0.
 ENDDATA           2913
 ENDSUBENT         2927
-SUBENT        22413018   20000319   20021212
+SUBENT        22413018   20000319   20021212   20050926       0000
 BIB                  3          4
 REACTION   (94-PU-242(0,F),PRE,DE,FF,REL)
 EN-SEC     (E,FF)
@@ -12322,7 +12352,7 @@ MEV        ARB-UNITS  ARB-UNITS
        210.     0.0063   0.004458
 ENDDATA             72
 ENDSUBENT           81
-SUBENT        22413019   20000319   20021212
+SUBENT        22413019   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-242(0,F)MASS,PRE,FY,,REL)
 STATUS     (DEP,22413017)
@@ -12368,30 +12398,35 @@ NO-DIM     ARB-UNITS  ARB-UNITS
        159.     0.0221    0.00834
 ENDDATA             36
 ENDSUBENT           44
-SUBENT        22413020   20000319   20021212
-BIB                  5         10
-REACTION  1(94-PU-242(0,F),PRE,AKE,FF)
-          2(94-PU-242(0,F),PRE,AKE,FF)
-ANALYSIS  1.Averaged Total Ff Kinetic Energy Obtained from Mass-
-            Energy Distribution
-          2.Averaged Total Ff Kinetic Energy Obtained by the
-            Method of Selection
-STATUS     .From Tables 3 and 4 of Main Reference
+SUBENT        22413020   20110219   20110803   20110721       2225
+BIB                  6         15
+REACTION  1(94-PU-242(0,F),PRE,AKE,LF+HF)
+          2(94-PU-242(0,F),PRE,AKE,LF+HF)
+ANALYSIS  1.Averaged total FF kinetic energy obtained from mass-
+            energy distribution
+          2.Averaged total FF kinetic energy obtained by the
+            method of selection
+STATUS     (TABLE) From Tables 3 and 4 of Nucl.Phys.,A617,331,1997
            (DEP,22413017)
 MISC-COL   (MISC) Number of Events
-ERR-ANALYS (ERR-T)  Dispersion of Kin-E Distribution
-ENDBIB              10
+           (MISC1)  Dispersion of Kin-E distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                             Kin-E distribution
+HISTORY    (20101102A) SD: Pointers in DATA  and ERR-T were added
+               ERR-T changed on MISC1 according to description
+               in the  Nucl.Phys. A617,331,1997 + MISC1-ERR added
+ENDBIB              15
 NOCOMMON             0          0
-DATA                 7          1
-DATA       ERR-T      ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 MEV        MEV        MEV        NO-DIM     MEV        MEV
-NO-DIM
-      180.5      11.52        0.1     31722.     201.54       0.24
-       632.
+MEV        MEV
+      180.5        0.1     31722.      11.52   0.04      201.54
+     0.24      632.
 ENDDATA              6
-ENDSUBENT           21
-SUBENT        22413021   20000319   20021212
+ENDSUBENT           26
+SUBENT        22413021   20000319   20021212   20050926       0000
 BIB                  5          9
 REACTION   (94-PU-244(0,F)MASS,PRE,FY/DE,,RAW)
 EN-SEC     (E,FF)
@@ -15320,7 +15355,7 @@ MEV        NO-DIM     NO-DIM
        210.       160.         0.
 ENDDATA           2913
 ENDSUBENT         2927
-SUBENT        22413022   20000319   20021212
+SUBENT        22413022   20000319   20021212   20050926       0000
 BIB                  3          4
 REACTION   (94-PU-244(0,F),PRE,DE,FF,REL)
 EN-SEC     (E,FF)
@@ -15401,7 +15436,7 @@ MEV        ARB-UNITS  ARB-UNITS
        209.     0.0114   0.008062
 ENDDATA             70
 ENDSUBENT           79
-SUBENT        22413023   20000319   20021212
+SUBENT        22413023   20000319   20021212   20050926       0000
 BIB                  2          3
 REACTION   (94-PU-244(0,F)MASS,PRE,FY,,REL)
 STATUS     (DEP,22413021)
@@ -15449,31 +15484,36 @@ NO-DIM     ARB-UNITS  ARB-UNITS
        160.     0.0285   0.012748
 ENDDATA             38
 ENDSUBENT           46
-SUBENT        22413024   20000319   20021212
-BIB                  5         10
-REACTION  1(94-PU-244(0,F),PRE,AKE,FF)
-          2(94-PU-244(0,F),PRE,AKE,FF)
-ANALYSIS  1.Averaged Total Ff Kinetic Energy Obtained from Mass-
-            Energy Distribution
-          2.Averaged Total Ff Kinetic Energy Obtained by the
-            Method of Selection
-STATUS     .From Tables 3 and 4 of Main Reference
+SUBENT        22413024   20110219   20110803   20110721       2225
+BIB                  6         15
+REACTION  1(94-PU-244(0,F),PRE,AKE,LF+HF)
+          2(94-PU-244(0,F),PRE,AKE,LF+HF)
+ANALYSIS  1.Averaged total FF kinetic energy obtained from mass-
+            energy distribution
+          2.Averaged total FF kinetic energy obtained by the
+            method of selection
+STATUS     (TABLE) From Tables 3 and 4 of Nucl.Phys.,A617,331,1997
            (DEP,22413021)
-MISC-COL   (MISC) Number of Events
-ERR-ANALYS (ERR-T)  Dispersion of Kin-E Distribution
-ENDBIB              10
+MISC-COL   (MISC) Number of events
+           (MISC1)  Dispersion of Kin-E distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                             Kin-E distribution
+HISTORY    (20101102A) SD: Pointers in DATA  and ERR-T were added
+               ERR-T changed on MISC1 according to description
+               in the  Nucl.Phys. A617,331,1997 + MISC1-ERR added
+ENDBIB              15
 NOCOMMON             0          0
-DATA                 7          1
-DATA       ERR-T      ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 MEV        MEV        MEV        NO-DIM     MEV        MEV
-NO-DIM
-       179.       11.1        0.1     17541.      197.8       0.43
-       213.
+MEV        MEV
+      179.0        0.1     17541.       11.1   0.1       197.80
+     0.43     213.
 ENDDATA              6
-ENDSUBENT           21
-SUBENT        22413025   20000319   20021212
-BIB                  4         11
+ENDSUBENT           26
+SUBENT        22413025   20110219   20110803   20110721       2225
+BIB                  6         17
 REACTION  1(94-PU-236(0,F),PRE,AP,HF)    Average Mass of the
                        Fission Fragments
           2(94-PU-236(0,F),PRE,AP,HF)Average Mass of the
@@ -15483,21 +15523,27 @@ ANALYSIS  1.Average Fission-Fragment Mass Obtained from Mass-
           2.Average Fission-Fragment Mass Obtained by the
             Method of Selection
 MISC-COL   (MISC)   Number of Events
+           (MISC1)  Dispersion of heavy mass distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                      heavy mass distribution
 STATUS     (DEP,22413005)
-           .        From Tables 3 and 4 of Main Reference
-ENDBIB              11
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
-NO-DIM
-      139.1        5.3        0.1      1977.     140.79       1.21
-        49.
+NO-DIM     NO-DIM
+      139.1        0.1      1977.        5.3   0.1      140.79
+       1.21        49.
 ENDDATA              6
-ENDSUBENT           22
-SUBENT        22413026   20000319   20021212
-BIB                  4         11
+ENDSUBENT           28
+SUBENT        22413026   20110219   20110803   20110721       2225
+BIB                  6         17
 REACTION  1(94-PU-238(0,F),PRE,AP,HF)Average Mass of the
                        Fission Fragments
           2(94-PU-238(0,F),PRE,AP,HF)Average Mass of the
@@ -15507,21 +15553,27 @@ ANALYSIS  1.Average Fission-Fragment Mass Obtained from Mass-
           2.Average Fission-Fragment Mass Obtained by the
             Method of Selection
 MISC-COL   (MISC)   Number of Events
+           (MISC1)  Dispersion of heavy mass distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                      heavy mass distribution
 STATUS     (DEP,22413009)
-           .        From Tables 3 and 4 of Main Reference
-ENDBIB              11
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
-NO-DIM
-      139.4        5.9        0.1      2051.     139.53       0.88
-        33.
+NO-DIM     NO-DIM
+      139.4        0.1      2051.        5.9   0.1      139.53
+       0.88        33.
 ENDDATA              6
-ENDSUBENT           22
-SUBENT        22413027   20000319   20021212
-BIB                  4         11
+ENDSUBENT           28
+SUBENT        22413027   20110219   20110803   20110721       2225
+BIB                  6         17
 REACTION  1(94-PU-240(0,F),PRE,AP,HF)Average Mass of the
                        Fission Fragments
           2(94-PU-240(0,F),PRE,AP,HF)Average Mass of the
@@ -15531,21 +15583,27 @@ ANALYSIS  1.Average Fission-Fragment Mass Obtained from Mass-
           2.Average Fission-Fragment Mass Obtained by the
             Method of Selection
 MISC-COL   (MISC)   Number of Events
+           (MISC1)  Dispersion of heavy mass distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                      heavy mass distribution
 STATUS     (DEP,22413013)
-           .        From Tables 3 and 4 of Main Reference
-ENDBIB              11
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
-NO-DIM
-     138.87       5.76       0.05     11867.     136.99        0.4
-       208.
+NO-DIM     NO-DIM
+     138.87       0.05     11867.       5.76   0.04     136.99
+       0.40       208.
 ENDDATA              6
-ENDSUBENT           22
-SUBENT        22413028   20000319   20021212
-BIB                  4         11
+ENDSUBENT           28
+SUBENT        22413028   20110219   20110803   20110721       2225
+BIB                  6         17
 REACTION  1(94-PU-242(0,F),PRE,AP,HF)Average Mass of the
                        Fission Fragments
           2(94-PU-242(0,F),PRE,AP,HF)Average Mass of the
@@ -15555,21 +15613,27 @@ ANALYSIS  1.Average Fission-Fragment Mass Obtained from Mass-
           2.Average Fission-Fragment Mass Obtained by the
             Method of Selection
 MISC-COL   (MISC)   Number of Events
+           (MISC1)  Dispersion of heavy mass distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                      heavy mass distribution
 STATUS     (DEP,22413017)
-           .        From Tables 3 and 4 of Main Reference
-ENDBIB              11
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
-NO-DIM
-      137.8       5.24       0.03     31722.     136.84        0.2
-       632.
+NO-DIM     NO-DIM
+     137.89       0.03     31722.       5.24    0.02     136.84
+     0.20      632.
 ENDDATA              6
-ENDSUBENT           22
-SUBENT        22413029   20000319   20021212
-BIB                  4         11
+ENDSUBENT           28
+SUBENT        22413029   20110219   20110803   20110721       2225
+BIB                  6         17
 REACTION  1(94-PU-244(0,F),PRE,AP,HF)Average Mass of the
                        Fission Fragments
           2(94-PU-244(0,F),PRE,AP,HF)Average Mass of the
@@ -15579,20 +15643,26 @@ ANALYSIS  1.Average Fission-Fragment Mass Obtained from Mass-
           2.Average Fission-Fragment Mass Obtained by the
             Method of Selection
 MISC-COL   (MISC)   Number of Events
+           (MISC1)  Dispersion of heavy mass distribution
+ERR-ANALYS (MISC1-ERR) Statistical uncertainty of dispersion of
+                                      heavy mass distribution
 STATUS     (DEP,22413021)
-           .        From Tables 3 and 4 of Main Reference
-ENDBIB              11
+           (TABLE) From Tables 3 and 4 of Nucl.Phys. A617,331,1997
+HISTORY    (20101102A) SD: ERR-T changed on MISC1 according to
+                 description in the  Nucl.Phys. A617,331,1997 +
+                 MISC1-ERR added
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 7          1
-DATA      1ERR-T     1ERR-S     1MISC      1DATA      2ERR-S     2
-MISC      2
+DATA                 8          1
+DATA      1ERR-S     1MISC      1MISC1     1MISC1-ERR 1DATA      2
+ERR-S     2MISC      2
 NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM     NO-DIM
-NO-DIM
-     138.32       5.77       0.04     17541.     139.84       0.39
-       213.
+NO-DIM     NO-DIM
+    138.32     0.04      17541.      5.77      0.03     139.84
+      0.39     213.
 ENDDATA              6
-ENDSUBENT           22
-SUBENT        22413030   20000319   20021212
+ENDSUBENT           28
+SUBENT        22413030   20000319   20021212   20050926       0000
 BIB                  4          5
 REACTION   (94-PU-236(0,F)MASS,PRE,FY)  Average Fission Yield
 ANALYSIS   .Average Fission-Fragment Mass Obtained by the
@@ -15607,7 +15677,7 @@ NO-DIM     PC/FIS     PC/FIS     NO-DIM
      139.84       2.36       0.34        49.
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        22413031   20000319   20021212
+SUBENT        22413031   20000319   20021212   20050926       0000
 BIB                  4          5
 REACTION   (94-PU-238(0,F)MASS,PRE,FY)  Average Fission Yield
 ANALYSIS   .Average Fission-Fragment Mass Obtained by the
@@ -15622,7 +15692,7 @@ NO-DIM     PC/FIS     PC/FIS     NO-DIM
      139.84       1.58       0.28        33.
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        22413032   20000319   20021212
+SUBENT        22413032   20000319   20021212   20050926       0000
 BIB                  4          5
 REACTION   (94-PU-240(0,F)MASS,PRE,FY)  Average Fission Yield
 ANALYSIS   .Average Fission-Fragment Mass Obtained by the
@@ -15637,7 +15707,7 @@ NO-DIM     PC/FIS     PC/FIS     NO-DIM
      139.84       1.73       0.12       208.
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        22413033   20000319   20021212
+SUBENT        22413033   20000319   20021212   20050926       0000
 BIB                  4          5
 REACTION   (94-PU-242(0,F),PRE,FY)  Average Fission Yield
 ANALYSIS   .Average Fission-Fragment Mass Obtained by the
@@ -15652,7 +15722,7 @@ NO-DIM     PC/FIS     PC/FIS     NO-DIM
      139.84      1.961      0.079       632.
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        22413034   20000319   20021212
+SUBENT        22413034   20000319   20021212   20050926       0000
 BIB                  4          5
 REACTION   (94-PU-244(0,F)MASS,PRE,FY)  Average Fission Yield
 ANALYSIS   .Average Fission-Fragment Mass Obtained by the
