@@ -1,28 +1,24 @@
-ENTRY            O1266   20051028   20060215                  O024
-SUBENT        O1266001   20051028   20060215                  O024
-BIB                 12         43
+ENTRY            O1266   20110320   20111003   20110913       O045
+SUBENT        O1266001   20110320   20111003   20110913       O045
+BIB                 12         45
 TITLE      Measurement and analysis of the excitation function
            and isomeric cross section ratios for alpha-induced
            reaction on Ir-, Au-, Re- and Ta-nuclei.
 AUTHOR     (M.Ismail)
 INSTITUTE  (3INDVEC)
 REFERENCE  (J,PRM,50,173,1998)
-REL-REF    (R,,C.F.WILLIAMSON+,R,CEA-R-3042,,1966) The stopping
+REL-REF    (R,,C.F.Williamson+,R,CEA-R-3042,1966) The stopping
            powers from the tabulated values.
-HISTORY    (20050330C)
-           (20050330A) Correction
-           (20051026A) Remark of N.Otsuka is included.
-           (20051028U) Last checking has been done.
 SAMPLE     The targets were thin self-supporting foils. The
-           thicknesses of gold foils were 4.837-mum, irridium
-           foils 13.021-mum and tantalum foils were 10.521-mum
+           thicknesses of gold foils were 4.837-mu-m, irridium
+           foils 13.021-mu-m and tantalum foils were 10.521-mu-m
            obtained by weighing. The Au- and Ta-stack consisted
            of about 20 targets whereas Ir-stack consisted of about
             15 targets. Since the Au-foils were very thin, these
-           interspersed with 23.4-mum thick Al-degrader-cum-
+           interspersed with 23.4-mu-m thick Al-degrader-cum-
            catcher foils.
 ADD-RES    (COMP)-Equilibrium and pre-equilibrium decays. STAPRE
-           And ALICE-91 codes.
+           and ALICE-91 codes.
 DETECTOR   (GELI)
            (HPGE)
 FACILITY   (ISOCY,3INDVEC) The 224-cm variable energy cyclotron.
@@ -43,15 +39,21 @@ ERR-ANALYS The  absolute errors which is generally ~8% consists of
            data tables.
            (EN-ERR) The uncertainty given for the energy values
            are those of target thickness only and beam energy
-           resolution was ~ +-200-KeV.
-ENDBIB              43
+           resolution was ~ +-200-keV.
+HISTORY    (20050330C)
+           (20050330A) Correction
+           (20051026A) Remark of N.Otsuka is included.
+           (20051028U) Last checking has been done.
+           (20110320A) SD: SF5=(M) added to REACTION code
+                                                  in Subent 014
+ENDBIB              45
 COMMON               5          3
 ERR-1      ERR-2      ERR-3      ERR-4      ERR-5
 PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
          2.         2.         5.         2.         5.
 ENDCOMMON            3
-ENDSUBENT           50
-SUBENT        O1266002   20051028   20060215                  O024
+ENDSUBENT           52
+SUBENT        O1266002   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (77-IR-191(A,3N)79-AU-192,M+,SIG)
 RAD-DET    (79-AU-192-G,DG)
@@ -73,7 +75,7 @@ MEV        MEV        MB         PER-CENT
        28.1        1.3    172.789        2.1
 ENDDATA             12
 ENDSUBENT           20
-SUBENT        O1266003   20051028   20060215                  O024
+SUBENT        O1266003   20051028   20060215   20060209       O024
 BIB                  4          8
 REACTION   (77-IR-191(A,2N)79-AU-193,M+,SIG)
 RAD-DET    (79-AU-193-G,DG)
@@ -97,7 +99,7 @@ MEV        MEV        MB         PER-CENT   NO-DIM
        19.5        1.6      45.74        0.7
 ENDDATA              9
 ENDSUBENT           22
-SUBENT        O1266004   20051028   20060215                  O024
+SUBENT        O1266004   20051028   20060215   20060209       O024
 BIB                  4          8
 REACTION   (77-IR-191(A,N)79-AU-194,M+,SIG)
 RAD-DET    (79-AU-194-G,DG)
@@ -120,7 +122,7 @@ MEV        MEV        MB         PER-CENT   NO-DIM
        16.1        1.8       3.14         1.
 ENDDATA              8
 ENDSUBENT           21
-SUBENT        O1266005   20051028   20060215                  O024
+SUBENT        O1266005   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (77-IR-193(A,2N)79-AU-195,M+,SIG)
 RAD-DET    (79-AU-195-G,DG)
@@ -145,7 +147,7 @@ MEV        MEV        MB         PER-CENT
        19.5        1.6      97.49       2.73
 ENDDATA             15
 ENDSUBENT           23
-SUBENT        O1266006   20051028   20060215                  O024
+SUBENT        O1266006   20051028   20060215   20060209       O024
 BIB                  4          9
 REACTION   (77-IR-193(A,X)77-IR-192-G+M1,,SIG)
 RAD-DET    (77-IR-192-G,DG)
@@ -176,7 +178,7 @@ MEV        MEV        MB         PER-CENT
        19.5        1.6      1.686        10.
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        O1266007   20051028   20060215                  O024
+SUBENT        O1266007   20051028   20060215   20060209       O024
 BIB                  4          8
 REACTION   (77-IR-193(A,3N)79-AU-194,M+,SIG)
 RAD-DET    (79-AU-194-G,DG)
@@ -204,7 +206,7 @@ MEV        MEV        MB         PER-CENT   NO-DIM
        25.4        1.4        17.        0.8         1.
 ENDDATA             13
 ENDSUBENT           26
-SUBENT        O1266008   20051028   20060215                  O024
+SUBENT        O1266008   20051028   20060215   20060209       O024
 BIB                  4          8
 REACTION   (77-IR-193(A,4N)79-AU-193,M+,SIG)
 RAD-DET    (79-AU-193-G,DG)
@@ -228,7 +230,7 @@ MEV        MEV        MB         PER-CENT   NO-DIM
        35.4        1.1      118.3        1.8         1.
 ENDDATA              9
 ENDSUBENT           22
-SUBENT        O1266009   20051028   20060215                  O024
+SUBENT        O1266009   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (73-TA-181(A,2N)75-RE-183,,SIG)
 RAD-DET    (75-RE-183,DG)
@@ -254,7 +256,7 @@ MEV        MEV        MB         PER-CENT
        39.3        0.7      91.25       0.28
 ENDDATA             16
 ENDSUBENT           24
-SUBENT        O1266010   20051028   20060215                  O024
+SUBENT        O1266010   20051028   20060215   20060209       O024
 BIB                  3          7
 REACTION  1(73-TA-181(A,N)75-RE-184-G,,SIG)
           2(73-TA-181(A,N)75-RE-184-M,,SIG)
@@ -300,7 +302,7 @@ NO-DIM
       0.526
 ENDDATA             32
 ENDSUBENT           44
-SUBENT        O1266011   20051028   20060215                  O024
+SUBENT        O1266011   20051028   20060215   20060209       O024
 BIB                  3          7
 REACTION  1(75-RE-185(A,X)75-RE-184-G,,SIG)
           2(75-RE-185(A,X)75-RE-184-M,,SIG)
@@ -328,7 +330,7 @@ NO-DIM
       0.517
 ENDDATA             14
 ENDSUBENT           26
-SUBENT        O1266012   20051028   20060215                  O024
+SUBENT        O1266012   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (79-AU-197(A,N)81-TL-200,,SIG)
 RAD-DET    (81-TL-200,DG)
@@ -373,7 +375,7 @@ MEV        MEV        MB         PER-CENT
        15.4        0.6       0.06        7.9
 ENDDATA             35
 ENDSUBENT           43
-SUBENT        O1266013   20051028   20060215                  O024
+SUBENT        O1266013   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (79-AU-197(A,2N)81-TL-199,,SIG)
 RAD-DET    (81-TL-199,DG)
@@ -416,17 +418,20 @@ MEV        MEV        MB         PER-CENT
        17.4        0.6       0.38        2.4
 ENDDATA             33
 ENDSUBENT           41
-SUBENT        O1266014   20051028   20060215                  O024
-BIB                  3          7
-REACTION  1(79-AU-197(A,3N)81-TL-198-G,,SIG)
+SUBENT        O1266014   20110320   20111003   20110913       O045
+BIB                  5         10
+REACTION  1(79-AU-197(A,3N)81-TL-198-G,(M),SIG)
+             (M) - uncertain if corrected for IT decay
           2(79-AU-197(A,3N)81-TL-198-M,,SIG)
           3(79-AU-197(A,3N)81-TL-198-M/T,,SIG/RAT)
 RAD-DET   1(81-TL-198-G,DG)
           2(81-TL-198-M,DG)
 DECAY-DATA1(81-TL-198-G,5.3HR,DG,411.80,0.821)
           2(81-TL-198-M,1.87HR,DG,282.80,0.28)
-ENDBIB               7
-NOCOMMON
+STATUS     (TABLE) Table 5 of Pramana 50(1998)173
+HISTORY    (20110320A) SD: SF5=(M) added to REACTION code
+ENDBIB              10
+NOCOMMON             0          0
 DATA                 7         16
 EN         EN-ERR     DATA      1ERR-S     1DATA      2ERR-S     2
 DATA      3
@@ -465,8 +470,8 @@ NO-DIM
        27.8        0.4      23.65        2.2      15.44         2.
        0.39
 ENDDATA             36
-ENDSUBENT           48
-SUBENT        O1266015   20051028   20060215                  O024
+ENDSUBENT           51
+SUBENT        O1266015   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (79-AU-197(A,4N)81-TL-197,,SIG)
 RAD-DET    (81-TL-197,DG)
@@ -487,7 +492,7 @@ MEV        MEV        MB         PER-CENT
        40.6        0.3     170.06        8.2
 ENDDATA             11
 ENDSUBENT           19
-SUBENT        O1266016   20051028   20060215                  O024
+SUBENT        O1266016   20051028   20060215   20060209       O024
 BIB                  3          3
 REACTION   (79-AU-197(A,X)80-HG-197-M,,SIG)
 RAD-DET    (80-HG-197-M,DG)
