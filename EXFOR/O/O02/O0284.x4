@@ -1,105 +1,107 @@
-ENTRY            O0284   19970117   20050616                  Y000
-SUBENT        O0284001     970117   20050616                  Y000
-BIB                 17         95
-TITLE      Nuclide Production by Proton-Induced Reactions on
-           Elements (6<=Z<=29) In the Energy Range from 200 MeV to
-           400 MeV.
-AUTHOR     (TH.SCHIEKEL, F.SUDBROCK, U.HERPERS, M.GLORIS,
-           H.-J.LANGE, I.LEYA, R.MICHEL, B.DITTRICH-HANNEN,
-           H.-A.SYNAL, M.SUTER, P.W.KUBIK, M.BLANN, D.FILGES)
-REFERENCE  (J,NIM/B,114,91,96)
+ENTRY            O0284   20101223   20110621   20110620       O044
+SUBENT        O0284001   20101223   20110621   20110620       O044
+BIB                 17         97
+TITLE      Nuclide production by proton-induced reactions on
+           elements (6<=Z<=296) in the energy range from 200 MeV
+           to 400 MeV.
+AUTHOR     (Th.Schiekel, F.Sudbrock, U.Herpers, M.Gloris,
+           H.-J.Lange, I.Leya, R.Michel, B.Dittrich-Hannen,
+           H.-A.Synal, M.Suter, P.W.Kubik, M.Blann, D.Filges)
+REFERENCE  (J,NIM/B,114,91,1996)
 FACILITY   (SYNCY,2FR SAC) Synchrocyclotron of the Laboratoire
 INSTITUTE  (2GERKLN,2GERUH,2SWTETH,1USALRL,2GERJUL)
-HISTORY    (960720C) By CAJAD.
-           (961119A) Authors List and Some 'Reaction' are
+HISTORY    (19960720C) By CAJAD.
+           (19961119A) Authors List and Some 'Reaction' are
            Corrected.
-           (970117U) Last checking has been done.
-ADD-RES    (COMP). The Hibrid Model of Prequilibrium Reactions is
-           Used in Form of 'Arel' Code Which is a Relativistic
-           Version of 'Alice 900'. Calculations by an Intranuclear
-           Cascade/Evaporation 'Inc/E' Model are done with the
-           High Energy Transport Code 'Hetc' in Form of the
-           'Het-Kfa-2' Code Within the 'Hermes' Code System.
-REL-REF    (N,,M.BLANN,J,PRL,27,337,71) Hibrid Model.
-           (N,,M.BLANN,W,BLANN,94) Code 'Arel'.
-           (N,,M.BLANN,W,BLANN,90) Code 'Alice Livermore 900'.
-           (N,,T.W.ARMSTRONG+,J,NSE,49,110,72) Code 'Hetc'.
-           (N,,P.CLOTH+,R,JUEL-2203,88)
-           (R,,J.TOBAILEM+,R,CEA-N-1466,81) Monitor Cross Sections
+           (20101021A).New information for Status code was added.
+ADD-RES    (COMP). The Hybrid model of prequilibrium reactions is
+           used in form of 'AREL' code which is a relativistic
+           version of 'Alice 900'. Calculations by an intranuclear
+           Cascade/Evaporation 'INC/E' model are done with the
+           high energy transport code 'HETC' in form of the
+           'HET-KFA-2' code within the 'HERMES' code system.
+REL-REF    (M,,M.BLANN,J,PRL,27,337,1971) Hybrid Model.
+           (M,,M.BLANN,W,BLANN,1994) Code 'AREL'.
+           (M,,M.BLANN,W,BLANN,1990) Code 'Alice Livermore 900'.
+           (M,,T.W.ARMSTRONG+,J,NSE,49,110,1972) Code 'HETC'.
+           (M,,P.CLOTH+,R,JUEL-2203,1988)
+           (R,,J.TOBAILEM+,R,CEA-N-1466,1981) Monitor cross
+                                              sections
 METHOD     (STTA)
-           (EXTB). Intensity was 4.2*10**(11) 1/Sec For About 7
-           Hours.
-SAMPLE     For Both the 300 MeV and 400 MeV Irradiation Identical
-           Target Arrangements were Used. The First Target Hit by
-           The Beam Consisted of Three Thin Al- And Three Fe-Foils
-           /Thicknesses 0.036 mm and 0.125 mm, Respectively/.
-           Behind this So-Called 'First-Target' Two Identical
-           Target Stacks were Arranged in Distances of 50 mm
-           Between Each Other. In Each Stack 19 Different Elements
-           /6<=Z<=79/ were Irradiated. The Targets in the Stacks
-           Were Pure Element Foils and Some Composite Materials
-           For the Target Elements Nitrogen, Oxygen, Calcium,
-           Manganese, Strontium and Barium. The Targets were Made
-           Of High Purity Materials with Diameters of 15.7 mm and
-           Their Thicknesses Ranged from 0.036 mm Up to 3.25 mm.
-           In Addition, Targets of Iron, Cobalt and Nickel were
-           Included at Two Locations in Each Stack in Order to
-           Compare Results of the Same Elements at Different
-           Depths in the Stack Which Might Exhibit Different
-           Fields of Secondary Particles.
-           For Compensation of Recoil Losses a Minimum of Three
-           Foils of Each Target Material was Used, Which were
-           Packed Together and Only the Inner Ones were Used For
-           Measurments.
-           Exceptions were the Elements Calcium, Strontium and
-           Barium, For Which Only One Foil, Each, was Used.
-ERR-ANALYS (ERR-T) Absolute Uncertainties Measurments.
-           This Uncertainty Includes:
-           1. Uncertainties in the Determination of the Number of
-           Targets Atoms in the Beam and Their Homogenity Over the
-           Target Area - 2%.
-           2. Impurities in the Target Materials Causing
-           Interfering Nuclear Reactions and Errors Resulting from
-           The Correction of Contributions of Other Target
-           Constituents.
-           3. Fluctuation in Beam Intensity During Irradiation:
-           The Beam Intensities were Continuously Monitored and
-           Recorded. The Fluctuations and Interruptions of the
-           Irradiations were Taken Into Account When Calculating
-           Fluxes and Cross Sections. An Analysis of the
-           Uncertainties of this Procedure Resulted in an Overall
-           Error of 2%.
-           4. Uncertainties in the Correction on Influence of
-           Secondary Particles.
-           5. Uncertainty of Measurement of Monitoring
-           Radionuclide, Here 22-Na : <1%.
-           6.Error of the Absolute Calibration of
-           Gamma-Spectrometers: <5%
-           7.Dead-Time and Pile Up Losses in Gamma-Spectrometry.
-           8.Reproducibility of Photopear Integration.
-           9.Statistical Counting Error.
-           10. Recoil Loss and Recoil Contamination - These Errors
-           Cancel Out.
-           11. Error of Monitor Cross Section was Adopted to be
-           Zero.
-           12. Self-Absorbtion of Gamma-Rays in the Sample was
-           Neglected (EXCEPT BARIUM)
-           Consider Both the Thickness of the Target Foils and the
-           Error Introduced by the Energy Straggling.
-STATUS     (TABLE) From R.Michel.
+           (EXTB)
+SAMPLE     For both the 300 MeV and 400 MeV irradiation identical
+           target arrangements were used. The first target hit by
+           the beam consisted of three thin Al- and three Fe-foils
+            /thicknesses 0.036 mm and 0.125 mm, respectively/.
+           Behind this so-called 'first-target' two identical
+           target stacks were arranged in distances of 50 mm
+           between each other. In each stack 19 different elements
+            /6<=Z<=79/  were irradiated. The targets in the stacks
+           were pure element foils and some composite materials
+           for the target elements nitrogen, oxygen, calcium,
+           manganese, strontium and barium. The targets were made
+           of high purity materials with diameters of 15.7 mm and
+           their thicknesses ranged from 0.036 mm up to 3.25 mm.
+           In addition, targets of iron, cobalt and nickel were
+           included at two locations in each stack in order to
+           compare results of the same elements at different
+           depths in the stack which might exhibit different
+           fields of secondary particles.
+           For compensation of recoil losses a minimum of three
+           foils of each target material was used, which were
+           packed together and only the inner ones were used for
+           measurements.
+           Exceptions were the elements calcium, strontium and
+           barium, for which only one foil, each, was used.
+ERR-ANALYS (ERR-T) Absolute uncertainties measurements.
+           This uncertainty includes:
+           1. Uncertainties in the determination of the number of
+           targets atoms in the beam and their homogeneity over
+           the target area - 2%.
+           2. Impurities in the target materials causing
+           interfering nuclear reactions and errors resulting from
+           the correction of contributions of other target
+           constituents.
+           3. Fluctuation in beam intensity during irradiation:
+           The beam intensities were continuously monitored and
+           recorded. The fluctuations and interruptions of the
+           irradiations were taken into account when calculating
+           fluxes and cross sections. An analysis of the
+           uncertainties of this procedure resulted in an overall
+           error of 2%.
+           4. Uncertainties in the correction on influence of
+           secondary particles.
+           5. Uncertainty of measurement of monitoring
+           radionuclide, here 22-Na : less 1%.
+           6.Error of the absolute calibration of
+           gamma-spectrometers: less 5%
+           7.Dead-time and pile up losses in gamma-spectrometry.
+           8.Reproducibility of photopeak integration.
+           9.Statistical counting error.
+           10. Recoil loss and recoil contamination - these errors
+           cancel out.
+           11. Error of monitor cross section was adopted to be
+           zero.
+           12. Self-absorption of gamma-rays in the sample was
+           neglected (Except barium)
+           Consider both the thickness of the target foils and the
+           error introduced by the energy straggling.
 MONITOR    (13-AL-27(P,X)11-NA-22,CUM,SIG,,,EVAL) Main
-           (13-AL-27(P,X)11-NA-24,CUM,SIG,,,EVAL) As a Test
-           Of Consistency.
-MONIT-REF  (,J.TOBAILEM+,R,CEA-N-1466,81)
+           (13-AL-27(P,X)11-NA-24,CUM,SIG,,,EVAL) as a test
+           of consistency.
+MONIT-REF  (,J.TOBAILEM+,R,CEA-N-1466,1981)
 DECAY-MON  (11-NA-22,949.D,DG,1274.5,0.9994)
-CORRECTION For the Secondary Particle Fields.
-COMMENT    -By Authors- Data Tables Contain Data Lines For Equal
-           Energies.   You Must Take in Your Attention, That these
-           Data are Results of Independent Measurments.
-ENDBIB              95
+CORRECTION For the secondary particle fields.
+COMMENT    -By Authors- Data tables contain data lines for equal
+           energies. You must take in your attention, that these
+           Data are results of independent measurements.
+STATUS     (TABLE).Data were received from prof.Dr. R.Michel
+           (COREL,O1881001)  another measurements-
+                              for Fe-targets sub.O1881002-025
+ENDBIB              97
 NOCOMMON             0          0
-ENDSUBENT           98
-SUBENT        O0284002     970117   20050616                  Y000
+ENDSUBENT          100
+SUBENT        O0284002     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (6-C-0(P,X)4-BE-7,,SIG)
            Admixture of C-13 is Negligible For Assumed Accuracy.
@@ -122,7 +124,7 @@ MEV        MEV        MB         MB
   0.398E+03  0.560E+00  0.118E+02  0.663E+00
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284003     970117   20050616                  Y000
+SUBENT        O0284003     970117   20050616   20050926       0000
 BIB                  7         11
 REACTION   (6-C-0(P,X)4-BE-10,,SIG)
            Admixture of C-12 is Negligible For Assumed Accuracy.
@@ -150,7 +152,7 @@ MEV        MEV        MB         MB
   0.398E+03  0.560E+00  0.305E+01  0.250E+00
 ENDDATA              6
 ENDSUBENT           26
-SUBENT        O0284004     970117   20050616                  Y000
+SUBENT        O0284004     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (7-N-0(P,X)4-BE-7,,SIG)
            Admixture of N-15 is Negligible For Assumed Accuracy.
@@ -173,7 +175,7 @@ MEV        MEV        MB         MB
   0.392E+03  0.978E+00  0.113E+02  0.746E+00
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284005     970117   20050616                  Y000
+SUBENT        O0284005     970117   20050616   20050926       0000
 BIB                  7         11
 REACTION   (7-N-0(P,X)4-BE-10,,SIG)
            Admixture of N-15 is Negligible For Assumed Accuracy.
@@ -201,7 +203,7 @@ MEV        MEV        MB         MB
   0.392E+03  0.961E+00  0.116E+01  0.966E-01
 ENDDATA              6
 ENDSUBENT           26
-SUBENT        O0284006     970117   20050616                  Y000
+SUBENT        O0284006     970117   20050616   20050926       0000
 BIB                  7         11
 REACTION   (8-O-0(P,X)4-BE-7,,SIG)
            Admixture of O-17 and O-18 is Negligible For Assumed
@@ -225,7 +227,7 @@ MEV        MB         MB
        392.       8.82       0.53
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        O0284007     970117   20050616                  Y000
+SUBENT        O0284007     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (8-O-0(P,X)4-BE-10,,SIG)
            Admixture of O-17 and O-18 is Negligible For Assumed
@@ -254,7 +256,7 @@ MEV        MB         MB
        392.       1.62       0.19
 ENDDATA              6
 ENDSUBENT           27
-SUBENT        O0284008     970117   20050616                  Y000
+SUBENT        O0284008     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (12-MG-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -276,7 +278,7 @@ MEV        MEV        MB         MB
   0.396E+03  0.636E+00  0.481E+01  0.265E+00
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284009     970117   20050616                  Y000
+SUBENT        O0284009     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (12-MG-0(P,X)4-BE-10,,SIG)       Independent.
 METHOD     (AMS)
@@ -303,7 +305,7 @@ MEV        MB         MB
        396.       0.83       0.03
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284010     970117   20050616                  Y000
+SUBENT        O0284010     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (12-MG-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -325,7 +327,7 @@ MEV        MEV        MB         MB
   0.396E+03  0.636E+00  0.340E+02  0.183E+01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284011     970117   20050616                  Y000
+SUBENT        O0284011     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (12-MG-0(P,X)13-AL-26-G,,SIG)
 METHOD     (AMS)
@@ -355,7 +357,7 @@ MEV        MB         MB
        396.      0.064      0.008
 ENDDATA              6
 ENDSUBENT           28
-SUBENT        O0284012     970117   20050616                  Y000
+SUBENT        O0284012     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (12-MG-0(P,X)11-NA-24,CUM,SIG)
 METHOD     (ACTIV)
@@ -377,7 +379,7 @@ MEV        MEV        MB         MB
   0.396E+03  0.636E+00  0.602E+01  0.346E+00
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284013     970117   20050616                  Y000
+SUBENT        O0284013     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (13-AL-27(P,11N+10P)4-BE-7,,SIG)
 METHOD     (ACTIV)
@@ -488,7 +490,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.398E+03  0.561E+00  0.332E+01  0.250E+00         1.
 ENDDATA             94
 ENDSUBENT          109
-SUBENT        O0284014     970117   20050616                  Y000
+SUBENT        O0284014     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (13-AL-27(P,X)4-BE-10,,SIG)
 METHOD     (AMS)
@@ -515,7 +517,7 @@ MEV        MB         MB
        398.      0.852      0.080
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284015     970117   20050616                  Y000
+SUBENT        O0284015     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (13-AL-27(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -539,7 +541,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.398E+03  0.612E+00  0.161E+02  0.104E+01
 ENDDATA              7
 ENDSUBENT           22
-SUBENT        O0284016     970117   20050616                  Y000
+SUBENT        O0284016     970117   20050616   20050926       0000
 BIB                  7         15
 REACTION   (13-AL-27(P,X)13-AL-26-G,,SIG)
            Ground State of Al-26 Production Due to Si-26
@@ -571,7 +573,7 @@ MEV        MB         MB
        398.       26.8        2.3
 ENDDATA              6
 ENDSUBENT           30
-SUBENT        O0284017     970117   20050616                  Y000
+SUBENT        O0284017     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (13-AL-27(P,X)11-NA-24,CUM,SIG)
 METHOD     (ACTIV)
@@ -674,7 +676,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.398E+03  0.612E+00  0.117E+02  0.113E+01
 ENDDATA             86
 ENDSUBENT          101
-SUBENT        O0284018     970117   20050616                  Y000
+SUBENT        O0284018     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (14-SI-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -707,7 +709,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.395E+03  0.732E+00  0.183E+02  0.349E+00
 ENDDATA             16
 ENDSUBENT           31
-SUBENT        O0284019     970117   20050616                  Y000
+SUBENT        O0284019     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (14-SI-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -733,7 +735,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.395E+03  0.732E+00  0.360E+01  0.199E-01
 ENDDATA              9
 ENDSUBENT           24
-SUBENT        O0284020     970117   20050616                  Y000
+SUBENT        O0284020     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (14-SI-0(P,X)4-BE-10,,SIG)       Independent.
 METHOD     (AMS)
@@ -760,7 +762,7 @@ MEV        MB         MB
        395.      0.510      0.025
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284021     970117   20050616                  Y000
+SUBENT        O0284021     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (14-SI-0(P,X)11-NA-24,CUM,SIG)
 METHOD     (ACTIV)
@@ -786,7 +788,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.395E+03  0.732E+00  0.479E+01  0.219E+00
 ENDDATA              9
 ENDSUBENT           24
-SUBENT        O0284022     970117   20050616                  Y000
+SUBENT        O0284022     970117   20050616   20050926       0000
 BIB                  9         15
 REACTION   (14-SI-0(P,X)12-MG-28,,SIG)
            Mg-28 Production from Na-28 Decay is not Possible.
@@ -817,7 +819,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.395E+03  0.732E+00  0.629E-01  0.392E-03
 ENDDATA              9
 ENDSUBENT           29
-SUBENT        O0284023     970117   20050616                  Y000
+SUBENT        O0284023     970117   20050616   20050926       0000
 BIB                  6         15
 REACTION   (14-SI-0(P,X)13-AL-26-G,,SIG)
            Ground State of Al-26 Production Due to Si-26
@@ -849,7 +851,7 @@ MEV        MEV        MB         MB
   0.395E+03  0.757E+00  0.226E+02  0.184E+01
 ENDDATA              6
 ENDSUBENT           30
-SUBENT        O0284024     970117   20050616                  Y000
+SUBENT        O0284024     970117   20050616   20050926       0000
 BIB                  7         15
 REACTION   (20-CA-0(P,X)13-AL-26-G,,SIG)
            Ground State of Al-26 Production Due to Si-26
@@ -881,7 +883,7 @@ MEV        MB         MB
        387.       7.07       0.60
 ENDDATA              6
 ENDSUBENT           30
-SUBENT        O0284025     970117   20050616                  Y000
+SUBENT        O0284025     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (20-CA-0(P,X)17-CL-36,,SIG)       Independent.
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -907,7 +909,7 @@ MEV        MB         MB
        387.       13.9       1.28
 ENDDATA              5
 ENDSUBENT           24
-SUBENT        O0284026     970117   20050616                  Y000
+SUBENT        O0284026     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (20-CA-0(P,X)21-SC-46-G,M+,SIG)       Independent
 METHOD     (ACTIV)
@@ -931,7 +933,7 @@ MEV        MEV        MB         MB
   0.387E+03  0.105E+01  0.142E-01  0.204E-02
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        O0284027     970117   20050616                  Y000
+SUBENT        O0284027     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (22-TI-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -958,7 +960,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.126E+01  0.113E+00         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284028     970117   20050616                  Y000
+SUBENT        O0284028     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (22-TI-0(P,X)17-CL-36,,SIG)       Independent.
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -985,7 +987,7 @@ MEV        MB         MB
        386.       11.4        1.1
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284029     970117   20050616                  Y000
+SUBENT        O0284029     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (22-TI-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -1009,7 +1011,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.454E+00  0.845E-01         1.
 ENDDATA              7
 ENDSUBENT           22
-SUBENT        O0284030     970117   20050616                  Y000
+SUBENT        O0284030     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (22-TI-0(P,X)19-K-43,CUM,SIG)
 METHOD     (ACTIV)
@@ -1035,7 +1037,7 @@ MEV        MEV        MB         MB
   0.386E+03  0.937E+00  0.362E+01  0.265E+00
 ENDDATA              6
 ENDSUBENT           24
-SUBENT        O0284031     970117   20050616                  Y000
+SUBENT        O0284031     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (22-TI-0(P,X)20-CA-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -1064,7 +1066,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.219E+00  0.131E-01         1.
 ENDDATA             10
 ENDSUBENT           27
-SUBENT        O0284032     970117   20050616                  Y000
+SUBENT        O0284032     970117   20050616   20050926       0000
 BIB                  9         13
 REACTION   (22-TI-0(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -1094,7 +1096,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.869E+01  0.461E+00         1.
 ENDDATA             10
 ENDSUBENT           28
-SUBENT        O0284033     970117   20050616                  Y000
+SUBENT        O0284033     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (22-TI-0(P,X)21-SC-46-G,M+,SIG)       Independent.
 METHOD     (ACTIV)
@@ -1121,7 +1123,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.316E+02  0.170E+01         1.
 ENDDATA              9
 ENDSUBENT           25
-SUBENT        O0284034     970117   20050616                  Y000
+SUBENT        O0284034     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (22-TI-0(P,X)21-SC-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -1148,7 +1150,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.243E+02  0.136E+01         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284035     970117   20050616                  Y000
+SUBENT        O0284035     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (22-TI-0(P,X)21-SC-48,,SIG)       Independent
 METHOD     (ACTIV)
@@ -1179,7 +1181,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.222E+01  0.148E+00         1.
 ENDDATA             10
 ENDSUBENT           29
-SUBENT        O0284036     970117   20050616                  Y000
+SUBENT        O0284036     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (22-TI-0(P,X)23-V-48,,SIG)
 METHOD     (ACTIV)
@@ -1210,7 +1212,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.387E+03  0.935E+00  0.123E+01  0.112E+00         1.
 ENDDATA             10
 ENDSUBENT           29
-SUBENT        O0284037     970117   20050616                  Y000
+SUBENT        O0284037     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (25-MN-55(P,X)4-BE-7,,SIG)
 METHOD     (ACTIV)
@@ -1231,7 +1233,7 @@ MEV        MEV        MB         MB
   0.384E+03  0.104E+01  0.123E+01  0.302E+00
 ENDDATA              5
 ENDSUBENT           19
-SUBENT        O0284038     970117   20050616                  Y000
+SUBENT        O0284038     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (25-MN-55(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -1253,7 +1255,7 @@ MEV        MEV        MB         MB
   0.384E+03  0.104E+01  0.130E+00  0.139E-01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284039     970117   20050616                  Y000
+SUBENT        O0284039     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (25-MN-55(P,11N+9P)17-CL-36,,SIG)       Independent.
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -1280,7 +1282,7 @@ MEV        MB         MB
        384.       4.12       0.20
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284040     970117   20050616                  Y000
+SUBENT        O0284040     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (25-MN-55(P,X)19-K-43,CUM,SIG)
 METHOD     (ACTIV)
@@ -1306,7 +1308,7 @@ MEV        MEV        MB         MB
   0.384E+03  0.104E+01  0.160E+01  0.138E+00
 ENDDATA              6
 ENDSUBENT           24
-SUBENT        O0284041     970117   20050616                  Y000
+SUBENT        O0284041     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (25-MN-55(P,X)20-CA-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -1332,7 +1334,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.384E+03  0.104E+01  0.720E-01  0.897E-02
 ENDDATA              7
 ENDSUBENT           24
-SUBENT        O0284042     970117   20050616                  Y000
+SUBENT        O0284042     970117   20050616   20050926       0000
 BIB                  9         13
 REACTION   (25-MN-55(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -1362,7 +1364,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.772E+01  0.613E+00         1.
 ENDDATA             10
 ENDSUBENT           28
-SUBENT        O0284043     970117   20050616                  Y000
+SUBENT        O0284043     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (25-MN-55(P,X)21-SC-46-G,M+,SIG)
            Independent.
@@ -1391,7 +1393,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.125E+02  0.960E+00         1.
 ENDDATA             10
 ENDSUBENT           27
-SUBENT        O0284044     970117   20050616                  Y000
+SUBENT        O0284044     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (25-MN-55(P,X)21-SC-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -1418,7 +1420,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.688E+01  0.520E+00         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284045     970117   20050616                  Y000
+SUBENT        O0284045     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (25-MN-55(P,X)21-SC-48,,SIG)
 METHOD     (ACTIV)
@@ -1445,7 +1447,7 @@ MEV        MEV        MB         MB
   0.384E+03  0.104E+01  0.508E+01  0.390E+00
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284046     970117   20050616                  Y000
+SUBENT        O0284046     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (25-MN-55(P,X)23-V-48,,SIG)
 METHOD     (ACTIV)
@@ -1484,7 +1486,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.208E+02  0.166E+01         1.
 ENDDATA             18
 ENDSUBENT           37
-SUBENT        O0284047     970117   20050616                  Y000
+SUBENT        O0284047     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (25-MN-55(P,X)24-CR-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -1507,7 +1509,7 @@ MEV        MB         MB
        384.      0.567      0.101
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284048     970117   20050616                  Y000
+SUBENT        O0284048     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (25-MN-55(P,X)24-CR-51,CUM,SIG)
 METHOD     (ACTIV)
@@ -1534,7 +1536,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.439E+02  0.356E+01         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284049     970117   20050616                  Y000
+SUBENT        O0284049     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (25-MN-55(P,X)25-MN-52,CUM,SIG)
 METHOD     (ACTIV)
@@ -1565,7 +1567,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.822E+01  0.731E+00         1.
 ENDDATA             10
 ENDSUBENT           29
-SUBENT        O0284050     970117   20050616                  Y000
+SUBENT        O0284050     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (25-MN-55(P,X)25-MN-54,,SIG)
 METHOD     (ACTIV)
@@ -1592,7 +1594,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.501E+02  0.412E+01         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284051     970117   20050616                  Y000
+SUBENT        O0284051     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (26-FE-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -1620,7 +1622,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.117E+01  0.116E+00
 ENDDATA             11
 ENDSUBENT           26
-SUBENT        O0284052     970117   20050616                  Y000
+SUBENT        O0284052     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (26-FE-0(P,X)4-BE-10,,SIG)       Independent.
 METHOD     (AMS)
@@ -1647,7 +1649,7 @@ MEV        MB         MB
        383.      0.209      0.022
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284053     970117   20050616                  Y000
+SUBENT        O0284053     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (26-FE-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -1674,7 +1676,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.131E+00  0.124E-01         1.
 ENDDATA             10
 ENDSUBENT           25
-SUBENT        O0284054     970117   20050616                  Y000
+SUBENT        O0284054     970117   20050616   20050926       0000
 BIB                  7         15
 REACTION   (26-FE-0(P,X)13-AL-26-G,,SIG)
            Ground State of Al-26 Production Due to Si-26
@@ -1705,7 +1707,7 @@ MEV        MB         MB
        383.      0.208      0.028
 ENDDATA              5
 ENDSUBENT           29
-SUBENT        O0284055     970117   20050616                  Y000
+SUBENT        O0284055     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (26-FE-0(P,X)17-CL-36,,SIG)       Independent.
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -1732,7 +1734,7 @@ MEV        MB         MB
        383.       3.02       0.20
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284056     970117   20050616                  Y000
+SUBENT        O0284056     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (26-FE-0(P,X)19-K-42,,SIG)
            K-42 Production Due to Ar-42 Decay (HALF-LIFE 32.9
@@ -1756,7 +1758,7 @@ MEV        MEV        MB         MB
   0.399E+03  0.565E+00  0.264E+01  0.311E+00
 ENDDATA              3
 ENDSUBENT           22
-SUBENT        O0284057     970117   20050616                  Y000
+SUBENT        O0284057     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (26-FE-0(P,X)19-K-43,CUM,SIG)
 METHOD     (ACTIV)
@@ -1781,7 +1783,7 @@ MEV        MEV        MB         MB
   0.399E+03  0.565E+00  0.757E+00  0.675E-01
 ENDDATA              4
 ENDSUBENT           23
-SUBENT        O0284058     970117   20050616                  Y000
+SUBENT        O0284058     970117   20050616   20050926       0000
 BIB                  9         15
 REACTION   (26-FE-0(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -1819,7 +1821,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.710E+01  0.514E+00         2.
 ENDDATA             16
 ENDSUBENT           36
-SUBENT        O0284059     970117   20050616                  Y000
+SUBENT        O0284059     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (26-FE-0(P,X)21-SC-46-G,M+,SIG)       Independent.
 METHOD     (ACTIV)
@@ -1855,7 +1857,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.877E+01  0.630E+00         2.
 ENDDATA             16
 ENDSUBENT           34
-SUBENT        O0284060     970117   20050616                  Y000
+SUBENT        O0284060     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (26-FE-0(P,X)21-SC-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -1890,7 +1892,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.271E+01  0.195E+00         2.
 ENDDATA             16
 ENDSUBENT           33
-SUBENT        O0284061     970117   20050616                  Y000
+SUBENT        O0284061     970117   20050616   20050926       0000
 BIB                  8         16
 REACTION   (26-FE-0(P,X)23-V-48,,SIG)
 METHOD     (ACTIV)
@@ -1939,7 +1941,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.244E+02  0.194E+01         2.
 ENDDATA             26
 ENDSUBENT           47
-SUBENT        O0284062     970117   20050616                  Y000
+SUBENT        O0284062     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (26-FE-0(P,X)24-CR-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -1966,7 +1968,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.114E+01  0.861E-01         2.
 ENDDATA              8
 ENDSUBENT           25
-SUBENT        O0284063     970117   20050616                  Y000
+SUBENT        O0284063     970117   20050616   20050926       0000
 BIB                  9         17
 REACTION   (26-FE-0(P,X)25-MN-52,CUM,SIG)
 METHOD     (ACTIV)
@@ -2006,7 +2008,7 @@ MEV        MEV        MB         MB         NO-DIM     PER-CENT
   0.399E+03  0.565E+00  0.139E+02  0.104E+01         2.
 ENDDATA             16
 ENDSUBENT           38
-SUBENT        O0284064     970117   20050616                  Y000
+SUBENT        O0284064     970117   20050616   20050926       0000
 BIB                  9         13
 REACTION   (26-FE-0(P,X)25-MN-54,,SIG)       Independent
 METHOD     (ACTIV)
@@ -2042,7 +2044,7 @@ MEV        MEV        MB         MB         NO-DIM     PER-CENT
   0.399E+03  0.565E+00  0.424E+02  0.298E+01         2.
 ENDDATA             16
 ENDSUBENT           34
-SUBENT        O0284065     970117   20050616                  Y000
+SUBENT        O0284065     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (26-FE-0(P,X)27-CO-57,,SIG)
 METHOD     (ACTIV)
@@ -2076,7 +2078,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.147E+00  0.116E-01         2.
 ENDDATA             14
 ENDSUBENT           32
-SUBENT        O0284066     970117   20050616                  Y000
+SUBENT        O0284066     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (26-FE-0(P,X)27-CO-58-G,M+,SIG)       Independent
 METHOD     (ACTIV)
@@ -2105,7 +2107,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.291E-01  0.669E-02         2.
 ENDDATA              9
 ENDSUBENT           27
-SUBENT        O0284067     970117   20050616                  Y000
+SUBENT        O0284067     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (27-CO-59(P,X)4-BE-7,,SIG)
 METHOD     (ACTIV)
@@ -2127,7 +2129,7 @@ MEV        MEV        MB         MB
   0.380E+03  0.117E+01  0.719E+00  0.188E+00
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284068     970117   20050616                  Y000
+SUBENT        O0284068     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (27-CO-59(P,X)4-BE-10,,SIG)
 METHOD     (AMS)
@@ -2154,7 +2156,7 @@ MEV        MB         MB
        380.      0.292      0.026
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284069     970117   20050616                  Y000
+SUBENT        O0284069     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (27-CO-59(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -2179,7 +2181,7 @@ MEV        MEV        MB         MB
   0.380E+03  0.117E+01  0.761E-01  0.780E-02
 ENDDATA              9
 ENDSUBENT           23
-SUBENT        O0284070     970117   20050616                  Y000
+SUBENT        O0284070     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (27-CO-59(P,X)17-CL-36,,SIG)
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -2206,7 +2208,7 @@ MEV        MB         MB
        380.       1.74       0.14
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284071     970117   20050616                  Y000
+SUBENT        O0284071     970117   20050616   20050926       0000
 BIB                  9         13
 REACTION   (27-CO-59(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -2240,7 +2242,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.470E+01  0.360E+00         1.
 ENDDATA             14
 ENDSUBENT           32
-SUBENT        O0284072     970117   20050616                  Y000
+SUBENT        O0284072     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (27-CO-59(P,X)21-SC-46-G,M+,SIG)
            Independent.
@@ -2273,7 +2275,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.117E+01  0.691E+01  0.529E+00
 ENDDATA             14
 ENDSUBENT           31
-SUBENT        O0284073     970117   20050616                  Y000
+SUBENT        O0284073     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (27-CO-59(P,X)21-SC-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -2304,7 +2306,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.285E+01  0.218E+00         1.
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        O0284074     970117   20050616                  Y000
+SUBENT        O0284074     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (27-CO-59(P,8N+4P)24-CR-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -2326,7 +2328,7 @@ MEV        MEV        MB         MB
   0.380E+03  0.117E+01  0.321E+00  0.798E-01
 ENDDATA              4
 ENDSUBENT           20
-SUBENT        O0284075     970117   20050616                  Y000
+SUBENT        O0284075     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (27-CO-59(P,X)23-V-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -2365,7 +2367,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.152E+02  0.116E+01         1.
 ENDDATA             18
 ENDSUBENT           37
-SUBENT        O0284076     970117   20050616                  Y000
+SUBENT        O0284076     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (27-CO-59(P,X)24-CR-51,CUM,SIG)
 METHOD     (ACTIV)
@@ -2396,7 +2398,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.387E+02  0.298E+01         1.
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        O0284077     970117   20050616                  Y000
+SUBENT        O0284077     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (26-FE-0(P,X)24-CR-51,CUM,SIG)
 METHOD     (ACTIV)
@@ -2431,7 +2433,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.515E+02  0.366E+01         2.
 ENDDATA             16
 ENDSUBENT           33
-SUBENT        O0284078     970117   20050616                  Y000
+SUBENT        O0284078     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (27-CO-59(P,X)25-MN-52,CUM,SIG)
 METHOD     (ACTIV)
@@ -2466,7 +2468,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.117E+01  0.131E+02  0.101E+01
 ENDDATA             14
 ENDSUBENT           33
-SUBENT        O0284079     970117   20050616                  Y000
+SUBENT        O0284079     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (27-CO-59(P,X)25-MN-54,,SIG)
 METHOD     (ACTIV)
@@ -2497,7 +2499,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.117E+01  0.375E+02  0.293E+01
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        O0284080     970117   20050616                  Y000
+SUBENT        O0284080     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (26-FE-0(P,X)27-CO-55,,SIG)
 METHOD     (ACTIV)
@@ -2521,7 +2523,7 @@ MEV        MEV        MB         MB
   0.399E+03  0.565E+00  0.947E+00  0.244E+00
 ENDDATA              4
 ENDSUBENT           22
-SUBENT        O0284081     970117   20050616                  Y000
+SUBENT        O0284081     970117   20050616   20050926       0000
 BIB                  8         15
 REACTION   (26-FE-0(P,X)27-CO-56,,SIG)       Independent
 METHOD     (ACTIV)
@@ -2555,7 +2557,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.399E+03  0.565E+00  0.109E+01  0.774E-01         2.
 ENDDATA             12
 ENDSUBENT           32
-SUBENT        O0284082     970117   20050616                  Y000
+SUBENT        O0284082     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (27-CO-59(P,X)27-CO-56,CUM,SIG)
 METHOD     (ACTIV)
@@ -2596,7 +2598,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.117E+01  0.110E+02  0.881E+00         1.
 ENDDATA             20
 ENDSUBENT           39
-SUBENT        O0284083     970117   20050616                  Y000
+SUBENT        O0284083     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (27-CO-59(P,X)27-CO-57,,SIG)
 METHOD     (ACTIV)
@@ -2634,7 +2636,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.365E+02  0.291E+01         1.
 ENDDATA             20
 ENDSUBENT           36
-SUBENT        O0284084     970117   20050616                  Y000
+SUBENT        O0284084     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (27-CO-59(P,X)27-CO-58-G,M+,SIG)
 METHOD     (ACTIV)
@@ -2667,7 +2669,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.116E+01  0.518E+02  0.442E+01         1.
 ENDDATA             14
 ENDSUBENT           31
-SUBENT        O0284085     970117   20050616                  Y000
+SUBENT        O0284085     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (27-CO-59(P,4N)28-NI-56,,SIG)
 METHOD     (ACTIV)
@@ -2693,7 +2695,7 @@ MEV        MEV        MB         MB
   0.380E+03  0.116E+01  0.881E-01  0.206E-01
 ENDDATA              5
 ENDSUBENT           24
-SUBENT        O0284086     970117   20050616                  Y000
+SUBENT        O0284086     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (27-CO-59(P,3N)28-NI-57,,SIG)
 METHOD     (ACTIV)
@@ -2724,7 +2726,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.380E+03  0.117E+01  0.499E+00  0.505E-01
 ENDDATA             11
 ENDSUBENT           29
-SUBENT        O0284087     970117   20050616                  Y000
+SUBENT        O0284087     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (28-NI-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -2746,7 +2748,7 @@ MEV        MEV        MB         MB
   0.378E+03  0.109E+01  0.131E+01  0.276E+00
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284088     970117   20050616                  Y000
+SUBENT        O0284088     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (28-NI-0(P,X)4-BE-10,,SIG)       Independent.
 METHOD     (AMS)
@@ -2773,7 +2775,7 @@ MEV        MB         MB
        378.      0.142      0.014
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284089     970117   20050616                  Y000
+SUBENT        O0284089     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (28-NI-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -2795,7 +2797,7 @@ MEV        MEV        MB         MB
   0.378E+03  0.109E+01  0.102E+00  0.164E-01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284090     970117   20050616                  Y000
+SUBENT        O0284090     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (28-NI-0(P,X)17-CL-36,,SIG)       Independent.
 COMMENT    -By Authors- For 36-Cl the Standard 'K380/4' was Used,
@@ -2822,7 +2824,7 @@ MEV        MB         MB
        378.       1.85       0.15
 ENDDATA              6
 ENDSUBENT           25
-SUBENT        O0284091     970117   20050616                  Y000
+SUBENT        O0284091     970117   20050616   20050926       0000
 BIB                  9         13
 REACTION   (28-NI-0(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -2855,7 +2857,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.542E+01  0.409E+00
 ENDDATA             13
 ENDSUBENT           31
-SUBENT        O0284092     970117   20050616                  Y000
+SUBENT        O0284092     970117   20050616   20050926       0000
 BIB                  9         16
 REACTION   (28-NI-0(P,X)23-V-48,,SIG)
 METHOD     (ACTIV)
@@ -2900,7 +2902,7 @@ MEV        MEV        MB         MB         NO-DIM
      378.03  0.109E+01  0.202E+02  0.187E+01         1.
 ENDDATA             22
 ENDSUBENT           43
-SUBENT        O0284093     970117   20050616                  Y000
+SUBENT        O0284093     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (28-NI-0(P,X)21-SC-46-G,M+,SIG)       Independent.
 METHOD     (ACTIV)
@@ -2932,7 +2934,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.366E+01  0.282E+00         1.
 ENDDATA             14
 ENDSUBENT           30
-SUBENT        O0284094     970117   20050616                  Y000
+SUBENT        O0284094     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (28-NI-0(P,X)24-CR-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -2955,7 +2957,7 @@ MEV        MEV        MB         MB
   0.378E+03  0.109E+01  0.165E+01  0.203E+00
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284095     970117   20050616                  Y000
+SUBENT        O0284095     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (28-NI-0(P,X)24-CR-51,CUM,SIG)
 METHOD     (ACTIV)
@@ -2986,7 +2988,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.455E+02  0.347E+01         1.
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        O0284096     970117   20050616                  Y000
+SUBENT        O0284096     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (28-NI-0(P,X)25-MN-52,CUM,SIG)
 METHOD     (ACTIV)
@@ -3021,7 +3023,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.185E+02  0.142E+01         1.
 ENDDATA             14
 ENDSUBENT           33
-SUBENT        O0284097     970117   20050616                  Y000
+SUBENT        O0284097     970117   20050616   20050926       0000
 BIB                  8         10
 REACTION   (28-NI-0(P,X)25-MN-54,,SIG)       Independent
 METHOD     (ACTIV)
@@ -3052,7 +3054,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.182E+02  0.142E+01         1.
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        O0284098     970117   20050616                  Y000
+SUBENT        O0284098     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (28-NI-0(P,X)26-FE-59,CUM,SIG)
 METHOD     (ACTIV)
@@ -3085,7 +3087,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.378E+03  0.109E+01  0.263E+00  0.454E-01         1.
 ENDDATA             14
 ENDSUBENT           31
-SUBENT        O0284099     970117   20050616                  Y000
+SUBENT        O0284099     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (28-NI-0(P,X)27-CO-56,,SIG)
 METHOD     (ACTIV)
@@ -3128,7 +3130,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.352E+02  0.378E+01         1.
 ENDDATA             22
 ENDSUBENT           41
-SUBENT        O0284100     970117   20050616                  Y000
+SUBENT        O0284100     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (28-NI-0(P,X)27-CO-57,CUM,SIG)
 METHOD     (ACTIV)
@@ -3168,7 +3170,7 @@ MEV        MEV        MB         MB
   0.385E+03  0.104E+01  0.668E+02  0.521E+01
 ENDDATA             22
 ENDSUBENT           38
-SUBENT        O0284101     970117   20050616                  Y000
+SUBENT        O0284101     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (28-NI-0(P,X)27-CO-57,,SIG)
 METHOD     (ACTIV)
@@ -3208,7 +3210,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.379E+02  0.764E+01         1.
 ENDDATA             22
 ENDSUBENT           38
-SUBENT        O0284102     970117   20050616                  Y000
+SUBENT        O0284102     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (28-NI-0(P,X)27-CO-58-G,M+,SIG)       Independent
 METHOD     (ACTIV)
@@ -3241,7 +3243,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.384E+03  0.104E+01  0.149E+02  0.153E+01         1.
 ENDDATA             14
 ENDSUBENT           31
-SUBENT        O0284103     970117   20050616                  Y000
+SUBENT        O0284103     970117   20050616   20050926       0000
 BIB                  8         11
 REACTION   (28-NI-0(P,X)27-CO-60-G,M+,SIG)
 METHOD     (ACTIV)
@@ -3273,7 +3275,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.384E+03  0.104E+01  0.176E+01  0.159E+00         1.
 ENDDATA             14
 ENDSUBENT           30
-SUBENT        O0284104     970117   20050616                  Y000
+SUBENT        O0284104     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (28-NI-0(P,X)28-NI-56,CUM,SIG)
 METHOD     (ACTIV)
@@ -3316,7 +3318,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.307E+01  0.431E+00         1.
 ENDDATA             22
 ENDSUBENT           41
-SUBENT        O0284105     970117   20050616                  Y000
+SUBENT        O0284105     970117   20050616   20050926       0000
 BIB                  8         13
 REACTION   (28-NI-0(P,X)28-NI-57,CUM,SIG)
 METHOD     (ACTIV)
@@ -3356,7 +3358,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.385E+03  0.104E+01  0.287E+02  0.243E+01         1.
 ENDDATA             20
 ENDSUBENT           38
-SUBENT        O0284106     970117   20050616                  Y000
+SUBENT        O0284106     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (29-CU-0(P,X)4-BE-7,,SIG)       Independent
 METHOD     (ACTIV)
@@ -3377,7 +3379,7 @@ MEV        MEV        MB         MB
   0.338E+03  0.174E+01  0.733E+00  0.153E+00
 ENDDATA              5
 ENDSUBENT           19
-SUBENT        O0284107     970117   20050616                  Y000
+SUBENT        O0284107     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (29-CU-0(P,X)11-NA-22,CUM,SIG)
 METHOD     (ACTIV)
@@ -3397,7 +3399,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.445E-01  0.615E-02
 ENDDATA              4
 ENDSUBENT           18
-SUBENT        O0284108     970117   20050616                  Y000
+SUBENT        O0284108     970117   20050616   20050926       0000
 BIB                  8         12
 REACTION   (29-CU-0(P,X)21-SC-44-M,,SIG)
 COMMENT    - By Compiler - Radioactive Decay of 44-Ti to Isomer
@@ -3422,7 +3424,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.187E+01  0.145E+00
 ENDDATA              6
 ENDSUBENT           23
-SUBENT        O0284109     970117   20050616                  Y000
+SUBENT        O0284109     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (29-CU-0(P,X)21-SC-46-G,M+,SIG)       Independent.
 METHOD     (ACTIV)
@@ -3445,7 +3447,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.287E+01  0.220E+00
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284110     970117   20050616                  Y000
+SUBENT        O0284110     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (29-CU-0(P,X)21-SC-47,CUM,SIG)
 METHOD     (ACTIV)
@@ -3467,7 +3469,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.137E+01  0.104E+00
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284111     970117   20050616                  Y000
+SUBENT        O0284111     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (29-CU-0(P,X)23-V-48,CUM,SIG)
 METHOD     (ACTIV)
@@ -3493,7 +3495,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.765E+01  0.581E+00
 ENDDATA              6
 ENDSUBENT           24
-SUBENT        O0284112     970117   20050616                  Y000
+SUBENT        O0284112     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (29-CU-0(P,X)24-CR-51,CUM,SIG)
 METHOD     (ACTIV)
@@ -3515,7 +3517,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.228E+02  0.174E+01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284113     970117   20050616                  Y000
+SUBENT        O0284113     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (29-CU-0(P,X)25-MN-52,CUM,SIG)
 METHOD     (ACTIV)
@@ -3541,7 +3543,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.867E+01  0.663E+00
 ENDDATA              6
 ENDSUBENT           24
-SUBENT        O0284114     970117   20050616                  Y000
+SUBENT        O0284114     970117   20050616   20050926       0000
 BIB                  7          9
 REACTION   (29-CU-0(P,X)25-MN-54,,SIG)       Independent
 METHOD     (ACTIV)
@@ -3563,7 +3565,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.223E+02  0.172E+01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        O0284115     970117   20050616                  Y000
+SUBENT        O0284115     970117   20050616   20050926       0000
 BIB                  7         11
 REACTION   (29-CU-0(P,X)26-FE-59,CUM,SIG)
 METHOD     (ACTIV)
@@ -3587,7 +3589,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.149E+01  0.123E+00
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        O0284116     970117   20050616                  Y000
+SUBENT        O0284116     970117   20050616   20050926       0000
 BIB                  8         14
 REACTION   (29-CU-0(P,X)27-CO-56,CUM,SIG)
 METHOD     (ACTIV)
@@ -3617,7 +3619,7 @@ MEV        MEV        MB         MB         NO-DIM
   0.375E+03  0.126E+01  0.113E+02  0.934E+00         1.
 ENDDATA              9
 ENDSUBENT           28
-SUBENT        O0284117     970117   20050616                  Y000
+SUBENT        O0284117     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (29-CU-0(P,X)27-CO-57,,SIG)
 METHOD     (ACTIV)
@@ -3640,7 +3642,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.326E+02  0.283E+01
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284118     970117   20050616                  Y000
+SUBENT        O0284118     970117   20050616   20050926       0000
 BIB                  7         11
 REACTION   (29-CU-0(P,X)27-CO-58-G,M+,SIG)       Independent
 METHOD     (ACTIV)
@@ -3664,7 +3666,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.380E+02  0.297E+01
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        O0284119     970117   20050616                  Y000
+SUBENT        O0284119     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION   (29-CU-0(P,X)27-CO-60-G,M+,SIG)
 METHOD     (ACTIV)
@@ -3687,7 +3689,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.966E+01  0.786E+00
 ENDDATA              6
 ENDSUBENT           21
-SUBENT        O0284120     970117   20050616                  Y000
+SUBENT        O0284120     970117   20050616   20050926       0000
 BIB                  7         13
 REACTION   (29-CU-0(P,X)28-NI-56,CUM,SIG)
 METHOD     (ACTIV)
@@ -3712,7 +3714,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.777E-01  0.319E-01
 ENDDATA              5
 ENDSUBENT           23
-SUBENT        O0284121     970117   20050616                  Y000
+SUBENT        O0284121     970117   20050616   20050926       0000
 BIB                  7         12
 REACTION   (29-CU-0(P,X)28-NI-57,CUM,SIG)
 METHOD     (ACTIV)
@@ -3737,7 +3739,7 @@ MEV        MEV        MB         MB
   0.375E+03  0.126E+01  0.150E+01  0.123E+00
 ENDDATA              6
 ENDSUBENT           23
-SUBENT        O0284122     970117   20050616                  Y000
+SUBENT        O0284122     970117   20050616   20050926       0000
 BIB                  7         10
 REACTION  M(29-CU-0(P,X)30-ZN-65,,SIG)
           S(29-CU-65(P,N)30-ZN-65,,SIG)
