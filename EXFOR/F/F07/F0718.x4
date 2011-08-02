@@ -1,7 +1,7 @@
-ENTRY            F0718   20051123   20060315                  F023
-SUBENT        F0718001   20051123   20060315                  F023
-BIB                  9         31
-TITLE      Deuteron induced reactions on 14N.
+ENTRY            F0718   20110311   20110803   20110627       F041
+SUBENT        F0718001   20110311   20110803   20110627       F041
+BIB                  9         33
+TITLE      Deuteron induced reactions on N-14.
 AUTHOR     (V.Gomes Porto,N.Ueta,R.A.Douglas,O.Sala,D.Wilmore,
            B.A.Robson,P.E.Hodgson)
 INSTITUTE  (3BZLUSP,2UK HAR,3AULCBR,2UK OXF)
@@ -27,15 +27,17 @@ ERR-ANALYS (ERR-DIG)Digitizing error
            total                 3%, 20.0=< ANGlab =<150.0 degr.
                                  4%, 150.0=< ANGlab =<170.0 degr.
                                  10%. 5.0=< ANGlab =<10.0 degr.
-          The statistical error was less than 1% for the elastic
-          deuteron group and varied from 3% to 5% for the proton
-          and alpha groups except for the alpha2 group for which
-          it was about 10%.
+           The statistical error was less than 1% for the elastic
+           deuteron group and varied from 3% to 5% for the proton
+           and alpha groups except for the alpha2 group for which
+           it was about 10%.
 HISTORY    (20050418C)
-ENDBIB              31
+           (20110311A) Placement of ERR-ANALYS information was
+           changed.
+ENDBIB              33
 NOCOMMON             0          0
-ENDSUBENT           34
-SUBENT        F0718002   20051123   20060315                  F023
+ENDSUBENT           36
+SUBENT        F0718002   20051123   20060315   20060201       F023
 BIB                  3          3
 REACTION   (7-N-14(D,P)7-N-15,PAR,DA)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -462,7 +464,7 @@ ADEG       MEV        MB/SR
  167.60     3.1227     1.8784
 ENDDATA            413
 ENDSUBENT          425
-SUBENT        F0718003   20051123   20060315                  F023
+SUBENT        F0718003   20051123   20060315   20060201       F023
 BIB                  3          3
 REACTION   (7-N-14(D,P)7-N-15,PAR,DA)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -3253,7 +3255,7 @@ MEV        ADEG       MEV        MB/SR      MB/SR
  8.3200     167.60     3.1302     1.2266
 ENDDATA           2777
 ENDSUBENT         2789
-SUBENT        F0718004   20051123   20060315                  F023
+SUBENT        F0718004   20051123   20060315   20060201       F023
 BIB                  3          3
 REACTION   (7-N-14(D,EL)7-N-14,,DA)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -3904,7 +3906,7 @@ ADEG       MEV        MB/SR
  167.60     3.1270     36.974
 ENDDATA            637
 ENDSUBENT          649
-SUBENT        F0718005   20051123   20060315                  F023
+SUBENT        F0718005   20051123   20060315   20060201       F023
 BIB                  3          3
 REACTION   (7-N-14(D,A)6-C-12,PAR,DA)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -6797,7 +6799,7 @@ MEV        ADEG       MEV        MB/SR      MB/SR
  9.6400     167.60     3.1250     3.2425    0.59998E-01
 ENDDATA           2879
 ENDSUBENT         2891
-SUBENT        F0718006   20051123   20060315                  F023
+SUBENT        F0718006   20051123   20060315   20060201       F023
 BIB                  3          4
 REACTION   (7-N-14(D,P)7-N-15,PAR,DA)
 ERR-ANALYS (ANG-ERR-D)Digitizing error
@@ -7021,7 +7023,7 @@ MEV        ADEG       MB/SR      MB/SR
  3.0790     168.90     2.2147
 ENDDATA            209
 ENDSUBENT          222
-SUBENT        F0718007   20051123   20060315                  F023
+SUBENT        F0718007   20051123   20060315   20060201       F023
 BIB                  3          4
 REACTION   (7-N-14(D,P)7-N-15,PAR,DA)
 ERR-ANALYS (ANG-ERR-D)Digitizing error
@@ -7276,7 +7278,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  8.3200     3.0790     168.48     1.4677    0.86443E-01
 ENDDATA            240
 ENDSUBENT          253
-SUBENT        F0718008   20051123   20060315                  F023
+SUBENT        F0718008   20051123   20060315   20060201       F023
 BIB                  3          4
 REACTION   (7-N-14(D,P)7-N-15,PAR,SIG)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -7362,7 +7364,7 @@ MEV        MEV        MB         MB
  7.5700     3.0925     68.621
 ENDDATA             71
 ENDSUBENT           84
-SUBENT        F0718009   20051123   20060315                  F023
+SUBENT        F0718009   20051123   20060315   20060201       F023
 BIB                  3          4
 REACTION   (7-N-14(D,A)6-C-12,PAR,SIG)
 ERR-ANALYS (EN-ERR-DIG)Digitizing error
@@ -7463,7 +7465,7 @@ MEV        MEV        MB         MB
  9.6400     3.0466     31.231
 ENDDATA             86
 ENDSUBENT           99
-SUBENT        F0718010   20051123   20060315                  F023
+SUBENT        F0718010   20051123   20060315   20060201       F023
 BIB                  4          7
 REACTION   (7-N-14(D,EL)7-N-14,,DA,,RTH/AV)
 COMMENT    Data were averaged over the four overlapping energy
@@ -7523,7 +7525,7 @@ MEV        MEV        ADEG       NO-DIM
  2.41       3.08       157.13     2.1202
 ENDDATA             42
 ENDSUBENT           58
-SUBENT        F0718011   20051123   20060315                  F023
+SUBENT        F0718011   20051123   20060315   20060201       F023
 BIB                  4          7
 REACTION   (7-N-14(D,P)7-N-15,PAR,DA,,AV)
 COMMENT    Data were averaged over the four overlapping energy
@@ -7775,7 +7777,7 @@ MEV        MEV        MEV        ADEG       MB/SR
  7.5700     2.41       3.08      167.89     2.8288
 ENDDATA            234
 ENDSUBENT          250
-SUBENT        F0718012   20051123   20060315                  F023
+SUBENT        F0718012   20051123   20060315   20060201       F023
 BIB                  4          7
 REACTION   (7-N-14(D,A)6-C-12,PAR,DA,,AV)
 COMMENT    Data were averaged over the four overlapping energy
