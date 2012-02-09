@@ -1,13 +1,13 @@
-ENTRY            C0553   19990907   20000119
-SUBENT        C0553001   19990907   20000119
-BIB                 11         21
+ENTRY            C0553   20111118   20120210   20120207       C113
+SUBENT        C0553001   20111118   20120210   20120207       C113
+BIB                 11         23
 INSTITUTE  (1USARUT,1USALAS,2JPNTIT,1USAMIN)
 REFERENCE  (J,PRL,51,1526,1983)
-           (J,JPR/C,4,459,1984)
+           (J,JPR/C,45,C4-459,1984)
            (T,NANDA,1984)
-AUTHOR     (S.K.NANDA,C.GLASHAUSSER,K.W.JONES,J.A.MCGILL,
-           T.A.CAREY,J.B.MCCLELLAND,J.M.MOSS,S.J.SEESTROM-MORRIS,
-           H.OHNUMA,M.FRANEY,M.GAZZALY,N.HINTZ))
+AUTHOR     (S.K.Nanda,C.Glashausser,K.W.Jones,J.A.McGill,
+           T.A.Carey,J.B.McClelland,J.M.Moss,S.J.Seestrom-Morris,
+           H.Ohnuma,M.Franey,M.Gazzaly,N.Hintz)
 TITLE      Fine Structure and Spin Excitation in the Giant
             Resonance Region of 90Zr
 FACILITY   (MESON,1USALAS)
@@ -20,16 +20,18 @@ MONITOR    (1-H-1(P,EL)1-H-1,,DA) Data for CH2 target at 17
            Excitation energies calibrated relative to known
             states in 12C, 48Ca, and 90Zr.
 STATUS     (APRVD) Approved by C. Glashausser, 7 September 1999.
-           Data taken from tables in thesis.
+           (TABLE) Data taken from tables in thesis.
 HISTORY    (19990806C) VM
-ENDBIB              21
+           (20111118U) SD: Ref. corrected (JPR/C,4,459,1984 =>
+                                           JPR/C,45,C4-459,1984)
+ENDBIB              23
 COMMON               1          3
 EN
 MEV
 319.
 ENDCOMMON            3
-ENDSUBENT           28
-SUBENT        C0553002   19990907   20000119
+ENDSUBENT           30
+SUBENT        C0553002   19990907   20000119   20050926       0000
 BIB                  4          5
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,DA)
 SAMPLE     Natural zirconium target. Areal density 50 mg/cm2.
@@ -59,7 +61,7 @@ ADEG       MB/SR      MB/SR
   5.85       0.905      0.075
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        C0553003   19990907   20000119
+SUBENT        C0553003   19990907   20000119   20050926       0000
 BIB                  5          6
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,POL/DA,,ANA)
 SAMPLE     Natural zirconium target. Areal density 250 mg/cm2.
@@ -90,7 +92,7 @@ ADEG       NO-DIM     NO-DIM
   5.85      0.182      0.070
 ENDDATA             14
 ENDSUBENT           29
-SUBENT        C0553004   19990907   20000119
+SUBENT        C0553004   19990907   20000119   20050926       0000
 BIB                  5          6
 REACTION   (40-ZR-90(P,INL)40-ZR-90,NN/PAR,POL/DA,,SF)
 SAMPLE     Natural zirconium target. Areal density 250 mg/cm2.
@@ -111,7 +113,7 @@ ADEG       NO-DIM     NO-DIM
   5.16      0.20       0.16
 ENDDATA              4
 ENDSUBENT           19
-SUBENT        C0553005   19990907   20000119
+SUBENT        C0553005   19990907   20000119   20050926       0000
 BIB                  4          5
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,DA)
 SAMPLE     Natural zirconium target. Areal density 50 mg/cm2.
@@ -311,7 +313,7 @@ MEV        ADEG       MB/SR      MB/SR
   9.77       4.92       0.045      0.017
 ENDDATA            184
 ENDSUBENT          198
-SUBENT        C0553006   19990907   20000119
+SUBENT        C0553006   19990907   20000119   20050926       0000
 BIB                  5          6
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,POL/DA,,ANA)
 SAMPLE     Natural zirconium target. Areal density 250 mg/cm2.
@@ -354,7 +356,7 @@ MEV        ADEG       NO-DIM     NO-DIM
   5.64       5.07      0.304      0.051
 ENDDATA             30
 ENDSUBENT           41
-SUBENT        C0553007   19990907   20000119
+SUBENT        C0553007   19990907   20000119   20050926       0000
 BIB                  4          5
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,DA)
 SAMPLE     Natural zirconium target. Areal density 50 mg/cm2.
@@ -412,7 +414,7 @@ MEV        MEV        ADEG       MB/SR      MB/SR
  16.        18.         5.85       8.67       0.07
 ENDDATA             42
 ENDSUBENT           56
-SUBENT        C0553008   19990907   20000119
+SUBENT        C0553008   19990907   20000119   20050926       0000
 BIB                  5          6
 REACTION   (40-ZR-90(P,INL)40-ZR-90,PAR,POL/DA,,ANA)
 SAMPLE     Natural zirconium target. Areal density 250 mg/cm2.
@@ -467,7 +469,7 @@ MEV        MEV        ADEG       NO-DIM     NO-DIM
  16.        18.         5.85      0.112      0.007
 ENDDATA             42
 ENDSUBENT           53
-SUBENT        C0553009   19990907   20000119
+SUBENT        C0553009   19990907   20000119   20050926       0000
 BIB                  5          7
 REACTION  1(40-ZR-90(P,INL)40-ZR-90,NN/PAR,POL/DA,,SF)
           2(40-ZR-90(P,INL)40-ZR-90,NN/PAR,DA,,SF)
