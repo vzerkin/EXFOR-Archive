@@ -1,52 +1,54 @@
-ENTRY            A0583   20020404   20050616                  Y000
-SUBENT        A0583001   20020404   20050616                  Y000
-BIB                 14         42
-TITLE      Cross Sections of He3 Interaction with Nb-93
-           Experimental Data and Possible Predictions.
-AUTHOR     (S.N.KONDRATYEV, YU.N.LOBACH, V.D.SKLYARENKO,
-           V.V.TOKAREVSKY)
-INSTITUTE  (4UKRIJI)
+ENTRY            A0583   20120327   20120530   20120522       A077
+SUBENT        A0583001   20120327   20120530   20120522       A077
+BIB                 14         44
+TITLE      Cross sections of He3 interaction with Nb-93
+           experimental data and possible predictions.
+AUTHOR     (S.N.Kondratev, Yu.N.Lobach, V.D.Sklyarenko,
+           V.V.Tokarevskii)
+INSTITUTE  (4UKRIJD)
 REFERENCE  (J,YF,59,2121,1996)
+           (J,PAN,59,2041,1996) English translation
 HISTORY    (19971020C)
-           (20011105A) Reaction Lines are Corrected
-           (20020404U) Last checking has been done.
-ADD-RES    (COMP).Pre-Equilibrium Emission and Evaporation from
-           Compound Nuclei Based on Alice-85 Code.
+           (20011105A) Reaction lines are corrected
+           (20120327A) English translation of 'YF' was added
+ADD-RES    (COMP).Pre-equilibrium emission and evaporation from
+           compound nuclei based on Alice-85 code.
            (G-SPC)
-FACILITY   (ISOCY,4UKRIJI)
+FACILITY   (ISOCY,4UKRIJD)
 METHOD     (ACTIV)
-           Irradiation Time For Short-Lived Activities was 1.2 Hr,
-           Fluence=4.9E+13 He-3 Ions.
-           Irradiation Time For Long-Lived Activities was 15 Hr.
-           Fluence=1.44E+15 He-3 Ions.
-           (BCINT) The Stacks were Disposed in Faraday'S Cup.
-           (STTA)  Two Stacks have Been Used.
-           1. For Short-Lived Activities Nb/Al/Nb/Al....
-           2. For Long-Lived Activities  Co/Nb/Al/Co/Nb/Al....
+           irradiation time for short-lived activities was 1.2 Hr,
+           fluence=4.9E+13 He-3 ions.
+           irradiation time for long-lived activities was 15 hr.
+           fluence=1.44E+15 He-3 ions.
+           (BCINT) the stacks were disposed in faraday'S cup.
+           (STTA)  two stacks have been used.
+           1. For short-lived activities Nb/Al/Nb/Al....
+           2. For long-lived activities  Co/Nb/Al/Co/Nb/Al....
            (GSPEC)
 DETECTOR   (HPGE)
-STATUS     (TABLE)
-SAMPLE     Chemical Purity Foils of Niobium were Used.
-           The Foils were Collect in Cassete,the Thicknesses
-           For Short-Lived Cassete Targets was 25-20 Mg/Cm**2,
-           For Long-Lived Cassete Targets was 30-33 Mg/Cm**2.
-           Co Foils,Thickness 30-23 Mg/Cm**2,were Used For Long-
-           Lived Cassete Targets.
-ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
-           This Uncertainty Does not Include Beam Current
-           Uncertainty ( <10%).
-           (EN-ERR).The Uncertainty is Reported by Authors.
-           Systematic Uncertainty of Energies (1.0-1.5 MEV) Was
-           Not Included.
-CORRECTION Needed Corrections For Secondary Neutrons Influence and
-           Secondary Electron Yield from Faraday'S Cup were
-           Included.
+STATUS     (TABLE).Table 3 of J,YF,59,2121,1996
+SAMPLE     Chemical purity foils of niobium were used.
+           the foils were collect in cassete,the thicknesses
+           for short-lived cassete targets was 25-20 mg/cm**2,
+           for long-lived cassete targets was 30-33 mg/cm**2.
+           Co foils,thickness 30-23 mg/cm**2,were used for long-
+           lived cassete targets.
+ERR-ANALYS (ERR-T).The uncertainty is reported by authors.
+           this uncertainty does not include beam current
+           uncertainty
+           (ERR-1,,10.). Beam current uncertainty.
+           (EN-ERR).The uncertainty is reported by authors.
+           systematic uncertainty of energies (1.0-1.5 MeV) was
+           not included.
+CORRECTION Needed corrections for secondary neutrons influence and
+           secondary electron yield from Faraday's cup were
+           included.
 ANALYSIS   (AREA)
            (DECAY)
-ENDBIB              42
+ENDBIB              44
 NOCOMMON             0          0
-ENDSUBENT           45
-SUBENT        A0583002   20020404   20050616                  Y000
+ENDSUBENT           47
+SUBENT        A0583002   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,N)43-TC-95-M,,SIG) Independent
 RAD-DET    (43-TC-95-M,DG)
@@ -66,7 +68,7 @@ MEV        MEV        MB         MB
        12.8        2.2      0.575      0.039
 ENDDATA             10
 ENDSUBENT           18
-SUBENT        A0583003   20020404   20050616                  Y000
+SUBENT        A0583003   20020404   20050616   20050926       0000
 BIB                  2          2
 REACTION   (41-NB-93(HE3,N)43-TC-95-G,,SIG) Independent
 DECAY-DATA (43-TC-95-G,20.HR,DG,765.8,0.94)
@@ -88,7 +90,7 @@ MEV        MEV        MB         MB
        14.7        2.1       3.02       0.23
 ENDDATA             13
 ENDSUBENT           20
-SUBENT        A0583004   20020404   20050616                  Y000
+SUBENT        A0583004   20020404   20050616   20050926       0000
 BIB                  4          6
 REACTION   (41-NB-93(HE3,N)43-TC-95,,SIG)
 RAD-DET    (43-TC-95-M,DG)
@@ -114,7 +116,7 @@ MEV        MEV        MB         MB
        14.7        2.1       3.61       0.24
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        A0583005   20020404   20050616                  Y000
+SUBENT        A0583005   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,2N)43-TC-94-M,,SIG) Independent
 RAD-DET    (43-TC-94-M,DG)
@@ -139,7 +141,7 @@ MEV        MEV        MB         MB
        14.7        2.1        53.         8.
 ENDDATA             13
 ENDSUBENT           23
-SUBENT        A0583006   20020404   20050616                  Y000
+SUBENT        A0583006   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,2N)43-TC-94-G,M-,SIG) Intependent
 RAD-DET    (43-TC-94-G,DG)
@@ -169,7 +171,7 @@ MEV        MEV        MB         MB
        14.7        2.1        72.        4.4
 ENDDATA             18
 ENDSUBENT           28
-SUBENT        A0583007   20020404   20050616                  Y000
+SUBENT        A0583007   20020404   20050616   20050926       0000
 BIB                  4          9
 REACTION   (41-NB-93(HE3,2N)43-TC-94,,SIG)
 COMMENT    - By Compiler: Presented Data is Sum of Cross Sections
@@ -203,7 +205,7 @@ MEV        MEV        MB         MB
        14.7        2.1       125.         9.
 ENDDATA             18
 ENDSUBENT           32
-SUBENT        A0583008   20020404   20050616                  Y000
+SUBENT        A0583008   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,3N)43-TC-93-M,,SIG) Independent.
 RAD-DET    (43-TC-93-M,DG)
@@ -223,7 +225,7 @@ MEV        MEV        MB         MB
        20.5        1.3       26.9        4.7
 ENDDATA             10
 ENDSUBENT           18
-SUBENT        A0583009   20020404   20050616                  Y000
+SUBENT        A0583009   20020404   20050616   20050926       0000
 BIB                  3          6
 REACTION   (41-NB-93(HE3,3N)43-TC-93-G,,SIG) Independent
 RAD-DET    (43-TC-93-M,DG)
@@ -253,7 +255,7 @@ MEV        MEV        MB         MB
        20.5        1.3       177.        12.
 ENDDATA             17
 ENDSUBENT           28
-SUBENT        A0583010   20020404   20050616                  Y000
+SUBENT        A0583010   20020404   20050616   20050926       0000
 BIB                  2          4
 REACTION   (41-NB-93(HE3,3N)43-TC-93,,SIG)
 DECAY-DATA (43-TC-93-M,43.5MIN,DG,392.5,0.60)
@@ -282,7 +284,7 @@ MEV        MEV        MB         MB
        14.7        2.1       12.5         1.
 ENDDATA             18
 ENDSUBENT           27
-SUBENT        A0583011   20020404   20050616                  Y000
+SUBENT        A0583011   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)42-MO-93-M,IND,SIG)
 RAD-DET    (42-MO-93-M,DG)
@@ -310,7 +312,7 @@ MEV        MEV        MB         MB
        14.7        2.1       0.46       0.07
 ENDDATA             18
 ENDSUBENT           26
-SUBENT        A0583012   20020404   20050616                  Y000
+SUBENT        A0583012   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)41-NB-92-M,,SIG) Shielded.
 RAD-DET    (41-NB-92-M,DG)
@@ -349,7 +351,7 @@ MEV        MEV        MB         MB
        12.8        2.2        1.8        0.3
 ENDDATA             29
 ENDSUBENT           37
-SUBENT        A0583013   20020404   20050616                  Y000
+SUBENT        A0583013   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)42-MO-90,CUM,SIG)
 RAD-DET    (42-MO-90,DG)
@@ -371,7 +373,7 @@ MEV        MEV        MB         MB
         48.        0.7       0.57       0.12
 ENDDATA             12
 ENDSUBENT           20
-SUBENT        A0583014   20020404   20050616                  Y000
+SUBENT        A0583014   20020404   20050616   20050926       0000
 BIB                  3          4
 REACTION   (41-NB-93(HE3,X)41-NB-90-G,IND/M+,SIG)
 RAD-DET    (41-NB-90-G,DG)
@@ -399,7 +401,7 @@ MEV        MEV        MB         MB
        20.5        1.3        2.2       0.28
 ENDDATA             17
 ENDSUBENT           26
-SUBENT        A0583015   20020404   20050616                  Y000
+SUBENT        A0583015   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,X)39-Y-90-M,IND,SIG)
 RAD-DET    (39-Y-90-M,DG)
@@ -420,7 +422,7 @@ MEV        MEV        MB         MB
        42.8        0.8       0.51       0.32
 ENDDATA              9
 ENDSUBENT           19
-SUBENT        A0583016   20020404   20050616                  Y000
+SUBENT        A0583016   20020404   20050616   20050926       0000
 BIB                  3          4
 REACTION   (41-NB-93(HE3,X)41-NB-89-M,CUM,SIG)
 RAD-DET    (41-NB-89-M,DG)
@@ -447,7 +449,7 @@ MEV        MEV        MB         MB
        26.8        1.1        9.8        3.9
 ENDDATA             16
 ENDSUBENT           25
-SUBENT        A0583017   20020404   20050616                  Y000
+SUBENT        A0583017   20020404   20050616   20050926       0000
 BIB                  3          6
 REACTION   (41-NB-93(HE3,X)41-NB-89-G,IND,SIG)
            Ground State of Nb-90 can not be Produced Due to Mo-90
@@ -474,7 +476,7 @@ MEV        MEV        MB         MB
        37.1        0.9         1.        0.3
 ENDDATA             14
 ENDSUBENT           25
-SUBENT        A0583018   20020404   20050616                  Y000
+SUBENT        A0583018   20020404   20050616   20050926       0000
 BIB                  3          9
 REACTION   ((41-NB-93(HE3,X)41-NB-89-M,CUM,SIG)+
            (41-NB-93(HE3,X)41-NB-89-G,IND,SIG))
@@ -506,7 +508,7 @@ MEV        MEV        MB         MB
        26.8        1.1        10.         4.
 ENDDATA             16
 ENDSUBENT           30
-SUBENT        A0583019   20020404   20050616                  Y000
+SUBENT        A0583019   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)40-ZR-89-G,CUM,SIG)
 RAD-DET    (40-ZR-89-G,DG)
@@ -541,7 +543,7 @@ MEV        MEV        MB         MB
        31.8        1.1        4.2        0.6
 ENDDATA             25
 ENDSUBENT           33
-SUBENT        A0583020   20020404   20050616                  Y000
+SUBENT        A0583020   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)40-ZR-89-G,IND,SIG)
 RAD-DET    (40-ZR-89-G,DG)
@@ -565,7 +567,7 @@ MEV        MEV        MB         MB
        37.1        0.9        14.         5.
 ENDDATA             14
 ENDSUBENT           22
-SUBENT        A0583021   20020404   20050616                  Y000
+SUBENT        A0583021   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)40-ZR-88,CUM,SIG)
 RAD-DET    (40-ZR-88,DG)
@@ -587,7 +589,7 @@ MEV        MEV        MB         MB
        31.8        1.1      0.093      0.019
 ENDDATA             12
 ENDSUBENT           20
-SUBENT        A0583022   20020404   20050616                  Y000
+SUBENT        A0583022   20020404   20050616   20050926       0000
 BIB                  3          4
 REACTION   (41-NB-93(HE3,X)40-ZR-87-G,CUM,SIG,,REL)
 RAD-DET    (40-ZR-87-G,DG)
@@ -607,7 +609,7 @@ MEV        MEV        ARB-UNITS  ARB-UNITS
        63.9        0.7        8.9        5.5
 ENDDATA              9
 ENDSUBENT           18
-SUBENT        A0583023   20020404   20050616                  Y000
+SUBENT        A0583023   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)39-Y-88,IND,SIG)
 RAD-DET    (39-Y-88,DG)
@@ -630,7 +632,7 @@ MEV        MEV        MB         MB
        22.7        1.3       0.19       0.04
 ENDDATA             13
 ENDSUBENT           21
-SUBENT        A0583024   20020404   20050616                  Y000
+SUBENT        A0583024   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)39-Y-87-M,IND,SIG)
 RAD-DET    (39-Y-87-M,DG)
@@ -650,7 +652,7 @@ MEV        MEV        MB         MB
        42.8        0.8         4.        0.4
 ENDDATA             10
 ENDSUBENT           18
-SUBENT        A0583025   20020404   20050616                  Y000
+SUBENT        A0583025   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)39-Y-87-G,IND,SIG)
 RAD-DET    (39-Y-87-G,DG)
@@ -665,7 +667,7 @@ MEV        MEV        MB         MB
        37.1        0.9        1.2        0.7
 ENDDATA              5
 ENDSUBENT           13
-SUBENT        A0583026   20020404   20050616                  Y000
+SUBENT        A0583026   20020404   20050616   20050926       0000
 BIB                  1          1
 REACTION   (41-NB-93(HE3,X)39-Y-87,CUM,SIG)
 ENDBIB               1
@@ -697,7 +699,7 @@ MEV        MEV        MB         MB
        31.8        1.1        1.5        0.3
 ENDDATA             24
 ENDSUBENT           30
-SUBENT        A0583027   20020404   20050616                  Y000
+SUBENT        A0583027   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)40-ZR-86,CUM,SIG)
 RAD-DET    (40-ZR-86,DG)
@@ -715,7 +717,7 @@ MEV        MEV        MB         MB
        69.1        0.7        1.2        0.4
 ENDDATA              8
 ENDSUBENT           16
-SUBENT        A0583028   20020404   20050616                  Y000
+SUBENT        A0583028   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,X)39-Y-86-M,IND,SIG)
             Isomer State of Y-86 can not be Produced Due to
@@ -740,7 +742,7 @@ MEV        MEV        MB         MB
        42.8        0.8        0.7        0.4
 ENDDATA             13
 ENDSUBENT           23
-SUBENT        A0583029   20020404   20050616                  Y000
+SUBENT        A0583029   20020404   20050616   20050926       0000
 BIB                  3          6
 REACTION   (41-NB-93(HE3,X)39-Y-86-G,IND,SIG)
 RAD-DET    (39-Y-86-G,DG)
@@ -766,7 +768,7 @@ MEV        MEV        MB         MB
        42.8        0.8        0.7        0.4
 ENDDATA             13
 ENDSUBENT           24
-SUBENT        A0583030   20020404   20050616                  Y000
+SUBENT        A0583030   20020404   20050616   20050926       0000
 BIB                  3          8
 REACTION   (41-NB-93(HE3,X)39-Y-86,IND/M+,SIG)
 RAD-DET    (39-Y-86-M,DG)
@@ -794,7 +796,7 @@ MEV        MEV        MB         MB
        42.8        0.8       1.52       0.24
 ENDDATA             13
 ENDSUBENT           26
-SUBENT        A0583031   20020404   20050616                  Y000
+SUBENT        A0583031   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)38-SR-85-G,CUM,SIG)
 RAD-DET    (38-SR-85-G,DG)
@@ -813,7 +815,7 @@ MEV        MEV        MB         MB
        53.3        0.7       2.19       0.23
 ENDDATA              9
 ENDSUBENT           17
-SUBENT        A0583032   20020404   20050616                  Y000
+SUBENT        A0583032   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,X)39-Y-84-M,IND,SIG)
            Y-84-M Production Due to Zr-84 Decay is Impossible.
@@ -832,7 +834,7 @@ MEV        MEV        MB         MB
        73.9        0.6         1.        0.4
 ENDDATA              7
 ENDSUBENT           17
-SUBENT        A0583033   20020404   20050616                  Y000
+SUBENT        A0583033   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)37-RB-84-G,M+,SIG) Shielded
 RAD-DET    (37-RB-84-G,DG)
@@ -855,7 +857,7 @@ MEV        MEV        MB         MB
        22.7        1.3      0.025      0.005
 ENDDATA             13
 ENDSUBENT           21
-SUBENT        A0583034   20020404   20050616                  Y000
+SUBENT        A0583034   20020404   20050616   20050926       0000
 BIB                  3          3
 REACTION   (41-NB-93(HE3,X)38-SR-83-G,CUM,SIG)
 RAD-DET    (38-SR-83-G,DG)
@@ -870,7 +872,7 @@ MEV        MEV        MB         MB
        83.5        0.5         4.        1.8
 ENDDATA              5
 ENDSUBENT           13
-SUBENT        A0583035   20020404   20050616                  Y000
+SUBENT        A0583035   20020404   20050616   20050926       0000
 BIB                  3          5
 REACTION   (41-NB-93(HE3,X)37-RB-83,CUM,SIG)
 RAD-DET    (37-RB-83,DG)
@@ -891,7 +893,7 @@ MEV        MEV        MB         MB
        53.3        0.7       0.16       0.03
 ENDDATA              9
 ENDSUBENT           19
-SUBENT        A0583036   20020404   20050616                  Y000
+SUBENT        A0583036   20020404   20050616   20050926       0000
 BIB                  4          5
 REACTION   (41-NB-93(HE3,X)4-BE-7,IND,SIG)
 COMMENT    - By Authors - A Loss of be-7 Due to Recoil Processes
