@@ -1,28 +1,28 @@
-ENTRY            A0132   19830412
-SUBENT        A0132001     830412
+ENTRY            A0132   20120327   20120530   20120522       A077
+SUBENT        A0132001   20120327   20120530   20120522       A077
 BIB                 11         18
-TITLE      A MASS DISTRIBUTION OF FISSION FRAGMENTS OF 237NP,
-           238U AND 249CF NUCLEI INDUCED BY ALPHA PARTICLES
-REFERENCE  (J,YF,35,(5),112,8205)
-AUTHOR     (DMITRIEV V.D.,SODAN H.,KALININ A.M.,LUKYANOV S.M.,
-           OGANESIAN JU.TS.,PENIONZHKEVICH YU.E.,SALAMATINA T.S.)
+TITLE      A mass distribution of fission fragments of 237Np,
+           238U and 249Cf nuclei induced by alpha particles
+REFERENCE  (J,YF,35,(5),1112,1982)
+           (J,SNP,35,651,1982) English translation
+AUTHOR     (V.D.Dmitriev,H.Sodan,A.M.Kalinin,S.M.Lukyanov,
+           Ju.Ts.Oganesyan,Yu.E.Penionzhkevich,T.S.Salamatina)
 INSTITUTE  (4ZZZDUB)
 FACILITY   (CYCLO,4ZZZDUB)
 DETECTOR   (TELES,SOLST,SOLST,IOCH)
 METHOD     (SITA,EXTB,TOF)
-HISTORY    (820713C)
-           (830412U)
-           (820903U)
-           (820818U)
-STATUS     (CURVE).BY CAJAD
-ERR-ANALYS (+DATA-ERR).ANY ADDITIONAL INFORMATION IS ABSENT
-           (-DATA-ERR).
-SAMPLE     THIN LAYER OF ISOTOPE (238-U,237-NP OR 249-CF) ON
-           THIN ALUMINIUM (5 MUMETERS) OR CARBON (50 MUGR/CM**2)
+HISTORY    (19820713C)
+           (20120327A) BIB section upgrated.Correction in page
+           was made.
+STATUS     (CURVE).By Cajad-fig.2 of J,YF,35,(5),1112,1982
+ERR-ANALYS (DATA-ERR).The uncertainty is reported by authors on
+           figure
+SAMPLE     Thin layer of isotope (238-U,237-Np or 249-Cf) on
+           thin aluminium (5 mumeters) or carbon (50 mugr/cm**2)
 ENDBIB              18
 NOCOMMON             0          0
 ENDSUBENT           21
-SUBENT        A0132002     830412
+SUBENT        A0132002     830412              20050926       0000
 BIB                  1          1
 REACTION   (92-U-238(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
@@ -74,7 +74,7 @@ NO-DIM     NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS
   155.       156.       641.
 ENDDATA             40
 ENDSUBENT           50
-SUBENT        A0132003     830412
+SUBENT        A0132003     830412              20050926       0000
 BIB                  1          1
 REACTION   (92-U-238(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
@@ -125,7 +125,7 @@ NO-DIM     NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS
   156.       157.        42.4
 ENDDATA             39
 ENDSUBENT           49
-SUBENT        A0132004     830412
+SUBENT        A0132004     830412              20050926       0000
 BIB                  1          1
 REACTION   (93-NP-237(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
@@ -173,7 +173,7 @@ NO-DIM     NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS
   153.       154.       846.5
 ENDDATA             36
 ENDSUBENT           46
-SUBENT        A0132005     830412
+SUBENT        A0132005     830412              20050926       0000
 BIB                  1          1
 REACTION   (93-NP-237(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
@@ -222,7 +222,7 @@ NO-DIM     NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS
   155.       156.        44.4
 ENDDATA             37
 ENDSUBENT           47
-SUBENT        A0132006     830412
+SUBENT        A0132006     830412              20050926       0000
 BIB                  1          1
 REACTION   (98-CF-249(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
@@ -278,7 +278,7 @@ NO-DIM     NO-DIM     ARB-UNITS  ARB-UNITS  ARB-UNITS
   165.       166.       293.3       81.3       81.3
 ENDDATA             44
 ENDSUBENT           54
-SUBENT        A0132007     830412
+SUBENT        A0132007     830412              20050926       0000
 BIB                  1          1
 REACTION   (98-CF-249(A,F)MASS,PRE,FY,,REL,EXP)
 ENDBIB               1
