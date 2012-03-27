@@ -1,8 +1,9 @@
-ENTRY            C0879   20020612   20020815
-SUBENT        C0879001   20020612   20020815
-BIB                 13         23
+ENTRY            C0879   20120123   20120328   20120325       C114
+SUBENT        C0879001   20120123   20120328   20120325       C114
+BIB                 13         25
 INSTITUTE  (1USAHRV)
-REFERENCE  (C,2002SANTA,,200204)
+REFERENCE  (C,2002SANTA,(01-28-02),200204)
+               Proceedings published only on CD-ROM.
 AUTHOR     (J.M.Sisterson)
 TITLE      Selected radiation safety issues at proton therapy
             facilities
@@ -18,16 +19,21 @@ DETECTOR   (GE-IN) High purity Ge detector.
 MONITOR    (13-AL-27(P,X)11-NA-24,,SIG)
 CORRECTION Corrected for counting geometry.
 ERR-ANALYS (DATA-ERR) Data uncertainties given include error in:
-           . target weight (2%),
-           . counting efficiency (5%),
-           . number of protons incident on target (5%).
+           (ERR-1) target weight (2%),
+           (ERR-S) counting efficiency (5%),
+           (ERR-2) number of protons incident on target (5%).
 STATUS     (APRVD) Approved by J. Sisterson, 10 June 2002.
            Data taken from reference.
 HISTORY    (20020515C) VM
-ENDBIB              23
-NOCOMMON             0          0
-ENDSUBENT           26
-SUBENT        C0879002   20020612   20020815
+           (20120123U) SD: page to ref. added.
+ENDBIB              25
+COMMON               3          3
+ERR-1      ERR-2      ERR-S
+PER-CENT   PER-CENT   PER-CENT
+  2.         5.          5.
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        C0879002   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)24-CR-51,,SIG) Brass
 DECAY-DATA (24-CR-51,27.7D,DG)
@@ -41,7 +47,7 @@ MEV        MB         MB
 160.         7.9        0.7
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879003   20020612   20020815
+SUBENT        C0879003   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)25-MN-52,,SIG) Brass
 DECAY-DATA (25-MN-52-G,5.591D,DG)
@@ -55,7 +61,7 @@ MEV        MB         MB
 160.         3.8        0.3
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879004   20020612   20020815
+SUBENT        C0879004   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)25-MN-54,,SIG) Brass
 DECAY-DATA (25-MN-54,312.3D,DG)
@@ -69,7 +75,7 @@ MEV        MB         MB
 160.        13.6        1.1
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879005   20020612   20020815
+SUBENT        C0879005   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)27-CO-56,,SIG) Brass
 DECAY-DATA (27-CO-56,77.3D,DG)
@@ -83,7 +89,7 @@ MEV        MB         MB
 160.        11.8        0.9
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879006   20020612   20020815
+SUBENT        C0879006   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)28-NI-56,,SIG) Brass
 DECAY-DATA (28-NI-56,77.27D,DG)
@@ -97,7 +103,7 @@ MEV        MB         MB
 160.         0.1        0.01
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879007   20020612   20020815
+SUBENT        C0879007   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)27-CO-57,,SIG) Brass
 DECAY-DATA (27-CO-57,271.8D,DG)
@@ -111,7 +117,7 @@ MEV        MB         MB
 160.        38.6        2.9
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879008   20020612   20020815
+SUBENT        C0879008   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)28-NI-57,,SIG) Brass
 DECAY-DATA (28-NI-57,35.6HR,DG)
@@ -125,7 +131,7 @@ MEV        MB         MB
 160.         2.0        0.2
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879009   20020612   20020815
+SUBENT        C0879009   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)27-CO-58,,SIG) Brass
 DECAY-DATA (27-CO-58-G,70.8D,DG)
@@ -139,7 +145,7 @@ MEV        MB         MB
 160.        44.3        3.3
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879010   20020612   20020815
+SUBENT        C0879010   20020612   20020815   20050926       0000
 BIB                  3          4
 REACTION   (29-CU-CMP(P,X)26-FE-59,,SIG) Brass
 DECAY-DATA (26-FE-59,44.503D,DG)
@@ -155,7 +161,7 @@ MEV        MB         MB
 160.         1.2        0.2
 ENDDATA              5
 ENDSUBENT           14
-SUBENT        C0879011   20020612   20020815
+SUBENT        C0879011   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)27-CO-60,,SIG) Brass
 DECAY-DATA (27-CO-60-G,1924.1D,DG)
@@ -169,7 +175,7 @@ MEV        MB         MB
 160.        27.8        4.0
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879012   20020612   20020815
+SUBENT        C0879012   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)30-ZN-62,,SIG) Brass
 DECAY-DATA (30-ZN-62,9.186HR,DG)
@@ -183,7 +189,7 @@ MEV        MB         MB
 160.         6.1        0.5
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879013   20020612   20020815
+SUBENT        C0879013   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)30-ZN-65,,SIG) Brass
 DECAY-DATA (30-ZN-65,244.3D,DG)
@@ -197,7 +203,7 @@ MEV        MB         MB
 160.        19.1        1.6
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879014   20020612   20020815
+SUBENT        C0879014   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)82-PB-201,,SIG) Brass
 DECAY-DATA (82-PB-201-G,9.33HR,DG)
@@ -211,7 +217,7 @@ MEV        MB         MB
 160.         3.4        0.3
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879015   20020612   20020815
+SUBENT        C0879015   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)83-BI-203,,SIG) Brass
 DECAY-DATA (83-BI-203-G,11.76HR,DG)
@@ -225,7 +231,7 @@ MEV        MB         MB
 160.         0.1        0.03
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879016   20020612   20020815
+SUBENT        C0879016   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)83-BI-204,,SIG) Brass
 DECAY-DATA (83-BI-204,11.22HR,DG)
@@ -239,7 +245,7 @@ MEV        MB         MB
 160.         0.1        0.01
 ENDDATA              5
 ENDSUBENT           12
-SUBENT        C0879017   20020612   20020815
+SUBENT        C0879017   20020612   20020815   20050926       0000
 BIB                  2          2
 REACTION   (29-CU-CMP(P,X)83-BI-206,,SIG) Brass
 DECAY-DATA (83-BI-206,6.243D,DG)
