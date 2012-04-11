@@ -1,21 +1,23 @@
-ENTRY            11880   19870120
-SUBENT        11880001     870120
-BIB                  8         11
+ENTRY            11880   20120412   20121203   20121127       1385
+SUBENT        11880001   20120412   20121203   20121127       1385
+BIB                  7         13
 INSTITUTE  (1USAARK)
-REFERENCE  (P,A-ARK-61,2,61)
-AUTHOR     (E.BRAMLITT,D.G.GARDNER)
-TITLE      ABSOLUTE ACTIVATION CROSS SECTIONS FOR 14.8 MEV
-            NEUTRONS, IDENTIFICATION OF NEW NUCLEAR SPECIES.
-DECAY-DATA AUTHORS GIVE NO INFORMATION.
-METHOD     (ACTIV)
-STATUS     (SCSRS)
-HISTORY    (760731T) TRANSLATED FROM SCISRS
-           (830919A) CONVERTED TO REACTION FORMALISM
-           (870120A) BIB UPDATE.
-ENDBIB              11
+REFERENCE  (P,A-ARK-60,2,1961)
+AUTHOR     (E.Bramlitt,D.G.Gardner)
+TITLE      Absolute activation cross sections for 14.8 MeV
+            neutrons, identification of new nuclear species.
+DECAY-DATA Authors give no information.
+STATUS     (TABLE) Data from the text of A-ARK-60,2,1961
+HISTORY    (19760731T) Translated from SCISRS
+           (19830919A) converted to REACTION formalism
+           (19870120A) BIB update.
+           (20120412A) SD:Updated to new date formats,lower case.
+                Corrected according to last EXFOR rules and Dict.
+                Ref.  was corrected: ARK-61 => ARK-60.
+ENDBIB              13
 NOCOMMON             0          0
-ENDSUBENT           14
-SUBENT        11880002     830919
+ENDSUBENT           16
+SUBENT        11880002     830919              20050926       0000
 BIB                  2          2
 REACTION   (38-SR-88(N,2N)38-SR-87-M,,SIG)
 DECAY-DATA (38-SR-87-M,2.8HR)
@@ -27,7 +29,7 @@ MEV        B
  1.48   +01 4.36   -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11880003     830919
+SUBENT        11880003     830919              20050926       0000
 BIB                  1          1
 REACTION   (38-SR-88(N,P)37-RB-88,,SIG)
 ENDBIB               1
@@ -38,7 +40,7 @@ MEV        B
  1.48   +01 1.12   -02
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        11880004     830919
+SUBENT        11880004     830919              20050926       0000
 BIB                  1          1
 REACTION   (40-ZR-91(N,P)39-Y-91,,SIG)
 ENDBIB               1
@@ -49,7 +51,7 @@ MEV        B
  1.48   +01 1.714  -01
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        11880005     870120
+SUBENT        11880005     870120              20050926       0000
 BIB                  2          2
 REACTION   (40-ZR-92(N,P)39-Y-92,,SIG)
 STATUS     (SPSDD,11590041)
@@ -57,7 +59,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        11880006     870120
+SUBENT        11880006     870120              20050926       0000
 BIB                  2          2
 REACTION   (40-ZR-94(N,A)38-SR-91,,SIG)
 STATUS     (SPSDD,11590047)
@@ -65,7 +67,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        11880007     870120
+SUBENT        11880007     870120              20050926       0000
 BIB                  2          2
 REACTION   (40-ZR-94(N,P)39-Y-94,,SIG)
 STATUS     (SPSDD,11590042)
@@ -73,7 +75,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        11880008     870120
+SUBENT        11880008     870120              20050926       0000
 BIB                  2          2
 REACTION   (40-ZR-96(N,A)38-SR-93,,SIG)
 STATUS     (SPSDD,11590044)
@@ -81,7 +83,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        11880009     830919
+SUBENT        11880009     830919              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-158(N,G)64-GD-159,,SIG)
 ENDBIB               1
