@@ -1,6 +1,6 @@
-ENTRY            E1601   20060214   20060215                  E035
-SUBENT        E1601001   20060214   20060215                  E035
-BIB                  5         21
+ENTRY            E1601   20120523   20120530   20120523       E068
+SUBENT        E1601001   20120523   20120530   20120523       E068
+BIB                  6         23
 TITLE      Core-excited states of 12(Lambda)C hypernuclei formed
            in the (pi+,K+) reaction
 AUTHOR     (T.Hasegawa, O.Hashimoto, S.Homma, T.Miyachi, T.Nagae,
@@ -18,14 +18,16 @@ INSTITUTE  (2JPNTOK) Institute for Nuclear Study (INS)
            (1USABNL) Physics Department
            (1USAMIT) Laboratory for Nuclear Science
 REFERENCE  (J,PRL,74,(2),224,199501)
+FACILITY   (SYNCH,2JPNLEP) K6 beam channel
 HISTORY    (20030822T) Am + On. Data converted from NRDF D1601
            (20050812A) On. REACTION corrected (CP-D/430)
            (20051103D) On. REFERENCE corrected
                            Replaced by EXFOR J1601
-ENDBIB              21
+           (20111221A) Nf. FACILITY added
+ENDBIB              23
 NOCOMMON             0          0
-ENDSUBENT           24
-SUBENT        E1601002   20060214   20060215                  E035
+ENDSUBENT           26
+SUBENT        E1601002   20060214   20060215   20060214       E035
 BIB                  2          2
 REACTION   (6-C-12(PIP,X)1-KP-0,,IPA/DE)
 HISTORY    (20051103D) On. Replaced by EXFOR J1601.002
@@ -33,7 +35,7 @@ ENDBIB               2
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            6
-SUBENT        E1601003   20060214   20060215                  E035
+SUBENT        E1601003   20060214   20060215   20060214       E035
 BIB                  2          2
 REACTION   (6-C-12(PIP,X)1-KP-0,PAR,IPA)
 HISTORY    (20051103D) On. Replaced by EXFOR J1601.003
