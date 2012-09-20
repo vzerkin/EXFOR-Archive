@@ -1,15 +1,16 @@
-ENTRY            10013   19990617   19990622
-SUBENT        10013001   19990617   19990622
-BIB                 11         21
+ENTRY            10013   20120331   20120921   20120721       1380
+SUBENT        10013001   20120331   20120921   20120721       1380
+BIB                 11         23
 INSTITUTE  (1CANCRC)
-REFERENCE  (C,70HELSINKI,1,287(2),197006)
-AUTHOR     (M.LOUNSBURY,R.W.DURHAM,G.C.HANNA)
+REFERENCE  (C,70HELSINKI,1,287,197006)
+AUTHOR     (M.Lounsbury,R.W.Durham,G.C.Hanna)
 TITLE      Measurements of alpha and of fission cross section
-            ratios for 233U, 235U AND 239Pu at thermal energies
-FACILITY   (SPECM) Consolidated electrodynamics mass spectrometer.
+            ratios for 233U, 235U and 239Pu at thermal energies
+FACILITY   (SPECM,1CANCRC) Consolidated electrodynamics mass
+                                    spectrometer.
 INC-SOURCE (REAC) NRU-reactor. Light water at a controlled
             temperature
-METHOD     (ACTIV,BURN) Mass seperation.
+METHOD     (ACTIV,BURN) Mass separation.
             Iterative burn-up calculation performed.
 PART-DET   (RSD) Isotopic composition by mass spectrometry.
 ERR-ANALYS Data error excludes conversion to 2200 m/sec (g-factor
@@ -22,10 +23,11 @@ HISTORY    (19720417C)
            (19731231U) BIB corrections
            (19800813A) Converted to REACTION formalism
            (19860529A) Miscellaneous updates.
-ENDBIB              21
+           (20120331U) SD. Page of ref. corrected (287(2) => 287).
+ENDBIB              23
 NOCOMMON             0          0
-ENDSUBENT           24
-SUBENT        10013002   19990617   19990622
+ENDSUBENT           26
+SUBENT        10013002   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   (92-U-233(N,ABS),,ALF)
 ENDBIB               1
@@ -36,7 +38,7 @@ EV         NO-DIM     NO-DIM
 0.0253     0.0899     0.0004
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013003   19990617   19990622
+SUBENT        10013003   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   (92-U-235(N,ABS),,ALF)
 ENDBIB               1
@@ -47,7 +49,7 @@ EV         NO-DIM     NO-DIM
 0.0253     0.1702     0.0007
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013004   19990617   19990622
+SUBENT        10013004   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   (94-PU-239(N,ABS),,ALF)
 ENDBIB               1
@@ -58,7 +60,7 @@ EV         NO-DIM     NO-DIM
 0.0253     0.3597     0.0021
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013005   19990617   19990622
+SUBENT        10013005   19990617   19990622   20050926       0000
 BIB                  2          2
 REACTION   ((94-PU-239(N,F),,SIG)/(92-U-233(N,F),,SIG))
 HISTORY    (19731231A) Data headings corrected
@@ -70,7 +72,7 @@ EV         NO-DIM     NO-DIM
 0.0253     1.4046     0.0079
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        10013006   19990617   19990622
+SUBENT        10013006   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   ((94-PU-239(N,F),,SIG)/(92-U-235(N,F),,SIG))
 ENDBIB               1
@@ -81,7 +83,7 @@ EV         NO-DIM     NO-DIM
 0.0253     1.2926     0.0081
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013007   19990617   19990622
+SUBENT        10013007   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   ((92-U-233(N,F),,SIG)/(92-U-235(N,F),,SIG))
 ENDBIB               1
@@ -92,7 +94,7 @@ EV         NO-DIM     NO-DIM
 0.0253     0.9203     0.0057
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013008   19990617   19990622
+SUBENT        10013008   19990617   19990622   20050926       0000
 BIB                  1          1
 REACTION   (94-PU-240(N,G)94-PU-241,,SIG)
 ENDBIB               1
@@ -103,7 +105,7 @@ EV         B          B
 0.0253     289.5      1.4
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10013010   19990617   19990622
+SUBENT        10013010   19990617   19990622   20050926       0000
 BIB                  2          2
 REACTION   (92-U-234(N,G)92-U-235,,SIG,,MXW)
 HISTORY    (19731231A) ISO-QUANT corrected
