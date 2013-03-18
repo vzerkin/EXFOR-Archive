@@ -1,29 +1,36 @@
-ENTRY            F0572   20030805   20031024
-SUBENT        F0572001   20030805   20031024
-BIB                 10         15
-TITLE      Investigation of inelastic scattering of alpha-
-           particles by 16O with alpha,gamma-angular correlations
+ENTRY            F0572   20130319   20130812   20130702       F050
+SUBENT        F0572001   20130319   20130812   20130702       F050
+BIB                 11         22
+TITLE      Investigation of inelastic alpha-particle scattering
+           by O-16 nuclei with angular a gamma correlations.
 AUTHOR     (A.V.Ignatenko,V.M.Lebedev,N.V.Orlova,A.V.Spassky)
 INSTITUTE  (4RUSMOS)
 REFERENCE  (J,YF,59,597,1996)
-FACILITY   (CYCLO)
+           (J,PAN,59,565,1996) English translation
+FACILITY   (CYCLO,4RUSMOS)
 METHOD     (EXTB)
-SAMPLE      (H8C10O4) foils of 0.4 mg/cm2 or milibden oxide (MoO3)
-           of 2 mg/cm2 thick evaporated on thin (0.2 mg/cm2)
-           gold foil.
-DETECTOR   (SOLST) Six semiconductor surface-barrier Si detectors
-           for alpha-particles detection.
-           (NAICR) Four scintillators for gamma detection
-STATUS     (APRVD) Data received from A.V.Ignatenko
+SAMPLE      (H8C10O4) foils of 0.4 mg/cm2 or molybdenum oxide
+            (MoO3) of 2 mg/cm2 thick evaporated on thin
+            (0.2 mg/cm2) golden foil.
+DETECTOR   (SIBAR) Six silicon semiconductor surface-barrier
+           detectors for alpha-particles detection were used.
+           (NAICR) Four scintillation counters with NaI(Tl)
+           crystal for gamma detection were used.
+STATUS     (TABLE) Data were received from A.V.Ignatenko.
+ERR-ANALYS (DATA-ERR) Accuracy of absolute values of differential
+           (ERR-S) Statistical error
 HISTORY    (20030707C)
-ENDBIB              15
+           (20130319A)English translation in REFERENCE was added.
+           DETECTOR was corrected. ERR-ANALYS in sub 001
+           was added.
+ENDBIB              22
 COMMON               3          3
-EN-RSL     ANG-RSL    ERR-T
+EN-RSL     ANG-RSL    DATA-ERR
 MEV        ADEG       PER-CENT
- 0.2         1.         15.
+        0.2         1.        15.
 ENDCOMMON            3
-ENDSUBENT           22
-SUBENT        F0572002   20030805   20031024
+ENDSUBENT           29
+SUBENT        F0572002   20030805   20031024   20050926       0000
 BIB                  1          1
 REACTION   (8-O-16(A,EL)8-O-16,,DA)
 ENDBIB               1
@@ -115,7 +122,7 @@ MEV        ADEG       MB/SR      MB/SR
   30.30      168.7      8.220     0.2500
 ENDDATA             84
 ENDSUBENT           90
-SUBENT        F0572003   20030805   20031024
+SUBENT        F0572003   20030805   20031024   20050926       0000
 BIB                  1          1
 REACTION   (8-O-16(A,EL)8-O-16,,DA)
 ENDBIB               1
@@ -173,7 +180,7 @@ ADEG       MEV        MB/SR      MB/SR
   162.0      21.29      315.8      2.240
 ENDDATA             50
 ENDSUBENT           56
-SUBENT        F0572004   20030805   20031024
+SUBENT        F0572004   20030805   20031024   20050926       0000
 BIB                  1          1
 REACTION   (8-O-16(A,INL)8-O-16,PAR,DA)
 ENDBIB               1
@@ -279,7 +286,7 @@ ADEG       MEV        MEV        MEV        MB/SR      MB/SR
   162.0      6.916      7.115      21.29      21.65      2.292
 ENDDATA             98
 ENDSUBENT          104
-SUBENT        F0572005   20030805   20031024
+SUBENT        F0572005   20030805   20031024   20050926       0000
 BIB                  1          1
 REACTION   (8-O-16(A,INL)8-O-16,PAR,DA)
 ENDBIB               1
