@@ -1,72 +1,72 @@
-ENTRY            22666   20021128   20030221
-SUBENT        22666001   20021128   20030221
-BIB                 16         66
+ENTRY            22666   20131117   20140820   20140807       2238
+SUBENT        22666001   20131117   20140820   20140807       2238
+BIB                 17         66
 INSTITUTE  (2GERPTB)    PTB Braunschweig, Germany.
-REFERENCE  (R,PTB-N-43,2002)  Main Reference  Report PTB-N-43,
-                              Ptb Braunschweig/Germany (2002).
+REFERENCE  (R,PTB-N-43,2001)  Main Reference  Report PTB-N-43,
+                              PTB Braunschweig/Germany (2001).
            (J,NSTS,2,(1),226,200208) Tsukuba-2001 Report
-           (R,PTB-N-35,1998)    EXPERIMENTAL DETAILS
-           (C,2001TSUKUB,(225),200110) Abstracts
            ((P,INDC(GER)-047,34,200107)=
            (P,JUEL-3894,34,200107))   Progress Report
-TITLE       .Differential Cross Sections of Neutron Scattering
-             On Elemental Silicon at Energies Between 7.89 MeV
-             And 13.85 MeV.
-AUTHOR     (D.SCHMIDT, W.MANNHART)
-EXP-YEAR   (2000)  2000-06-18 Data Measured
-                   2000-11-08 Data Published
-FACILITY   (CYCLO)     Turnable CV-28 Compact Cyclotron
-                   (1 NS PULSE WIDTH) And Multi-Angle Neutron
-                   Time-Of-Flight Spectrometer.
-INC-SOURCE (D-D) Deuterium Gas Target, 1.0 Cm in Diameter and
-                3.0 Cm in Length, Gas Pressure 1.9-2.0 Hpa.
-                Mean Neutron Energy is Defined Within +/- 20 KeV.
-METHOD     (TOF) Time-Of-Flight, 12 M Flight Path.
-           (PSD) N/Gamma Discrimination with Pulse Shape Analysis.
-DETECTOR   (SCIN)  Five Ne213 Neutron Detectors Located Behind a
-                   Massive Collimator Shielding in a Distance of
-                   1200 Cm from the Sample. The Angle Separation
-                   Between the Detectors is 12.5 Deg.
-               Diameter 10.16 Cm (D1)/ 25.40 Cm (D2-D5),
-               Length 2.54 Cm (D1)/ 5.08 Cm (D2-D5).
-               The Angle Region Covered is 12.5 Deg to 160 Deg.
-               An Additional Ne213 Detector was Used As Relative
-               Fluence Monitor, Diameter 3.81 Cm, Length 3.81 Cm.
-               The Movable Monitor (IN A FIXED DISTANCE OF 651 CM)
-               Was Always in a Position of 58.9 Deg Relative
-               To the Beam Axis.
+TITLE       .Differential cross sections of neutron scattering
+             on elemental silicon at energies between 7.89 MeV
+             and 13.85 MeV.
+AUTHOR     (D.Schmidt,W.Mannhart)
+EXP-YEAR   (2000)  2000-06-18 Data measured
+                   2000-11-08 Data published
+REL-REF    (M,,D.Schmidt+,R,PTB-N-35,1998)  Experimental details
+FACILITY   (CYCLO,2GERPTB)     Turnable CV-28 Compact Cyclotron
+                   (1 ns pulse width) and multi-angle neutron
+                   Time-of-Flight spectrometer.
+INC-SOURCE (D-D) Deuterium gas target, 1.0 cm in diameter and
+                3.0 cm in length, gas pressure 1.9-2.0 hPa.
+                Mean neutron energy is defined within +/- 20 keV.
+METHOD     (TOF) Time-Of-Flight, 12 m flight path.
+           (PSD) n/gamma discrimination with pulse shape analysis.
+DETECTOR   (SCIN)  Five NE213 neutron detectors located behind a
+                   massive collimator shielding in a distance of
+                   1200 cm from the sample. The angle separation
+                   between the detectors is 12.5 deg.
+               Diameter 10.16 cm (D1)/ 25.40 cm (D2-D5),
+               Length 2.54 cm (D1)/ 5.08 cm (D2-D5).
+               The angle region covered is 12.5 deg to 160 deg.
+               An additional NE213 detector was used as relative
+               fluence monitor, diameter 3.81 cm, length 3.81 cm.
+               The movable monitor (in a fixed distance of 651 cm)
+               was always in a position of 58.9 deg relative
+               to the beam axis.
 MONITOR    (1-H-1(N,EL)1-H-1,,DA) .
-SAMPLE     .Elemental Silicon, Cylindrical Sample, 99.99% Purity,
-            Diameter 25.0 mm, Height 50.0 mm, Mass 57.069 G,
-            Placed 17.5 Cm from the Gas Target Centre.
-           .Polyethylene Monitor Sample (DIAMETER 24.56 MM, HEIGHT
-            49.74 MM, MASS 22.46 G, H-CONTENTS 14.30 %)
-CORRECTIONS     Monte Carlo Simulated Tof Spectra of the Complete
-                Angular Distribution were Iteratively Adjusted to
-                The Measured Tof Spectra. The Simulation Comprised
-                The Neutron Production in the Gas Target and the
-                Scattering Geometry Between Target, Sample and
-                Detectors.
-ERR-ANALYS (ERR-T)  Total Errors Comprise Counting Statistics and
-                Systematic Contributions of
-           (ERR-1)    Error Due to Detector Efficiency (2%),
-           (ERR-2)    Error Due to   Angle Uncert. (0.2 DEG),
-           (MONIT-ERR)  Error Due to    N-P Scattering (1%),
-           (ERR-3)    Error Due to Multiple Scattering Correction
-                     (5%).
-                Some Inelastic Angle-Integrated Cross Sections
-                Contain an Additional Uncertainty Component of
-                Between 1.2% and 17% in Order to Consider the
-                Influence of the Chosen Maximum Order L-Max
-                Of the Fitted Legendre Polynomial on the Integral
-                Cross Section (SEE ALSO REPORT PTB-N-43).
-ANALYSIS        Inelastic Cross Sections were Extracted Based on
-                The Assumption of an Isotopic Abundance of Si-28
-                Of 92.23%, Si-29 of 4.67% and Si-30 of 3.10%.
+SAMPLE     .Elemental silicon, cylindrical sample, 99.99% purity,
+            diameter 25.0 mm, height 50.0 mm, mass 57.069 g,
+            placed 17.5 cm from the gas target centre.
+           .Polyethylene monitor sample (diameter 24.56 mm, height
+            49.74 mm, mass 22.46 g, H-contents 14.30%)
+CORRECTIONS     Monte Carlo simulated TOF spectra of the complete
+                angular distribution were iteratively adjusted to
+                the measured TOF spectra. The simulation comprised
+                the neutron production in the gas target and the
+                scattering geometry between target, sample and
+                detectors.
+ERR-ANALYS (ERR-T)  Total errors comprise counting statistics and
+                systematic contributions of
+           (ERR-1)    Error due to detector efficiency (2%),
+           (ERR-2)    Error due to   angle uncert. (0.2 deg),
+           (MONIT-ERR)  Error due to    n-p scattering (1%),
+           (ERR-3) Error due to multiple scattering correct. (5%).
+                Some inelastic angle-integrated cross sections
+                contain an additional uncertainty component of
+                between 1.2% and 17% in order to consider the
+                influence of the chosen maximum order L-max
+                of the fitted Legendre polynomial on the integral
+                cross section (see also report PTB-N-43).
+ANALYSIS        Inelastic cross sections were extracted based on
+                the assumption of an isotopic abundance of Si-28
+                of 92.23%, Si-29 of 4.67% and Si-30 of 3.10%.
 STATUS     (APRVD)   D.Schmidt, 2002-03-01
 HISTORY    (20020408C)   + +  Compiled by S.M.
-           (20020810U)   Subent Structure Corrected
-           (20021128U)   .TWO REFERENCES ADDED
+           (20020810U)   Subent structure corrected
+           (20021128U)   .Two references added
+           (20131117U) SD: Ref. on Conf. abstract deleted
+           according to Memo CP-D/791. Minor corrections.
 ENDBIB              66
 COMMON               4          3
 ERR-1      ERR-2      ERR-3      MONIT-ERR
@@ -74,7 +74,7 @@ PER-CENT   ADEG       PER-CENT   PER-CENT
          2.        0.2         5.         1.
 ENDCOMMON            3
 ENDSUBENT           73
-SUBENT        22666002   20020410   20021212
+SUBENT        22666002   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-0(N,EL)14-SI-0,,DA)
 ENDBIB               1
@@ -444,7 +444,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.6112E+02       6.46   1.06E+01   1.04E+01
 ENDDATA            362
 ENDSUBENT          368
-SUBENT        22666003   20020410   20021212
+SUBENT        22666003   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -778,7 +778,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01   1.61E+02       3.09   1.56E+01   1.54E+01
 ENDDATA            322
 ENDSUBENT          332
-SUBENT        22666004   20020410   20021212
+SUBENT        22666004   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -1109,7 +1109,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.5551E+02       1.12   3.77E+01   3.76E+01
 ENDDATA            319
 ENDSUBENT          329
-SUBENT        22666005   20020410   20021212
+SUBENT        22666005   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -1387,7 +1387,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.5562E+02    5.7E-01   6.92E+01   6.92E+01
 ENDDATA            266
 ENDSUBENT          276
-SUBENT        22666006   20020410   20021212
+SUBENT        22666006   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -1642,7 +1642,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.6127E+02    5.2E-01   9.66E+01   9.66E+01
 ENDDATA            243
 ENDSUBENT          253
-SUBENT        22666007   20020410   20021212
+SUBENT        22666007   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -1815,7 +1815,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.6138E+02       2.15   3.22E+01   3.21E+01
 ENDDATA            161
 ENDSUBENT          171
-SUBENT        22666008   20020410   20021212
+SUBENT        22666008   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -2051,7 +2051,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01  1.612E+02       1.29   2.99E+01   2.98E+01
 ENDDATA            224
 ENDSUBENT          234
-SUBENT        22666009   20020410   20021212
+SUBENT        22666009   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA)
 ENDBIB               1
@@ -2226,7 +2226,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.6144E+02       2.37   5.34E+01   5.34E+01
 ENDDATA            163
 ENDSUBENT          173
-SUBENT        22666010   20020410   20021212
+SUBENT        22666010   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-29(N,INL)14-SI-29,PAR,DA)
 ENDBIB               1
@@ -2365,7 +2365,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01  8.596E+01  1.015E+01   9.51E+01   9.51E+01
 ENDDATA            127
 ENDSUBENT          137
-SUBENT        22666011   20020410   20021212
+SUBENT        22666011   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-29(N,INL)14-SI-29,PAR,DA)
 ENDBIB               1
@@ -2467,7 +2467,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01  8.353E+01       6.66   7.15E+01   7.14E+01
 ENDDATA             90
 ENDSUBENT          100
-SUBENT        22666012   20020410   20021212
+SUBENT        22666012   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-30(N,INL)14-SI-30,PAR,DA)
 ENDBIB               1
@@ -2789,7 +2789,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01 1.4341E+02  3.101E+01   3.41E+01    3.4E+01
 ENDDATA            310
 ENDSUBENT          320
-SUBENT        22666013   20020410   20021212
+SUBENT        22666013   20020410   20021212   20050926       0000
 BIB                  1          1
 REACTION   (14-SI-30(N,INL)14-SI-30,PAR,DA)
 ENDBIB               1
@@ -2965,7 +2965,7 @@ MEV        MEV        ADEG       MB/SR      PER-CENT   PER-CENT
   1.385E+01   1.21E-01  1.084E+02  1.319E+01   9.13E+01   9.12E+01
 ENDDATA            164
 ENDSUBENT          174
-SUBENT        22666014   20020410   20021212
+SUBENT        22666014   20020410   20021212   20050926       0000
 BIB                  4        194
 REACTION   (14-SI-0(N,EL)14-SI-0,,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section, Units Mb
@@ -3272,7 +3272,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01        12.   2.92E-03  3.038E+01
 ENDDATA            106
 ENDSUBENT          305
-SUBENT        22666015   20020410   20021212
+SUBENT        22666015   20020410   20021212   20050926       0000
 BIB                  4        145
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .  A(0) = Angle-Integrated Cross Section,
@@ -3500,7 +3500,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         7.  -4.15E-03  1.238E+02
 ENDDATA             72
 ENDSUBENT          226
-SUBENT        22666016   20020410   20021212
+SUBENT        22666016   20020410   20021212   20050926       0000
 BIB                  4        112
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RS)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -3662,7 +3662,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         4.  1.091E-02 1.6661E+02
 ENDDATA             39
 ENDSUBENT          160
-SUBENT        22666017   20020410   20021212
+SUBENT        22666017   20020410   20021212   20050926       0000
 BIB                  4        109
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -3818,7 +3818,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         4.  3.249E-02 1.5307E+02
 ENDDATA             36
 ENDSUBENT          154
-SUBENT        22666018   20020410   20021212
+SUBENT        22666018   20020410   20021212   20050926       0000
 BIB                  4         79
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -3928,7 +3928,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         2. -4.081E-02 1.4333E+02
 ENDDATA             20
 ENDSUBENT          108
-SUBENT        22666019   20020410   20021212
+SUBENT        22666019   20020410   20021212   20050926       0000
 BIB                  4         65
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4017,7 +4017,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         3. -5.313E-02  8.559E+01
 ENDDATA             13
 ENDSUBENT           87
-SUBENT        22666020   20020410   20021212
+SUBENT        22666020   20020410   20021212   20050926       0000
 BIB                  4         73
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4122,7 +4122,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         3.   6.14E-02  2.136E+01
 ENDDATA             21
 ENDSUBENT          103
-SUBENT        22666021   20020410   20021212
+SUBENT        22666021   20020410   20021212   20050926       0000
 BIB                  4         61
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4210,7 +4210,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         3.  4.038E-02 1.1149E+02
 ENDDATA             16
 ENDSUBENT           86
-SUBENT        22666022   20020410   20021212
+SUBENT        22666022   20020410   20021212   20050926       0000
 BIB                  4         94
 REACTION   (14-SI-29(N,INL)14-SI-29,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4336,7 +4336,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.279E+01   1.21E-01         1. 1.0895E-01  6.135E+01
 ENDDATA             21
 ENDSUBENT          124
-SUBENT        22666023   20020410   20021212
+SUBENT        22666023   20020410   20021212   20050926       0000
 BIB                  4         86
 REACTION   (14-SI-29(N,INL)14-SI-29,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4446,7 +4446,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.279E+01   1.21E-01         1.-1.1697E-01 1.8324E+02
 ENDDATA             13
 ENDSUBENT          108
-SUBENT        22666024   20020410   20021212
+SUBENT        22666024   20020410   20021212   20050926       0000
 BIB                  4         99
 REACTION   (14-SI-30(N,INL)14-SI-30,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4582,7 +4582,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.385E+01   1.21E-01         2.  5.568E-02 1.0108E+02
 ENDDATA             26
 ENDSUBENT          134
-SUBENT        22666025   20020410   20021212
+SUBENT        22666025   20020410   20021212   20050926       0000
 BIB                  4         90
 REACTION   (14-SI-30(N,INL)14-SI-30,PAR,DA,,LEG/RSL)
 ANALYSIS   .A(0) = Angle-Integrated Cross Section,
@@ -4700,7 +4700,7 @@ MEV        MEV        NO-DIM     NO-DIM     PER-CENT
   1.279E+01   1.21E-01         1. 1.5428E-01  9.549E+01
 ENDDATA             17
 ENDSUBENT          116
-SUBENT        22666026   20020410   20021212
+SUBENT        22666026   20020410   20021212   20050926       0000
 BIB                  3          3
 REACTION   (14-SI-0(N,EL)14-SI-0,,SIG)
 ANALYSIS   (INTAD)   Angular Distributions Integrated
@@ -4722,7 +4722,7 @@ MEV        MEV        MB         PER-CENT
   1.385E+01   1.21E-01 7.7282E+02       2.29
 ENDDATA             12
 ENDSUBENT           20
-SUBENT        22666027   20020410   20021212
+SUBENT        22666027   20020410   20021212   20050926       0000
 BIB                  3          9
 REACTION   (14-SI-28(N,INL)14-SI-28,PAR,SIG)
 ANALYSIS   (INTAD)  Measured Angular Distributions Integrated
@@ -4798,7 +4798,7 @@ MEV        MEV        MEV        MB         PER-CENT
   1.385E+01   1.21E-01      7.415 2.3844E+01   1.26E+01
 ENDDATA             60
 ENDSUBENT           74
-SUBENT        22666028   20020410   20021212
+SUBENT        22666028   20020410   20021212   20050926       0000
 BIB                  3          4
 REACTION   (14-SI-29(N,INL)14-SI-29,PAR,SIG)
 ANALYSIS   (INTAD) Measured Angular Distributions Integrated
@@ -4831,7 +4831,7 @@ MEV        MEV        MEV        MB         PER-CENT
   1.385E+01   1.21E-01      3.068 9.7243E+01  3.811E+01
 ENDDATA             22
 ENDSUBENT           31
-SUBENT        22666029   20020410   20021212
+SUBENT        22666029   20020410   20021212   20050926       0000
 BIB                  3          4
 REACTION   (14-SI-30(N,INL)14-SI-30,PAR,SIG)
 ANALYSIS   (INTAD) Measured Angular Distributions Integrated
