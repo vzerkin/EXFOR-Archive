@@ -1,12 +1,18 @@
-ENTRY            O0800   20050310
-SUBENT        O0800001   20050310
-BIB                 10         37
+ENTRY            O0800   20140212   20140701   20140623       O052
+SUBENT        O0800001   20140212   20140701   20140623       O052
+BIB                 11         46
 TITLE      Yield of radionuclides and isomers measured in
-           fragmentation of the nat-W and 186-W (97%) targets with
+           the fragmentation of nat-W and 186-W (97%) targets with
            protons at 630, 420 and 270 MeV
 REFERENCE  (J,NIM/A,527,609,2004)
            (X,JINR-E6-2004-7,2004) All data are taken from the
            preprint.
+REL-REF    (R,,R.B.Firestone+,B,FIRESTONE,,1996)
+           Table of Isotopes, 8th Edition, Wiley, New York, 1996.
+           (R,,U.Reus+,J,AND,29,1,1983)
+             The spectroscopic properties of the nuclides were
+           taken from the 'Table of Isotopes' (see above) and for
+           some cases from the 'Nuclear Data Sheets' compilation.
 AUTHOR     (S.A.Karamian, J.Adam, P.Chaloun, D.V.Filossofov,
            V.Henzl, D.Henzlova, V.G.Kalinnikov, N.A.Korolev,
            N.A.Lebedev, A.F.Novgorodov, C.B.Collins, I.I.Popescu,
@@ -15,13 +21,14 @@ INSTITUTE  (4ZZZDUB)
            (3CZRUJF)
            (2GERGSI) Germany Center for Quantum Electronics.
            (1USAUSA) University of Texas at Dallas.
-           (3RUMRUM) National Institute of Physics and Nuclear
+           (3RUMBUC) National Institute of Physics and Nuclear
             Engineering and Induced Gamma Emission Foundation.
-SAMPLE     97% enriched 186-W material has been supplied in a form
-           of metal pieces about 1.5 mm thick.  They were fixed to
-           the Al holder with 50 mum foil of nat-W used as a
-           support.
-DETECTOR   (HPGE)
+SAMPLE     Two target were used: nat-W and 97% enriched 186-W
+           material that supplied in a form of metal pieces about
+           1.5 mm thick. They were fixed to the Al holder with 50
+           mum foil of nat-W used as a support.
+DETECTOR   (HPGE) HP Ge detector of 20% efficiency (in ratio to
+           the standard NaI scintillator)
 FACILITY   (SYNCY,4ZZZDUB)
 METHOD     (INTB) The position of targets inside the accelerator
            was chosen in accordance with known calibrations to
@@ -33,15 +40,17 @@ METHOD     (INTB) The position of targets inside the accelerator
            samples have been started after "cooling" for one
            month because of high activity of short lived
            radionuclides accumulated during the activation.
+ADD-RES    (COMP) LAHET code calculation.
+           Fission cross section to spallation cross section ratio
 HISTORY    (20050112C) By F.Ch
            (20050310A) Correction
            (20050310U) Last checking has been done.
-ADD-RES    (COMP) LAHET code calculation.
-           Fision cross section to spallation cross section ratio.
-ENDBIB              37
-NOCOMMON
-ENDSUBENT           40
-SUBENT        O0800002   20050310
+           (20140205U) SD: REL-REF was added according
+              Dr. A.Konobeev  remark.
+ENDBIB              46
+NOCOMMON             0          0
+ENDSUBENT           49
+SUBENT        O0800002   20050310              20050926       0000
 BIB                  2         10
 REACTION   (74-W-186(P,X)ELEM/MASS,CUM,SIG)
 ERR-ANALYS (ERR-T) The standard deviation for any individual yield
@@ -166,7 +175,7 @@ MEV        NO-DIM     NO-DIM     MB         MB
        630.        75.       183.        6.8         1.
 ENDDATA            108
 ENDSUBENT          123
-SUBENT        O0800003   20050310
+SUBENT        O0800003   20050310              20050926       0000
 BIB                  2         10
 REACTION   (74-W-0(P,X)ELEM/MASS,CUM,SIG)
 ERR-ANALYS (ERR-T) The standard deviation for any individual yield
@@ -292,7 +301,7 @@ MEV        NO-DIM     NO-DIM     MB         MB
        630.        75.       183.        2.7        0.4
 ENDDATA            109
 ENDSUBENT          124
-SUBENT        O0800004   20050310
+SUBENT        O0800004   20050310              20050926       0000
 BIB                  2         10
 REACTION   (74-W-186(P,X)ELEM/MASS,IND,SIG)
 ERR-ANALYS (ERR-T) The standard deviation for any individual yield
@@ -382,7 +391,7 @@ MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB
        630.        75.       184.         1.        1.2        0.2
 ENDDATA             73
 ENDSUBENT           88
-SUBENT        O0800005   20050310
+SUBENT        O0800005   20050310              20050926       0000
 BIB                  2         10
 REACTION   (74-W-0(P,X)ELEM/MASS,IND,SIG)
 ERR-ANALYS (ERR-T) The standard deviation for any individual yield
@@ -470,7 +479,7 @@ MEV        NO-DIM     NO-DIM     NO-DIM     MB         MB
        630.        75.       184.         1.       0.26       0.04
 ENDDATA             71
 ENDSUBENT           86
-SUBENT        O0800006   20050310
+SUBENT        O0800006   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-186(P,X)72-HF-179-M2/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
@@ -485,7 +494,7 @@ MEV        NO-DIM
        630.       0.25
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0800007   20050310
+SUBENT        O0800007   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-0(P,X)72-HF-179-M2/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
@@ -500,7 +509,7 @@ MEV        NO-DIM
        630.       0.14
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0800008   20050310
+SUBENT        O0800008   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-186(P,X)72-HF-178-M2/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
@@ -515,7 +524,7 @@ MEV        NO-DIM
        630.      0.092
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0800009   20050310
+SUBENT        O0800009   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-0(P,X)72-HF-178-M2/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
@@ -530,7 +539,7 @@ MEV        NO-DIM
        630.      0.044
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0800010   20050310
+SUBENT        O0800010   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-186(P,X)71-LU-171-M/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
@@ -545,7 +554,7 @@ MEV        NO-DIM
        630.       0.29
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0800011   20050310
+SUBENT        O0800011   20050310              20050926       0000
 BIB                  2          5
 REACTION   (74-W-0(P,X)71-LU-171-M/G,,SIG/RAT)
 COMMENT    -By authors.  Errors for the cross section values are
