@@ -1,65 +1,68 @@
-ENTRY            O0518   20010115   20030923
-SUBENT        O0518001   20010115   20030923
-BIB                 15         51
-TITLE      Proton-Induced Fission at 190 MeV of W-Nat, Au-197,
-           Pb-Nat, Pb-208 and Th-232.
-AUTHOR     (M.C.DUIJVESTIJN, A.J.KONING, J.P.M.BEIJERS, A.FERRARI,
-           M.GASTAL, J.VAN KLINKEN, R.W.OSTENDORF)
+ENTRY            O0518   20140121   20140701   20140623       O052
+SUBENT        O0518001   20140121   20140701   20140623       O052
+BIB                 15         54
+TITLE      Proton-induced fission at 190 MeV of W-nat, Au-197,
+           Pb-nat, Pb-208 and Th-232.
+AUTHOR     (M.C.Duijvestijn,A.J.Koning,J.P.M.Beijers,A.Ferrari,
+           M.Gastal,J.van Klinken,R.W.Ostendorf)
 INSTITUTE  (2NEDRCN) Netherlands Energy Research Foundation (ECN).
            (2NEDGRN).Kernfysisch Versneller Instituute (KVI),
            Groningen.
 REFERENCE  (J,PR/C,59,776,1999)
-           (W,DUIJVESTIJN,19990706) Some Corrections and
-           Explanations.
-HISTORY    (19990422C)
-           (19991117A) Date is Corrected
-           (20001125A) Subentries O0518030,127 are Corrected
-           according to O.Schwerer's remarks.
-           (20010115U) Last checking has been done.
-SAMPLE     The Stacked Foil of Th-232,Pb-208,Pb-Nat,Au-197 and
-           W-Nat were Used.
-           For the Measurements of Longer-Lived Fission Isotopes,
-           Each Individual Target Foil is Sandwiched Between First
-           A Thin Approx. 0.3 mg/cm**2 and Then a Thicker Approx.
-            3 mg/cm**2 Mylar Foil.The Thin Foil Acts As a Filter,
-           The Thick Mylar Foils Trap All Fragments Which Pass the
-           Thin Ones.After Activation They Taken from the Stack
-           And Used For Further Analysis As Samples Free from
-           Evaporation Products.
-           For the Measurements of Short-Lived Isotopes was Used a
-           Catcher Cylinder,Made of Polyethylene.A Cylinder Allows
-           The Protons to Pass Without Hiting the Catcher Itself.
-           The Catcher Cylinder Wall (APPROX. 4 mg/cm**2) Has Full
-           Stopping Power For All the Fission Fragments.
-           Efficiency of Fission Fragment Collection was
-           Calculated by Monte-Carlo Method.
-ADD-RES    (COMP).The Lahet and the Alice-91 Codes.
-DETECTOR    A Four Heavily Shielded Ge-Detectors.
-FACILITY   (ISOCY,2NEDGRN).Agor Cyclotron at the Kvi,Groningen.
-METHOD     (STTA) The Stacked Foil Technique is Employed to
-           Simultaneously Bombard 232-Th, 208-Pb, Nat-Pb, 197-Au
-           And Nat-W Targets.
-           (BCINT) And Monitor Foil.
-           (ACTIV) Irradiation Beam Current - 10 Nano-A.
-           Two Irradiations, One of 5 Minutes and One of 2 Hours.
-ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors in Data
-           Tables.  All the Uncertainties in Results Include a
-           Systematical Error of 10% Due to the Uncertainty in the
-           Proton Flux.
+           (W,DUIJVESTIJN,19990706) Some corrections and
+           explanations.
+SAMPLE     The stacked foil of Th-232, Pb-208, Pb-nat, Au-197 and
+           W-nat were used.
+           For the measurements of longer-lived fission isotopes,
+           each individual target foil is sandwiched between first
+           a thin approx. 0.3 mg/cm**2 and then a thicker approx.
+            3 mg/cm**2 mylar foil. The thin foil acts as a filter,
+           the thick mylar foils trap all fragments which pass the
+           thin ones. After activation they taken from the stack
+           and used for further analysis as samples free from
+           evaporation products.
+           For the measurements of short-lived isotopes was used a
+           catcher cylinder, made of polyethylene. A cylinder
+           allows the protons to pass without hitting the catcher
+           itself. The catcher cylinder wall (approx. 4 mg/cm**2)
+           has full stopping power for all the fission fragments.
+           Efficiency of fission fragment collection was
+           calculated by Monte-Carlo Method.
+ADD-RES    (COMP).The LAHET and the Alice-91 Codes.
+DETECTOR   (GE) A Four heavily shielded Ge-detectors.
+FACILITY   (ISOCY,2NEDGRN).Agor Cyclotron at the KVI,Groningen.
+METHOD     (STTA) The stacked foil technique is employed to
+           simultaneously bombard 232-Th, 208-Pb, nat-Pb, 197-Au
+           and nat-W targets.
+           (BCINT) And monitor foil.
+           (ACTIV) Irradiation beam current - 10 Nano-A.
+           Two irradiations, one of 5 minutes and one of 2 hours.
+ERR-ANALYS (ERR-T).The Uncertainty is reported by authors in data
+           tables.  All the uncertainties in results include a
+           (ERR-1)      systematical error of 10% due to the
+                        uncertainty in the proton flux.
 MONITOR    (13-AL-27(P,X)11-NA-22,CUM,SIG)
-MONIT-REF  (A0497001,G.F.STEYN+,J,ARI,41,315,1990)
+MONIT-REF  (A0497001,G.F.Steyn+,J,ARI,41,315,1990)
 STATUS     (TABLE)
 COMMENT    - By Compiler - For Some Reactions the Compiler
            Included the "Cum" or "Ind" Labels.  The Cases are
            Labelled by Special Comments.
-ENDBIB              51
-COMMON               1          3
-EN
-MEV
-       190.
+HISTORY    (19990422C)
+           (19991117A) Date is corrected
+           (20001125A) Subentries O0518030,127 are corrected
+           according to O.Schwerer's remarks.
+           (20010115U) Last checking has been done.
+           (20140121A) SD: SF5=PR deleted from REACTION code in
+           Subents 258-262 according to Dr.A.Koning remark.
+           ERR-ANALYS updated.
+ENDBIB              54
+COMMON               2          3
+EN         ERR-1
+MEV        PER-CENT
+       190.      10.
 ENDCOMMON            3
-ENDSUBENT           58
-SUBENT        O0518002   20010115   20030923
+ENDSUBENT           61
+SUBENT        O0518002   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)26-FE-59,CUM,SIG)
 DECAY-DATA (26-FE-59,45.1D)
@@ -71,7 +74,7 @@ MB         MB
       0.053      0.008
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518003   20010115   20030923
+SUBENT        O0518003   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)29-CU-67,CUM,SIG)
 DECAY-DATA (29-CU-67,61.9HR)
@@ -83,7 +86,7 @@ MB         MB
       0.075      0.008
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518004   20010115   20030923
+SUBENT        O0518004   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)30-ZN-69-M,IND,SIG)
 DECAY-DATA (30-ZN-69-M,13.8HR)
@@ -95,7 +98,7 @@ MB         MB
       0.036      0.005
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518005   20010115   20030923
+SUBENT        O0518005   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)30-ZN-72,CUM,SIG)
 DECAY-DATA (30-ZN-72,46.5HR)
@@ -107,7 +110,7 @@ MB         MB
      0.0169     0.0019
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518006   20010115   20030923
+SUBENT        O0518006   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)31-GA-72,IND,SIG)
 DECAY-DATA (31-GA-72,14.1HR)
@@ -119,7 +122,7 @@ MB         MB
       0.064      0.013
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518007   20010115   20030923
+SUBENT        O0518007   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)31-GA-73,CUM,SIG)
 DECAY-DATA (31-GA-73,4.86HR)
@@ -131,7 +134,7 @@ MB         MB
        0.04      0.004
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518008   20010115   20030923
+SUBENT        O0518008   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)33-AS-74,IND,SIG)
 DECAY-DATA (33-AS-74,17.8D)
@@ -143,7 +146,7 @@ MB         MB
        0.04      0.006
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518009   20010115   20030923
+SUBENT        O0518009   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)33-AS-76,IND,SIG)
 DECAY-DATA (33-AS-76,26.4HR)
@@ -155,7 +158,7 @@ MB         MB
       0.085      0.012
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518010   20010115   20030923
+SUBENT        O0518010   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)35-BR-77-G,CUM,SIG)
 DECAY-DATA (35-BR-77-G,57.0HR)
@@ -167,7 +170,7 @@ MB         MB
       0.033      0.007
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518011   20010115   20030923
+SUBENT        O0518011   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)35-BR-82-G,IND/M+,SIG)
 DECAY-DATA (35-BR-82-G,35.3HR)
@@ -179,7 +182,7 @@ MB         MB
       0.089      0.014
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518012   20010115   20030923
+SUBENT        O0518012   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)37-RB-83,CUM,SIG)
 DECAY-DATA (37-RB-83,86.2D)
@@ -191,7 +194,7 @@ MB         MB
       0.077       0.01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518013   20010115   20030923
+SUBENT        O0518013   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)37-RB-84-G,IND/M+,SIG)
 DECAY-DATA (37-RB-84-G,32.8D)
@@ -203,7 +206,7 @@ MB         MB
       0.085       0.01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518014   20010115   20030923
+SUBENT        O0518014   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)37-RB-86-G,IND/M+,SIG)
 DECAY-DATA (37-RB-86-G,18.7D)
@@ -215,7 +218,7 @@ MB         MB
        0.19       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518015   20010115   20030923
+SUBENT        O0518015   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (74-W-0(P,F)38-SR-85-G,CUM,SIG)
 DECAY-DATA (38-SR-85-G,64.9D)
@@ -229,7 +232,7 @@ MB         MB
       0.068      0.009
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518016   20010115   20030923
+SUBENT        O0518016   20010115   20030923   20050926       0000
 BIB                  3          6
 REACTION   (74-W-0(P,F)39-Y-87-G,IND,SIG)
 DECAY-DATA (39-Y-87-G,80.3HR)
@@ -245,7 +248,7 @@ MB         MB
       0.008      0.006
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        O0518017   20010115   20030923
+SUBENT        O0518017   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (74-W-0(P,F)39-Y-87-M,CUM,SIG)
 DECAY-DATA (39-Y-87-M,13.0HR)
@@ -259,7 +262,7 @@ MB         MB
       0.029      0.004
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518018   20010115   20030923
+SUBENT        O0518018   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)39-Y-88,CUM,SIG)
 DECAY-DATA (39-Y-88,106.6D)
@@ -271,7 +274,7 @@ MB         MB
       0.083      0.013
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518019   20010115   20030923
+SUBENT        O0518019   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)39-Y-90-M,IND,SIG)
 DECAY-DATA (39-Y-90-M,3.19HR)
@@ -283,7 +286,7 @@ MB         MB
       0.112      0.018
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518020   20010115   20030923
+SUBENT        O0518020   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)40-ZR-89-G,CUM,SIG)
 DECAY-DATA (40-ZR-89-G,78.4HR)
@@ -295,7 +298,7 @@ MB         MB
       0.029      0.003
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518021   20010115   20030923
+SUBENT        O0518021   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)40-ZR-95,CUM,SIG)
 DECAY-DATA (40-ZR-95,64.0D)
@@ -307,7 +310,7 @@ MB         MB
       0.056      0.008
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518022   20010115   20030923
+SUBENT        O0518022   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)41-NB-95-G,IND/M+,SIG)
 DECAY-DATA (41-NB-95-G,35.0D)
@@ -319,7 +322,7 @@ MB         MB
       0.093      0.025
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518023   20010115   20030923
+SUBENT        O0518023   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)42-MO-99,CUM,SIG)
 DECAY-DATA (42-MO-99,66.0HR)
@@ -331,7 +334,7 @@ MB         MB
       0.072      0.012
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518024   20010115   20030923
+SUBENT        O0518024   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)43-TC-96-G,IND/M+,SIG)
 DECAY-DATA (43-TC-96-G,4.3D)
@@ -343,7 +346,7 @@ MB         MB
       0.016     0.0018
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518025   20010115   20030923
+SUBENT        O0518025   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)43-TC-99-M,IND,SIG)
 DECAY-DATA (43-TC-99-M,6.0HR)
@@ -355,7 +358,7 @@ MB         MB
       0.008      0.003
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518026   20010115   20030923
+SUBENT        O0518026   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)44-RU-103,CUM,SIG)
 DECAY-DATA (44-RU-103,39.4D)
@@ -367,7 +370,7 @@ MB         MB
       0.089       0.01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518027   20010115   20030923
+SUBENT        O0518027   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (74-W-0(P,F)45-RH-105-G,CUM,SIG)
 DECAY-DATA (45-RH-105-G,35.5HR)
@@ -379,7 +382,7 @@ MB         MB
       0.077      0.015
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518028   20010115   20030923
+SUBENT        O0518028   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)29-CU-67,CUM,SIG)
 DECAY-DATA (29-CU-67,61.9HR)
@@ -391,7 +394,7 @@ MB         MB
        0.25       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518029   20010115   20030923
+SUBENT        O0518029   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)30-ZN-69-M,IND,SIG)
 DECAY-DATA (30-ZN-69-M,13.8HR)
@@ -403,7 +406,7 @@ MB         MB
       0.171      0.019
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518030   20010115   20030923
+SUBENT        O0518030   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)30-ZN-71-M,IND,SIG)
 DECAY-DATA (30-ZN-71-M,3.9HR)
@@ -417,7 +420,7 @@ MB         MB
       0.122      0.013
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518031   20010115   20030923
+SUBENT        O0518031   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)30-ZN-72,CUM,SIG)
 DECAY-DATA (30-ZN-72,46.5HR)
@@ -429,7 +432,7 @@ MB         MB
       0.118      0.013
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518032   20010115   20030923
+SUBENT        O0518032   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)31-GA-72,IND,SIG)
 DECAY-DATA (31-GA-72,14.1HR)
@@ -441,7 +444,7 @@ MB         MB
        0.14       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518033   20010115   20030923
+SUBENT        O0518033   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)31-GA-73,CUM,SIG)
 DECAY-DATA (31-GA-73,4.86HR)
@@ -453,7 +456,7 @@ MB         MB
         0.3       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518034   20010115   20030923
+SUBENT        O0518034   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)33-AS-74,IND,SIG)
 DECAY-DATA (33-AS-74,17.8D)
@@ -465,7 +468,7 @@ MB         MB
       0.167      0.025
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518035   20010115   20030923
+SUBENT        O0518035   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)33-AS-76,IND,SIG)
 DECAY-DATA (33-AS-76,26.4HR)
@@ -477,7 +480,7 @@ MB         MB
        0.38       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518036   20010115   20030923
+SUBENT        O0518036   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)33-AS-78,CUM,SIG)
 DECAY-DATA (33-AS-78,1.5HR)
@@ -489,7 +492,7 @@ MB         MB
        0.32       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518037   20010115   20030923
+SUBENT        O0518037   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)34-SE-75,CUM,SIG)
 DECAY-DATA (34-SE-75,120.D)
@@ -501,7 +504,7 @@ MB         MB
       0.084      0.011
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518038   20010115   20030923
+SUBENT        O0518038   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)34-SE-81-M,IND,SIG)
 DECAY-DATA (34-SE-81-M,57.3MIN)
@@ -515,7 +518,7 @@ MB         MB
        0.27       0.05
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518039   20010115   20030923
+SUBENT        O0518039   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)35-BR-77-G,CUM,SIG)
 DECAY-DATA (35-BR-77-G,57.0HR)
@@ -527,7 +530,7 @@ MB         MB
       0.098      0.018
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518040   20010115   20030923
+SUBENT        O0518040   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)35-BR-82-G,IND/M+,SIG)
 DECAY-DATA (35-BR-82-G,35.3HR)
@@ -539,7 +542,7 @@ MB         MB
        0.77       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518041   20010115   20030923
+SUBENT        O0518041   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)37-RB-83,CUM,SIG)
 DECAY-DATA (37-RB-83,86.2D)
@@ -551,7 +554,7 @@ MB         MB
        0.29       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518042   20010115   20030923
+SUBENT        O0518042   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)37-RB-84-G,IND/M+,SIG)
 DECAY-DATA (37-RB-84-G,32.8D)
@@ -563,7 +566,7 @@ MB         MB
        0.56       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518043   20010115   20030923
+SUBENT        O0518043   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)37-RB-86-G,IND/M+,SIG)
 DECAY-DATA (37-RB-86-G,18.7D)
@@ -575,7 +578,7 @@ MB         MB
        1.08       0.12
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518044   20010115   20030923
+SUBENT        O0518044   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)38-SR-85-G,CUM,SIG)
 DECAY-DATA (38-SR-85-G,64.9D)
@@ -589,7 +592,7 @@ MB         MB
       0.273      0.029
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518045   20010115   20030923
+SUBENT        O0518045   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)38-SR-91,CUM,SIG)
 DECAY-DATA (38-SR-91,9.5HR)
@@ -601,7 +604,7 @@ MB         MB
        0.48       0.08
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518046   20010115   20030923
+SUBENT        O0518046   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)38-SR-92,CUM,SIG)
 DECAY-DATA (38-SR-92,2.71HR)
@@ -613,7 +616,7 @@ MB         MB
       0.169      0.021
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518047   20010115   20030923
+SUBENT        O0518047   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)39-Y-87-M,CUM,SIG)
 DECAY-DATA (39-Y-87-M,13.0HR)
@@ -627,7 +630,7 @@ MB         MB
       0.149      0.021
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518048   20010115   20030923
+SUBENT        O0518048   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)39-Y-88,CUM,SIG)
 DECAY-DATA (39-Y-88,106.6D)
@@ -639,7 +642,7 @@ MB         MB
        0.58       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518049   20010115   20030923
+SUBENT        O0518049   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)39-Y-90-M,IND,SIG)
 DECAY-DATA (39-Y-90-M,3.19HR)
@@ -651,7 +654,7 @@ MB         MB
        0.66       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518050   20010115   20030923
+SUBENT        O0518050   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)39-Y-92,IND,SIG)
 DECAY-DATA (39-Y-92,3.54HR)
@@ -663,7 +666,7 @@ MB         MB
        0.76        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518051   20010115   20030923
+SUBENT        O0518051   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)40-ZR-89-G,CUM,SIG)
 DECAY-DATA (40-ZR-89-G,78.4HR)
@@ -675,7 +678,7 @@ MB         MB
       0.123      0.013
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518052   20010115   20030923
+SUBENT        O0518052   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)40-ZR-95,CUM,SIG)
 DECAY-DATA (40-ZR-95,64.0D)
@@ -687,7 +690,7 @@ MB         MB
        0.77       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518053   20010115   20030923
+SUBENT        O0518053   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)40-ZR-97,CUM,SIG)
 DECAY-DATA (40-ZR-97,16.8HR)
@@ -699,7 +702,7 @@ MB         MB
       0.163      0.021
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518054   20010115   20030923
+SUBENT        O0518054   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)41-NB-95-G,IND/M+,SIG)
 DECAY-DATA (41-NB-95-G,35.0D)
@@ -711,7 +714,7 @@ MB         MB
         0.9       0.25
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518055   20010115   20030923
+SUBENT        O0518055   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)41-NB-96,IND,SIG)
 DECAY-DATA (41-NB-96,23.4HR)
@@ -723,7 +726,7 @@ MB         MB
        0.96       0.15
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518056   20010115   20030923
+SUBENT        O0518056   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)41-NB-97-G,IND/M+,SIG)
 DECAY-DATA (41-NB-97-G,74.0MIN)
@@ -735,7 +738,7 @@ MB         MB
        0.49       0.15
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518057   20010115   20030923
+SUBENT        O0518057   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)41-NB-98-M,IND,SIG)
 DECAY-DATA (41-NB-98-M,51.0MIN)
@@ -747,7 +750,7 @@ MB         MB
        0.27       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518058   20010115   20030923
+SUBENT        O0518058   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)42-MO-99,CUM,SIG)
 DECAY-DATA (42-MO-99,66.0HR)
@@ -759,7 +762,7 @@ MB         MB
        0.93       0.17
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518059   20010115   20030923
+SUBENT        O0518059   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)43-TC-99-M,IND,SIG)
 DECAY-DATA (43-TC-99-M,6.0HR)
@@ -771,7 +774,7 @@ MB         MB
        0.14       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518060   20010115   20030923
+SUBENT        O0518060   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)44-RU-103,CUM,SIG)
 DECAY-DATA (44-RU-103,39.4HR)
@@ -783,7 +786,7 @@ MB         MB
        1.23       0.19
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518061   20010115   20030923
+SUBENT        O0518061   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)44-RU-105,CUM,SIG)
 DECAY-DATA (44-RU-105,4.40HR)
@@ -795,7 +798,7 @@ MB         MB
        0.45       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518062   20010115   20030923
+SUBENT        O0518062   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)45-RH-105-G,IND/M+,SIG)
 DECAY-DATA (45-RH-105-G,35.5HR)
@@ -807,7 +810,7 @@ MB         MB
        0.75       0.12
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518063   20010115   20030923
+SUBENT        O0518063   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)45-RH-106-M,IND,SIG)
 DECAY-DATA (45-RH-106-M,2.2HR)
@@ -819,7 +822,7 @@ MB         MB
        0.27       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518064   20010115   20030923
+SUBENT        O0518064   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)47-AG-110-M,IND,SIG)
 DECAY-DATA (47-AG-110-M,250.D)
@@ -831,7 +834,7 @@ MB         MB
        0.39       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518065   20010115   20030923
+SUBENT        O0518065   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)47-AG-111-G,CUM,SIG)
 DECAY-DATA (47-AG-111-G,7.45D)
@@ -845,7 +848,7 @@ MB         MB
        0.51       0.06
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518066   20010115   20030923
+SUBENT        O0518066   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (79-AU-197(P,F)47-AG-112,IND,SIG)
 DECAY-DATA (47-AG-112,3.12HR)
@@ -860,7 +863,7 @@ MB         MB
        0.33       0.04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518067   20010115   20030923
+SUBENT        O0518067   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (79-AU-197(P,F)48-CD-115-G,CUM,SIG)
 COMMENT    - By Compiler - The Cross Section of Cd-115-G
@@ -874,7 +877,7 @@ MB         MB
       0.041      0.003
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518068   20010115   20030923
+SUBENT        O0518068   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)49-IN-114-M,IND,SIG)
 DECAY-DATA (49-IN-114-M,49.5D)
@@ -886,7 +889,7 @@ MB         MB
       0.218      0.025
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518069   20010115   20030923
+SUBENT        O0518069   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)51-SB-120-M,IND,SIG)
 DECAY-DATA (51-SB-120-M,5.76D)
@@ -898,7 +901,7 @@ MB         MB
       0.058      0.024
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518070   20010115   20030923
+SUBENT        O0518070   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)52-TE-121-M,IND,SIG)
 DECAY-DATA (52-TE-121-M,154.D)
@@ -910,7 +913,7 @@ MB         MB
       0.078      0.009
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518071   20010115   20030923
+SUBENT        O0518071   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (79-AU-197(P,F)53-I-124,IND,SIG)
 DECAY-DATA (53-I-124,4.15D)
@@ -922,7 +925,7 @@ MB         MB
       0.025      0.005
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518072   20010115   20030923
+SUBENT        O0518072   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)29-CU-67,CUM,SIG)
 DECAY-DATA (29-CU-67,61.9HR)
@@ -934,7 +937,7 @@ MB         MB
        0.28       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518073   20010115   20030923
+SUBENT        O0518073   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)30-ZN-69-M,IND,SIG)
 DECAY-DATA (30-ZN-69-M,13.8HR)
@@ -946,7 +949,7 @@ MB         MB
        0.27       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518074   20010115   20030923
+SUBENT        O0518074   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)30-ZN-72,CUM,SIG)
 DECAY-DATA (30-ZN-72,46.5HR)
@@ -958,7 +961,7 @@ MB         MB
         0.2       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518075   20010115   20030923
+SUBENT        O0518075   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)31-GA-72,IND,SIG)
 DECAY-DATA (31-GA-72,14.1HR)
@@ -970,7 +973,7 @@ MB         MB
        0.29       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518076   20010115   20030923
+SUBENT        O0518076   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)31-GA-73,CUM,SIG)
 DECAY-DATA (31-GA-73,4.86HR)
@@ -982,7 +985,7 @@ MB         MB
         0.5       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518077   20010115   20030923
+SUBENT        O0518077   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)31-GA-74-G,CUM,SIG)
 DECAY-DATA (31-GA-74-G,8.1MIN)
@@ -994,7 +997,7 @@ MB         MB
        0.43       0.11
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518078   20010115   20030923
+SUBENT        O0518078   20010115   20030923   20050926       0000
 BIB                  3          9
 REACTION   (82-PB-208(P,F)32-GE-77-G,IND/M+,SIG)
 DECAY-DATA (32-GE-77-G,11.3HR)
@@ -1013,7 +1016,7 @@ MB         MB
        0.23       0.03
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        O0518079   20010115   20030923
+SUBENT        O0518079   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)32-GE-78,CUM,SIG)
 DECAY-DATA (32-GE-78,88.MIN)
@@ -1025,7 +1028,7 @@ MB         MB
        0.22       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518080   20010115   20030923
+SUBENT        O0518080   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)33-AS-76,IND,SIG)
 DECAY-DATA (33-AS-76,26.4HR)
@@ -1037,7 +1040,7 @@ MB         MB
        0.36       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518081   20010115   20030923
+SUBENT        O0518081   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)33-AS-78,IND,SIG)
 DECAY-DATA (33-AS-78,1.5HR)
@@ -1049,7 +1052,7 @@ MB         MB
        0.61       0.24
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518082   20010115   20030923
+SUBENT        O0518082   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)34-SE-81-M,IND,SIG)
 DECAY-DATA (34-SE-81-M,57.3MIN)
@@ -1063,7 +1066,7 @@ MB         MB
        0.92       0.14
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518083   20010115   20030923
+SUBENT        O0518083   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)35-BR-82-G,IND/M+,SIG)
 DECAY-DATA (35-BR-82-G,35.3HR)
@@ -1075,7 +1078,7 @@ MB         MB
         1.2       0.15
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518084   20010115   20030923
+SUBENT        O0518084   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)37-RB-89,CUM,SIG)
 DECAY-DATA (37-RB-89,15.2MIN)
@@ -1087,7 +1090,7 @@ MB         MB
         1.4        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518085   20010115   20030923
+SUBENT        O0518085   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)38-SR-91,CUM,SIG)
 DECAY-DATA (38-SR-91,9.5HR)
@@ -1099,7 +1102,7 @@ MB         MB
        2.06       0.22
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518086   20010115   20030923
+SUBENT        O0518086   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)38-SR-92,CUM,SIG)
 DECAY-DATA (38-SR-92,2.71HR)
@@ -1111,7 +1114,7 @@ MB         MB
        1.71       0.24
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518087   20010115   20030923
+SUBENT        O0518087   20010115   20030923   20050926       0000
 BIB                  3          6
 REACTION   (82-PB-208(P,F)39-Y-87-G,IND,SIG)
 DECAY-DATA (39-Y-87-G,80.3HR)
@@ -1127,7 +1130,7 @@ MB         MB
        0.12      0.021
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        O0518088   20010115   20030923
+SUBENT        O0518088   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)39-Y-90-M,IND,SIG)
 DECAY-DATA (39-Y-90-M,3.19HR)
@@ -1139,7 +1142,7 @@ MB         MB
         1.5        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518089   20010115   20030923
+SUBENT        O0518089   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)39-Y-91-M,IND,SIG)
 COMMENT    - By Author - Sr-91 and Y-91-M have Been Measured Both
@@ -1153,7 +1156,7 @@ MB         MB
         2.3        0.5
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518090   20010115   20030923
+SUBENT        O0518090   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)39-Y-92,IND,SIG)
 DECAY-DATA (39-Y-92,3.54HR)
@@ -1165,7 +1168,7 @@ MB         MB
         1.6        0.8
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518091   20010115   20030923
+SUBENT        O0518091   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)39-Y-93,CUM,SIG)
 DECAY-DATA (39-Y-93-G,10.2HR)
@@ -1177,7 +1180,7 @@ MB         MB
        1.66       0.26
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518092   20010115   20030923
+SUBENT        O0518092   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)39-Y-94,CUM,SIG)
 DECAY-DATA (39-Y-94,18.7MIN)
@@ -1189,7 +1192,7 @@ MB         MB
         1.8        0.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518093   20010115   20030923
+SUBENT        O0518093   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)40-ZR-95,CUM,SIG)
 DECAY-DATA (40-ZR-95,64.0D)
@@ -1201,7 +1204,7 @@ MB         MB
         3.3        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518094   20010115   20030923
+SUBENT        O0518094   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)40-ZR-97,CUM,SIG)
 DECAY-DATA (40-ZR-97,16.8HR)
@@ -1213,7 +1216,7 @@ MB         MB
        1.21       0.17
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518095   20010115   20030923
+SUBENT        O0518095   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)41-NB-92-M,IND,SIG)
 DECAY-DATA (41-NB-92-M,10.2D)
@@ -1225,7 +1228,7 @@ MB         MB
        0.09       0.02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518096   20010115   20030923
+SUBENT        O0518096   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)41-NB-95-G,IND/M+,SIG)
 DECAY-DATA (41-NB-95-G,35.0D)
@@ -1237,7 +1240,7 @@ MB         MB
         1.6        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518097   20010115   20030923
+SUBENT        O0518097   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)41-NB-96,IND,SIG)
 DECAY-DATA (41-NB-96,23.4HR)
@@ -1249,7 +1252,7 @@ MB         MB
         1.6        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518098   20010115   20030923
+SUBENT        O0518098   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)41-NB-97-G,IND/M+,SIG)
 DECAY-DATA (41-NB-97-G,74.0MIN)
@@ -1261,7 +1264,7 @@ MB         MB
         2.4        0.8
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518099   20010115   20030923
+SUBENT        O0518099   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)42-MO-99,CUM,SIG)
 DECAY-DATA (42-MO-99,66.0HR)
@@ -1273,7 +1276,7 @@ MB         MB
         3.7        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518100   20010115   20030923
+SUBENT        O0518100   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)42-MO-101,CUM,SIG)
 DECAY-DATA (42-MO-101,14.6MIN)
@@ -1285,7 +1288,7 @@ MB         MB
         2.2        0.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518101   20010115   20030923
+SUBENT        O0518101   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)43-TC-99-M,IND,SIG)
 DECAY-DATA (43-TC-99-M,6.0HR)
@@ -1297,7 +1300,7 @@ MB         MB
        0.25       0.08
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518102   20010115   20030923
+SUBENT        O0518102   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)43-TC-101,IND,SIG)
 DECAY-DATA (43-TC-101,14.2MIN)
@@ -1309,7 +1312,7 @@ MB         MB
         2.8         1.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518103   20010115   20030923
+SUBENT        O0518103   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)43-TC-102-M,IND,SIG)
 DECAY-DATA (43-TC-102-M,4.3MIN)
@@ -1323,7 +1326,7 @@ MB         MB
        0.78       0.27
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518104   20010115   20030923
+SUBENT        O0518104   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)43-TC-104,CUM,SIG)
 DECAY-DATA (43-TC-104,18.2MIN)
@@ -1335,7 +1338,7 @@ MB         MB
        1.24       0.22
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518105   20010115   20030923
+SUBENT        O0518105   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)44-RU-103,CUM,SIG)
 DECAY-DATA (44-RU-103,39.4HR)
@@ -1347,7 +1350,7 @@ MB         MB
         4.5        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518106   20010115   20030923
+SUBENT        O0518106   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)44-RU-105,CUM,SIG)
 DECAY-DATA (44-RU-105,4.40HR)
@@ -1359,7 +1362,7 @@ MB         MB
         2.5        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518107   20010115   20030923
+SUBENT        O0518107   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)45-RH-105-G,IND/M+,SIG)
 DECAY-DATA (45-RH-105-G,35.5HR)
@@ -1371,7 +1374,7 @@ MB         MB
          2.        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518108   20010115   20030923
+SUBENT        O0518108   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)45-RH-106-M,IND,SIG)
 DECAY-DATA (45-RH-106-M,2.2HR)
@@ -1383,7 +1386,7 @@ MB         MB
         0.4       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518109   20010115   20030923
+SUBENT        O0518109   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)45-RH-107,CUM,SIG)
 DECAY-DATA (45-RH-107,21.7MIN)
@@ -1395,7 +1398,7 @@ MB         MB
         2.5        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518110   20010115   20030923
+SUBENT        O0518110   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)45-RH-108-M,IND,SIG)
 DECAY-DATA (45-RH-108-M,5.9MIN)
@@ -1409,7 +1412,7 @@ MB         MB
         0.6       0.21
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518111   20010115   20030923
+SUBENT        O0518111   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)46-PD-109-M,IND,SIG)
 DECAY-DATA (46-PD-109-M,4.69MIN)
@@ -1421,7 +1424,7 @@ MB         MB
        0.58       0.21
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518112   20010115   20030923
+SUBENT        O0518112   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)46-PD-111-M,IND,SIG)
 DECAY-DATA (46-PD-111-M,5.5HR)
@@ -1435,7 +1438,7 @@ MB         MB
        0.58       0.08
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518113   20010115   20030923
+SUBENT        O0518113   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)47-AG-111-G,CUM,SIG)
 DECAY-DATA (47-AG-111-G,7.45D)
@@ -1449,7 +1452,7 @@ MB         MB
         2.3        0.5
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518114   20010115   20030923
+SUBENT        O0518114   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (82-PB-208(P,F)47-AG-112,CUM,SIG)
 DECAY-DATA (47-AG-112,3.12HR)
@@ -1464,7 +1467,7 @@ MB         MB
         2.7        0.4
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518115   20010115   20030923
+SUBENT        O0518115   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (82-PB-208(P,F)47-AG-113-G,IND/M+,SIG)
 DECAY-DATA (47-AG-113-G,5.37HR)
@@ -1479,7 +1482,7 @@ MB         MB
         1.3        0.4
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518116   20010115   20030923
+SUBENT        O0518116   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)48-CD-111-M,IND,SIG)
 DECAY-DATA (48-CD-111-M,49.0MIN)
@@ -1493,7 +1496,7 @@ MB         MB
         0.2       0.03
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518117   20010115   20030923
+SUBENT        O0518117   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)49-IN-116-M1,IND/M+,SIG)
 COMMENT    - By Compiler - The Cross Section of in-116-M1
@@ -1507,7 +1510,7 @@ MB         MB
        0.43       0.07
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518118   20010115   20030923
+SUBENT        O0518118   20010115   20030923   20050926       0000
 BIB                  2          4
 REACTION   (82-PB-208(P,F)49-IN-117-G,(CUM),SIG)
            It is Unclear As the Authors Took in Account Cd-117
@@ -1521,7 +1524,7 @@ MB         MB
        0.51        0.1
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518119   20010115   20030923
+SUBENT        O0518119   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-208(P,F)50-SN-117-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Sn-117-M
@@ -1535,7 +1538,7 @@ MB         MB
        0.49       0.07
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518120   20010115   20030923
+SUBENT        O0518120   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)51-SB-118-M,IND,SIG)
 DECAY-DATA (51-SB-118-M,5.0HR)
@@ -1547,7 +1550,7 @@ MB         MB
        0.53       0.16
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518121   20010115   20030923
+SUBENT        O0518121   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)51-SB-120-M,IND,SIG)
 DECAY-DATA (51-SB-120-M,5.76D)
@@ -1559,7 +1562,7 @@ MB         MB
         0.5       0.08
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518122   20010115   20030923
+SUBENT        O0518122   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)51-SB-122-G,IND/M+,SIG)
 DECAY-DATA (51-SB-122-G,2.70D)
@@ -1571,7 +1574,7 @@ MB         MB
         0.6        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518123   20010115   20030923
+SUBENT        O0518123   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)53-I-124,IND,SIG)
 DECAY-DATA (53-I-124,4.15D)
@@ -1583,7 +1586,7 @@ MB         MB
        0.34        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518124   20010115   20030923
+SUBENT        O0518124   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-208(P,F)55-CS-129,CUM,SIG)
 DECAY-DATA (55-CS-129,32.1HR)
@@ -1595,7 +1598,7 @@ MB         MB
        0.26       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518125   20010115   20030923
+SUBENT        O0518125   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)29-CU-67,CUM,SIG)
 DECAY-DATA (29-CU-67,61.9HR)
@@ -1607,7 +1610,7 @@ MB         MB
        0.36       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518126   20010115   20030923
+SUBENT        O0518126   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)30-ZN-69-M,IND,SIG)
 DECAY-DATA (30-ZN-69-M,13.8HR)
@@ -1619,7 +1622,7 @@ MB         MB
        0.18       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518127   20010115   20030923
+SUBENT        O0518127   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)30-ZN-71-M,CUM,SIG)
 DECAY-DATA (30-ZN-71-M,3.9HR)
@@ -1633,7 +1636,7 @@ MB         MB
       0.152      0.017
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518128   20010115   20030923
+SUBENT        O0518128   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)30-ZN-72,CUM,SIG)
 DECAY-DATA (30-ZN-72,46.5HR)
@@ -1645,7 +1648,7 @@ MB         MB
        0.27       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518129   20010115   20030923
+SUBENT        O0518129   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)31-GA-72,IND,SIG)
 DECAY-DATA (31-GA-72,14.1HR)
@@ -1657,7 +1660,7 @@ MB         MB
        0.16       0.04
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518130   20010115   20030923
+SUBENT        O0518130   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)31-GA-73,CUM,SIG)
 DECAY-DATA (31-GA-73,4.86HR)
@@ -1669,7 +1672,7 @@ MB         MB
        0.36       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518131   20010115   20030923
+SUBENT        O0518131   20010115   20030923   20050926       0000
 BIB                  3          9
 REACTION   (82-PB-0(P,F)32-GE-77-G,IND/M+,SIG)
 DECAY-DATA (32-GE-77-G,11.3HR)
@@ -1688,7 +1691,7 @@ MB         MB
        0.23      0.023
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        O0518132   20010115   20030923
+SUBENT        O0518132   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)33-AS-74,IND,SIG)
 DECAY-DATA (33-AS-74,17.8D)
@@ -1700,7 +1703,7 @@ MB         MB
       0.101      0.012
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518133   20010115   20030923
+SUBENT        O0518133   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)33-AS-76,IND,SIG)
 DECAY-DATA (33-AS-76,26.4HR)
@@ -1712,7 +1715,7 @@ MB         MB
        0.46       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518134   20010115   20030923
+SUBENT        O0518134   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)33-AS-78,IND,SIG)
 DECAY-DATA (33-AS-78,1.5HR)
@@ -1724,7 +1727,7 @@ MB         MB
        0.39       0.12
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518135   20010115   20030923
+SUBENT        O0518135   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)34-SE-75,CUM,SIG)
 DECAY-DATA (34-SE-75,120.D)
@@ -1736,7 +1739,7 @@ MB         MB
       0.036      0.007
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518136   20010115   20030923
+SUBENT        O0518136   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)35-BR-82-G,IND/M+,SIG)
 DECAY-DATA (35-BR-82-G,35.3HR)
@@ -1748,7 +1751,7 @@ MB         MB
        1.67       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518137   20010115   20030923
+SUBENT        O0518137   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)37-RB-83,CUM,SIG)
 DECAY-DATA (37-RB-83,86.2D)
@@ -1760,7 +1763,7 @@ MB         MB
         0.2      0.022
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518138   20010115   20030923
+SUBENT        O0518138   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)37-RB-84-G,IND/M+,SIG)
 DECAY-DATA (37-RB-84-G,32.8D)
@@ -1772,7 +1775,7 @@ MB         MB
        0.57       0.06
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518139   20010115   20030923
+SUBENT        O0518139   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)37-RB-86-G,IND/M+,SIG)
 DECAY-DATA (37-RB-86-G,18.7D)
@@ -1784,7 +1787,7 @@ MB         MB
        2.21       0.23
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518140   20010115   20030923
+SUBENT        O0518140   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)38-SR-85-G,CUM,SIG)
 DECAY-DATA (38-SR-85-G,64.9D)
@@ -1798,7 +1801,7 @@ MB         MB
       0.189       0.02
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518141   20010115   20030923
+SUBENT        O0518141   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)38-SR-91,CUM,SIG)
 DECAY-DATA (38-SR-91,9.5HR)
@@ -1810,7 +1813,7 @@ MB         MB
         1.1       0.12
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518142   20010115   20030923
+SUBENT        O0518142   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)38-SR-92,CUM,SIG)
 DECAY-DATA (38-SR-92,2.71HR)
@@ -1822,7 +1825,7 @@ MB         MB
        0.53       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518143   20010115   20030923
+SUBENT        O0518143   20010115   20030923   20050926       0000
 BIB                  3          6
 REACTION   (82-PB-0(P,F)39-Y-87-G,IND,SIG)
 DECAY-DATA (39-Y-87-G,80.3HR)
@@ -1838,7 +1841,7 @@ MB         MB
       0.121      0.013
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        O0518144   20010115   20030923
+SUBENT        O0518144   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)39-Y-87-M,CUM,SIG)
 DECAY-DATA (39-Y-87-M,13.0HR)
@@ -1852,7 +1855,7 @@ MB         MB
       0.081      0.015
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518145   20010115   20030923
+SUBENT        O0518145   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)39-Y-88,CUM,SIG)
 DECAY-DATA (39-Y-88,106.6D)
@@ -1864,7 +1867,7 @@ MB         MB
        0.51       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518146   20010115   20030923
+SUBENT        O0518146   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)39-Y-90-M,IND,SIG)
 DECAY-DATA (39-Y-90-M,3.19HR)
@@ -1876,7 +1879,7 @@ MB         MB
        0.99       0.16
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518147   20010115   20030923
+SUBENT        O0518147   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)39-Y-92,IND,SIG)
 DECAY-DATA (39-Y-92,3.54HR)
@@ -1888,7 +1891,7 @@ MB         MB
        1.17        0.2
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518148   20010115   20030923
+SUBENT        O0518148   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)39-Y-93,CUM,SIG)
 DECAY-DATA (39-Y-93-G,10.2HR)
@@ -1900,7 +1903,7 @@ MB         MB
        0.99        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518149   20010115   20030923
+SUBENT        O0518149   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)40-ZR-89-G,CUM,SIG)
 DECAY-DATA (40-ZR-89-G,78.4HR)
@@ -1912,7 +1915,7 @@ MB         MB
       0.069      0.008
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518150   20010115   20030923
+SUBENT        O0518150   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)40-ZR-95,CUM,SIG)
 DECAY-DATA (40-ZR-95,64.0D)
@@ -1924,7 +1927,7 @@ MB         MB
        3.32       0.25
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518151   20010115   20030923
+SUBENT        O0518151   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)40-ZR-97,CUM,SIG)
 DECAY-DATA (40-ZR-97,16.8HR)
@@ -1936,7 +1939,7 @@ MB         MB
        1.21       0.18
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518152   20010115   20030923
+SUBENT        O0518152   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)41-NB-95-G,IND/M+,SIG)
 DECAY-DATA (41-NB-95-G,35.0D)
@@ -1948,7 +1951,7 @@ MB         MB
        1.68       0.25
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518153   20010115   20030923
+SUBENT        O0518153   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)41-NB-96,IND,SIG)
 DECAY-DATA (41-NB-96,23.4HR)
@@ -1960,7 +1963,7 @@ MB         MB
        1.68       0.12
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518154   20010115   20030923
+SUBENT        O0518154   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)41-NB-97-G,IND/M+,SIG)
 DECAY-DATA (41-NB-97-G,74.0MIN)
@@ -1972,7 +1975,7 @@ MB         MB
        1.26       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518155   20010115   20030923
+SUBENT        O0518155   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)41-NB-98-M,IND,SIG)
 DECAY-DATA (41-NB-98-M,51.0MIN)
@@ -1984,7 +1987,7 @@ MB         MB
        0.67       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518156   20010115   20030923
+SUBENT        O0518156   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)42-MO-99,CUM,SIG)
 DECAY-DATA (42-MO-99,66.0HR)
@@ -1996,7 +1999,7 @@ MB         MB
         3.2        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518157   20010115   20030923
+SUBENT        O0518157   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)43-TC-99-M,IND,SIG)
 DECAY-DATA (43-TC-99-M,6.0HR)
@@ -2008,7 +2011,7 @@ MB         MB
       0.057       0.01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518158   20010115   20030923
+SUBENT        O0518158   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)44-RU-103,CUM,SIG)
 DECAY-DATA (44-RU-103,39.4HR)
@@ -2020,7 +2023,7 @@ MB         MB
         4.9        0.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518159   20010115   20030923
+SUBENT        O0518159   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)44-RU-105,CUM,SIG)
 DECAY-DATA (44-RU-105,4.40HR)
@@ -2032,7 +2035,7 @@ MB         MB
        1.28       0.09
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518160   20010115   20030923
+SUBENT        O0518160   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)44-RU-106,CUM,SIG)
 DECAY-DATA (44-RU-106,368.D)
@@ -2044,7 +2047,7 @@ MB         MB
        0.86        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518161   20010115   20030923
+SUBENT        O0518161   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)45-RH-105-G,IND/M+,SIG)
 DECAY-DATA (45-RH-105-G,35.5HR)
@@ -2056,7 +2059,7 @@ MB         MB
         1.8        0.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518162   20010115   20030923
+SUBENT        O0518162   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)45-RH-106-M,IND,SIG)
 DECAY-DATA (45-RH-106-M,2.2HR)
@@ -2068,7 +2071,7 @@ MB         MB
        0.51       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518163   20010115   20030923
+SUBENT        O0518163   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)46-PD-111-M,IND,SIG)
 DECAY-DATA (46-PD-111-M,5.5HR)
@@ -2082,7 +2085,7 @@ MB         MB
        0.37       0.03
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518164   20010115   20030923
+SUBENT        O0518164   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)47-AG-110-M,IND,SIG)
 DECAY-DATA (47-AG-110-M,250.D)
@@ -2094,7 +2097,7 @@ MB         MB
        1.09        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518165   20010115   20030923
+SUBENT        O0518165   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)47-AG-111-G,CUM,SIG)
 DECAY-DATA (47-AG-111-G,7.45D)
@@ -2108,7 +2111,7 @@ MB         MB
          2.        0.3
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518166   20010115   20030923
+SUBENT        O0518166   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (82-PB-0(P,F)47-AG-112,CUM,SIG)
 DECAY-DATA (47-AG-112,3.12HR)
@@ -2123,7 +2126,7 @@ MB         MB
        1.01       0.09
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518167   20010115   20030923
+SUBENT        O0518167   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (82-PB-0(P,F)47-AG-113-G,IND/M+,SIG)
 DECAY-DATA (47-AG-113-G,5.37HR)
@@ -2138,7 +2141,7 @@ MB         MB
        0.73       0.17
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518168   20010115   20030923
+SUBENT        O0518168   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)48-CD-111-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Cd-111-M
@@ -2152,7 +2155,7 @@ MB         MB
        0.34       0.04
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518169   20010115   20030923
+SUBENT        O0518169   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)48-CD-115-G,CUM,SIG)
 COMMENT    - By Compiler - The Cross Section of Cd-115-G
@@ -2166,7 +2169,7 @@ MB         MB
        0.49       0.04
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518170   20010115   20030923
+SUBENT        O0518170   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)49-IN-114-M,IND,SIG)
 DECAY-DATA (49-IN-114-M,49.5D)
@@ -2178,7 +2181,7 @@ MB         MB
        0.62       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518171   20010115   20030923
+SUBENT        O0518171   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)49-IN-116-M1,IND/M+,SIG)
 COMMENT    - By Compiler - The Cross Section of in-116-M1
@@ -2192,7 +2195,7 @@ MB         MB
        0.45       0.06
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518172   20010115   20030923
+SUBENT        O0518172   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (82-PB-0(P,F)50-SN-117-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Sn-117-M
@@ -2206,7 +2209,7 @@ MB         MB
        0.55       0.07
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518173   20010115   20030923
+SUBENT        O0518173   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)51-SB-120-M,IND,SIG)
 DECAY-DATA (51-SB-120-M,5.76D)
@@ -2218,7 +2221,7 @@ MB         MB
        0.57       0.08
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518174   20010115   20030923
+SUBENT        O0518174   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)51-SB-122-G,IND/M+,SIG)
 DECAY-DATA (51-SB-122-G,2.70D)
@@ -2230,7 +2233,7 @@ MB         MB
        0.22       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518175   20010115   20030923
+SUBENT        O0518175   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)51-SB-124-G,IND/M+,SIG)
 DECAY-DATA (51-SB-124-G,60.3D)
@@ -2242,7 +2245,7 @@ MB         MB
       0.206      0.021
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518176   20010115   20030923
+SUBENT        O0518176   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)52-TE-121-M,IND,SIG)
 DECAY-DATA (52-TE-121-M,154.D)
@@ -2254,7 +2257,7 @@ MB         MB
       0.168      0.018
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518177   20010115   20030923
+SUBENT        O0518177   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)53-I-124,IND,SIG)
 DECAY-DATA (53-I-124,4.15D)
@@ -2266,7 +2269,7 @@ MB         MB
        0.17       0.02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518178   20010115   20030923
+SUBENT        O0518178   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)53-I-126,IND,SIG)
 DECAY-DATA (53-I-126,13.0D)
@@ -2278,7 +2281,7 @@ MB         MB
       0.239      0.026
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518179   20010115   20030923
+SUBENT        O0518179   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)55-CS-129,CUM,SIG)
 DECAY-DATA (55-CS-129,32.1HR)
@@ -2290,7 +2293,7 @@ MB         MB
        0.22       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518180   20010115   20030923
+SUBENT        O0518180   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (82-PB-0(P,F)55-CS-132,IND,SIG)
 DECAY-DATA (55-CS-132,6.47D)
@@ -2302,7 +2305,7 @@ MB         MB
       0.116      0.012
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518181   20010115   20030923
+SUBENT        O0518181   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)29-CU-67,CUM,SIG)
 DECAY-DATA (29-CU-67,61.9HR)
@@ -2314,7 +2317,7 @@ MB         MB
        0.61       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518182   20010115   20030923
+SUBENT        O0518182   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)30-ZN-69-M,IND,SIG)
 DECAY-DATA (30-ZN-69-M,13.8HR)
@@ -2326,7 +2329,7 @@ MB         MB
         0.2       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518183   20010115   20030923
+SUBENT        O0518183   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)30-ZN-72,CUM,SIG)
 DECAY-DATA (30-ZN-72,46.5HR)
@@ -2338,7 +2341,7 @@ MB         MB
        1.28       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518184   20010115   20030923
+SUBENT        O0518184   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)31-GA-72,IND,SIG)
 DECAY-DATA (31-GA-72,14.1HR)
@@ -2350,7 +2353,7 @@ MB         MB
        0.24       0.07
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518185   20010115   20030923
+SUBENT        O0518185   20010115   20030923   20050926       0000
 BIB                  3          9
 REACTION   (90-TH-232(P,F)32-GE-77-G,IND/M+,SIG)
 DECAY-DATA (32-GE-77-G,11.3HR)
@@ -2369,7 +2372,7 @@ MB         MB
        1.35       0.11
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        O0518186   20010115   20030923
+SUBENT        O0518186   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)32-GE-78,CUM,SIG)
 DECAY-DATA (32-GE-78,88.MIN)
@@ -2381,7 +2384,7 @@ MB         MB
         5.9        1.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518187   20010115   20030923
+SUBENT        O0518187   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)35-BR-84-G,CUM,SIG)
 DECAY-DATA (35-BR-84-G,31.8MIN)
@@ -2395,7 +2398,7 @@ MB         MB
         13.         3.
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518188   20010115   20030923
+SUBENT        O0518188   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)36-KR-87,CUM,SIG)
 DECAY-DATA (36-KR-87,76.3MIN)
@@ -2407,7 +2410,7 @@ MB         MB
         5.7        1.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518189   20010115   20030923
+SUBENT        O0518189   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)37-RB-83,CUM,SIG)
 DECAY-DATA (37-RB-83,86.2D)
@@ -2419,7 +2422,7 @@ MB         MB
       0.078      0.008
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518190   20010115   20030923
+SUBENT        O0518190   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)37-RB-84-G,IND/M+,SIG)
 DECAY-DATA (37-RB-84-G,32.8D)
@@ -2431,7 +2434,7 @@ MB         MB
        0.28       0.03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518191   20010115   20030923
+SUBENT        O0518191   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)37-RB-86-G,IND/M+,SIG)
 DECAY-DATA (37-RB-86-G,18.7D)
@@ -2443,7 +2446,7 @@ MB         MB
        1.56       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518192   20010115   20030923
+SUBENT        O0518192   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)37-RB-89,CUM,SIG)
 DECAY-DATA (37-RB-89,15.2MIN)
@@ -2455,7 +2458,7 @@ MB         MB
         25.         5.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518193   20010115   20030923
+SUBENT        O0518193   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)38-SR-91,CUM,SIG)
 DECAY-DATA (38-SR-91,9.5HR)
@@ -2467,7 +2470,7 @@ MB         MB
        13.6        1.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518194   20010115   20030923
+SUBENT        O0518194   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)38-SR-92,CUM,SIG)
 DECAY-DATA (38-SR-92,2.71HR)
@@ -2479,7 +2482,7 @@ MB         MB
         38.         8.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518195   20010115   20030923
+SUBENT        O0518195   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)39-Y-88,CUM,SIG)
 DECAY-DATA (39-Y-88,106.6D)
@@ -2491,7 +2494,7 @@ MB         MB
       0.252      0.026
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518196   20010115   20030923
+SUBENT        O0518196   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)39-Y-90-M,IND,SIG)
 DECAY-DATA (39-Y-90-M,3.19HR)
@@ -2503,7 +2506,7 @@ MB         MB
         2.7        0.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518197   20010115   20030923
+SUBENT        O0518197   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)39-Y-91-M,IND,SIG)
 COMMENT    - By Author - Sr-91 and Y-91-M have Been Measured Both
@@ -2517,7 +2520,7 @@ MB         MB
         7.1        1.5
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518198   20010115   20030923
+SUBENT        O0518198   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)39-Y-93,CUM,SIG)
 DECAY-DATA (39-Y-93-G,10.2HR)
@@ -2529,7 +2532,7 @@ MB         MB
        14.1        1.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518199   20010115   20030923
+SUBENT        O0518199   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)39-Y-94,CUM,SIG)
 DECAY-DATA (39-Y-94,18.7MIN)
@@ -2541,7 +2544,7 @@ MB         MB
         27.         6.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518200   20010115   20030923
+SUBENT        O0518200   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)40-ZR-89-G,CUM,SIG)
 DECAY-DATA (40-ZR-89-G,78.4HR)
@@ -2553,7 +2556,7 @@ MB         MB
       0.099       0.01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518201   20010115   20030923
+SUBENT        O0518201   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)40-ZR-95,CUM,SIG)
 DECAY-DATA (40-ZR-95,64.0D)
@@ -2565,7 +2568,7 @@ MB         MB
        23.7        1.7
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518202   20010115   20030923
+SUBENT        O0518202   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)40-ZR-97,CUM,SIG)
 DECAY-DATA (40-ZR-97,16.8HR)
@@ -2577,7 +2580,7 @@ MB         MB
         36.         8.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518203   20010115   20030923
+SUBENT        O0518203   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)41-NB-96,IND,SIG)
 DECAY-DATA (41-NB-96,23.4HR)
@@ -2589,7 +2592,7 @@ MB         MB
         3.2        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518204   20010115   20030923
+SUBENT        O0518204   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)41-NB-97-G,IND/M+,SIG)
 DECAY-DATA (41-NB-97-G,74.0MIN)
@@ -2601,7 +2604,7 @@ MB         MB
         14.         5.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518205   20010115   20030923
+SUBENT        O0518205   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)41-NB-98-M,IND,SIG)
 DECAY-DATA (41-NB-98-M,51.0MIN)
@@ -2613,7 +2616,7 @@ MB         MB
         14.         7.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518206   20010115   20030923
+SUBENT        O0518206   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)42-MO-99,CUM,SIG)
 DECAY-DATA (42-MO-99,66.0HR)
@@ -2625,7 +2628,7 @@ MB         MB
        24.4        1.8
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518207   20010115   20030923
+SUBENT        O0518207   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)42-MO-101,CUM,SIG)
 DECAY-DATA (42-MO-101,14.6MIN)
@@ -2637,7 +2640,7 @@ MB         MB
         62.        11.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518208   20010115   20030923
+SUBENT        O0518208   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)43-TC-96-G,IND/M+,SIG)
 DECAY-DATA (43-TC-96-G,4.3D)
@@ -2649,7 +2652,7 @@ MB         MB
        0.93        0.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518209   20010115   20030923
+SUBENT        O0518209   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)43-TC-104,CUM,SIG)
 DECAY-DATA (43-TC-104,18.2MIN)
@@ -2661,7 +2664,7 @@ MB         MB
         31.         5.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518210   20010115   20030923
+SUBENT        O0518210   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)44-RU-103,CUM,SIG)
 DECAY-DATA (44-RU-103,39.4HR)
@@ -2673,7 +2676,7 @@ MB         MB
         29.         3.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518211   20010115   20030923
+SUBENT        O0518211   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)44-RU-105,CUM,SIG)
 DECAY-DATA (44-RU-105,4.40HR)
@@ -2685,7 +2688,7 @@ MB         MB
         59.        13.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518212   20010115   20030923
+SUBENT        O0518212   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)44-RU-106,CUM,SIG)
 DECAY-DATA (44-RU-106,368.D)
@@ -2697,7 +2700,7 @@ MB         MB
        19.9        2.2
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518213   20010115   20030923
+SUBENT        O0518213   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)45-RH-105-G,IND/M+,SIG)
 DECAY-DATA (45-RH-105-G,35.5HR)
@@ -2709,7 +2712,7 @@ MB         MB
         10.         3.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518214   20010115   20030923
+SUBENT        O0518214   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)45-RH-107,CUM,SIG)
 DECAY-DATA (45-RH-107,21.7MIN)
@@ -2721,7 +2724,7 @@ MB         MB
         58.         9.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518215   20010115   20030923
+SUBENT        O0518215   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)46-PD-111-M,IND,SIG)
 DECAY-DATA (46-PD-111-M,5.5HR)
@@ -2735,7 +2738,7 @@ MB         MB
         6.2        0.9
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518216   20010115   20030923
+SUBENT        O0518216   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)47-AG-110-M,IND,SIG)
 DECAY-DATA (47-AG-110-M,250.D)
@@ -2747,7 +2750,7 @@ MB         MB
         2.1       0.16
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518217   20010115   20030923
+SUBENT        O0518217   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)47-AG-111-G,CUM,SIG)
 DECAY-DATA (47-AG-111-G,7.45D)
@@ -2761,7 +2764,7 @@ MB         MB
         70.        16.
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518218   20010115   20030923
+SUBENT        O0518218   20010115   20030923   20050926       0000
 BIB                  3          5
 REACTION   (90-TH-232(P,F)47-AG-113-G,IND/M+,SIG)
 DECAY-DATA (47-AG-113-G,5.37HR)
@@ -2776,7 +2779,7 @@ MB         MB
        21.8        2.5
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        O0518219   20010115   20030923
+SUBENT        O0518219   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)47-AG-115-G,CUM,SIG)
 DECAY-DATA (47-AG-115-G,20.0MIN)
@@ -2788,7 +2791,7 @@ MB         MB
         23.         5.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518220   20010115   20030923
+SUBENT        O0518220   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)48-CD-115-G,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Cd-115-G
@@ -2802,7 +2805,7 @@ MB         MB
        18.1        1.4
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518221   20010115   20030923
+SUBENT        O0518221   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)48-CD-117-G,CUM/M-,SIG)
 COMMENT    - By Compiler - The Cross Section of Cd-117-G
@@ -2816,7 +2819,7 @@ MB         MB
         13.         3.
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518222   20010115   20030923
+SUBENT        O0518222   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)49-IN-114-M,IND,SIG)
 DECAY-DATA (49-IN-114-M,49.5D)
@@ -2828,7 +2831,7 @@ MB         MB
        1.53       0.16
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518223   20010115   20030923
+SUBENT        O0518223   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)49-IN-116-M1,IND/M+,SIG)
 COMMENT    - By Compiler - The Cross Section of in-116-M1
@@ -2842,7 +2845,7 @@ MB         MB
         10.         3.
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518224   20010115   20030923
+SUBENT        O0518224   20010115   20030923   20050926       0000
 BIB                  2          4
 REACTION   (90-TH-232(P,F)49-IN-117-G,(CUM),SIG)
            It is Unclear As the Authors Took in Account Cd-117
@@ -2856,7 +2859,7 @@ MB         MB
         14.         4.
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518225   20010115   20030923
+SUBENT        O0518225   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)50-SN-117-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Sn-117-M
@@ -2870,7 +2873,7 @@ MB         MB
        1.57       0.17
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518226   20010115   20030923
+SUBENT        O0518226   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)50-SN-123-M,CUM,SIG)
 COMMENT    - By Compiler - The Cross Section of Sn-123-M
@@ -2884,7 +2887,7 @@ MB         MB
          8.        1.7
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518227   20010115   20030923
+SUBENT        O0518227   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)50-SN-125-G,CUM/M-,SIG)
 COMMENT    - By Compiler - The Cross Section of Sn-125-G
@@ -2898,7 +2901,7 @@ MB         MB
         4.6        0.4
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518228   20010115   20030923
+SUBENT        O0518228   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)51-SB-120-M,IND,SIG)
 DECAY-DATA (51-SB-120-M,5.76D)
@@ -2910,7 +2913,7 @@ MB         MB
         2.8       0.26
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518229   20010115   20030923
+SUBENT        O0518229   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)51-SB-122-G,IND/M+,SIG)
 DECAY-DATA (51-SB-122-G,2.70D)
@@ -2922,7 +2925,7 @@ MB         MB
         5.4        0.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518230   20010115   20030923
+SUBENT        O0518230   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)51-SB-124-G,IND/M+,SIG)
 DECAY-DATA (51-SB-124-G,60.3D)
@@ -2934,7 +2937,7 @@ MB         MB
         7.3        1.1
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518231   20010115   20030923
+SUBENT        O0518231   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)51-SB-125,CUM,SIG)
 DECAY-DATA (51-SB-125,2.77YR)
@@ -2946,7 +2949,7 @@ MB         MB
         6.2        1.2
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518232   20010115   20030923
+SUBENT        O0518232   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)51-SB-126-G,IND/M+,SIG)
 COMMENT    - By Compiler - The Cross Section of Sb-126-G
@@ -2960,7 +2963,7 @@ MB         MB
          4.        0.3
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518233   20010115   20030923
+SUBENT        O0518233   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)51-SB-127,CUM,SIG)
 DECAY-DATA (51-SB-127,3.85D)
@@ -2972,7 +2975,7 @@ MB         MB
         5.8        0.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518234   20010115   20030923
+SUBENT        O0518234   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)51-SB-128-G,IND/M+,SIG)
 COMMENT    - By Compiler - The Cross Section of Sb-128-G
@@ -2986,7 +2989,7 @@ MB         MB
        1.22       0.11
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518235   20010115   20030923
+SUBENT        O0518235   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)52-TE-121-M,IND,SIG)
 DECAY-DATA (52-TE-121-M,154.D)
@@ -2998,7 +3001,7 @@ MB         MB
        0.44       0.05
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518236   20010115   20030923
+SUBENT        O0518236   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)52-TE-123-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Te-123-M
@@ -3012,7 +3015,7 @@ MB         MB
          3.        0.3
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518237   20010115   20030923
+SUBENT        O0518237   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)52-TE-129-M,CUM,SIG)
 COMMENT    - By Compiler - The Cross Section of Te-129-M
@@ -3026,7 +3029,7 @@ MB         MB
         5.8        0.6
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518238   20010115   20030923
+SUBENT        O0518238   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)52-TE-131-G,CUM/M-,SIG)
 COMMENT    - By Compiler - The Cross Section of Te-131-G
@@ -3040,7 +3043,7 @@ MB         MB
         4.1        0.9
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518239   20010115   20030923
+SUBENT        O0518239   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)52-TE-131-M,CUM,SIG)
 COMMENT    - By Compiler - The Cross Section of Te-131-M
@@ -3054,7 +3057,7 @@ MB         MB
         5.4        1.2
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518240   20010115   20030923
+SUBENT        O0518240   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)52-TE-132,CUM,SIG)
 DECAY-DATA (52-TE-132,76.3HR)
@@ -3066,7 +3069,7 @@ MB         MB
         3.2        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518241   20010115   20030923
+SUBENT        O0518241   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)53-I-124,IND,SIG)
 DECAY-DATA (53-I-124,4.15D)
@@ -3078,7 +3081,7 @@ MB         MB
         2.6        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518242   20010115   20030923
+SUBENT        O0518242   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)53-I-126,IND,SIG)
 DECAY-DATA (53-I-126,13.0D)
@@ -3090,7 +3093,7 @@ MB         MB
         2.5        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518243   20010115   20030923
+SUBENT        O0518243   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)53-I-130-G,IND/M+,SIG)
 DECAY-DATA (53-I-130-G,12.4HR)
@@ -3102,7 +3105,7 @@ MB         MB
         3.4        0.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518244   20010115   20030923
+SUBENT        O0518244   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)53-I-133-G,CUM,SIG)
 DECAY-DATA (53-I-133-G,20.8HR)
@@ -3114,7 +3117,7 @@ MB         MB
         5.1        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518245   20010115   20030923
+SUBENT        O0518245   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)55-CS-129,CUM,SIG)
 DECAY-DATA (55-CS-129,32.1HR)
@@ -3126,7 +3129,7 @@ MB         MB
        0.75       0.09
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518246   20010115   20030923
+SUBENT        O0518246   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)55-CS-134-G,IND/M+,SIG)
 DECAY-DATA (55-CS-134-G,2.06YR)
@@ -3138,7 +3141,7 @@ MB         MB
          3.        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518247   20010115   20030923
+SUBENT        O0518247   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)55-CS-135-M,IND,SIG)
 DECAY-DATA (55-CS-135-M,53.0MIN)
@@ -3150,7 +3153,7 @@ MB         MB
        10.5        2.2
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518248   20010115   20030923
+SUBENT        O0518248   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)55-CS-136,IND/M+,SIG)
 DECAY-DATA (55-CS-136-G,13.2D)
@@ -3162,7 +3165,7 @@ MB         MB
         3.3        0.3
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518249   20010115   20030923
+SUBENT        O0518249   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)56-BA-133-G,CUM,SIG)
 DECAY-DATA (56-BA-133-G,10.5YR)
@@ -3174,7 +3177,7 @@ MB         MB
        0.98       0.14
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518250   20010115   20030923
+SUBENT        O0518250   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)56-BA-139,CUM,SIG)
 DECAY-DATA (56-BA-139,83.1MIN)
@@ -3186,7 +3189,7 @@ MB         MB
         14.         3.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518251   20010115   20030923
+SUBENT        O0518251   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)56-BA-140,CUM,SIG)
 DECAY-DATA (56-BA-140,12.8D)
@@ -3198,7 +3201,7 @@ MB         MB
         6.5        0.6
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518252   20010115   20030923
+SUBENT        O0518252   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)57-LA-140,IND,SIG)
 DECAY-DATA (57-LA-140,40.3HR)
@@ -3210,7 +3213,7 @@ MB         MB
         2.6        0.9
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518253   20010115   20030923
+SUBENT        O0518253   20010115   20030923   20050926       0000
 BIB                  3          4
 REACTION   (90-TH-232(P,F)58-CE-137-M,IND,SIG)
 COMMENT    - By Compiler - The Cross Section of Ce-137-M
@@ -3224,7 +3227,7 @@ MB         MB
         3.4        0.4
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        O0518254   20010115   20030923
+SUBENT        O0518254   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)58-CE-139-G,CUM,SIG)
 DECAY-DATA (58-CE-139-G,138.D)
@@ -3236,7 +3239,7 @@ MB         MB
        1.22       0.13
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518255   20010115   20030923
+SUBENT        O0518255   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)58-CE-141,CUM,SIG)
 DECAY-DATA (58-CE-141,32.5D)
@@ -3248,7 +3251,7 @@ MB         MB
         9.2         1.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518256   20010115   20030923
+SUBENT        O0518256   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)58-CE-143,CUM,SIG)
 DECAY-DATA (58-CE-143,33.0HR)
@@ -3260,7 +3263,7 @@ MB         MB
         3.5        0.4
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518257   20010115   20030923
+SUBENT        O0518257   20010115   20030923   20050926       0000
 BIB                  2          2
 REACTION   (90-TH-232(P,F)58-CE-144,CUM,SIG)
 DECAY-DATA (58-CE-144,284.8D)
@@ -3272,77 +3275,82 @@ MB         MB
         5.2        0.5
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        O0518258   20010115   20030923
-BIB                  3          4
-REACTION   (74-W-0(P,F),PR,SIG)
+SUBENT        O0518258   20140121   20140701   20140623       O052
+BIB                  4          5
+REACTION   (74-W-0(P,F),,SIG)
 STATUS     (DEP,O0518002) Upto O0518027
-ANALYSIS   Gross Section was Determined from Fitting For One
-           Gaussian For Product Yields.
-ENDBIB               4
-NOCOMMON
+ANALYSIS   Cross section was determined from fitting for one
+           Gaussian for product yields.
+HISTORY    (20140121A) SD: SF5=PR deleted from REACTION code
+ENDBIB               5
+NOCOMMON             0          0
 DATA                 2          1
 DATA       ERR-T
 MB         MB
         4.5        0.5
 ENDDATA              3
-ENDSUBENT           12
-SUBENT        O0518259   20010115   20030923
-BIB                  3          4
-REACTION   (79-AU-197(P,F),PR,SIG)
+ENDSUBENT           13
+SUBENT        O0518259   20140121   20140701   20140623       O052
+BIB                  4          5
+REACTION   (79-AU-197(P,F),,SIG)
 STATUS     (DEP,O0518028) Upto O0518071
-ANALYSIS   Gross Section was Determined from Fitting For One
-           Gaussian For Product Yields.
-ENDBIB               4
-NOCOMMON
+ANALYSIS   Cross section was determined from fitting for one
+           Gaussian for product yields.
+HISTORY    (20140121A) SD: SF5=PR deleted from REACTION code
+ENDBIB               5
+NOCOMMON             0          0
 DATA                 2          1
 DATA       ERR-T
 MB         MB
        32.8        3.3
 ENDDATA              3
-ENDSUBENT           12
-SUBENT        O0518260   20010115   20030923
-BIB                  3          4
-REACTION   (82-PB-208(P,F),PR,SIG)
+ENDSUBENT           13
+SUBENT        O0518260   20140121   20140701   20140623       O052
+BIB                  4          5
+REACTION   (82-PB-208(P,F),,SIG)
 STATUS     (DEP,O0518072) Upto O0518124
-ANALYSIS   Gross Section was Determined from Fitting For One
-           Gaussian For Product Yields.
-ENDBIB               4
-NOCOMMON
+ANALYSIS   Cross section was determined from fitting for one
+           Gaussian for product yields.
+HISTORY    (20140121A) SD: SF5=PR deleted from REACTION code
+ENDBIB               5
+NOCOMMON             0          0
 DATA                 2          1
 DATA       ERR-T
 MB         MB
         88.         8.
 ENDDATA              3
-ENDSUBENT           12
-SUBENT        O0518261   20010115   20030923
-BIB                  3          4
-REACTION   (82-PB-0(P,F),PR,SIG)
+ENDSUBENT           13
+SUBENT        O0518261   20140121   20140701   20140623       O052
+BIB                  4          5
+REACTION   (82-PB-0(P,F),,SIG)
 STATUS     (DEP,O0518125) Upto O0518180
-ANALYSIS   Gross Section was Determined from Fitting For One
-           Gaussian For Product Yields.
-ENDBIB               4
-NOCOMMON
+ANALYSIS   Cross section was determined from fitting for one
+           Gaussian for product yields.
+HISTORY    (20140121A) SD: SF5=PR deleted from REACTION code
+ENDBIB               5
+NOCOMMON             0          0
 DATA                 2          1
 DATA       ERR-T
 MB         MB
         94.         9.
 ENDDATA              3
-ENDSUBENT           12
-SUBENT        O0518262   20010115   20030923
-BIB                  3          7
-REACTION  1(90-TH-232(P,F),PR,SIG)
-          2(90-TH-232(P,F),PR,SIG)
+ENDSUBENT           13
+SUBENT        O0518262   20140121   20140701   20140623       O052
+BIB                  4          8
+REACTION  1(90-TH-232(P,F),,SIG)
+          2(90-TH-232(P,F),,SIG)
 STATUS     (DEP,O0518181) Upto O0518257.
-ANALYSIS  1Gross Section was Determined from Fitting For One
-           Gaussian For Product Yields.
-          2Gross Section was Determined from Fitting For
-           Decomposition of the Mass Distribution.
-ENDBIB               7
-NOCOMMON
+ANALYSIS  1Cross section was determined from fitting for one
+           Gaussian for product yields.
+          2Gross section was determined from fitting for
+           decomposition of the mass distribution.
+HISTORY    (20140121A) SD:SF5=PR deleted from REACTION codes (1,2)
+ENDBIB               8
+NOCOMMON             0          0
 DATA                 4          1
 DATA      1ERR-T     1DATA      2ERR-T     2
 MB         MB         MB         MB
        630.        60.       950.        95.
 ENDDATA              3
-ENDSUBENT           15
+ENDSUBENT           16
 ENDENTRY           262
