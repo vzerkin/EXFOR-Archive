@@ -1,23 +1,23 @@
-ENTRY            F0144   19990412   19990429
-SUBENT        F0144001   19990412   19990429
-BIB                 10         26
-TITLE      The angular proton distributions from  Be-9(p,p)Be-10,
+ENTRY            F0144   20140405   20140701   20140624       F054
+SUBENT        F0144001   20140405   20140701   20140624       F054
+BIB                 10         27
+TITLE      The angular proton distributions from  Be-9(d,p)Be-10,
            C-12(d,p)C-13, O-16(d,p)O-17 and Ca-40(d,p)Ca-41
            reactions near energy  11.8 MeV
-AUTHOR     (U.SCHMIDT-ROHR,R.STOCK,P.TUREK)
+AUTHOR     (U.Schmidt-Rohr,R.Stock,P.Turek)
 INSTITUTE  (2GERMPH)
 REFERENCE  (J,NP,53,77,196404)
 SAMPLE     For experiments with beryllium were used:
            Self-supporting beryllium foils 4.2mg/cm2 thick;
-           Beryllium (0.3 mg/cm2 thick) evaporated onto thin
-           backings;
+           beryllium (0.3 mg/cm2 thick) evaporated onto thin
+           backings.
            For experiments with carbon were used: Carbon (2mg/cm2
            thick) evaporated onto gold backing; polyethylene foils
            For experiments with hydrogen were used: Li2O; quartz
            foils; gas targets.
            For experiments with calcium were used:
            Self-supporting Ca foils 2mg/cm2 thick.
-FACILITY   (CYCLO)
+FACILITY   (CYCLO,2GERMPH)
 METHOD     (EDE,EXTB)
 DETECTOR   (SCIN,SOLST) DeltaE detector was proportional and
            as a E-detector were used cesium-Iodide crystal or
@@ -27,14 +27,15 @@ DETECTOR   (SCIN,SOLST) DeltaE detector was proportional and
            range from 6 to 20 degr.
 ERR-ANALYS (DATA-ERR) Relative error.
 HISTORY    (19840606C)
-ENDBIB              26
+           (20140405U) SD: Title corrected.
+ENDBIB              27
 COMMON               2          3
 EN         DATA-ERR
 MEV        PER-CENT
   11.80      3.0
 ENDCOMMON            3
-ENDSUBENT           33
-SUBENT        F0144002   19990412   19990429
+ENDSUBENT           34
+SUBENT        F0144002   19990412   19990429   20050926       0000
 BIB                  4          4
 REACTION   (4-BE-9(D,P)4-BE-10,PAR,SIG,,,EXP)
 ERR-ANALYS (ERR-T) Total error
@@ -52,7 +53,7 @@ MEV        MB         MB
      7.37      30.9        8.7
 ENDDATA              7
 ENDSUBENT           16
-SUBENT        F0144003   19990412   19990429
+SUBENT        F0144003   19990412   19990429   20050926       0000
 BIB                  4          4
 REACTION   (6-C-12(D,P)6-C-13,PAR,SIG,,,EXP)
 ERR-ANALYS (ERR-T) Total error
@@ -67,7 +68,7 @@ MEV        MB         MB
      3.09      65.5       13.
 ENDDATA              4
 ENDSUBENT           13
-SUBENT        F0144004   19990412   19990429
+SUBENT        F0144004   19990412   19990429   20050926       0000
 BIB                  4          4
 REACTION   (8-O-16(D,P)8-O-17,PAR,SIG,,,EXP)
 ERR-ANALYS (ERR-T) Total error
@@ -84,7 +85,7 @@ MEV        MB         MB
      3.85       4.33       0.5
 ENDDATA              6
 ENDSUBENT           15
-SUBENT        F0144005   19990412   19990429
+SUBENT        F0144005   19990412   19990429   20050926       0000
 BIB                  4          4
 REACTION   (20-CA-40(D,P)20-CA-41,PAR,SIG,,,EXP)
 ERR-ANALYS (ERR-T) Total error
@@ -101,7 +102,7 @@ MEV        MB         MB
      3.95      18.2        3.8
 ENDDATA              6
 ENDSUBENT           15
-SUBENT        F0144006   19990412   19990429
+SUBENT        F0144006   19990412   19990429   20050926       0000
 BIB                  4          6
 REACTION   (4-BE-9(D,P)4-BE-10,PAR,DA,,,EXP)
 ERR-ANALYS (ANG-ERR) Digitizing error
@@ -276,7 +277,7 @@ MEV        ADEG       MB/SR      MB/SR
      7.37     168.         0.5968     0.1127
 ENDDATA            158
 ENDSUBENT          173
-SUBENT        F0144007   19990412   19990429
+SUBENT        F0144007   19990412   19990429   20050926       0000
 BIB                  4          6
 REACTION   (6-C-12(D,P)6-C-13,PAR,DA,,,EXP)
 ERR-ANALYS (ANG-ERR) Digitizing error
@@ -358,7 +359,7 @@ MEV        ADEG       MB/SR      MB/SR
      3.09     167.         1.102
 ENDDATA             65
 ENDSUBENT           80
-SUBENT        F0144008   19990412   19990429
+SUBENT        F0144008   19990412   19990429   20050926       0000
 BIB                  4          6
 REACTION   (8-O-16(D,P)8-O-17,PAR,DA,,,EXP)
 ERR-ANALYS (ANG-ERR) Digitizing error
@@ -500,7 +501,7 @@ MEV        ADEG       MB/SR      MB/SR
      3.85     164.6        0.1716
 ENDDATA            125
 ENDSUBENT          140
-SUBENT        F0144009   19990412   19990429
+SUBENT        F0144009   19990412   19990429   20050926       0000
 BIB                  4          6
 REACTION   (20-CA-40(D,P)20-CA-41,PAR,DA,,,EXP)
 ERR-ANALYS (ANG-ERR) Digitizing error
