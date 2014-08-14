@@ -1,29 +1,42 @@
-ENTRY            C0704   20000814   20010329
-SUBENT        C0704001   20000814   20010329
-BIB                 11         15
+ENTRY            C0704   20140815   20141203   20141202       C144
+SUBENT        C0704001   20140815   20141203   20141202       C144
+BIB                 11         28
 INSTITUTE  (1USABNL)
-REFERENCE  (J,PR,115,939,195908)
-AUTHOR     (N.T.PORILE)
+REFERENCE  (J,PR,115,939,195908) Main reference with full set
+                                 of experimental data
+           (J,PR,112,1954,1958) Part of the data
+AUTHOR     (N.T.Porile)
 TITLE      Excitation Functions for Alpha-Induced Reactions on
             Zinc-64
 FACILITY   (CYCLO,1USABNL)
-SAMPLE     Natural zinc foils and foils enriched to 93% in 64Zn.
+SAMPLE     (30-ZN-64,ENR=0.93)  Natural zinc foils and foils
+           enriched to 93% in 64Zn.
             Zinc foils were plated on thin gold foils.
             Areal density of 64Zn enriched foils 1-2 mg/cm2.
-METHOD     (STTA) Targets stacked between aluminum degrader foils.
-           (RCHEM)
-DETECTOR   (NAICR)
+DETECTOR   (NAICR,SCIN) positron spectrum was measured with 2x2-
+           in. plastic scintillation counter. Gamma ray sectra
+           were investigated both with a 1.5x1.5-in. NaI
+           well-counter and a 4x4-in. NaI scintillation counter.
+METHOD     (CHSEP) Immediately after irradiation, the target was
+           chemically processed to separate germanium. The
+           plated zinc was dissolved off its gold backing in
+           concentrated HCI in the presence of Ge carrier.
+           KCl(O)3 was added to reoxidize the germanium to the
+           +4 state, and Ge(Cl)4 was distilled from the solution.
+           (STTA) Targets stacked between aluminum degrader foils.
 ERR-ANALYS (DATA-ERR) Estimated uncertainty.
-STATUS     Data taken from Table I in reference.
+STATUS     Data taken from Table I in the main reference.
 HISTORY    (20000814C) Converted from data set P0073 and updated.
-ENDBIB              15
+           (20140815A) S.H. Added second reference, updated
+                       SAMPLE,DETECTOR, METHOD and STATUS
+ENDBIB              28
 COMMON               1          3
 DATA-ERR
 PER-CENT
  10.
 ENDCOMMON            3
-ENDSUBENT           22
-SUBENT        C0704002   20000814   20010329
+ENDSUBENT           35
+SUBENT        C0704002   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,G)32-GE-68,,SIG)
 ENDBIB               1
@@ -36,7 +49,7 @@ MEV        MB
   16.5        0.9
 ENDDATA              5
 ENDSUBENT           11
-SUBENT        C0704003   20000814   20010329
+SUBENT        C0704003   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,N)32-GE-67,,SIG)
 ENDBIB               1
@@ -57,7 +70,7 @@ MEV        MB
    39.6        3.5
 ENDDATA             13
 ENDSUBENT           19
-SUBENT        C0704004   20000814   20010329
+SUBENT        C0704004   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,P)31-GA-67,,SIG)
 ENDBIB               1
@@ -78,7 +91,7 @@ MEV        MB
    39.6        9.0
 ENDDATA             13
 ENDSUBENT           19
-SUBENT        C0704005   20000814   20010329
+SUBENT        C0704005   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,2N)32-GE-66,,SIG)
 ENDBIB               1
@@ -97,7 +110,7 @@ MEV        MB
    39.6       60.4
 ENDDATA             11
 ENDSUBENT           17
-SUBENT        C0704006   20000814   20010329
+SUBENT        C0704006   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,N+P)31-GA-66,,SIG)
 ENDBIB               1
@@ -117,7 +130,7 @@ MEV        MB
    39.6      440.
 ENDDATA             12
 ENDSUBENT           18
-SUBENT        C0704007   20000814   20010329
+SUBENT        C0704007   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,3N)32-GE-65,,SIG)
 ENDBIB               1
@@ -130,7 +143,7 @@ MEV        MB
   40.8       14.0
 ENDDATA              5
 ENDSUBENT           11
-SUBENT        C0704008   20000814   20010329
+SUBENT        C0704008   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,2N+P)31-GA-65,,SIG)
 ENDBIB               1
@@ -145,7 +158,7 @@ MEV        MB
    39.1       97.0
 ENDDATA              7
 ENDSUBENT           13
-SUBENT        C0704009   20000814   20010329
+SUBENT        C0704009   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,N+2P)30-ZN-65,,SIG)
 ENDBIB               1
@@ -162,7 +175,7 @@ MEV        MB
    40.8      670.
 ENDDATA              9
 ENDSUBENT           15
-SUBENT        C0704010   20000814   20010329
+SUBENT        C0704010   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,N+A)30-ZN-63,,SIG)
 ENDBIB               1
@@ -181,7 +194,7 @@ MEV        MB
    40.5      150.
 ENDDATA             11
 ENDSUBENT           17
-SUBENT        C0704011   20000814   20010329
+SUBENT        C0704011   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,2N+A)30-ZN-62,,SIG)
 ENDBIB               1
@@ -196,7 +209,7 @@ MEV        MB
    40.5       22.1
 ENDDATA              7
 ENDSUBENT           13
-SUBENT        C0704012   20000814   20010329
+SUBENT        C0704012   20000814   20010329   20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(A,N+P+A)29-CU-62,,SIG)
 ENDBIB               1
