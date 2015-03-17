@@ -1,21 +1,23 @@
-ENTRY            A0669   20040706
-SUBENT        A0669001   20040706
-BIB                 12         31
-TITLE      Investigation of spalation reactions on 120-Sn and
+ENTRY            A0669   20150318   20150701   20150528       A083
+SUBENT        A0669001   20150318   20150701   20150528       A083
+BIB                 11         34
+TITLE      Investigation of spallation reactions on 120-Sn and
            reactions (d,xn), (d,pxn), (p,xn) and (p,pxn) on
-           enriched tin isotopes
+           enriched tin isotopes.
 AUTHOR     (A.R.Balabekyan, A.S.Danagulyan, J.R.Drnoyan,
            N.A.Demekhina, J.Adam, V.G.Kalinnikov, M.I.Krivopustov,
            V.S.Pronskikh, V.I.Stegailov, A.A.Solnishkin,
            P.Chaloun, V.M.Tsoupko-Sitnikov, G.Musulmanbekov)
 INSTITUTE  (4ARMJSU,4ARMJER,4ZZZDUB,3CZRUJF)
-REFERENCE  (W,DEMEKHINA,20040215) The paper has been submitted
+REFERENCE  (J,YF,68,(2),195,2005) Data were published.
+           (J,PAN,68,171,2005) English translation.
+           #doi:10.1134/1.1866372
+           (J,NP/A,735,267,2004) Theoretical analysis is given.
+           #doi:10.1016/j.nuclphysa.2004.01.123
+           (W,DEMEKHINA,20040215) The paper has been submitted
            in "Yadernaja Fizika"
-           (J,NP/A,735,267,2004) Isotopic effects on fragment
-           yields in proton-induced reactions on Sn isotopes.
-REL-REF    (N,A0593002,A.R.BALABEKYAN+,C,2003MOSCOW,,,2003)
-           Data for (d,xn) and (d,pxn) reactions at 3.65
-           GeV/nucleon.
+           (C,2003MOSCOW,,162,2003)Data for (d,xn) and (d,pxn)
+           reactions at 3.65 GeV/nucleon.
 SAMPLE     Metallic foils of enriched tin isotopes:
            1. Sn-112 (92.6%), thickness = 0.404 g/cm2
            2. Sn-118 (98.7%), thickness = 0.201 g/cm2
@@ -30,12 +32,13 @@ METHOD     (ACTIV) Irradiation time = 6.42 hours.
            (SITA) See SAMPLE
 HISTORY    (20040218C)
            (20040706U) Last checking has been done.
+           (20150318A) REFERENCE and REL-REF were corrected.
 ERR-ANALYS (ERR-T) Maximum value of difference between average
            value and values of single measurements.
-ENDBIB              31
-NOCOMMON
-ENDSUBENT           34
-SUBENT        A0669002   20040706
+ENDBIB              34
+NOCOMMON             0          0
+ENDSUBENT           37
+SUBENT        A0669002   20040706              20050926       0000
 BIB                  2          2
 REACTION   (50-SN-112(P,X)50-SN-110,CUM,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -47,7 +50,7 @@ GEV        MB         MB         MB
        3.65       22.4        0.7      40.09
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        A0669003   20040706
+SUBENT        A0669003   20040706              20050926       0000
 BIB                  2          2
 REACTION   (50-SN-118(P,X)ELEM/MASS,CUM,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -64,7 +67,7 @@ NO-DIM     NO-DIM     NO-DIM     MB         MB         MB
         50.       113.         0.       15.6        1.1       14.3
 ENDDATA              4
 ENDSUBENT           15
-SUBENT        A0669004   20040706
+SUBENT        A0669004   20040706              20050926       0000
 BIB                  2          2
 REACTION   (50-SN-118(P,X)ELEM/MASS,IND,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -83,7 +86,7 @@ NO-DIM     NO-DIM     NO-DIM     MB         MB         MB
         51.       118.         1.       0.98       0.05      0.694
 ENDDATA              6
 ENDSUBENT           17
-SUBENT        A0669005   20040706
+SUBENT        A0669005   20040706              20050926       0000
 BIB                  2          2
 REACTION   (50-SN-120(P,X)ELEM/MASS,IND,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -103,7 +106,7 @@ NO-DIM     NO-DIM     NO-DIM     MB         MB         MB
         51.       120.         1.       0.57       0.07      0.662
 ENDDATA              7
 ENDSUBENT           18
-SUBENT        A0669006   20040706
+SUBENT        A0669006   20040706              20050926       0000
 BIB                  2          2
 REACTION   (50-SN-120(P,X)ELEM/MASS,CUM,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -120,7 +123,7 @@ NO-DIM     NO-DIM     MB         MB         MB
        113.         1.        7.8        0.3       9.37
 ENDDATA              4
 ENDSUBENT           15
-SUBENT        A0669007   20040706
+SUBENT        A0669007   20040706              20050926       0000
 BIB                  3          4
 REACTION   (50-SN-124(P,X)ELEM/MASS,CUM,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -139,7 +142,7 @@ NO-DIM     NO-DIM     MB         MB         MB
        113.         0.        2.7        0.1       6.33
 ENDDATA              4
 ENDSUBENT           17
-SUBENT        A0669008   20040706
+SUBENT        A0669008   20040706              20050926       0000
 BIB                  4          5
 REACTION   (50-SN-124(P,X)ELEM/MASS,IND,SIG)
 MISC-COL   (MISC) Calculated data from cascade-evaporation model.
@@ -171,7 +174,7 @@ NO-DIM
          1.
 ENDDATA             16
 ENDSUBENT           30
-SUBENT        A0669009   20040706
+SUBENT        A0669009   20040706              20050926       0000
 BIB                  3          4
 REACTION   (50-SN-120(P,X)ELEM/MASS,CUM,SIG)
 MISC-COL   (MISC) The parity and spin of product.
@@ -258,7 +261,7 @@ NO-DIM
 
 ENDDATA             72
 ENDSUBENT           85
-SUBENT        A0669010   20040706
+SUBENT        A0669010   20040706              20050926       0000
 BIB                  3          3
 REACTION   (50-SN-120(P,X)ELEM/MASS,IND,SIG)
 MISC-COL   (MISC) The parity and spin of product.
