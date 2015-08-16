@@ -1,63 +1,62 @@
-ENTRY            O0306   19990712   20050616                  Y000
-SUBENT        O0306001   19990712   20050616                  Y000
-BIB                 12         46
-TITLE      Excitation Functions and Yields For Medically
-           Generator Sr82-Rb82,Xe123-I123 and Bi201-Pb201-Tl201
-           Obtained with 100 MeV Protons.
-AUTHOR     (C.DEPTULA,V.A.KALKIN,KIM SEN HAN,O.KNOTEK,V.A.KONOV,
-           P.MIKECZ,L.M.POPINENKOVA,E.RURARZ,N.G.ZAITSEVA)
+ENTRY            O0306   20150331   20150817   20150707       O054
+SUBENT        O0306001   20150331   20150817   20150707       O054
+BIB                 12         45
+TITLE      Excitation functions and yields for medically
+           generator Sr82-Rb82,Xe123-I123 and Bi201-Pb201-Tl201
+           obtained with 100 MeV protons.
+AUTHOR     (C.Deptula,V.A.Khalkin,Kim Sen Han,O.Knotek,V.A.Konov,
+           P.Mikecz,L.M.Poponenkova,E.Rurarz,N.G.Zaitseva)
 INSTITUTE  (3POLIPJ,4ZZZDUB,3KDRKDR,3CZRUJV,4RUSFVE,3HUNDEB,
            3POLIPJ)
 REFERENCE  (J,NKA,35,3,1990)
 HISTORY    (19970221C)
-           (19970309U) Last checking has been done.
-ADD-RES    (COMP).Hybrid Model of Nuclear Reactions Using the Well
-           Developed Computer Code Overlaid Alice (INCLUDING
-           PREEQUILIBRIUM EFFECTS).
+           (20150331A).SB- corrections in Author
+ADD-RES    (COMP).Hybrid model of nuclear reactions using the well
+           developed computer code overlaid Alice (including
+           preequilibrium effects)
            (TTY-C)
 DETECTOR   (GELI)
 MONITOR    (13-AL-27(P,X)11-NA-24,CUM,SIG,,,EVAL)
-MONIT-REF  (,J.TOBAILEM+,R,CEA-N-1466,,1971)
-FACILITY   (LINAC,4RUSFVE).Lu-100 at the Institute For High Energy
-           Physics in Serpukhuv (RUSSIA).
+MONIT-REF  (,J.TOBAILEM+,R,CEA-N-1466,1971)
+FACILITY   (LINAC,4RUSFVE).LU-100 at the Institute For High Energy
+           Physics in Serpukhuv (Russia)
 METHOD     (STTA)
            (EXTB) The Proton Beam and Irradiation Times Used were-
             20 Nanoamperies and 3-5 Hour For Pb Foils,
             36 Nanoamperies and 1 Hour For Nai Pellets,
             20 Nanoamperies and 3 Hour For Rbcl Pellets.
            (ACTIV)
-           (GSPEC)  The  Stacks  were  Repeatedely Measured Over a
-           Period of Several Day.
+           (GSPEC)  The  stacks  were  repeatedly measured over a
+           period of several day.
 ERR-ANALYS In the Calculation of the Cross Sections the Following
            Errors have Been Taken Into Account-
-           (ERR-1) The Error in the Primary Incident Energy of the
-           Proton Beam.
-           (ERR-2) The Error in the Total Number of Protons on the
-           Targets (MAINLY DUE TO THE ERROR OF THE MONITOR
-           REACTIONS) In the Stack.
-           (ERR-3) The Error in the Target Thickness For Foils.
-           (ERR-4) The Error in the Target Thickness For Pellets.
-           (ERR-5) The Statistical Error in the Integrated Area
-           Of the Photo-Peaks (WITH A MINIMUM OF 3% AND MAXIMUM OF
-           5%).
-           (ERR-S) The Error in the Counting Statistics.
-           (ERR-7) The Error in the Absolute Efficiency of the
-           Germanium Detector .
-           (ERR-8) The Error in the Attenuation Corrections.
-           (ERR-9) The Error in the Decay-Data.
-           (ERR-10) He Error in the Counting Geometry.
-           (ERR-11) The Error of Irradiation and Decay Times.
-ENDBIB              46
-COMMON              11          6
-ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-S
-ERR-7      ERR-8      ERR-9      ERR-10     ERR-11
+           (ERR-1) The Error in the primary incident energy of the
+           proton beam.
+           (ERR-2) The error in the total number of protons on the
+           targets (mainly due to the error of the monitor
+           reactions) in the stack.
+           (ERR-3) The error in the target thickness for foils.
+           (ERR-4) The error in the target thickness for pellets.
+           (ERR-5,3.,5.) The statistical error in the integrated
+           area of the photo-peaks.
+           (ERR-S) The error in the counting statistics.
+           (ERR-7) The error in the absolute efficiency of the
+           germanium detector.
+           (ERR-8) The error in the attenuation corrections.
+           (ERR-9) The error in the decay-data.
+           (ERR-10) The Error in the counting geometry.
+           (ERR-11) The error of irradiation and decay times.
+ENDBIB              45
+COMMON              10          6
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-S      ERR-7
+ERR-8      ERR-9      ERR-10     ERR-11
 PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
-PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT
-        0.5         5.         5.         8.         5.         3.
-         5.         5.         5.         3.         3.
+PER-CENT   PER-CENT   PER-CENT   PER-CENT
+        0.5         5.         5.         8.         3.         5.
+         5.         5.         3.         3.
 ENDCOMMON            6
-ENDSUBENT           56
-SUBENT        O0306002   19990712   20050616                  Y000
+ENDSUBENT           55
+SUBENT        O0306002   19990712   20050616   20050926       0000
 BIB                  6         11
 REACTION   (37-RB-0(P,X)38-SR-82,IND,SIG)
 DECAY-DATA (38-SR-82,25.D,DG)
@@ -112,7 +111,7 @@ MEV        MB
        32.5        14.
 ENDDATA             33
 ENDSUBENT           53
-SUBENT        O0306003   19990712   20050616                  Y000
+SUBENT        O0306003   19990712   20050616   20050926       0000
 BIB                  6         15
 REACTION   (53-I-127(P,5N)54-XE-123,IND,SIG)
 DECAY-DATA (54-XE-123,2.1HR,DG)
@@ -152,7 +151,7 @@ MEV        MB
         45.       100.
 ENDDATA             14
 ENDSUBENT           38
-SUBENT        O0306004   19990712   20050616                  Y000
+SUBENT        O0306004   19990712   20050616   20050926       0000
 BIB                  5         12
 REACTION   (53-I-127(P,3N)54-XE-125-G,IND/M+,SIG)
 DECAY-DATA (54-XE-125-G,17.HR,DG)
@@ -188,7 +187,7 @@ MEV        MB
         45.       135.
 ENDDATA             13
 ENDSUBENT           34
-SUBENT        O0306005   19990712   20050616                  Y000
+SUBENT        O0306005   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-206(P,2N)83-BI-205,IND,SIG)
 DECAY-DATA (83-BI-205,15.3D,DG)
@@ -241,7 +240,7 @@ MEV        MB         MUCI/MUAHR
         49.        57.        10.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306006   19990712   20050616                  Y000
+SUBENT        O0306006   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-206(P,N)83-BI-206,IND,SIG)
 DECAY-DATA (83-BI-206,6.2D,DG)
@@ -294,7 +293,7 @@ MEV        MB         MUCI/MUAHR
         49.        15.         6.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306007   19990712   20050616                  Y000
+SUBENT        O0306007   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-207(P,3N)83-BI-205,IND,SIG)
 DECAY-DATA (83-BI-205,15.3D,DG)
@@ -347,7 +346,7 @@ MEV        MB         MUCI/MUAHR
         50.       105.        17.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306008   19990712   20050616                  Y000
+SUBENT        O0306008   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-207(P,2N)83-BI-206,IND,SIG)
 DECAY-DATA (83-BI-206,6.2D,DG)
@@ -400,7 +399,7 @@ MEV        MB         MUCI/MUAHR
         50.        48.        19.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306009   19990712   20050616                  Y000
+SUBENT        O0306009   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-208(P,4N)83-BI-205,IND,SIG)
 DECAY-DATA (83-BI-205,15.3D,DG)
@@ -453,7 +452,7 @@ MEV        MB         MUCI/MUAHR
        51.1       128.        22.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306010   19990712   20050616                  Y000
+SUBENT        O0306010   19990712   20050616   20050926       0000
 BIB                  7         20
 REACTION   (82-PB-208(P,3N)83-BI-206,IND,SIG)
 DECAY-DATA (83-BI-206,6.2D,DG)
@@ -506,7 +505,7 @@ MEV        MB         MUCI/MUAHR
        51.1        69.        29.
 ENDDATA             22
 ENDSUBENT           51
-SUBENT        O0306011   19990712   20050616                  Y000
+SUBENT        O0306011   19990712   20050616   20050926       0000
 BIB                  4         27
 REACTION   (82-PB-206(P,X)81-TL-201,CUM,TTY,,DT)
            The Irradiated Pb-206 Target was Kept For Period of
@@ -565,7 +564,7 @@ MEV        MCI/MUAHR  PER-CENT
        97.3       0.78
 ENDDATA             21
 ENDSUBENT           57
-SUBENT        O0306012   19990712   20050616                  Y000
+SUBENT        O0306012   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-206(P,X)81-TL-200,CUM,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
@@ -618,7 +617,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.2       0.93        11.
 ENDDATA             23
 ENDSUBENT           51
-SUBENT        O0306013   19990712   20050616                  Y000
+SUBENT        O0306013   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-206(P,X)81-TL-202,CUM,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
@@ -672,7 +671,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.9   1.64E-02
 ENDDATA             24
 ENDSUBENT           52
-SUBENT        O0306014   19990712   20050616                  Y000
+SUBENT        O0306014   19990712   20050616   20050926       0000
 BIB                  4         27
 REACTION   (82-PB-207(P,X)81-TL-201,CUM,TTY,,DT)
            The Irradiated Pb-207 Target was Kept For Period of
@@ -735,7 +734,7 @@ MEV        MCI/MUAHR  PER-CENT
         97.         1.        13.
 ENDDATA             25
 ENDSUBENT           61
-SUBENT        O0306015   19990712   20050616                  Y000
+SUBENT        O0306015   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-207(P,X)81-TL-200,CUM,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
@@ -786,7 +785,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.7       1.06         8.
 ENDDATA             21
 ENDSUBENT           49
-SUBENT        O0306016   19990712   20050616                  Y000
+SUBENT        O0306016   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-207(P,X)81-TL-202,CUM,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
@@ -838,7 +837,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.5   1.76E-02
 ENDDATA             22
 ENDSUBENT           50
-SUBENT        O0306017   19990712   20050616                  Y000
+SUBENT        O0306017   19990712   20050616   20050926       0000
 BIB                  4         27
 REACTION   (82-PB-208(P,X)81-TL-201,CUM,TTY,,DT)
            The Irradiated Pb-208 Target was Kept For Period of
@@ -898,7 +897,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.8       0.79
 ENDDATA             22
 ENDSUBENT           58
-SUBENT        O0306018   19990712   20050616                  Y000
+SUBENT        O0306018   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-208(P,X)81-TL-200,CUM,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
@@ -952,7 +951,7 @@ MEV        MCI/MUAHR  PER-CENT
        96.4       1.04
 ENDDATA             24
 ENDSUBENT           52
-SUBENT        O0306019   19990712   20050616                  Y000
+SUBENT        O0306019   19990712   20050616   20050926       0000
 BIB                  4         19
 REACTION   (82-PB-208(P,X)81-TL-202,,TTY,,DT)
 SAMPLE     A Stacked Foil Target -Thin Circular Foils 10 mm in
