@@ -22231,5 +22231,6 @@ V/V00,V0045,20130625,14,,1988,N.E.Holden+,,"Jour: Nuclear Science and Engineerin
 V/V01,V0101,20150710,2,,1987,W.Mannhart,,"Conf: ?IAEA-TECDOC-, No.410, p.158 (1987)","Evaluation of the Cf-252 fission neutron spectrum between 0 MeV and 20 MeV"
 V/V01,V0102,20150710,494,,2000,Z.Y.Bao+,,"Jour: Atomic Data and Nuclear Data Tables, Vol.76, p.70 (2000)","Neutron cross sections for nucleosynthesis studies"
 V/V01,V0103,20141231,14,,2015,M.Drosg+,,"Rept: Austrian report to the I.N.D.C., No.0019 (2015)","Evaluation of the absolute angle-dependent differential neutron production cross sections by the reactions 3H(p,n)3He, 1H(t,n)3He, 2H(d,n)3He, 3H(d,n)4He, and 2H(t,n)4He and of the cross sections of their time-reversed counterparts up to 30 MeV and beyond"
-V/V10,V1001,20130429,533,,2006,S.F.Mughabghab,,"Book: Atlas of Neutron Resonances, S.F.Mughabghab, 2006,  (2006)","Atlas of neutron resonances resonance parameters and thermal cross sections Z=1-100"
-V/V10,V1002,20150710,722,,2006,S.F.Mughabghab,,"Book: Atlas of Neutron Resonances, S.F.Mughabghab, 2006,  (2006)","Atlas of neutron resonances resonance parameters and thermal Cross Sections Z=1-100"
+V/V01,V0104,20160331,36,,2006,W.Mannhart,,"Rept: I.A.E.A. Technical Document Series, No.452, p.30 (2006)","Response of activation reactions in the neutron field of californium-252 spontaneous fission"
+V/V10,V1001,20160401,533,,2006,S.F.Mughabghab,,"Book: Atlas of Neutron Resonances, S.F.Mughabghab, 2006,  (2006)","Atlas of neutron resonances resonance parameters and thermal cross sections Z=1-100"
+V/V10,V1002,20160402,722,,2006,S.F.Mughabghab,,"Book: Atlas of Neutron Resonances, S.F.Mughabghab, 2006,  (2006)","Atlas of neutron resonances resonance parameters and thermal cross sections Z=1-100"
