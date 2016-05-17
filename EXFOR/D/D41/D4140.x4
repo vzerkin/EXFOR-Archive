@@ -1,6 +1,6 @@
-ENTRY            D4140   20040212
-SUBENT        D4140001   20040212
-BIB                 12         27
+ENTRY            D4140   20160518   20160701   20160629       D104
+SUBENT        D4140001   20160518   20160701   20160629       D104
+BIB                 12         28
 REFERENCE  (J,NIM/B,211,312,2003)
 AUTHOR     (F.Tarkanyi,F.Ditroi,S.Takacs)
 INSTITUTE  (3HUNDEB)
@@ -12,7 +12,7 @@ METHOD     (ACTIV,EXTB,STTA,GSPEC) Stacked targets technique was
            used. Stacks were irradiated with He-3 beams of 27 MeV
            at Debrecen cyclotron. Beam current was measured in
            Faraday cup and was monitored by reactions on Ti foils
-           inseted into the stacks. The energy of the incident
+           inserted into the stacks. The energy of the incident
            beam was determined by magnetic deflection.
            Gamma spectrometry was used without chemical
            separation. Foils thickness was determined by measuring
@@ -26,12 +26,13 @@ ERR-ANALYS (ERR-T) Total errors were given taking the square root
            of the of the sum of the square of the individual
            contributing errors.
 MONITOR    (22-TI-0(HE3,X)23-V-48,,SIG)
-MONIT-REF  (,F.TARKANYI+,R,IAEA-NDS-1211,2001) chapter 4
+MONIT-REF  (,F.Tarkanyi+,R,IAEA-NDS-1211,2001) chapter 4
 HISTORY    (20040212C) Ts
-ENDBIB              27
+           (20160513U) VS. Decay data corrected in 006.
+ENDBIB              28
 NOCOMMON             0          0
-ENDSUBENT           30
-SUBENT        D4140002   20040212
+ENDSUBENT           31
+SUBENT        D4140002   20040212              20050926       0000
 BIB                  3          5
 REACTION   (26-FE-0(HE3,X)25-MN-54,,SIG)
 DECAY-DATA (25-MN-54,312.2D,DG,834.848,0.99976)
@@ -58,7 +59,7 @@ MEV        MB         MB
        25.4       57.8       6.0
 ENDDATA             15
 ENDSUBENT           25
-SUBENT        D4140003   20040212
+SUBENT        D4140003   20040212              20050926       0000
 BIB                  3          6
 REACTION   (26-FE-0(HE3,X)27-CO-55,,SIG)
 DECAY-DATA (27-CO-55,17.53HR,DG,477.2,0.202,DG,931.3,0.75,
@@ -86,7 +87,7 @@ MEV        MB         MB
        25.4       11.1       1.0
 ENDDATA             15
 ENDSUBENT           26
-SUBENT        D4140004   20040212
+SUBENT        D4140004   20040212              20050926       0000
 BIB                  3          6
 REACTION   (26-FE-0(HE3,X)27-CO-56,,SIG)
 DECAY-DATA (27-CO-56,77.27D,DG,846.77,1.0,DG,1037.84,0.1399,
@@ -114,7 +115,7 @@ MEV        MB         MB
        25.4      171.0     13.0
 ENDDATA             15
 ENDSUBENT           26
-SUBENT        D4140005   20040212
+SUBENT        D4140005   20040212              20050926       0000
 BIB                  3          5
 REACTION   (26-FE-0(HE3,X)27-CO-57,,SIG)
 DECAY-DATA (27-CO-57,271.79D,DG,122.06,0.856,DG,136.47,0.1069)
@@ -141,14 +142,16 @@ MEV        MB         MB
        25.4      335.7      31.0
 ENDDATA             15
 ENDSUBENT           25
-SUBENT        D4140006   20040212
-BIB                  3          5
+SUBENT        D4140006   20160518   20160701   20160629       D104
+BIB                  5          7
 REACTION   (26-FE-0(HE3,X)27-CO-58,,SIG)
-DECAY-DATA (27-CO-58-G,2.667D,DG,810.77,0.9903)
+DECAY-DATA (27-CO-58-G,70.86D,DG,810.77,0.9903)
+COMMENT    By F.Tarkanyi (2014-11-07): T1/2 of 58Co printed in
+           Table 1 of the article is wrong.
 STATUS     (APRVD) Approved  by S.Takacs.
-           Numerical data were taken from Table 2. of the
-           publication.
-ENDBIB               5
+           (TABLE) Table 2. of NIM/B,211,312,2003
+HISTORY    (20160513U) VS. T1/2 corrected.
+ENDBIB               7
 NOCOMMON             0          0
 DATA                 3         13
 EN         DATA       ERR-T
@@ -167,8 +170,8 @@ MEV        MB         MB
        24.7       24.8       2.0
        25.4       28.7       3.0
 ENDDATA             15
-ENDSUBENT           25
-SUBENT        D4140007   20040212
+ENDSUBENT           27
+SUBENT        D4140007   20040212              20050926       0000
 BIB                  3          7
 REACTION   (26-FE-0(HE3,X)28-NI-56,,SIG)
 DECAY-DATA (28-NI-56,6.077D,DG,158.38,0.988,DG,269.5,0.365,
@@ -197,7 +200,7 @@ MEV        MB         MB
        25.4       1.31      0.14
 ENDDATA             15
 ENDSUBENT           27
-SUBENT        D4140008   20040212
+SUBENT        D4140008   20040212              20050926       0000
 BIB                  3          6
 REACTION   (26-FE-0(HE3,X)28-NI-57,,SIG)
 DECAY-DATA (28-NI-57,35.6HR,DG,127.16,0.167,DG,1377.63,0.817,
