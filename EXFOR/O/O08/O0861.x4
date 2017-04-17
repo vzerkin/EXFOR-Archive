@@ -1,16 +1,19 @@
-ENTRY            O0861   20040524
-SUBENT        O0861001   20040524
+ENTRY            O0861   20170418   20170609   20170603       O061
+SUBENT        O0861001   20170418   20170609   20170603       O061
 BIB                 14         35
-TITLE      Proton induced thick target g-ray yields of light
-           nuclei at the energy region E/P=1.0 - 4.1 MeV.
+TITLE      Proton induced thick target gamma-ray yields of light
+           nuclei at the energy region Ep=1.0 - 4.1 MeV.
 REFERENCE  (J,NIM/B,152,12,1999)
-AUTHOR     (A.Savidou, X. Aslanoglou, T.Paradellis, M.Pilakouta)
+AUTHOR     (A.Savidou, X.Aslanoglou, T.Paradellis, M.Pilakouta)
 INSTITUTE  (2GRCATH) Institute of Nuclear Technology, Radiation
            protection, Institute of Nuclear Physics.
-           (2GRCIOA) Department of Phisics
+           (2GRCIOA) Department of Physics
 FACILITY   (VDGT,2GRCATH)
 PART-DET   (G)
-DETECTOR   (GE-IN)
+DETECTOR   (GE-IN) The detector used was an intrinsic Germanium
+           gamma-ray detector, with a resolution of 1.9 keV at the
+           Eg=1333 keV gamma-ray, placed at angle 90.degr. with
+           respect to the beam
 METHOD     (SITA) The target was cooled at temperature +10 C in
            order to withstand high beam current.
            (EXTB)
@@ -21,21 +24,18 @@ SAMPLE     The target used were pellets of powder graphite and
            isotopic abundance found in nature.  Four pellet of
            different concentration were prepared and analysed for
            each elements.
-ERR-ANALYS (EN-ERR-DIG) Data point reader uncertainty
-           (ERR-DIG)  Data point reader uncertainty
-           any analysis of experimental uncertainties is absent.
+ERR-ANALYS Any analysis of experimental uncertainties is absent.
 CORRECTION The yields given are corrected for the efficiency of
            detector and reduced to yield of monoatomic target.
-HISTORY    (20010822C)
-           (20040424A) Correction, according to O.Schwerer
-           remarks.
-           (20040524U) Last checking has been done.
-STATUS     (UNOBT)
-           (CURVE) By CAJAD.
+STATUS     (CURVE) By CAJAD.
 ADD-RES    Possible overlap with g-ray from another reactions is
            discussed.
            Application of the data for the analysis of a clay
            sample is presented.
+HISTORY    (20010822C)
+           (20040424A) Correction according to O.Schwerer remarks.
+           (20040524U) Last checking has been done.
+           (20170418U)SD:Illegal blanks deleted from author's list
 ENDBIB              35
 COMMON               1          3
 ANG
@@ -43,7 +43,7 @@ ADEG
         90.
 ENDCOMMON            3
 ENDSUBENT           42
-SUBENT        O0861002   20040524
+SUBENT        O0861002   20040524              20050926       0000
 BIB                  4          5
 REACTION   (3-LI-0(P,X)0-G-0,PAR,TTY/PY/DA) Figures 1 and 4
 EN-SEC     (E,G)
@@ -110,7 +110,7 @@ MEV        MEV        PRD/MUC/SR PER-CENT   NO-DIM
       4.078      0.008   9.34E+07        2.3
 ENDDATA             51
 ENDSUBENT           65
-SUBENT        O0861003   20040524
+SUBENT        O0861003   20040524              20050926       0000
 BIB                  4          9
 REACTION   (5-B-0(P,X)0-G-0,PAR,TTY/PY/DA) Figures 2 and 3
 EN-SEC     (E,G)
@@ -174,7 +174,7 @@ MEV        KEV        MEV        PRD/MUC/SR PER-CENT   NO-DIM
       4.076       718.      0.008   2.79E+06         4.
 ENDDATA             48
 ENDSUBENT           62
-SUBENT        O0861004   20040524
+SUBENT        O0861004   20040524              20050926       0000
 BIB                  3          3
 REACTION   (9-F-19(P,A)8-O-16,PAR,TTY/PY/DA) Figures 1 and 4
 EN-SEC     (E,G)
@@ -211,7 +211,7 @@ MEV        PRD/MUC/SR NO-DIM
          4.     5.E+07         1.
 ENDDATA             23
 ENDSUBENT           35
-SUBENT        O0861005   20040524
+SUBENT        O0861005   20040524              20050926       0000
 BIB                  3          3
 REACTION   (9-F-19(P,X)0-G-0,PAR,TTY/PY/DA) Figures 2 and 3
 EN-SEC     (E,G)
@@ -263,7 +263,7 @@ MEV        KEV        PRD/MUC/SR NO-DIM
       4.091       197.   5.15E+07
 ENDDATA             38
 ENDSUBENT           50
-SUBENT        O0861006   20040524
+SUBENT        O0861006   20040524              20050926       0000
 BIB                  3          7
 REACTION   (11-NA-23(P,X)0-G-0,PAR,TTY/PY/DA) Figures 1 and 4
 EN-SEC     (E,G)
@@ -331,7 +331,7 @@ MEV        KEV        MEV        PRD/MUC/SR PER-CENT   NO-DIM
       4.074       440.      0.008   4.59E+07        2.3
 ENDDATA             54
 ENDSUBENT           66
-SUBENT        O0861007   20040524
+SUBENT        O0861007   20040524              20050926       0000
 BIB                  5         32
 REACTION   (12-MG-0(P,X)0-G-0,PAR,TTY/PY/DA) Figures 2 and 3
 EN-SEC     (E,G)
@@ -430,7 +430,7 @@ MEV        KEV        MEV        PRD/MUC/SR PER-CENT   NO-DIM
       4.081       585.      0.008   1.11E+06         4.
 ENDDATA             60
 ENDSUBENT           97
-SUBENT        O0861008   20040524
+SUBENT        O0861008   20040524              20050926       0000
 BIB                  5         22
 REACTION   (13-AL-27(P,X)0-G-0,PAR,TTY/PY/DA)
 REL-REF    (N,,G.DECONNINCK+,J,JRC,12,189,1972)
@@ -519,7 +519,7 @@ MEV        KEV        MEV        PRD/MUC/SR PER-CENT   NO-DIM
       4.072      1014.      0.008   1.45E+07         4.
 ENDDATA             60
 ENDSUBENT           87
-SUBENT        O0861009   20040524
+SUBENT        O0861009   20040524              20050926       0000
 BIB                  4         19
 REACTION   (14-SI-0(P,X)0-G-0,PAR,TTY/PY/DA) Figure 4
 EN-SEC     (E,G)
@@ -576,7 +576,7 @@ MEV        KEV        PRD/MUC/SR NO-DIM
       4.086      1779.     1.E+07
 ENDDATA             27
 ENDSUBENT           55
-SUBENT        O0861010   20040524
+SUBENT        O0861010   20040524              20050926       0000
 BIB                  4         13
 REACTION   (15-P-31(P,X)0-G-0,PAR,TTY/PY/DA)  Figure 3
 EN-SEC     (E,G)
