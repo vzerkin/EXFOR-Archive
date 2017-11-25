@@ -1,9 +1,9 @@
-ENTRY            10458   20030626   20031024
-SUBENT        10458001   20030626   20031024
-BIB                 12         18
+ENTRY            10458   20171126   20180209   20180207       1437
+SUBENT        10458001   20171126   20180209   20180207       1437
+BIB                 12         19
 INSTITUTE  (1USACOL)
-REFERENCE  (J,PR/C,10,1904,197411)
-AUTHOR     (F.Rahn,H.S.Camarda,G.Hacken,W.W.Havens Jr.,H.I.Liou,
+REFERENCE  (J,PR/C,10,1904,1974)
+AUTHOR     (F.Rahn,H.S.Camarda,G.Hacken,W.W.Havens Jr,H.I.Liou,
             J.Rainwater)
 TITLE      Neutron resonance spectroscopy: 154,158,160Gd.
 FACILITY   (SYNCH,1USACOL) Nevis Lab synchrocyclotron
@@ -13,16 +13,17 @@ METHOD     (TOF) Time-of-flight
 DETECTOR   (SCIN) Scintillation detector
 ERR-ANALYS (ERR-S) Errors given are statistical uncertainties.
 STATUS     (APRVD) Approved by author
-           Tabulated data rec'd from H.I.Liou, 1975/1/27.
+           (TABLE) Tabulated data rec'd from H.I.Liou, 1975/1/27.
 HISTORY    (19750130C)
            (19781005A) Converted to REACTION formalism
            (19840809A) BIB correction.
            (20030626A) Converted to new date formats, lower case.
                        BIB update.
-ENDBIB              18
+           (20171115U) OS. Minor corr.in sub.1
+ENDBIB              19
 NOCOMMON             0          0
-ENDSUBENT           21
-SUBENT        10458002   20030626   20031024
+ENDSUBENT           22
+SUBENT        10458002   20030626   20031024   20050926       0000
 BIB                  4          7
 REACTION  1(64-GD-154(N,0),,EN)
           2(64-GD-154(N,EL),,WID/RED)
@@ -138,8 +139,8 @@ MILLI-EV   NO-DIM
 
 ENDDATA             98
 ENDSUBENT          114
-NOSUBENT      10458003     781012
-SUBENT        10458004   20030626   20031024
+NOSUBENT      10458003     781012              20050926       0000
+SUBENT        10458004   20030626   20031024   20050926       0000
 BIB                  3          6
 REACTION  1(64-GD-158(N,0),,EN)
           2(64-GD-158(N,EL),,WID/RED)
@@ -346,8 +347,8 @@ MILLI-EV
  88.
 ENDDATA            190
 ENDSUBENT          205
-NOSUBENT      10458005     781012
-SUBENT        10458006   20030626   20031024
+NOSUBENT      10458005     781012              20050926       0000
+SUBENT        10458006   20030626   20031024   20050926       0000
 BIB                  2          4
 REACTION  1(64-GD-158(N,0),,EN)
           2(64-GD-158(N,EL),,WID/RED,,G)
@@ -366,7 +367,7 @@ EV         EV         MILLI-EV   MILLI-EV
 2706.      2.0        6.0        3.5
 ENDDATA              4
 ENDSUBENT           17
-SUBENT        10458007   20030626   20031024
+SUBENT        10458007   20030626   20031024   20050926       0000
 BIB                  3          6
 REACTION  1(64-GD-160(N,0),,EN)
           2(64-GD-160(N,EL),,WID/RED)
@@ -473,8 +474,8 @@ MILLI-EV
  88.
 ENDDATA             90
 ENDSUBENT          105
-NOSUBENT      10458008     781012
-SUBENT        10458009     781012
+NOSUBENT      10458008     781012              20050926       0000
+SUBENT        10458009     781012              20050926       0000
 BIB                  1          2
 REACTION  1(64-GD-160(N,0),,EN)
           2(64-GD-160(N,EL),,WID/RED,,G)
@@ -502,7 +503,7 @@ EV         EV         MILLI-EV   MILLI-EV
 3598.      3.0         51.       28.
 ENDDATA             15
 ENDSUBENT           26
-SUBENT        10458010     790725
+SUBENT        10458010     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-154(N,EL),,STF)
 ENDBIB               1
@@ -513,7 +514,7 @@ KEV        NO-DIM     NO-DIM     NO-DIM
  1.         0.         2.0   E-04 3.    E-05
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10458011     790725
+SUBENT        10458011     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-158(N,EL),,STF)
 ENDBIB               1
@@ -524,7 +525,7 @@ KEV        NO-DIM     NO-DIM     NO-DIM
  10.        0.         1.5   E-04 2.    E-05
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10458012     790725
+SUBENT        10458012     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-160(N,EL),,STF)
 ENDBIB               1
@@ -536,7 +537,7 @@ KEV        NO-DIM     NO-DIM     NO-DIM
  10.        1.         1.7   E-04 3.    E-05
 ENDDATA              4
 ENDSUBENT           10
-SUBENT        10458013     790725
+SUBENT        10458013     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-154(N,0),,D)
 ENDBIB               1
@@ -547,7 +548,7 @@ EV         EV         EV
  300.       14.5       1.5
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10458014     790725
+SUBENT        10458014     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-158(N,0),,D)
 ENDBIB               1
@@ -558,7 +559,7 @@ KEV        EV         EV
  4.         86.        4.
 ENDDATA              3
 ENDSUBENT            9
-SUBENT        10458015     790725
+SUBENT        10458015     790725              20050926       0000
 BIB                  1          1
 REACTION   (64-GD-160(N,0),,D)
 ENDBIB               1
