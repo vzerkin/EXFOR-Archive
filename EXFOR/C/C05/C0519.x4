@@ -1,12 +1,13 @@
-ENTRY            C0519   19990505   19990901
-SUBENT        C0519001   19990505   19990901
-BIB                 10         16
-INSTITUTE  (1USACAL)
-REFERENCE  (J,PR/C,43,883,199102)
-           (J,PR/C,44,1226,199109) Errata.
-AUTHOR     (T.R.WANG,R.B.VOGELAAR,R.W.KAVANAGH)
+ENTRY            C0519   20171004   20171208   20171206       C168
+SUBENT        C0519001   20171004   20171208   20171206       C168
+BIB                 10         19
 TITLE      11B+alpha reaction rates and primordial nucleosynthesis
-FACILITY   (VDGT) Tandem Van de Graaff and Pelletron accelerators.
+AUTHOR     (T.R.Wang,R.B.Vogelaar,R.W.Kavanagh)
+INSTITUTE  (1USACAL)
+REFERENCE  (J,PR/C,43,883,1991)
+           (J,PR/C,44,1226,1991) Errata.
+FACILITY   (VDGT,1USACAL) Tandem Van de Graaff and Pelletron
+            accelerators.
 INC-SPECT  Beam energy determined to better than 0.1% using 90
             degree analyzing magnet.
 MONITOR    Beam analyzing magnet calibrated using:
@@ -14,13 +15,15 @@ MONITOR    Beam analyzing magnet calibrated using:
            . 1530.03-keV resonance in 24Mg(alpha,gamma)28Si,
            . 991.88-keV resonance in 27Al(p,gamma)28Si.
 ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
-STATUS     Data received from R. Kavanagh, April 28, 1999
+STATUS     (TABLE) Data received from R. Kavanagh, April 28, 1999
            (APRVD) Approved by R. Kavanagh, 1 June 1999.
 HISTORY    (19990504C) VM
-ENDBIB              16
+           (20170921A) TS+On+OS. Major revisions in 005-006.
+            See also CP-D/933. Minor revisions in sub.1.
+ENDBIB              19
 NOCOMMON             0          0
-ENDSUBENT           19
-SUBENT        C0519002   19990505   19990901
+ENDSUBENT           22
+SUBENT        C0519002   19990505   19990901   20050926       0000
 BIB                  4         12
 REACTION   (5-B-11(A,N)7-N-14,,SIG,,SFC)
 SAMPLE     Boron enriched to 98.1% 11B vacuum evaporated onto W
@@ -403,7 +406,7 @@ KEV        B*KEV      B*KEV
      293.7  0.9699E+08 0.1332E+10
 ENDDATA            360
 ENDSUBENT          381
-SUBENT        C0519003   19990505   19990901
+SUBENT        C0519003   19990505   19990901   20050926       0000
 BIB                  4          9
 REACTION   (5-B-11(A,N)7-N-14,,SIG,,SFC)
 SAMPLE     Moderately thick target.
@@ -490,7 +493,7 @@ KEV        B*KEV      B*KEV
      394.9  0.4437E+07 0.7888E+07
 ENDDATA             67
 ENDSUBENT           85
-SUBENT        C0519004   19990505   19990901
+SUBENT        C0519004   19990505   19990901   20050926       0000
 BIB                  4          9
 REACTION   (5-B-11(A,N)7-N-14,,SIG,,SFC)
 SAMPLE     Thin target
@@ -534,16 +537,17 @@ KEV        B*KEV      B*KEV
      443.3  0.1094E+09 0.1471E+09
 ENDDATA             24
 ENDSUBENT           42
-SUBENT        C0519005   19990505   19990901
-BIB                  4          7
-REACTION   (5-B-11(A,N)7-N-14,,TTY,,REL)
+SUBENT        C0519005   20171004   20171208   20171206       C168
+BIB                  5          8
+REACTION   (5-B-11(A,N)7-N-14,,MLT,,TT/REL)
             Data given as counts/microCoulomb
 SAMPLE     85-keV thick target
 DETECTOR   4 pi moderated neutron detectors.
 MONITOR    Neutron detector efficiency measured relative to
             calibrated 252Cf source, and the neutron yield from
             the 7Li(p,n)7Be reaction.
-ENDBIB               7
+HISTORY    (20170921A) TS+On. REACTION(SF6,SF8) revised.
+ENDBIB               8
 NOCOMMON             0          0
 DATA                 3         53
 EN         DATA       DATA-ERR
@@ -602,17 +606,18 @@ KEV        ARB-UNITS  ARB-UNITS
    381.25    0.1000E-5   0.00063
    346.75    0.1000E-5   0.00017
 ENDDATA             55
-ENDSUBENT           67
-SUBENT        C0519006   19990505   19990901
-BIB                  4          7
-REACTION   (5-B-11(A,N)7-N-14,,TTY,,REL)
+ENDSUBENT           68
+SUBENT        C0519006   20171004   20171208   20171206       C168
+BIB                  5          8
+REACTION   (5-B-11(A,N)7-N-14,,MLT,,TT/REL)
             Data given as counts/microCoulomb
 SAMPLE     85-keV thick target
 DETECTOR   4 pi moderated neutron detectors.
 MONITOR    Neutron detector efficiency measured relative to
             calibrated 252Cf source, and the neutron yield from
             the 7Li(p,n)7Be reaction.
-ENDBIB               7
+HISTORY    (20170921A) TS+On. REACTION(SF6,SF8) revised.
+ENDBIB               8
 NOCOMMON             0          0
 DATA                 3         16
 EN         DATA       DATA-ERR
@@ -634,8 +639,8 @@ KEV        ARB-UNITS  ARB-UNITS
     499.50  3.1331E-03 3.4000E-03
     510.00  4.7580E-04 2.6000E-03
 ENDDATA             18
-ENDSUBENT           30
-SUBENT        C0519007   19990505   19990901
+ENDSUBENT           31
+SUBENT        C0519007   19990505   19990901   20050926       0000
 BIB                  4         10
 REACTION   (5-B-11(A,P)6-C-14,,SIG)
 SAMPLE     49-microg/cm2 11B target evaporated onto a Nb foil.
@@ -711,7 +716,7 @@ KEV        MICRO-B    MICRO-B
      597.6      0.1787     0.0932
 ENDDATA             59
 ENDSUBENT           74
-SUBENT        C0519008   19990505   19990901
+SUBENT        C0519008   19990505   19990901   20050926       0000
 BIB                  4          8
 REACTION   (5-B-11(A,P)6-C-14,,DA,,REL)
 SAMPLE     Various 11B targets.
@@ -749,7 +754,7 @@ ADEG       ARB-UNITS  ARB-UNITS
    161.91   2.2050     0.0804
 ENDDATA             19
 ENDSUBENT           36
-SUBENT        C0519009   19990505   19990901
+SUBENT        C0519009   19990505   19990901   20050926       0000
 BIB                  5         13
 REACTION   (5-B-11(A,G)7-N-15,PAR,DA,,REL)
 SAMPLE     Thick target of 11B powder pressed into a recess in a
@@ -785,7 +790,7 @@ MEV        ADEG       ARB-UNITS  ARB-UNITS
  6.32         90.28    0.6544     0.0614
 ENDDATA             12
 ENDSUBENT           34
-SUBENT        C0519010   19990505   19990901
+SUBENT        C0519010   19990505   19990901   20050926       0000
 BIB                  4         10
 REACTION   (6-C-14(P,N)7-N-14,,SIG)
 SAMPLE     Target enriched to >95% 14C on a Pt backing.  Target
@@ -882,7 +887,7 @@ KEV        MICRO-B    MICRO-B
    1057.81    1133.788      2.542
 ENDDATA             80
 ENDSUBENT           95
-SUBENT        C0519011   19990505   19990901
+SUBENT        C0519011   19990505   19990901   20050926       0000
 BIB                  2          5
 REACTION  1(5-B-11(A,0),,EN)
           2(5-B-11(A,N),,WID)
@@ -900,7 +905,7 @@ KEV        KEV        KEV        KEV        KEV
  606.0        0.5        2.15E-03   0.38E-03
 ENDDATA              6
 ENDSUBENT           16
-SUBENT        C0519012   19990505   19990901
+SUBENT        C0519012   19990505   19990901   20050926       0000
 BIB                  2          5
 REACTION  1(5-B-11(A,0),,J)
           2(5-B-11(A,0),,PTY)
@@ -915,7 +920,7 @@ KEV        KEV        NO-DIM     NO-DIM
  606.0        0.5       3.5       -1.0
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        C0519013   19990505   19990901
+SUBENT        C0519013   19990505   19990901   20050926       0000
 BIB                  2          5
 REACTION  1(6-C-14(P,0),,EN)
           2(6-C-14(P,N),,WID)
