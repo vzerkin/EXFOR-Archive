@@ -1,11 +1,14 @@
-ENTRY            C0775   20010130   20010426
-SUBENT        C0775001   20010130   20010426
-BIB                  9         15
-INSTITUTE  (1USAORL)
-REFERENCE  (J,PR,169,974,196805)
-AUTHOR     (C.H.JOHNSON,R.L.KERNELL)
+ENTRY            C0775   20180718   20190121   20190118       C178
+SUBENT        C0775001   20180718   20190121   20190118       C178
+BIB                 10         19
 TITLE      Use of the (p,n) Reaction to Measure Proton Atomic
-            Stopping Powers in Ag, Cd, In, and Sn
+           Stopping Powers in Ag, Cd, In, and Sn
+AUTHOR     (C.H.Johnson,R.L.Kernell)
+REFERENCE  (J,PR,169,974,1968)
+           #doi:10.1103/PhysRev.169.974
+REL-REF    (N,,C.H.Johnson+,J,PR/C,20,2052,1979) Review article.
+           #doi:10.1103/PhysRevC.20.2052
+INSTITUTE  (1USAORL)
 FACILITY   (VDG,1USAORL)
 METHOD     (BCINT)
 DETECTOR   (BF3) 4pi graphite-sphere with eight BF3 counters
@@ -16,10 +19,11 @@ CORRECTION Corrected for:
            . neutron capture in target,
            . target nonuniformities.
 HISTORY    (20010122C) VM
-ENDBIB              15
+           (20180718U) BP: added doi, review article.
+ENDBIB              19
 NOCOMMON             0          0
-ENDSUBENT           18
-SUBENT        C0775002   20010130   20010426
+ENDSUBENT           22
+SUBENT        C0775002   20010130   20010426   20050926       0000
 BIB                  3          4
 REACTION   (47-AG-0(P,N),,SIG)
 SAMPLE     Natural silver sample with areal density 3.93 mg/cm2.
@@ -29,7 +33,7 @@ ENDBIB               4
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            8
-SUBENT        C0775003   20010130   20010426
+SUBENT        C0775003   20010130   20010426   20050926       0000
 BIB                  3          4
 REACTION   (48-CD-0(P,N),,SIG)
 SAMPLE     Natural cadmium sample with areal density 2.59 mg/cm2.
@@ -39,7 +43,7 @@ ENDBIB               4
 NOCOMMON             0          0
 NODATA               0          0
 ENDSUBENT            8
-SUBENT        C0775004   20010130   20010426
+SUBENT        C0775004   20010130   20010426   20050926       0000
 BIB                  4          5
 REACTION   (49-IN-0(P,N),,SIG)
 SAMPLE     Natural indium sample with areal density 3.91 mg/cm2.
@@ -73,7 +77,7 @@ KEV        MB
 5633.       48.8
 ENDDATA             22
 ENDSUBENT           32
-SUBENT        C0775005   20010130   20010426
+SUBENT        C0775005   20010130   20010426   20050926       0000
 BIB                  4          4
 REACTION   (50-SN-0(P,N),,SIG)
 SAMPLE     Natural tin sample with areal density 3.97 mg/cm2.
