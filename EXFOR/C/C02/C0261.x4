@@ -1,25 +1,46 @@
-ENTRY            C0261   19961009
-SUBENT        C0261001     961009
-BIB                  9         11
+ENTRY            C0261   20181205   20190426   20190425       C183
+SUBENT        C0261001   20181205   20190426   20190425       C183
+BIB                 11         32
+TITLE      Spallation of Aluminum by 28-GeV Protons
+AUTHOR     (J.B.Cumming,G.Friedlander,J.Hudis,A.M.Poskanzer)
+REFERENCE  (J,PR,127,950,1962)
+           #doi:10.1103/PhysRev.127.950
 INSTITUTE  (1USABNL)
-REFERENCE  (J,PR,127,950,62)
-AUTHOR     (J.B.CUMMING,G.FRIEDLANDER,J.HUDIS,A.M.POSKANZER)
-TITLE      Spallation of aluminum by 28-GeV protons
-FACILITY   (SYNCH)
-METHOD     (ACTIV,STTA)
-MONITOR    (6-C-12(P,N+P)6-C-11,,SIG)
-ERR-ANALYS (DATA-ERR) Errors included estimates of systematic
-            effects and 4.6% error in 12C(p,pn)11C standard.
-HISTORY    (870602C)
-           (961009A) MONITOR corrected, converted to lower case.
-ENDBIB              11
-COMMON               3          3
-EN         MONIT      MONIT-ERR
-GEV        MB         MB
- 28.        25.9       1.2
+FACILITY   (SYNCH,1USABNL) The Brookhaven alternating gradient
+           synchrotron.
+METHOD     (ACTIV,STTA) Stacks of aluminum and polyethylene or
+           polystyrene foils were irradiated in the internal
+           beam of the Brookhaven alternating gradient
+           synchrotron at an energy of 28 GeV.
+MONITOR    (6-C-12(P,X)6-C-11,,SIG)
+MONIT-REF  ((MONIT)C0231001,J.B.Cumming+,J,PR,125,2078,1962)
+ERR-ANALYS (DATA-ERR) The errors on the individual values have
+           been compounded from the errors due to counting
+           statistics (negligible for Na24 and F18) and a 1.5%
+           error to allow for uncertainties in weighing and foil
+           line-up and for small day-to-day variations of the
+           counter efficiencies from the calibrated values.
+           Errors include estimates of systematic effects but do
+           not include the 4.6% error in the C12(p,pn)C11 cross
+           section.
+           (ERR-1) Uncertainties in weighing and foil line-up
+           and for small day-to-day variations of the counter
+           efficiencies from the calibrated values.
+STATUS     (TABLE) Table II, page 952.
+HISTORY    (19870602C)
+           (19961009A) Monitor corrected, converted to lower case.
+           (20181205A) BP: Updated information, added doi, updated
+                       subentry 10, changed to new date formats.
+                      Corrections according last EXFOR rules and
+                      Dict.
+ENDBIB              32
+COMMON               4          3
+EN         MONIT      MONIT-ERR  ERR-1
+GEV        MB         MB         PER-CENT
+        28.       25.9        1.2        1.5
 ENDCOMMON            3
-ENDSUBENT           18
-SUBENT        C0261002     961009
+ENDSUBENT           39
+SUBENT        C0261002     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)4-BE-7,,SIG)
 DETECTOR   (NAICR)
@@ -33,7 +54,7 @@ MB         MB
  7.9       0.5
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261003     961009
+SUBENT        C0261003     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)6-C-11,,SIG)
 DETECTOR   (NAICR)
@@ -47,7 +68,7 @@ MB         MB
  4.7        0.2
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261004     961009
+SUBENT        C0261004     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)7-N-13,,SIG)
 DETECTOR   (NAICR)
@@ -61,7 +82,7 @@ MB         MB
  1.18       0.07
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261005     961009
+SUBENT        C0261005     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)8-O-15,,SIG)
 DETECTOR   (NAICR)
@@ -75,7 +96,7 @@ MB         MB
  3.5        1.0
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261006     961009
+SUBENT        C0261006     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)9-F-18,,SIG)
 DETECTOR   (NAICR)
@@ -89,7 +110,7 @@ MB         MB
  6.0       0.3
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261007     961009
+SUBENT        C0261007     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)11-NA-22,,SIG)
 DETECTOR   (NAICR)
@@ -103,7 +124,7 @@ MB         MB
  9.8        0.6
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261008     961009
+SUBENT        C0261008     961009              20050926       0000
 BIB                  5          6
 REACTION   (13-AL-27(P,X)11-NA-24,,SIG)
 DETECTOR   (NAICR) 1.37- and 2.75-MeV gammas
@@ -119,7 +140,7 @@ MB         MB
  8.3       0.5
 ENDDATA              3
 ENDSUBENT           14
-SUBENT        C0261009     961009
+SUBENT        C0261009     961009              20050926       0000
 BIB                  4          4
 REACTION   (13-AL-27(P,X)10-NE-24,,SIG)
 DETECTOR   (NAICR)
@@ -133,22 +154,25 @@ MB
  0.6
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        C0261010     961009
-BIB                  5          5
+SUBENT        C0261010   20181205   20190426   20190425       C183
+BIB                  7          8
 REACTION   (13-AL-27(P,X)12-MG-27,,SIG)
 DETECTOR   (NAICR)
 DECAY-DATA (12-MG-27,9.5MIN,DG,834.,0.70)
 SAMPLE     Aluminum foils
-CORRECTION CROSS SECTION WAS CORRECTED FOR SECONDARY EFFECT.
-ENDBIB               5
+CORRECTION Cross section was corrected for secondary effect.
+REL-REF    (O,C2357010,A.M.Poskanzer+,J,PR,168,1331,1968) Latest
+           results for multiple beam energies.
+HISTORY    (20181205A) BP: Added REL-REF, DATA-ERR correction.
+ENDBIB               8
 NOCOMMON             0          0
 DATA                 2          1
 DATA       DATA-ERR
 MB         MB
- 0.067      0.006
+      0.067      0.005
 ENDDATA              3
-ENDSUBENT           13
-SUBENT        C0261011     961009
+ENDSUBENT           16
+SUBENT        C0261011     961009              20050926       0000
 BIB                  4          4
 REACTION   (6-C-0(P,X)4-BE-7,,SIG)
 DETECTOR   (NAICR)
