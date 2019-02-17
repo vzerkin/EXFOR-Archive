@@ -1,27 +1,29 @@
-ENTRY            40784   19870409
-SUBENT        40784001     870409
-BIB                 10         17
-INSTITUTE  (4CCPICP)
-REFERENCE  (J,ZET,36,1046,59)
-           (J,JET,9,742,59)
-           (J,ZTF,26,730,56) EXPERIMENTAL DETAILS
-AUTHOR     (V.L.GLAGOLEV,O.M.KOVRIZHNYKH,YU.V.MAKAROV,
-           P.A.YAMPOL'SKII)
-TITLE       MILLISECOND HALF-LIFE ISOMERS PRODUCED IN REACTIONS
-            INVOLVING 14-MEV NEUTRONS
+ENTRY            40784   20190218   20190401   20190326       4181
+SUBENT        40784001   20190218   20190401   20190326       4181
+BIB                 10         19
+INSTITUTE  (4RUSICP)
+REFERENCE  (J,ZET,36,1046,1959)
+           (J,JET,9,742,1959)  Engl.translation of ZET,36,1046
+           (J,ZTF,26,733,1956) Experimental details
+           (J,SPT,1,714,1957) Engl.translation of ZTF,26,733
+AUTHOR     (V.L.Glagolev,O.M.Kovrizhnykh,Yu.V.Makarov,
+           P.A.Yampol'skii)
+TITLE       Millisecond half-life isomers produced in reactions
+            involving 14-MeV neutrons
 METHOD     (ACTIV)
 MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)
-FACILITY   (VDG) ACCELERATING TUBE ON 500 KILOVOLTS
+FACILITY   (VDG,4RUSICP) Accelerating tube on 500 kilovolts
 PART-DET   (N,G)
-DETECTOR   (SCIN) ZN-S CRYSTAL FOR NEUTRON MONITORING
-           (NAICR) FOR GAMMA DETECTION
-HISTORY    (840806T) CONVERTED FROM ENTRY 80232
-           (870409U) INSTITUTE CODE CORRECTED AND REACTION CODES
-                     IN SAN 003, 005, 006 CHANGED
-ENDBIB              17
+DETECTOR   (SCIN) Zn-S crystal for neutron monitoring
+           (NAICR) for gamma detection
+HISTORY    (19840806T) Converted from ENTRY 80232
+           (19870409U) INSTITUTE code corrected and REACTION codes
+                     in SAN 003, 005, 006 changed
+           (20190218U) Ref. of Engl.translation was added.
+ENDBIB              19
 NOCOMMON             0          0
-ENDSUBENT           20
-SUBENT        40784002     840806
+ENDSUBENT           22
+SUBENT        40784002     840806              20050926       0000
 BIB                  4          4
 REACTION   (33-AS-75(N,INL)33-AS-75-M,,SIG)
 STATUS     (SCSRS)
@@ -39,7 +41,7 @@ MEV        B
  1.4500E+01 1.3000E-01
 ENDDATA              3
 ENDSUBENT           16
-SUBENT        40784003     870409
+SUBENT        40784003     870409              20050926       0000
 BIB                  3          3
 REACTION   (12-MG-0(N,X)11-NA-24-M,,SIG)
 STATUS     (SCSRS)
@@ -52,7 +54,7 @@ MEV        B          B
  1.4500E+01 8.0000E-02 5.0000E-01
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        40784004     840806
+SUBENT        40784004     840806              20050926       0000
 BIB                  3          3
 REACTION   (13-AL-27(N,A)11-NA-24-M,,SIG)
 STATUS     (SCSRS)
@@ -65,7 +67,7 @@ MEV        B          B
  1.4500E+01 4.0000E-02 5.0000E-01
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        40784005     870409
+SUBENT        40784005     870409              20050926       0000
 BIB                  3          3
 REACTION   (49-IN-0(N,X)49-IN-114-M2,,SIG)
 STATUS     (SCSRS)
@@ -78,7 +80,7 @@ MEV        B          B
  1.4500E+01 8.0000E-01 5.0000E-01
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        40784006     870409
+SUBENT        40784006     870409              20050926       0000
 BIB                  3          3
 REACTION   (82-PB-0(N,X)82-PB-207-M,,SIG)
 STATUS     (SCSRS)
@@ -91,7 +93,7 @@ MEV        B          B
  1.4500E+01 1.5000E+00 5.0000E-01
 ENDDATA              3
 ENDSUBENT           11
-SUBENT        40784007     840806
+SUBENT        40784007     840806              20050926       0000
 BIB                  3          3
 REACTION   (83-BI-209(N,2N)83-BI-208-M,,SIG)
 STATUS     (SCSRS)
