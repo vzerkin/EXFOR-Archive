@@ -1,36 +1,33 @@
-ENTRY            O1179   20050203
-SUBENT        O1179001   20050203
-BIB                 14         26
+ENTRY            O1179   20190206   20190715   20190702       O068
+SUBENT        O1179001   20190206   20190715   20190702       O068
+BIB                 14         23
 TITLE      Investigation of alpha particle induced reactions on
            thulium.
-AUTHOR     (S.Mukherjee, J.R.Rao)
-INSTITUTE  (3INDVEC)
-           (3INDVUU)
-           (3INDBHU)
+AUTHOR     (A.V.Mohan Rao, S.Mukherjee, J.Rama Rao)
+INSTITUTE  (3INDVEC,3INDVUU,3INDBHU)
 REFERENCE  (J,PRM,38,279,1992)
-HISTORY    (20040723C)
-           (20050203U) Last checking has been done.
 SAMPLE     Spectroscopically pure 99.99% thulium foils of
            thickness 30-mg/cm**2 were used as targets, while
            aluminium foils of varying thicknesses served as
            energy degraders to reduce the beam energy to the
            desired level.
 ADD-RES    (COMP).Pre-equilibrium HYBRID model.
-DETECTOR   (GELI) 95-cc Ge(Li)
-           (HPGE) 50-cc hpge.
-FACILITY   (ISOCY,3INDVEC)
+DETECTOR   (GELI) 95 cm3 Ge(Li)
+           (HPGE) 50 cm3 HPGe.
+FACILITY   (CYCLO,3INDVEC) Variable Energy Cyclotron Centre
 METHOD     (ACTIV,GSPEC,STTA)
 MONITOR    (13-AL-27(A,X)11-NA-24,,SIG)
-           (13-AL-27(A,N+2A)11-NA-22,,SIG)
-MONIT-REF  (B0174001,H.J.PROBST+,J,ARI,27,431,1976)
-ERR-ANALYS (DATA-ERR) The error is shown by authors on figure.
-           (EN-ERR-DIG) Digitizing error of incident particle
-           energy.
-STATUS     (CURVE) By CAJAD.
-ENDBIB              26
-NOCOMMON
-ENDSUBENT           29
-SUBENT        O1179002   20050203
+           (13-AL-27(A,X)11-NA-22,,SIG)
+MONIT-REF  (B0174001,H.J.Probst+,J,ARI,27,431,1976)
+ERR-ANALYS (DATA-ERR) No information about source of uncertainties
+STATUS     (CURVE) By CAJAD. Figs 1-5 from Pramana,38(1992)279
+HISTORY    (20040723C)
+           (20050203U) Last checking has been done.
+           (20190206U) SD: FACILITY and author's list corrected.
+ENDBIB              23
+NOCOMMON             0          0
+ENDSUBENT           26
+SUBENT        O1179002   20050203              20050926       0000
 BIB                  4          7
 REACTION   (69-TM-169(A,N)71-LU-172,,SIG)
 RAD-DET    (71-LU-172-G,DG)
@@ -58,7 +55,7 @@ MEV        MB         PER-CENT
       70.55       2.06        11.
 ENDDATA             10
 ENDSUBENT           26
-SUBENT        O1179003   20050203
+SUBENT        O1179003   20050203              20050926       0000
 BIB                  4          7
 REACTION   (69-TM-169(A,2N)71-LU-171,,SIG)
 RAD-DET    (71-LU-171-G,DG)
@@ -85,7 +82,7 @@ MEV        MB         PER-CENT
       66.45       13.3        11.
 ENDDATA              9
 ENDSUBENT           25
-SUBENT        O1179004   20050203
+SUBENT        O1179004   20050203              20050926       0000
 BIB                  4          7
 REACTION   (69-TM-169(A,3N)71-LU-170,,SIG)
 RAD-DET    (71-LU-170-G,DG)
@@ -112,7 +109,7 @@ MEV        MB         PER-CENT
       66.66        58.         9.
 ENDDATA              9
 ENDSUBENT           25
-SUBENT        O1179005   20050203
+SUBENT        O1179005   20050203              20050926       0000
 BIB                  4          5
 REACTION   (69-TM-169(A,4N)71-LU-169,,SIG)
 RAD-DET    (71-LU-169-G,DG)
@@ -137,7 +134,7 @@ MEV        MB         PER-CENT
       65.48       204.        12.
 ENDDATA              9
 ENDSUBENT           23
-SUBENT        O1179006   20050203
+SUBENT        O1179006   20050203              20050926       0000
 BIB                  3          5
 REACTION   (69-TM-169(A,X)70-YB-169,IND,SIG)
 RAD-DET    (70-YB-169-G,DG)
@@ -161,7 +158,7 @@ MEV        MB         PER-CENT
       66.03        98.         9.
 ENDDATA              8
 ENDSUBENT           22
-SUBENT        O1179007   20050203
+SUBENT        O1179007   20050203              20050926       0000
 BIB                  3          7
 REACTION   (69-TM-169(A,X)69-TM-168,IND,SIG) Shielded
 RAD-DET    (69-TM-168,DG)
@@ -188,7 +185,7 @@ MEV        MB
       65.83       0.71
 ENDDATA              9
 ENDSUBENT           25
-SUBENT        O1179008   20050203
+SUBENT        O1179008   20050203              20050926       0000
 BIB                  3          4
 REACTION   (69-TM-169(A,X)69-TM-167,CUM,SIG)
 RAD-DET    (69-TM-167,DG)
@@ -212,7 +209,7 @@ MEV        MB         PER-CENT
        65.8       330.         9.
 ENDDATA              9
 ENDSUBENT           22
-SUBENT        O1179009   20050203
+SUBENT        O1179009   20050203              20050926       0000
 BIB                  3          6
 REACTION   (69-TM-169(A,X)69-TM-165,CUM,SIG)
 RAD-DET    (69-TM-165,DG)
