@@ -1,20 +1,24 @@
-ENTRY            11644   19830829
-SUBENT        11644001     830829
-BIB                  8         10
+ENTRY            11644   20200503   20200901   20200827       1468
+SUBENT        11644001   20200503   20200901   20200827       1468
+BIB                  9         14
 INSTITUTE  (1CANOTU)
-REFERENCE  (J,NP/A,127,81,6904)
-AUTHOR     (C.SPIRA,J.M.ROBSON)
-TITLE      INDIVIDUAL TRANSITIONS IN (N,ALPHA) REACTIONS AT 14.6
-           MEV.
-N-SOURCE   (D-T) T(D,N) SOURCE.
+REFERENCE  (J,NP/A,127,81,1969)
+AUTHOR     (C.Spira,J.M.Robson)
+TITLE      Individual transitions in (n,alpha) reactions at 14.6
+           MeV.
+INC-SOURCE (D-T)
 DETECTOR   (SOLST)
-STATUS     (SCSRS)
-HISTORY    (760730T) TRANSLATED FROM SCISRS
-           (830829A) CONVERTED TO REACTION FORMALISM
-ENDBIB              10
+ERR-ANALYS (DATA-ERR) Errors include uncertainties in geometry,
+            neutron production and statistics
+STATUS     (TABLE) Table I, Nucl.Phys.A127,81,1969
+HISTORY    (19760730T) Translated from SCISRS
+           (19830829A) Converted to reaction formalism
+           (20200501U) OS. Converted to lower case, minor BIB
+            changes
+ENDBIB              14
 NOCOMMON             0          0
-ENDSUBENT           13
-SUBENT        11644002     830829
+ENDSUBENT           17
+SUBENT        11644002     830829              20050926       0000
 BIB                  1          1
 REACTION   (22-TI-47(N,A)20-CA-44,PAR,SIG)
 ENDBIB               1
@@ -29,7 +33,7 @@ MEV        B          B
  1.46   +01 1.6    -03 6.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644003     830829
+SUBENT        11644003     830829              20050926       0000
 BIB                  1          1
 REACTION   (22-TI-47(N,A)20-CA-44,PAR,SIG)
 ENDBIB               1
@@ -44,7 +48,7 @@ MEV        B          B
  1.46   +01 1.9    -03 6.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644004     830829
+SUBENT        11644004     830829              20050926       0000
 BIB                  1          1
 REACTION   (26-FE-56(N,A)24-CR-53,PAR,SIG)
 ENDBIB               1
@@ -59,7 +63,7 @@ MEV        B          B
  1.46   +01 2.3    -03 7.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644005     830829
+SUBENT        11644005     830829              20050926       0000
 BIB                  1          1
 REACTION   (26-FE-56(N,A)24-CR-53,PAR,SIG)
 ENDBIB               1
@@ -74,7 +78,7 @@ MEV        B          B
  1.46   +01 3.1    -03 1.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644006     830829
+SUBENT        11644006     830829              20050926       0000
 BIB                  1          1
 REACTION   (27-CO-59(N,A)25-MN-56,PAR,SIG)
 ENDBIB               1
@@ -89,7 +93,7 @@ MEV        B          B
  1.46   +01 1.1    -03 4.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644007     830829
+SUBENT        11644007     830829              20050926       0000
 BIB                  1          1
 REACTION   (27-CO-59(N,A)25-MN-56,PAR,SIG)
 ENDBIB               1
@@ -104,7 +108,7 @@ MEV        B          B
  1.46   +01 1.2    -03 4.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644008     830829
+SUBENT        11644008     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-58(N,A)26-FE-55,PAR,SIG)
 ENDBIB               1
@@ -119,7 +123,7 @@ MEV        B          B
  1.46   +01 4.4    -03 1.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644009     830829
+SUBENT        11644009     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-58(N,A)26-FE-55,PAR,SIG)
 ENDBIB               1
@@ -134,7 +138,7 @@ MEV        B          B
  1.46   +01 1.4    -03 4.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644010     830829
+SUBENT        11644010     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-58(N,A)26-FE-55,PAR,SIG)
 ENDBIB               1
@@ -149,7 +153,7 @@ MEV        B          B
  1.46   +01 7.6    -03 2.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644011     830829
+SUBENT        11644011     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-60(N,A)26-FE-57,PAR,SIG)
 ENDBIB               1
@@ -164,7 +168,7 @@ MEV        B          B
  1.46   +01 4.3    -03 2.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644012     830829
+SUBENT        11644012     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-60(N,A)26-FE-57,PAR,SIG)
 ENDBIB               1
@@ -179,7 +183,7 @@ MEV        B          B
  1.46   +01 5.6    -03 2.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644013     830829
+SUBENT        11644013     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-61(N,A)26-FE-58,PAR,SIG)
 ENDBIB               1
@@ -194,7 +198,7 @@ MEV        B          B
  1.46   +01 7.     -04 2.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644014     830829
+SUBENT        11644014     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-61(N,A)26-FE-58,PAR,SIG)
 ENDBIB               1
@@ -209,7 +213,7 @@ MEV        B          B
  1.46   +01 1.1    -03 4.     -04
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644015     830829
+SUBENT        11644015     830829              20050926       0000
 BIB                  1          1
 REACTION   (28-NI-61(N,A)26-FE-58,PAR,SIG)
 ENDBIB               1
@@ -224,7 +228,7 @@ MEV        B          B
  1.46   +01 3.3    -03 1.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644016     830829
+SUBENT        11644016     830829              20050926       0000
 BIB                  1          1
 REACTION   (29-CU-63(N,A)27-CO-60,PAR,SIG)
 ENDBIB               1
@@ -239,7 +243,7 @@ MEV        B          B
  1.46   +01 2.80   -03 1.     -05
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644017     830829
+SUBENT        11644017     830829              20050926       0000
 BIB                  1          1
 REACTION   (29-CU-63(N,A)27-CO-60,PAR,SIG)
 ENDBIB               1
@@ -254,7 +258,7 @@ MEV        B          B
  1.46   +01 5.3    -03 2.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644018     830829
+SUBENT        11644018     830829              20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(N,A)28-NI-61,PAR,SIG)
 ENDBIB               1
@@ -269,7 +273,7 @@ MEV        B          B
  1.46   +01 6.6    -03 2.0    -03
 ENDDATA              3
 ENDSUBENT           13
-SUBENT        11644019     830829
+SUBENT        11644019     830829              20050926       0000
 BIB                  1          1
 REACTION   (30-ZN-64(N,A)28-NI-61,PAR,SIG)
 ENDBIB               1
