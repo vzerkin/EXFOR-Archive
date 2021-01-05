@@ -1,33 +1,34 @@
-ENTRY            22996   20101105   20110803   20110721       2225
-SUBENT        22996001   20101105   20110803   20110721       2225
-BIB                 11         44
-TITLE      .Neutron capture cross sections for the weak S-process
-            in massive stars.
+ENTRY            22996   20201016   20210106   20210105       2294
+SUBENT        22996001   20201016   20210106   20210105       2294
+BIB                 12         47
+TITLE       Neutron capture cross sections for the weak S-process
+            in massive stars
 AUTHOR     (M.Heil, F.Kaeppeler, E.Uberseder, R.Gallino,
            M.Pignatari)
+REFERENCE  (J,PR/C,77,015808,2008) Main reference,data are given
+           #doi:10.1103/PhysRevC.77.015808
+REL-REF    (C,14467001,M.Weigand+,J,PR/C,95,015808,2017) where
+            63Cu(n,gamma) cross sections are renormalized.
 INSTITUTE  (2GERKFK)  Forschungszentrum Karlsruhe, Institut fuer
                Kernphysik, Karlsruhe, Germany. M.Heil, Correspon-
                ding author: (M.Heil@gsi.de); F.Kaeppeler,
                E.Uberseder.
            (2ITYTUR)  Dipartimento di Fisica Generale, Universita
                di Torino, Torino, Italy. R.Gallino, M.Pignatari
-REFERENCE  (J,PR/C,77,015808,200801) Main reference,data are given
-           #doi:10.1103/PhysRevC.77.015808
-           (C,2008MACKIN,,(033),2008)
 FACILITY   (VDG,2GERKFK)  3.7 MV Van de Graaff accelerator
 INC-SOURCE (P-LI7)  Li-7 layer on a water-cooled copper backing,
-              30 micrometer thick. Proton energy is 1912 keV,
-              30 keV higher then Li-7(p,n)Be-7 reaction threshold
+              30 um  thick. Proton energy is 1912 keV, 30 keV
+              higher then Li-7(p,n)Be-7 reaction threshold
 METHOD     (ACTIV)    Activation
            (STTA)     Stack target irradiation
 DETECTOR   (HPGE)     Shielded high purity germanium detector
-             76 cm3 volume, resolution 1.7 keV at 1.33 MeV gamma
+             76 cm3 volume, resolution 1.7 keV at 1.33 MeV gamma-
              ray energy, relative efficiency 30%.
-SAMPLE     .Samples were cut from metal foils of natural composi-
-            tion. Repeated activations were performed with samples
-            that differed in diameter between 6 and 12 mm and in
-            thickness between 0.03 and 0.5 mm. The samples were
-            sandwiched between 0.03 mm thick gold foils for
+SAMPLE      Samples were cut from metal foils of natural
+            composition. Repeated activations were performed with
+            samples that differed in diameter between 6 and 12 mm
+            and in thickness between 0.03 and 0.5 mm. The samples
+            were sandwiched between 0.03 mm thick gold foils for
             normalization to the well known gold reference cross
             section.
 ERR-ANALYS (ERR-T)   Total error
@@ -36,7 +37,7 @@ ERR-ANALYS (ERR-T)   Total error
            (ERR-2,,1.)   Max error due to self-absorption
            (ERR-3)   Error due to detector efficiency
            (ERR-4)   Error of the gold monitor number nuclei
-           (ERR-5)   error of the gold monitor gamma ray
+           (ERR-5)   error of the gold monitor gamma-ray
                      intensity per decay
            (MONIT-ERR)  Error of the gold monitor cross section
 HISTORY    (20080216C)  SM
@@ -45,13 +46,15 @@ HISTORY    (20080216C)  SM
             There are only max values.
             Data values in 009 for KT: 50.-100.keV corrected.
              INC-SPECT moved to Subents 002-006 from Subent 001
-ENDBIB              44
+           (20201016U) SD: Ref. C,2008MACKIN,,(033),2008 deleted.
+           REL-REF added.
+ENDBIB              47
 COMMON               4          3
 ERR-3      ERR-4      ERR-5      MONIT-ERR
 PER-CENT   PER-CENT   PER-CENT   PER-CENT
      1.5        0.4        0.13       1.5
 ENDCOMMON            3
-ENDSUBENT           51
+ENDSUBENT           54
 SUBENT        22996002   20110221   20110803   20110721       2225
 BIB                 11         27
 REACTION   (26-FE-58(N,G)26-FE-59,,SIG,,MXW)   Averaged over
