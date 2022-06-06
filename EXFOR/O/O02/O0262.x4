@@ -1,49 +1,44 @@
-ENTRY            O0262   19961110   20050616                  Y000
-SUBENT        O0262001     961110   20050616                  Y000
-BIB                 13         35
+ENTRY            O0262   20220104   20220607   20220505       O086
+SUBENT        O0262001   20220104   20220607   20220505       O086
+BIB                 13         30
 TITLE      Elastic Scattering of 17-MeV Protons by Nuclei.
-AUTHOR     (I.E.DAYTON,G.SCHRANK)
+AUTHOR     (I.E.Dayton,G.Schrank)
 INSTITUTE  (1USAPTN)
-REFERENCE  (J,PR,101,1358,56)  Nsr index - 56Da03
-HISTORY    (961029C)
-           (961105A) Reaction For Natural Target are Corrected.
-           Authors' Comments are Included Too.
-           (961110U) Last checking has been done.
-SAMPLE     Targets in Foil Form were Used. The Carbon Target was
-           In the Form of Polystyrene. Berillium Foil was 0.002-In
-           Thickness. The Co and Zn Foils were Prepared by
-           Electroplating from an Aqueous Solution on to a
-           Polished Piece of Stainless Steel.The Amount of Oxygen
-           Contamination in Each of the Target were Obtained.
-DETECTOR   (NAICR)
+REFERENCE  (J,PR,101,1358,1956)  NSR index - 56Da03
 FACILITY   (CYCLO,1USAPTN)
-METHOD     (SITA)
-           (EXTB)
-           (BCINT)
-ERR-ANALYS (ERR-T) Conservative Estimate of a Standard Deviation.
-           The  Cross Sections were Determined from the Area Under
-           The Elastic Scattering Peak,with the Exception  of  the
-           Few Cases ,this Area was Determined with an Accuracy of
-           1%.
-           The Statistical Error in Counting,Combined with the
-           Estimated Errors of 1% in Beam Current Measurement and
-            1% in Determining the Area Under the Elastic Peak
-           Leads to a Conservative Estimate of a Standard
-           Deviation of 2.5% For Each Point.The Uncertainty in
-           Angle of 0.1%.
-           (EN-ERR).The Uncertainty is Reported by Authors.
-CORRECTION Needed Corrections For Geometry and Multiple Scattering
+SAMPLE     Targets in foil form were used. The carbon target was
+           in the form of polystyrene. Beryllium foil was 0.002-in
+           thickness. The Co and Zn foils were prepared by
+           electroplating from an aqueous solution on to a
+           polished piece of stainless steel. The amount of oxygen
+           contamination in each of the target were obtained.
+DETECTOR   (NAICR)
+METHOD     (SITA,EXTB,BCINT)
+ERR-ANALYS (ERR-T) Total error including:
+             * The statistical error
+           (ERR-1) Uncertainty in the determination of the area
+           under the elastic scattering peak (with the exception
+           of the few cases).
+           (ERR-2) Error in beam current measurement
+             Errors in other parameters were negligible compared
+             to those mentioned above.
+CORRECTION Needed corrections for geometry and multiple scattering
 ADD-RES    (P-SPC)
-           Calculation of the Corrections on Multiple  Scattering.
-STATUS     (TABLE)
-ENDBIB              35
-COMMON               3          3
-EN         EN-ERR     ERR-T
-MEV        MEV        PER-CENT
-       17.0       0.05        2.5
+           Calculation of the corrections on multiple scattering.
+STATUS     (TABLE) Tbl.I from Phys.Rev.,101(1956)1358
+HISTORY    (19961029C)
+           (19961105A) Reaction for natural target are corrected.
+           authors' comments are included too.
+           (19961110U) Last checking has been done.
+           (20220104A) SD: EN -> EN-CM. ERR-ANALYS updated.
+ENDBIB              30
+COMMON               6          3
+EN-CM      EN-ERR     ANG-ERR    ERR-T      ERR-1      ERR-2
+MEV        MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT
+       17.0       0.05       0.1         2.5         1.         1.
 ENDCOMMON            3
-ENDSUBENT           42
-SUBENT        O0262002     961110   20050616                  Y000
+ENDSUBENT           37
+SUBENT        O0262002     961110   20050616   20050926       0000
 BIB                  2          6
 REACTION   (4-BE-9(P,EL)4-BE-9,,DA)
 COMMENT    -By Authors- Oxygen Cotamination 4.6% by Weight,
@@ -91,7 +86,7 @@ ADEG       MB/SR
       173.9       2.17
 ENDDATA             35
 ENDSUBENT           46
-SUBENT        O0262003     961110   20050616                  Y000
+SUBENT        O0262003     961110   20050616   20050926       0000
 BIB                  2          4
 REACTION   (6-C-12(P,EL)6-C-12,,DA)
 COMMENT    -By Authors- Peak Due to Hydrogen in Polystyrene Foil
@@ -139,7 +134,7 @@ ADEG       MB/SR
       172.8       16.8
 ENDDATA             37
 ENDSUBENT           46
-SUBENT        O0262004     961110   20050616                  Y000
+SUBENT        O0262004     961110   20050616   20050926       0000
 BIB                  2          3
 REACTION   (13-AL-27(P,EL)13-AL-27,,DA)
 COMMENT    -By Authors- Elastic Peak Clearly Resolved from Lowest
@@ -189,7 +184,7 @@ ADEG       MB/SR
       172.4       4.24
 ENDDATA             40
 ENDSUBENT           48
-SUBENT        O0262005     961110   20050616                  Y000
+SUBENT        O0262005     961110   20050616   20050926       0000
 BIB                  2          7
 REACTION   (26-FE-0(P,EL)26-FE-0,,DA)
 COMMENT    -By Authors- Elastic Peak Clearly Separated from Peak
@@ -239,7 +234,7 @@ ADEG       MB/SR
       172.2       2.61
 ENDDATA             36
 ENDSUBENT           48
-SUBENT        O0262006     961110   20050616                  Y000
+SUBENT        O0262006     961110   20050616   20050926       0000
 BIB                  2          3
 REACTION   (27-CO-59(P,EL)27-CO-59,,DA)
 COMMENT    -By Authors- Oxygen Contamination 2.7% by Weight.
@@ -287,7 +282,7 @@ ADEG       MB/SR
       172.2       2.31
 ENDDATA             38
 ENDSUBENT           46
-SUBENT        O0262007     961110   20050616                  Y000
+SUBENT        O0262007     961110   20050616   20050926       0000
 BIB                  2          5
 REACTION   (28-NI-0(P,EL)28-NI-0,,DA)
 COMMENT    -By Authors- Five Stable Isotopes, But All Known Levels
@@ -336,7 +331,7 @@ ADEG       MB/SR
       172.2       4.06
 ENDDATA             37
 ENDSUBENT           47
-SUBENT        O0262008     961110   20050616                  Y000
+SUBENT        O0262008     961110   20050616   20050926       0000
 BIB                  2          3
 REACTION   (29-CU-0(P,EL)29-CU-0,,DA)
 COMMENT    -By Authors- Lowest Level in Either Stable Isotope is
@@ -387,7 +382,7 @@ ADEG       MB/SR
       172.2       2.16
 ENDDATA             41
 ENDSUBENT           49
-SUBENT        O0262009     961110   20050616                  Y000
+SUBENT        O0262009     961110   20050616   20050926       0000
 BIB                  2          9
 REACTION   (30-ZN-0(P,EL)30-ZN-0,,DA)
 COMMENT    -By Authors- Oxygen Contimination 2.5% by Weight. Zn
@@ -440,7 +435,7 @@ ADEG       MB/SR
       172.2       1.77
 ENDDATA             37
 ENDSUBENT           51
-SUBENT        O0262010     961110   20050616                  Y000
+SUBENT        O0262010     961110   20050616   20050926       0000
 BIB                  2         17
 REACTION   (45-RH-103(P,EL)45-RH-103,,DA)
 COMMENT    -By Authors- Energy Levels at 0.04, 0.295, 0.357, and
@@ -498,7 +493,7 @@ ADEG       MB/SR
       170.2       3.28
 ENDDATA             34
 ENDSUBENT           56
-SUBENT        O0262011     961110   20050616                  Y000
+SUBENT        O0262011     961110   20050616   20050926       0000
 BIB                  2         13
 REACTION   (47-AG-0(P,EL)47-AG-0,,DA)
 COMMENT    -By Authors- Scattering to a Level at 0.44+-0.03 MeV
@@ -553,7 +548,7 @@ ADEG       MB/SR
       172.2       3.19
 ENDDATA             35
 ENDSUBENT           53
-SUBENT        O0262012     961110   20050616                  Y000
+SUBENT        O0262012     961110   20050616   20050926       0000
 BIB                  2         16
 REACTION   (78-PT-0(P,EL)78-PT-0,,DA)
 COMMENT    -By Authors- There are Six Stable Isotopes with Many
@@ -609,7 +604,7 @@ ADEG       MB/SR
       171.1       6.46
 ENDDATA             33
 ENDSUBENT           54
-SUBENT        O0262013     961110   20050616                  Y000
+SUBENT        O0262013     961110   20050616   20050926       0000
 BIB                  2          4
 REACTION   (79-AU-197(P,EL)79-AU-197,,DA)
 COMMENT    -By Authors- One Stable Isotope, But Again Many Levels
