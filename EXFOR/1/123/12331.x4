@@ -1,11 +1,13 @@
-ENTRY            12331   20170807   20171101   20171018       1430
-SUBENT        12331001   20170807   20171101   20171018       1430
-BIB                  7         15
+ENTRY            12331   20230707   20240315   20240315       1507
+SUBENT        12331001   20230707   20240315   20240315       1507
+BIB                  7         18
 TITLE      Neutron capture to fission ratios in U233,U235,Pu239
 AUTHOR     (J.C.Hopkins,B.C.Diven)
 REFERENCE  (J,NSE,12,169,1962)
+           #doi:10.13182/NSE62-A26055
            (C,61SACLAY,,407,1961) Preliminary data.
            (C,61VIENNA,1,111,1961) Preliminary data.
+           (W,CAPOTE,20221018) Revised data for Pu239(n,g)
 INSTITUTE  (1USALAS)
 FACILITY   (VDG,1USALAS)
 INC-SOURCE (P-T,P-LI7) Neutrons were produced by the T(p,n)3He
@@ -16,9 +18,10 @@ HISTORY    (19760804T) Translated from SCISRS
            case. Corrections according last EXFOR rules and
            Dict., added Vienna reactor physics reference,
            updated BIB information.
-ENDBIB              15
+           (20230706A) OS. Superseded sub.6, added sub.8
+ENDBIB              18
 NOCOMMON             0          0
-ENDSUBENT           18
+ENDSUBENT           21
 SUBENT        12331002   20170807   20171101   20171018       1430
 BIB                  6         16
 REACTION   (92-U-233(N,ABS),,ALF)
@@ -142,8 +145,8 @@ MEV        MEV        NO-DIM     NO-DIM
       1.000    5.8E-02    8.7E-02     8.E-03
 ENDDATA             11
 ENDSUBENT           33
-SUBENT        12331006   20170807   20171101   20171018       1430
-BIB                  5          9
+SUBENT        12331006   20230707   20240315   20240315       1507
+BIB                  5         11
 REACTION   (94-PU-239(N,G)94-PU-240,,SIG)
 ANALYSIS   Calculated from alpha, using fission values from BNL-
             325(1960).
@@ -151,9 +154,11 @@ ERR-ANALYS (DATA-ERR) The uncertainties assigned to the capture
            cross sections are due to the standard deviations
            assigned to alpha and the fission cross sections.
 STATUS     (DEP,12331007)
-           (TABLE) Table II, page 175 of J,NSE,12,169,1962.
+           (TABLE,,J.C.Hopkins+,J,NSE,12,169,1962) Table II
+           (SPSDD,12331008)
 HISTORY    (20170807A) BP: Updated description and error analysis.
-ENDBIB               9
+           (20230706A) Status SPSDD added
+ENDBIB              11
 NOCOMMON             0          0
 DATA                 3          9
 EN         DATA       DATA-ERR
@@ -168,7 +173,7 @@ MEV        B          B
    9.00E-01    6.1E-02    2.1E-02
       1.000    4.8E-02    1.3E-02
 ENDDATA             11
-ENDSUBENT           25
+ENDSUBENT           27
 SUBENT        12331007   20170807   20171101   20171018       1430
 BIB                  6         14
 REACTION   (94-PU-239(N,ABS),,ALF)
@@ -201,4 +206,31 @@ MEV        MEV        NO-DIM     NO-DIM
       1.000    5.8E-02    2.7E-02     7.E-03
 ENDDATA             11
 ENDSUBENT           30
-ENDENTRY             7
+SUBENT        12331008   20230707   20240315   20240315       1507
+BIB                  5          9
+REACTION   (94-PU-239(N,G)94-PU-240,,SIG)
+ANALYSIS   Revised values obtained by alpha values in 12331.007
+           multiplied by the 239Pu(n,f) INDEN evaluations cross
+           sections by Robert Capote and approved by John Hopkins
+           on 17 October 2022.
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty
+STATUS     (TABLE) Data received from R.Capote, Oct.2022
+           (RNORM,12331006)
+HISTORY    (20230706C)
+ENDBIB               9
+NOCOMMON             0          0
+DATA                 3          9
+EN         DATA       DATA-ERR
+MEV        B          B
+    3.0E-02   5.59E-01    6.2E-02
+    6.0E-02   2.25E-01    2.7E-02
+   1.75E-01   2.12E-01    3.4E-02
+   2.50E-01   1.59E-01    2.4E-02
+   4.00E-01   1.38E-01    1.4E-02
+   6.00E-01   1.04E-01    1.4E-02
+   7.50E-01    7.8E-02    1.7E-02
+   9.00E-01    5.9E-02    2.0E-02
+      1.000    4.7E-02    1.2E-02
+ENDDATA             11
+ENDSUBENT           25
+ENDENTRY             8
