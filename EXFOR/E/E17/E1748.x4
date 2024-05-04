@@ -1,16 +1,11 @@
-ENTRY            E1748   20190307   20190319   20190318       E122
-SUBENT        E1748001   20190307   20190319   20190318       E122
-BIB                 11         35
+ENTRY            E1748   20240318   20240505   20240505       E143
+SUBENT        E1748001   20240318   20240505   20240505       E143
+BIB                 11         31
 TITLE      Coulomb breakup of 7Li for nuclear astrophysics
 AUTHOR     (Y.Tokimoto, H.Utsunomiya, T.Yamagata, M.Ohta,
             Y.-W.Lui, R.P.Schmitt, S.Typel, Y.Aoki, K.Ieki,
             K.Katori)
-INSTITUTE  (2JPNKON) Department of Physics
-           (1USATAM) Cyclotron Institute
-           (2GERMUU) Sektion Physik
-           (2JPNTSU) Institute of Physics
-           (2JPNYOK) Department of Physics
-           (2JPNIPC)
+INSTITUTE  (2JPNKON,1USATAM,2GERMUU,2JPNTSU,2JPNYOK,2JPNIPC)
 REFERENCE  (J,PR/C,63,035801,2001)
 PART-DET   (T,A)
 INC-SOURCE Beam intensity is 30 to 300 nA.
@@ -36,9 +31,10 @@ HISTORY    (20021031C)
            (20190123D) Tada. 021-025,027-033,035-038 and 040-045
                        are merged to 020, 034 and 039
                        respectively.
-ENDBIB              35
+           (20240318A) MA: modified COMMON in 039.
+ENDBIB              31
 NOCOMMON             0          0
-ENDSUBENT           38
+ENDSUBENT           34
 SUBENT        E1748002   20050224              20050926       0000
 BIB                  6         13
 REACTION   (40-ZR-90(3-LI-7,T+A)40-ZR-90,,DA/DA/DE,T/A/A,REL)
@@ -1941,17 +1937,16 @@ NOSUBENT      E1748035   20190307   20190319   20190318       E122
 NOSUBENT      E1748036   20190307   20190319   20190318       E122
 NOSUBENT      E1748037   20190307   20190319   20190318       E122
 NOSUBENT      E1748038   20190307   20190319   20190318       E122
-SUBENT        E1748039   20190307   20190319   20190318       E122
-BIB                  7         23
+SUBENT        E1748039   20240318   20240505   20240505       E143
+BIB                  8         23
 REACTION   (79-AU-197(3-LI-7,T+A)79-AU-197,,DA/DA/DE,T/A/T+A)
            triple differential cross section with respect to
            kinetic energy and angle for relative motion between
            alpha and triton, and angle for motion of the center
            of mass of the 7Li(=alpha+triton) system
-EN-SEC     - ANG1 is polar angle (lab.) between beam and triton
-           - ANG2 is polar angle (lab.) between beam and alpha
-           - ANG1 is polar angle (lab.) between beam and 197Au
-           (E-CM,T+A) kinetic energy for relative motion between
+ANG-SEC    (ANG1,T)
+           (ANG2,A)
+EN-SEC     (E-CM,T+A) kinetic energy for relative motion between
                       alpha and triton, positive (negative)
                       energies correspond to the branch where
                       velocity of alpha is larger (smaller) than
@@ -1966,11 +1961,12 @@ ADD-RES    (COMP) first-order perturbation theory
 STATUS     (TABLE) Data (Fig.22(d), p035801-14 in reference)
                    received by e-mail from H.Utsunomiya
 HISTORY    (20190123A) Tada. 040-045: Merged.
+           (20240318A) MA: COMMON: ANG1 and ANG2 deleted.
 ENDBIB              23
-COMMON               3          3
-EN         ANG1       ANG2
-MEV        ADEG       ADEG
- 42.        30.        30.
+COMMON               1          3
+EN
+MEV
+ 42.
 ENDCOMMON            3
 DATA                 5        135
 ANG1       ANG2       E-CM       DATA       DATA-ERR
