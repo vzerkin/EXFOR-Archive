@@ -1,13 +1,15 @@
-ENTRY            L0021   20030312   20031002
-SUBENT        L0021001   20030312   20031002
-BIB                  8         25
+ENTRY            L0021   20240329   20240506   20240506       L052
+SUBENT        L0021001   20240329   20240506   20240506       L052
+BIB                  9         29
 INSTITUTE  (2FR SAC)
-REFERENCE  (J,NP/A,159,561,197012)
-AUTHOR     (A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE)
+REFERENCE  (J,NP/A,159,561,1970)
+           #doi:10.1016/0375-9474(70)90727-X
+AUTHOR     (A.Veyssiere,H.Beil,R.Bergere,P.Carlos,A.Lepretre)
 TITLE      Photoneutron cross sections of 208Pb and 197Au.
-FACILITY   (LINAC)
-INC-SOURCE Positron annihilation
-STATUS     208Pb(gamma,4n) data not on Berman file
+FACILITY   (LINAC,2FR SAC)
+INC-SOURCE (ARAD)
+ERR-ANALYS (DATA-ERR) No information on sources of uncertainties
+STATUS     (BERMN) 208Pb(gamma,4n) data not on Berman file
 HISTORY    (19780511T) Converted from Berman compilation
            (19891201A) BIB Updated
            (19950330A) BIB Updated
@@ -26,11 +28,13 @@ HISTORY    (19780511T) Converted from Berman compilation
             L0021013 added as sum L0021007+2xL0021008+
             3xL0021009 - Pb(G,XN)=Pb((G,N)+(G,NP)+2(G,2N)+
             2(G,2NP)+3(G,3N)).
-ENDBIB              25
+           (20240327A) OS. Added ERR-ANALYS,updated REFERENCE,
+            FACILITY, INC-SOURCE, STATUS
+ENDBIB              29
 NOCOMMON             0          0
-ENDSUBENT           28
-NOSUBENT      L0021002   20030312   20031002
-SUBENT        L0021003   20030312   20031002
+ENDSUBENT           32
+NOSUBENT      L0021002   20030312   20031002   20050926       0000
+SUBENT        L0021003   20030312   20031002   20050926       0000
 BIB                  2          3
 REACTION   ((79-AU-197(G,N)79-AU-196,,SIG)+
            (79-AU-197(G,N+P)78-PT-195,,SIG))
@@ -85,7 +89,7 @@ MEV        MB         MB
   19.770       35.00      15.00
 ENDDATA             45
 ENDSUBENT           53
-SUBENT        L0021004   20030312   20031002
+SUBENT        L0021004   20030312   20031002   20050926       0000
 BIB                  2          4
 REACTION   ((79-AU-197(G,2N)79-AU-195,,SIG)+
            (79-AU-197(G,2N+P)78-PT-194,,SIG))
@@ -138,7 +142,7 @@ MEV        MB         MB
   27.120       13.40       8.00
 ENDDATA             42
 ENDSUBENT           51
-SUBENT        L0021005   20030312   20031002
+SUBENT        L0021005   20030312   20031002   20050926       0000
 BIB                  1          1
 REACTION   (79-AU-197(G,3N)79-AU-194,,SIG)
 ENDBIB               1
@@ -156,8 +160,8 @@ MEV        MB         MB
   27.120       13.60       3.00
 ENDDATA             10
 ENDSUBENT           16
-NOSUBENT      L0021006   20030312   20031002
-SUBENT        L0021007   20030312   20031002
+NOSUBENT      L0021006   20030312   20031002   20050926       0000
+SUBENT        L0021007   20030312   20031002   20050926       0000
 BIB                  2          3
 REACTION   ((82-PB-208(G,N)82-PB-207,,SIG)+
            (82-PB-208(G,N+P)81-TL-206,,SIG))
@@ -245,7 +249,7 @@ MEV        MB         MB
   20.850       19.00      20.00
 ENDDATA             78
 ENDSUBENT           86
-SUBENT        L0021008   20030312   20031002
+SUBENT        L0021008   20030312   20031002   20050926       0000
 BIB                  2          4
 REACTION   ((82-PB-208(G,2N)82-PB-206,,SIG)+
            (82-PB-208(G,2N+P)81-TL-205,,SIG))
@@ -305,7 +309,7 @@ MEV        MB         MB
   26.330        6.00      10.00
 ENDDATA             49
 ENDSUBENT           58
-SUBENT        L0021009   20030312   20031002
+SUBENT        L0021009   20030312   20031002   20050926       0000
 BIB                  1          1
 REACTION   (82-PB-208(G,3N)82-PB-205,,SIG)
 ENDBIB               1
@@ -347,7 +351,7 @@ MEV        MB         MB
   37.790        1.00       4.00
 ENDDATA             34
 ENDSUBENT           40
-SUBENT        L0021010   20030312   20031002
+SUBENT        L0021010   20030312   20031002   20050926       0000
 BIB                  2          5
 REACTION   (79-AU-197(G,X)0-NN-1,UNW,SIG)
             The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
@@ -425,7 +429,7 @@ MEV        MB         MB
   26.98        27.87       9.39
 ENDDATA             66
 ENDSUBENT           76
-SUBENT        L0021011   20030312   20031002
+SUBENT        L0021011   20030312   20031002   20050926       0000
 BIB                  2          5
 REACTION   (82-PB-208(G,X)0-NN-1,UNW,SIG)
             The sum: (G,N)+(G,N+P)+(G,2N)+(G,2N+P)+(G,3N).
@@ -540,7 +544,7 @@ MEV        MB         MB
   37.5          1.00       2.84
 ENDDATA            103
 ENDSUBENT          113
-SUBENT        L0021012   20030312   20031002
+SUBENT        L0021012   20030312   20031002   20050926       0000
 BIB                  2          5
 REACTION   (79-AU-197(G,X)0-NN-1,,SIG)
             The sum: (G,N)+(G,N+P)+2(G,2N)+2(G,2N+P)+3(G,3N).
@@ -618,7 +622,7 @@ MEV        MB         MB
   26.98        69.17      21.35
 ENDDATA             66
 ENDSUBENT           76
-SUBENT        L0021013   20030312   20031002
+SUBENT        L0021013   20030312   20031002   20050926       0000
 BIB                  2          5
 REACTION   (82-PB-208(G,X)0-NN-1,,SIG)
             The sum: (G,N)+(G,N+P)+2(G,2N)+2(G,2N+P)+3(G,3N).
