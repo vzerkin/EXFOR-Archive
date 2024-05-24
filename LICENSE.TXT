@@ -1,0 +1,11 @@
+EXFOR-Archive - EXFOR Library Entries since 2005
+IAEA-NDS, 2005-2024
+_______________________________________________________________________________
+
+EXFOR - Experimental Nuclear Reaction Data Library
+
+Copyright: (c) 1970-2024, Network of Nuclear Reaction Data Centres (NRDC)
+
+License:   Creative Commons — Attribution 4.0 International (CC BY 4.0)
+           https://creativecommons.org/licenses/by/4.0/
+_______________________________________________________________________________

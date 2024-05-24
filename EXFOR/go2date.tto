@@ -1,0 +1,141 @@
+$ ./list_exfor_updates.sh 
+        +--------------------------------------+
+        |  List: EXFOR updates (backup files)  |
+        |  v.zerkin@gmail.com, ver.2024-05-12  |
+        +--------------------------------------+
+Script:./list_exfor_updates.sh 2024-05-12,12:27:39 on zerkin-VBox/Linux
+
+2024-05-06 EXFOR.entry.csv:2024.05.05 items:26238
+2024-05-05 EXFOR.entry.csv:2024.05.05 items:26238
+2024-05-03 EXFOR.entry.csv:2024.05.03 items:26238
+. . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+2005-09-14 EXFOR.entry.csv:2005.09.14 items:15967
+2005-08-12 EXFOR.entry.csv:2005.08.01 items:15838
+2005-06-16 EXFOR.entry.csv:2005.05.26 items:15654
+--------------------------------------------------
+Total: 503 updates
+
+$ ./go2date.sh 2005-06-16
+        +--------------------------------------+
+        |  Go to date: rollback Git state      |
+        |  v.zerkin@gmail.com, ver.2024-05-12  |
+        +--------------------------------------+
+Script:./go2date.sh 2024-05-12,12:45:03 on zerkin-VBox/Linux
++ git log '--before=2006-01-01 00:00' '--pretty=format:%h %as %s'
++ set +x
+  611 20050616 20050616 [a0e939d7a5 2005-06-16 2005-06-16 CNPD:F020 F0659:20050526 (20040604C)] R Units of uncertainties corrected and] .] ] 
+Found a0e939d7a5 2005-06-16 2005-06-16 CNPD:F020 F0659:20050526 (20040604C)
+Going to do:  $ git checkout a0e939d7a5
+Press any key to continue...
++ git checkout a0e939d7a5
+Updating files: 100% (20355/20355), done.
+M	EXFOR/merge_entries.sh
+Note: switching to 'a0e939d7a5'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a0e939d7a5 2005-06-16 CNPD:F020 F0659:20050526 (20040604C)
++ set +x
+--- Script ./go2date.sh successfully completed 2024-05-12,12:45:20
+
+
+$ ./list_exfor_updates.sh 
+        +--------------------------------------+
+        |  List: EXFOR updates (backup files)  |
+        |  v.zerkin@gmail.com, ver.2024-05-12  |
+        +--------------------------------------+
+Script:./list_exfor_updates.sh 2024-05-12,12:45:43 on zerkin-VBox/Linux
+
+2005-06-16 EXFOR.entry.csv:2005.05.26 items:15654
+--------------------------------------------------
+Total: 1 updates
+
+
+
+$ bash merge_entries.sh
+        +------------------------------------------+
+        |   Merge Entries to a single EXFOR file   |
+        |  v.zerkin@gmail.com, version 2024-05-12  |
+        +------------------------------------------+
+Create single EXFOR file from X4 files stored in sub-directories
+Script:merge_entries.sh 2024-05-12,12:45:58 on zerkin-VBox/Linux
+
+ 3971/15654) 1/139/13986.x4 Entry:13986 N2=20050315 N3=20050610 02:36 #E+3971 
+ 6681/15654) 2/228/22869.x4 Entry:22869 N2=20050207 N3=20050610 04:21 #E+2710 
+ 7879/15654) 3/326/32650.x4 Entry:32650 N2=20030221 N3=20030507 05:08 #E+1198 
+ 9300/15654) 4/414/41437.x4 Entry:41437 N2=20040708 N3=0        06:05 #E+1421 
+ 9306/15654) 6/670/67035.x4 Entry:67035 N2=19850401 N3=0        06:05 #E+6 
+10459/15654) A/A16/A1616.x4 Entry:A1616 N2=19970502 N3=0        06:55 #E+1153 
+10639/15654) B/B01/B0180.x4 Entry:B0180 N2=20011220 N3=20020122 07:03 #E+180 
+11802/15654) C/C12/C1222.x4 Entry:C1222 N2=20050412 N3=20050610 07:52 #E+1163 
+12173/15654) D/D50/D5002.x4 Entry:D5002 N2=20040618 N3=0        08:06 #E+371 
+12536/15654) E/E18/E1875.x4 Entry:E1875 N2=20050224 N3=0        08:21 #E+363 
+13158/15654) F/F06/F0693.x4 Entry:F0693 N2=20040527 N3=0        08:45 #E+622 
+13178/15654) G/G30/G3007.x4 Entry:G3007 N2=20000320 N3=20000321 08:46 #E+20 
+13186/15654) J/J18/J1840.x4 Entry:J1840 N2=20050517 N3=20050610 08:46 #E+8 
+13245/15654) L/L00/L0059.x4 Entry:L0059 N2=19970129 N3=0        08:48 #E+59 
+13913/15654) M/M06/M0668.x4 Entry:M0668 N2=20050221 N3=0        09:13 #E+668 
+15106/15654) O/O12/O1265.x4 Entry:O1265 N2=20050325 N3=20050610 09:58 #E+1193 
+15250/15654) P/P01/P0148.x4 Entry:P0148 N2=20000815 N3=20010330 10:04 #E+144 
+15301/15654) R/R00/R0053.x4 Entry:R0053 N2=19960719 N3=0        10:06 #E+51 
+15345/15654) S/S00/S0044.x4 Entry:S0044 N2=19990726 N3=20000121 10:08 #E+44 
+15611/15654) T/T02/T0299.x4 Entry:T0299 N2=20040802 N3=20050610 10:19 #E+266 
+15654/15654) V/V00/V0045.x4 Entry:V0045 N2=19880512 N3=0        10:21 #E+43 
+
+Script:merge_entries.sh 2024-05-12,12:56:20
+Output:
+-rw-rw-r-- 1 zerkin zerkin 371M Mai 12 12:56 EXFOR--20050616.bck
+-rw-rw-r-- 1 zerkin zerkin   52 Mai 12 12:56 EXFOR--20050616.log
+-rw-rw-r-- 1 zerkin zerkin 230K Mai 12 12:45 EXFOR--20050616.lst
+#Lines:    10953240
+#Entry:    15654
+#Subent:   120051
+#NoSubent: 9215
+
+Script:merge_entries.sh 2024-05-12,12:56:21 finished.
+Elapsed time: 0:10:23
+
+$ git switch - 
+Updating files: 100% (20355/20355), done.
+M	EXFOR/merge_entries.sh
+Previous HEAD position was a0e939d7a5 2005-06-16 CNPD:F020 F0659:20050526 (20040604C)
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+$ git log --pretty="format: %s"|grep "EXFOR.entry.csv"|awk '{ print $1 }'|wc -l
+503
+
+
+$ ./list_exfor_updates.sh 
+        +--------------------------------------+
+        |  List: EXFOR updates (backup files)  |
+        |  v.zerkin@gmail.com, ver.2024-05-12  |
+        +--------------------------------------+
+Script:./list_exfor_updates.sh 2024-05-12,13:04:07 on zerkin-VirtualBox/Linux
+
+2024-05-06 EXFOR.entry.csv:2024.05.05 items:26238
+2024-05-05 EXFOR.entry.csv:2024.05.05 items:26238
+2024-05-03 EXFOR.entry.csv:2024.05.03 items:26238
+. . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+2005-09-14 EXFOR.entry.csv:2005.09.14 items:15967
+2005-08-12 EXFOR.entry.csv:2005.08.01 items:15838
+2005-06-16 EXFOR.entry.csv:2005.05.26 items:15654
+--------------------------------------------------
+Total: 503 updates

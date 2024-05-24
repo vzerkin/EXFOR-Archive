@@ -1,0 +1,23 @@
+$ bash get_entry.sh A1495
+        +-----------------------------------------+
+        |  Get EXFOR Entry versions as files with |
+        |      timestamps in the file names.      |
+        |  by v.zerkin@gmail.com, ver.2024-05-15  |
+        +-----------------------------------------+
+Script:get_entry.sh 2024-05-15,10:48:59 on zerkin-VBox/Linux
+
+Entry:[A1495] File:[./A/A14/A1495.x4]
+1) 0242671e86 2014-03-31 2014-03-31 CNPD:A080 A1495:20140226 (20140226A) EN-RSL deleted
+---Saved as file:A1495.x4-2014-03-31  #Subent:11  #Lines:1444
+
+2) 752bc7a7d3 2013-05-02 2013-05-02 CNPD:A078 A1495:20120410 (20120410A) .Corrections were made according Naohiko
+---Saved as file:A1495.x4-2013-05-02  #Subent:11  #Lines:1442
+
+3) 055f25c9e3 2005-06-16 2005-06-16 CNPD A1495:20031013 (20031013U) Last checking has been done.
+---Saved as file:A1495.x4-2005-06-16  #Subent:11  #Lines:1436
+
+-rw-rw-r-- 1 zerkin zerkin 57442 Jun 16  2005 A1495.x4-2005-06-16
+-rw-rw-r-- 1 zerkin zerkin 58090 Mai  2  2013 A1495.x4-2013-05-02
+-rw-rw-r-- 1 zerkin zerkin 58288 Mär 31  2014 A1495.x4-2014-03-31
+
+Script:get_entry.sh 2024-05-15,10:49:00 finished.
