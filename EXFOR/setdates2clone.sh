@@ -1,8 +1,9 @@
 #!/bin/bash
 #set -x
 
-#Set actual timestamps to the files after clone from GitHub:
-#  $ git clone https://github.com/vzerkin/EXFOR-Backup.git myexfor
+#Set actual timestamps to the files after clone from GitHub.
+#Example of usage:
+#  $ git clone https://github.com/vzerkin/EXFOR-Archive.git myexfor
 #  $ cd myexfor/
 #  $ bash EXFOR/setdates2clone.sh
 

@@ -1,0 +1,45 @@
+C:\EXFOR-Archive\EXFOR>bash show_history_fast.sh
+#        +--------------------------------------+
+#        |  Show History of EXFOR Entries       |
+#        |  v.zerkin@gmail.com, ver.2024-05-27  |
+#        +--------------------------------------+
+#
+#Script:show_history_fast.sh 2024-05-27,21:37:30 on ZVV-MINI-PC/MINGW32_NT-6.2
+#Step-1: 2024-05-27,21:37:30 get full log. Wait...
+#Step-1: 2024-05-27,21:37:32 get full log. Finished. Time:2.sec
+#Step-2: 2024-05-27,21:37:32 process full log. Wait...
+        10000) EXFOR/4/406/40676.x4 t:14.sec
+        20000) EXFOR/D/D06/D0649.x4 t:28.sec
+        30000) EXFOR/D/D03/D0340.x4 t:41.sec
+        40000) EXFOR/1/130/13062.x4 t:55.sec
+#Step-2: 2024-05-27,21:38:35 process full log. Finished. #Updates:45789. Time:63.sec
+#Step-3: 2024-05-27,21:38:35 output history. Wait...
+        1000) EXFOR/1/110/11000.x4 17.sec 0:17
+        2000) EXFOR/1/120/12000.x4 33.sec 0:33
+        3000) EXFOR/1/130/13000.x4 49.sec 0:49
+        4000) EXFOR/1/140/14000.x4 65.sec 1:5
+        5000) EXFOR/2/203/20311.x4 81.sec 1:21
+        6000) EXFOR/2/213/21313.x4 99.sec 1:39
+        7000) EXFOR/2/223/22328.x4 119.sec 1:59
+        8000) EXFOR/2/233/23344.x4 145.sec 2:25
+        9000) EXFOR/3/306/30654.x4 166.sec 2:46
+        10000) EXFOR/3/327/32711.x4 189.sec 3:9
+        11000) EXFOR/4/406/40672.x4 212.sec 3:32
+        12000) EXFOR/4/416/41674.x4 237.sec 3:57
+        13000) EXFOR/A/A10/A1023.x4 259.sec 4:19
+        14000) EXFOR/C/C03/C0370.x4 276.sec 4:36
+        15000) EXFOR/C/C13/C1370.x4 291.sec 4:51
+        16000) EXFOR/C/C24/C2455.x4 305.sec 5:5
+        17000) EXFOR/D/D05/D0593.x4 321.sec 5:21
+        18000) EXFOR/D/D51/D5129.x4 339.sec 5:39
+        19000) EXFOR/E/E15/E1565.x4 353.sec 5:53
+        20000) EXFOR/F/F00/F0062.x4 369.sec 6:9
+        21000) EXFOR/F/F10/F1094.x4 388.sec 6:28
+        22000) EXFOR/L/L02/L0245.x4 403.sec 6:43
+        23000) EXFOR/M/M09/M0974.x4 426.sec 7:6
+        24000) EXFOR/O/O09/O0943.x4 444.sec 7:24
+        25000) EXFOR/O/O20/O2027.x4 461.sec 7:41
+        26000) EXFOR/T/T00/T0087.x4 476.sec 7:56
+#Step-3: 2024-05-27,21:46:35 output history. Finished. #Entries:26244. Time:480.sec
+#Script:show_history_fast.sh 2024-05-27,21:46:36 finished.
+#Elapsed time: 0:9:6

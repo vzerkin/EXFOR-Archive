@@ -2,10 +2,10 @@
 #set -x
 
 #----Make snapshot (backup) of EXFOR at given date
-# 0) Clone EXFOR-Backup to your file: selected folder (myexfor)
-#    $ git clone https://github.com/vzerkin/EXFOR-Backup.git myexfor
+# 0) Clone EXFOR-Archive to your file: selected folder (myexfor)
+#    $ git clone https://github.com/vzerkin/EXFOR-Archive.git myexfor
 #    $ cd myexfor/
-# 1) Produce list of EXFOR backups
+# 1) Produce list of EXFOR updates
 #    $ bash EXFOR/list_exfor_updates.sh
 # 2) Select date and rollback Git state to selected date
 #    $ bash EXFOR/go2date.sh 2005-06-16
