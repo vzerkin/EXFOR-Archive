@@ -38,7 +38,7 @@ _by V.Zerkin, IAEA, 2000-2024_
 
 - If you have installed **git**, you can download full repository using terminal command:
 ```shell
-      git clone https://github.com/vzerkin/EXFOR-Archive.git
+      git clone https://github.com/IAEA-NRDCNetwork/EXFOR-Archive.git
 ```
 
 ### Scripts
