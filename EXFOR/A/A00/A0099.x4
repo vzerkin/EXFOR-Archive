@@ -1,6 +1,6 @@
-ENTRY            A0099   20200529   20200717   20200629       A095
-SUBENT        A0099001   20200529   20200717   20200629       A095
-BIB                 12         47
+ENTRY            A0099   20240618   20241028   20241028       A115
+SUBENT        A0099001   20240618   20241028   20241028       A115
+BIB                 12         48
 TITLE      Systematic experimental survey on projectile
            fragmentation and fission induced in collisions of 238U
            at 1 A GeV with lead
@@ -18,8 +18,8 @@ METHOD     (BCINT) The primary beam intensity was recorded
            secondary-electron transmission monitor.
            (TOF,EDE)
 DETECTOR   (SCIN) Two 5 mm thick scintillation detectors which
-           which measured the horizontal positions at the center
-           and at the exit of the spectrometer as well as the
+           measured the horizontal positions at the center and
+           at the exit of the spectrometer as well as the
            time-of-flight in the second half of the separator.
            (IOCH) Multiple-sampling ionization chamber was mounted
            at the exit in order to determine the energy loss of
@@ -32,9 +32,9 @@ ERR-ANALYS (ERR-1) Systematic uncertainty. The accuracy of
 ADD-RES    (COMP) Comparison with the EPAX parametrization.
            Velocity distribution of fragmentation products.
            Velocity of fission fragments.
-STATUS     (TABLE) Data table was received from Web site of GSI.
+STATUS     (TABLE) Data table was received from Website of GSI.
 COMMENT    - By compiler -
-           1. Number of data points on Web site of Fragment
+           1. Number of data points on Website of Fragment
            separator is larger, than ones in Nuclear Physics.
            All data from the site are included by compiler.
            2. Measurement method detected ground state and all
@@ -48,22 +48,26 @@ HISTORY    (20000712C)
            (20200529A) SD: Corrections in all Subents. Numerical
            data revised. Subents 002-199; 200-489; 490-879 merged.
            PART-DET deleted. Units in EN changed (GEV -> GEV/A).
-ENDBIB              47
+           (20240618U) SD: Correction in Subent 002.
+ENDBIB              48
 COMMON               2          3
 EN         ERR-1
 GEV/A      PER-CENT
        1.        30.
 ENDCOMMON            3
-ENDSUBENT           54
-SUBENT        A0099002   20200529   20200717   20200629       A095
-BIB                  2          6
+ENDSUBENT           55
+SUBENT        A0099002   20240618   20241028   20241028       A115
+BIB                  3          9
 REACTION  S(82-PB-208(92-U-238,X)ELEM/MASS,SPL,SIG)
           F(82-PB-208(92-U-238,X)ELEM/MASS,FIS,SIG)
+METHOD     Spallation (fragmentation) and fission portions
+           separated in terms of velocity distribution.
 HISTORY    (20200529A) SD: SF4=Ga-69 -> ELEM/MASS; SF9=EXP deleted
            from REACTION codes. Data from Subents 003-199 added.
            REACTION code with SF5=IND and corresponding data were
            deleted from Subent (data calculated by compiler).
-ENDBIB               6
+           (20240618U) SD: METHOD was added.
+ENDBIB               9
 NOCOMMON             0          0
 DATA                 6        198
 ELEMENT    MASS       DATA      FERR-T     FDATA      SERR-T     S
@@ -267,7 +271,7 @@ NO-DIM     NO-DIM     MB         MB         MB         MB
         59.       141.      1.718      0.804      0.272       0.08
         59.       142.      2.124      0.936       0.16      0.044
 ENDDATA            200
-ENDSUBENT          211
+ENDSUBENT          214
 NOSUBENT      A0099003   20200529   20200717   20200629       A095
 NOSUBENT      A0099004   20200529   20200717   20200629       A095
 NOSUBENT      A0099005   20200529   20200717   20200629       A095
