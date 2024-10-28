@@ -3,16 +3,16 @@
 #        |  v.zerkin@gmail.com, ver.2024-05-27  |
 #        +--------------------------------------+
 #
-#Script:./show_history_fast.sh 2024-10-27,21:39:16 on zerkin-VirtualBox/Linux
-#Step-1: 2024-10-27,21:39:16 get full log. Wait...
-#Step-1: 2024-10-27,21:39:17 get full log. Finished. Time:1.sec
-#Step-2: 2024-10-27,21:39:17 process full log. Wait...
-	10000) EXFOR/A/A14/A1402.x4 t:2.sec
-	20000) EXFOR/M/M08/M0831.x4 t:3.sec
-	30000) EXFOR/C/C12/C1284.x4 t:4.sec
-	40000) EXFOR/E/E09/E0933.x4 t:6.sec
-#Step-2: 2024-10-27,21:39:24 process full log. Finished. #Updates:46178. Time:7.sec
-#Step-3: 2024-10-27,21:39:24 output history. Wait...
+#Script:./show_history_fast.sh 2024-10-28,13:27:15 on zerkin-VirtualBox/Linux
+#Step-1: 2024-10-28,13:27:15 get full log. Wait...
+#Step-1: 2024-10-28,13:27:21 get full log. Finished. Time:6.sec
+#Step-2: 2024-10-28,13:27:21 process full log. Wait...
+	10000) EXFOR/A/A00/A0017.x4 t:1.sec
+	20000) EXFOR/1/141/14173.x4 t:2.sec
+	30000) EXFOR/C/C13/C1303.x4 t:4.sec
+	40000) EXFOR/1/122/12252.x4 t:5.sec
+#Step-2: 2024-10-28,13:27:27 process full log. Finished. #Updates:46198. Time:6.sec
+#Step-3: 2024-10-28,13:27:27 output history. Wait...
 	1000) EXFOR/1/110/11000.x4 0.sec 0:0
 	2000) EXFOR/1/120/12000.x4 0.sec 0:0
 	3000) EXFOR/1/130/13000.x4 1.sec 0:1
@@ -32,13 +32,13 @@
 	17000) EXFOR/D/D05/D0509.x4 6.sec 0:6
 	18000) EXFOR/D/D50/D5041.x4 6.sec 0:6
 	19000) EXFOR/E/E13/E1365.x4 6.sec 0:6
-	20000) EXFOR/E/E27/E2735.x4 7.sec 0:7
+	20000) EXFOR/E/E27/E2735.x4 6.sec 0:6
 	21000) EXFOR/F/F09/F0987.x4 7.sec 0:7
 	22000) EXFOR/L/L01/L0110.x4 7.sec 0:7
-	23000) EXFOR/M/M08/M0839.x4 8.sec 0:8
+	23000) EXFOR/M/M08/M0839.x4 7.sec 0:7
 	24000) EXFOR/O/O08/O0802.x4 8.sec 0:8
 	25000) EXFOR/O/O18/O1893.x4 8.sec 0:8
-	26000) EXFOR/S/S02/S0206.x4 9.sec 0:9
-#Step-3: 2024-10-27,21:39:33 output history. Finished. #Entries:26378. Time:9.sec
-#Script:./show_history_fast.sh 2024-10-27,21:39:33 finished.
-#Elapsed time: 0:0:17
+	26000) EXFOR/S/S02/S0206.x4 8.sec 0:8
+#Step-3: 2024-10-28,13:27:35 output history. Finished. #Entries:26378. Time:8.sec
+#Script:./show_history_fast.sh 2024-10-28,13:27:35 finished.
+#Elapsed time: 0:0:20
