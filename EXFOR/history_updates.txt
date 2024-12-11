@@ -1,4 +1,4 @@
-#Full history 2024-12-10,23:16:16
+#Full history 2024-12-11,15:53:45
 ## Entry #Hist  EXFOR-date Center:TRANS Entry:N2   Latest-HISTORY-record
 1) 10001 1	2005-06-16 NNDC 10001:19980914 (19931229U) BIB update. Converted to lower case.
 2) 10002 2	2012-09-21 NNDC:1382 10002:20120601 (20120413A) BP: Details of the data analysis were
