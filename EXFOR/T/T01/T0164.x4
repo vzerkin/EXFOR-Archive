@@ -1,29 +1,32 @@
-ENTRY            T0164   20031219   20040319
-SUBENT        T0164001   20031219   20040319
-BIB                  9         15
+ENTRY            T0164   20241025   20250015   20241215       C242
+SUBENT        T0164001   20241025   20250015   20241215       C242
+BIB                  9         18
 INSTITUTE  (1USAYAL)
-REFERENCE  (J,PR/C,21,2275,198006)
-AUTHOR     (M.H.Mortenson,R.R.Betts,C.K.Bockelman)
+REFERENCE  (J,PR/C,21,2275,1980)
+           #doi:10.1103/PhysRevC.21.2275
+AUTHOR     (M.H.Mortensen,R.R.Betts,C.K.Bockelman)
 TITLE      W(p,t) reactions. I. Even targets.
 METHOD     (SITA)
-REL-REF    (N,O0786001,M.H.MORTENSEN+,J,PR/C,21,2288,198806)
+REL-REF    (N,T0256001,M.H.Mortensen+,J,PR/C,21,2288,1980)
              Data for 183W.
-ADD-RES    (COMP).Ccba and DWBA Calculations.
+ADD-RES    (COMP).CCBA and DWBA Calculations.
            Nuclear Structure Analysis.
-STATUS     (CURVE) Scanned from figures in reference by CAJAD.
+STATUS     (CURVE,,M.H.Mortensen+,J,PR/C,21,2275,1980)
+           Scanned from figures by CAJAD.
            No reply from R. Betts to author proof.
-           (COREL,T0256001) Data for 183W.
 HISTORY    (20010611C) SB+VM
            (20031219A) BIB update. MONITOR moved to data
                        subentries.
-ENDBIB              15
+           (20241019A) OS. 1st author's name corrected
+           (20241214A) OG. REL-REF and STATUS changed.
+ENDBIB              18
 COMMON               1          3
 EN
 MEV
   21.
 ENDCOMMON            3
-ENDSUBENT           22
-SUBENT        T0164002   20031219   20040319
+ENDSUBENT           25
+SUBENT        T0164002   20031219   20040319   20050926       0000
 BIB                  7         19
 REACTION   (74-W-180(P,T)74-W-178,PAR,DA)
 FACILITY   (VDGT,1USAYAL) Beam of 21 MeV protons from the Yale
@@ -113,7 +116,7 @@ MEV        ADEG       MU-B/SR    PER-CENT   NO-DIM
    1.643    70.5         3.5       11.
 ENDDATA             64
 ENDSUBENT           88
-SUBENT        T0164003   20031219   20040319
+SUBENT        T0164003   20031219   20040319   20050926       0000
 BIB                  7         24
 REACTION   (74-W-182(P,T)74-W-180,PAR,DA)
 FACILITY   (VDGT,1USAYAL) Beam of 21 MeV protons from the Yale
@@ -209,7 +212,7 @@ MEV        ADEG       MU-B/SR    PER-CENT   NO-DIM
    1.695     65.5        1.24        9.
 ENDDATA             65
 ENDSUBENT           94
-SUBENT        T0164004   20031219   20040319
+SUBENT        T0164004   20031219   20040319   20050926       0000
 BIB                  7         24
 REACTION   (74-W-184(P,T)74-W-182,PAR,DA)
 FACILITY   (VDGT,1USAYAL) Beam of 21 MeV protons from the Yale
@@ -311,7 +314,7 @@ MEV        ADEG       MU-B/SR    PER-CENT   NO-DIM
    2.725     67.3        2.7       15.
 ENDDATA             71
 ENDSUBENT          100
-SUBENT        T0164005   20031219   20040319
+SUBENT        T0164005   20031219   20040319   20050926       0000
 BIB                  7         24
 REACTION   (74-W-186(P,T)74-W-184,PAR,DA)
 FACILITY   (VDGT,1USAYAL) Beam of 21 MeV protons from the Yale
@@ -387,7 +390,7 @@ MEV        ADEG       MU-B/SR    PER-CENT   NO-DIM
    0.995     72.6       10.
 ENDDATA             45
 ENDSUBENT           74
-SUBENT        T0164006   20010612   20020218
+SUBENT        T0164006   20010612   20020218   20050926       0000
 BIB                  4          9
 REACTION   (74-W-180(T,P)74-W-182,PAR,DA)
 FACILITY   (VDGT,1USAPEN) Beam of 15 MeV tritons from the
