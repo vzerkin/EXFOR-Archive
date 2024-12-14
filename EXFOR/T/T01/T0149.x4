@@ -1,16 +1,16 @@
-ENTRY            T0149   20010402   20010514
-SUBENT        T0149001   20010402   20010514
-BIB                 13         23
+ENTRY            T0149   20241025   20250015   20241215       C242
+SUBENT        T0149001   20241025   20250015   20241215       C242
+BIB                 13         25
 INSTITUTE  (2SWTWUR,1USALAS,1USAAI )
 REFERENCE  (J,JNM,155-157,1350,1988)
+           #doi:10.1016/0022-3115(88)90525-9
 TITLE      Production of Helium by Medium Energy (600 and 800 MeV)
             Protons.
-AUTHOR     (S.L.GREEN,W.V.GREEN,F.H.HEGEDUS,M.VICTORIA,W.F.SOMMER,
-           B.M.OLIVER)
-FACILITY   (MESON,1USALAS) LAMPF.
-           (SPECM,1USAAI)
+AUTHOR     (S.L.Green,W.V.Green,F.H.Hegedus,M.Victoria,W.F.Sommer,
+           B.M.Oliver)
+FACILITY   (LINAC,1USALAS) LAMPF.
 SAMPLE     Metallic foil targets.
-METHOD     Mass spectrometry following vaporization of the
+METHOD     (HE-AC) Mass spectrometry following vaporization of the
            specimen under vacuum in a resistance heated graphite
            crucible.
 DETECTOR   Ge(Li) detector used to measure monitor foil activity.
@@ -20,14 +20,20 @@ ERR-ANALYS No information on uncertainties.
 ADD-RES    (COMP). HETC: High Energy nucleon-meson Transport Code.
            Medium energy protons irradiations damage parameters
             were calculated.
-STATUS     Data taken from Table 2 in reference.
+STATUS     (TABLE,,S.L.Green+,J,JNM,155-157,1350,1988) Table 2.
            No reply from W.F. Sommer to author proof.
 HISTORY    (20010209C) Converted from data set O0488 compiled by
                        CAJaD and updated.
-ENDBIB              23
-NOCOMMON             0          0
-ENDSUBENT           26
-SUBENT        T0149002   20010209   20010514
+           (20241019A) OS. COMMON in sub.1 added, several BIB
+             updates
+ENDBIB              25
+COMMON               1          3
+MONIT
+MB
+  14.
+ENDCOMMON            3
+ENDSUBENT           32
+SUBENT        T0149002   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(13-AL-27(P,X)2-HE-4,,SIG)
           2(13-AL-27(P,X)2-HE-3,,SIG)
@@ -39,7 +45,7 @@ MEV        MB         MB
        750.       295.        33.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149003   20010209   20010514
+SUBENT        T0149003   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(26-FE-0(P,X)2-HE-4,,SIG)
           2(26-FE-0(P,X)2-HE-3,,SIG)
@@ -51,7 +57,7 @@ MEV        MB         MB
        750.       452.        52.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149004   20010209   20010514
+SUBENT        T0149004   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(28-NI-0(P,X)2-HE-4,,SIG)
           2(28-NI-0(P,X)2-HE-3,,SIG)
@@ -63,7 +69,7 @@ MEV        MB         MB
        750.       476.        58.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149005   20010209   20010514
+SUBENT        T0149005   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(29-CU-0(P,X)2-HE-4,,SIG)
           2(29-CU-0(P,X)2-HE-3,,SIG)
@@ -75,7 +81,7 @@ MEV        MB         MB
        750.       462.        49.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149006   20010209   20010514
+SUBENT        T0149006   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(42-MO-0(P,X)2-HE-4,,SIG)
           2(42-MO-0(P,X)2-HE-3,,SIG)
@@ -87,7 +93,7 @@ MEV        MB         MB
        750.       578.        56.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149007   20010209   20010514
+SUBENT        T0149007   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(74-W-0(P,X)2-HE-4,,SIG)
           2(74-W-0(P,X)2-HE-3,,SIG)
@@ -99,7 +105,7 @@ MEV        MB         MB
        750.       710.        52.
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        T0149008   20010209   20010514
+SUBENT        T0149008   20010209   20010514   20050926       0000
 BIB                  1          2
 REACTION  1(79-AU-197(P,X)2-HE-4,,SIG)
           2(79-AU-197(P,X)2-HE-3,,SIG)
