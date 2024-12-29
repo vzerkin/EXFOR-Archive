@@ -1,24 +1,25 @@
-ENTRY            R0015   20040830
-SUBENT        R0015001   20040830
-BIB                  8         14
-TITLE      Etude du mecanisme de la reaction (HE-3,a) a 217 (205)
-           MeV et de l'excitation d'etat de trous dans les couches
-           profondes
-AUTHOR     (J.Van de Wiele,E.Gerlic,H.Langevin-Joliot,G.Duhamel)
+ENTRY            R0015   20241119   20250030   20241230       R031
+SUBENT        R0015001   20241119   20250030   20241230       R031
+BIB                  8         15
+TITLE      Study of the mechanism of the (3He,a) reaction at 217
+            (205) MeV and the excitation of hole states in deep
+            layers
+AUTHOR     (J.Van de Wiele, E.Gerlic, H.Langevin-Joliot,
+            G.Duhamel)
 INSTITUTE  (2FR PAR)
-REFERENCE  (J,NP/A,297,(1),61,197803)
+REFERENCE  (J,NP/A,297,61,1978)
 FACILITY   (SYNCY,2FR PAR)
 DETECTOR   (MAGSP,TELES)
+STATUS     (CURVE)
 HISTORY    (19840831C)
            (19850628A)
            (20040730A) REFERENCE, FACILITY and REACTION are
-                       corrected.
-                       Changed to lowercase and 4-digits year.
-STATUS     (CURVE)
-ENDBIB              14
+            corrected.
+           (20241119A) On. Major revision in 008 and 009.
+ENDBIB              15
 NOCOMMON             0          0
-ENDSUBENT           17
-SUBENT        R0015002   20040830
+ENDSUBENT           18
+SUBENT        R0015002   20040830              20050926       0000
 BIB                  3          3
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25mg/cm**2.
@@ -48,7 +49,7 @@ ADEG       MB/SR
  23.4        0.2
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        R0015003   20040830
+SUBENT        R0015003   20040830              20050926       0000
 BIB                  3          5
 REACTION   (8-O-16(HE3,A)8-O-15,PAR,DA)
 SAMPLE     Vanadium oxide consolidated by a small quantity of
@@ -81,7 +82,7 @@ ADEG       MB/SR
  25.7        0.14
 ENDDATA             17
 ENDSUBENT           31
-SUBENT        R0015004   20040830
+SUBENT        R0015004   20040830              20050926       0000
 BIB                  3          3
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25mg/cm**2.
@@ -111,7 +112,7 @@ ADEG       MB/SR
  26.2        0.27
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        R0015005   20040830
+SUBENT        R0015005   20040830              20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25mg/cm**2.
@@ -139,7 +140,7 @@ ADEG       MB/SR
  12.8        1.20
 ENDDATA             14
 ENDSUBENT           26
-SUBENT        R0015006   20040830
+SUBENT        R0015006   20040830              20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25mg/cm**2.
@@ -160,7 +161,7 @@ ADEG       MB/SR
  21.1        0.20
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015007   20040830
+SUBENT        R0015007   20040830              20050926       0000
 BIB                  3          5
 REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -198,74 +199,74 @@ ADEG       MB/SR      MB/SR
  26.0        0.16       0.009
 ENDDATA             22
 ENDSUBENT           36
-SUBENT        R0015008   20040830
-BIB                  3          5
-REACTION   (40-ZR-90(A,INL)40-ZR-90,PAR,DA)
-SAMPLE     Thickness of target was 75 mg/cm**2.
-ERR-ANALYS No error analysis is given by the authors.
-           Data errors indicated in graphs by the authors
-           were read by compilers.
+SUBENT        R0015008   20241119   20250030   20241230       R031
+BIB                  4          5
+REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
+SAMPLE     Thickness of target was 75 mg/cm2.
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+HISTORY    (20241119A) On. REACTION(SF1-SF4) corrected. DATA ->
+            DATA-CM.
 ENDBIB               5
 COMMON               2          3
 EN         E-LVL
 MEV        MEV
-205.       1.09
+ 205.       1.09
 ENDCOMMON            3
 DATA                 3         15
-ANG-CM     DATA       DATA-ERR
+ANG-CM     DATA-CM    DATA-ERR
 ADEG       MB/SR      MB/SR
-  1.1        1.7        0.1
-  1.6        1.4        0.3
-  2.6        0.8        0.2
-  3.7        0.9        0.2
-  4.4        0.7        0.1
-  5.2        0.35       0.04
-  6.1        0.22       0.06
-  7.3        0.23       0.03
-  8.2        0.20       0.05
- 10.3        0.10       0.03
- 12.3        0.08       0.03
- 14.5        0.053      0.008
- 16.4        0.042      0.007
- 19.7        0.030      0.002
- 22.8        0.019      0.001
+  1.1       1.7        0.1
+  1.6       1.4        0.3
+  2.6       0.8        0.2
+  3.7       0.9        0.2
+  4.4       0.7        0.1
+  5.2       0.35       0.04
+  6.1       0.22       0.06
+  7.3       0.23       0.03
+  8.2       0.20       0.05
+ 10.3       0.10       0.03
+ 12.3       0.08       0.03
+ 14.5       0.053      0.008
+ 16.4       0.042      0.007
+ 19.7       0.030      0.002
+ 22.8       0.019      0.001
 ENDDATA             17
 ENDSUBENT           31
-SUBENT        R0015009   20040830
-BIB                  3          5
-REACTION   (40-ZR-90(A,INL)40-ZR-90,PAR,DA)
-SAMPLE     Thickness of target was 75 mg/cm**2.
-ERR-ANALYS No error analysis is given by the authors.
-           Data errors indicated in graphs by the authors
-           were read by compilers.
+SUBENT        R0015009   20241119   20250030   20241230       R031
+BIB                  4          5
+REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
+SAMPLE     Thickness of target was 75 mg/cm2.
+ERR-ANALYS (DATA-ERR) No information on the source of uncertainty
+HISTORY    (20241119A) On. REACTION(SF1-SF4) corrected. DATA ->
+            DATA-CM.
 ENDBIB               5
 COMMON               3          3
 EN         E-LVL-MIN  E-LVL-MAX
 MEV        MEV        MEV
-205.       1.45       1.52
+ 205.       1.45       1.52
 ENDCOMMON            3
 DATA                 3         16
-ANG-CM     DATA       DATA-ERR
+ANG-CM     DATA-CM    DATA-ERR
 ADEG       MB/SR      MB/SR
-  1.1        2.9        0.1
-  1.6        2.2        0.4
-  2.7        2.0        0.4
-  3.5        2.8        0.5
-  4.3        1.9        0.3
-  5.2        1.2        0.1
-  6.2        0.7        0.1
-  7.3        0.8        0.1
-  8.3        0.53       0.08
- 10.4        0.40       0.05
- 12.4        0.27       0.07
- 14.3        0.21       0.05
- 16.3        0.15       0.03
- 19.6        0.09       0.01
- 22.5        0.05       0.01
- 25.9        0.033      0.006
+  1.1       2.9        0.1
+  1.6       2.2        0.4
+  2.7       2.0        0.4
+  3.5       2.8        0.5
+  4.3       1.9        0.3
+  5.2       1.2        0.1
+  6.2       0.7        0.1
+  7.3       0.8        0.1
+  8.3       0.53       0.08
+ 10.4       0.40       0.05
+ 12.4       0.27       0.07
+ 14.3       0.21       0.05
+ 16.3       0.15       0.03
+ 19.6       0.09       0.01
+ 22.5       0.05       0.01
+ 25.9       0.033      0.006
 ENDDATA             18
 ENDSUBENT           32
-SUBENT        R0015010   20040830
+SUBENT        R0015010   20040830              20050926       0000
 BIB                  3          3
 REACTION   (50-SN-124(HE3,A)50-SN-123,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2
@@ -284,7 +285,7 @@ ADEG       MB/SR
  16.3        0.26
 ENDDATA              5
 ENDSUBENT           17
-SUBENT        R0015011   20040830
+SUBENT        R0015011   20040830              20050926       0000
 BIB                  3          3
 REACTION   (50-SN-124(HE3,A)50-SN-123,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2
@@ -304,7 +305,7 @@ ADEG       MB/SR
  16.4        0.59
 ENDDATA              6
 ENDSUBENT           18
-SUBENT        R0015012   20040830
+SUBENT        R0015012   20040830              20050926       0000
 BIB                  3          5
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -326,7 +327,7 @@ ADEG       MB/SR      MB/SR
  16.1        0.49       0.02
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015013   20040830
+SUBENT        R0015013   20040830              20050926       0000
 BIB                  3          5
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -348,7 +349,7 @@ ADEG       MB/SR      MB/SR
  16.3        0.14       0.02
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015014   20040830
+SUBENT        R0015014   20040830              20050926       0000
 BIB                  3          5
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -370,7 +371,7 @@ ADEG       MB/SR      MB/SR
  16.3        0.044      0.005
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015015   20040830
+SUBENT        R0015015   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -401,7 +402,7 @@ ADEG       MB/SR      MB/SR
  23.6        0.019      0.002
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        R0015016   20040830
+SUBENT        R0015016   20040830              20050926       0000
 BIB                  3          3
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -431,7 +432,7 @@ ADEG       MB/SR
  23.4        0.16
 ENDDATA             16
 ENDSUBENT           28
-SUBENT        R0015017   20040830
+SUBENT        R0015017   20040830              20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -461,7 +462,7 @@ ADEG       MB/SR      MB/SR
  13.1        0.055      0.005
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        R0015018   20040830
+SUBENT        R0015018   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -493,7 +494,7 @@ ADEG       MB/SR      MB/SR
  23.9        0.060      0.007
 ENDDATA             16
 ENDSUBENT           30
-SUBENT        R0015019   20040830
+SUBENT        R0015019   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -524,7 +525,7 @@ ADEG       MB/SR      MB/SR
  23.8        0.070      0.009
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        R0015020   20040830
+SUBENT        R0015020   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -555,7 +556,7 @@ ADEG       MB/SR      MB/SR
  23.8        0.026      0.003
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        R0015021   20040830
+SUBENT        R0015021   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -586,7 +587,7 @@ ADEG       MB/SR      MB/SR
  23.9        0.040      0.005
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        R0015022   20040830
+SUBENT        R0015022   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -611,7 +612,7 @@ ADEG       MB/SR      MB/SR
  24.2        0.11       0.05
 ENDDATA              9
 ENDSUBENT           23
-SUBENT        R0015023   20040830
+SUBENT        R0015023   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -636,7 +637,7 @@ ADEG       MB/SR      MB/SR
  24.1        0.17      0.07
 ENDDATA              9
 ENDSUBENT           23
-SUBENT        R0015024   20040830
+SUBENT        R0015024   20040830              20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -665,7 +666,7 @@ ADEG       MB/SR      MB/SR
  13.2        0.22       0.01
 ENDDATA             13
 ENDSUBENT           27
-SUBENT        R0015025   20040830
+SUBENT        R0015025   20040830              20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -695,7 +696,7 @@ ADEG       MB/SR      MB/SR
  12.8        1.19       0.07
 ENDDATA             14
 ENDSUBENT           28
-SUBENT        R0015026   20040830
+SUBENT        R0015026   20040830              20050926       0000
 BIB                  3          5
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -723,7 +724,7 @@ ADEG       MB/SR      MB/SR
  21.3        0.26       0.02
 ENDDATA             12
 ENDSUBENT           26
-SUBENT        R0015027   20040830
+SUBENT        R0015027   20040830              20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -751,7 +752,7 @@ ADEG       MB/SR
  12.9        0.79
 ENDDATA             14
 ENDSUBENT           26
-SUBENT        R0015028   20040830
+SUBENT        R0015028   20040830              20050926       0000
 BIB                  3          3
 REACTION   (28-NI-58(HE3,A)28-NI-57,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -772,7 +773,7 @@ ADEG       MB/SR
  17.0        1.54
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015029   20040830
+SUBENT        R0015029   20040830              20050926       0000
 BIB                  3          5
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -805,7 +806,7 @@ ADEG       MB/SR      MB/SR
  22.3        0.14       0.02
 ENDDATA             17
 ENDSUBENT           31
-SUBENT        R0015030   20040830
+SUBENT        R0015030   20040830              20050926       0000
 BIB                  3          5
 REACTION   (14-SI-28(HE3,A)14-SI-27,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -836,7 +837,7 @@ ADEG       MB/SR      MB/SR
  23.6        0.17       0.02
 ENDDATA             15
 ENDSUBENT           29
-SUBENT        R0015031   20040830
+SUBENT        R0015031   20040830              20050926       0000
 BIB                  3          5
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -858,7 +859,7 @@ ADEG       MB/SR      MB/SR
  19.8        0.40       0.07
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015032   20040830
+SUBENT        R0015032   20040830              20050926       0000
 BIB                  3          5
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -881,7 +882,7 @@ ADEG       MB/SR      MB/SR
  35.1        0.021      0.004
 ENDDATA              7
 ENDSUBENT           21
-SUBENT        R0015033   20040830
+SUBENT        R0015033   20040830              20050926       0000
 BIB                  3          5
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -903,7 +904,7 @@ ADEG       MB/SR      MB/SR
  19.8        0.16       0.01
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015034   20040830
+SUBENT        R0015034   20040830              20050926       0000
 BIB                  3          3
 REACTION   (6-C-12(HE3,A)6-C-11,PAR,DA)
 SAMPLE     Thickness of targets were between 10 and 25 mg/cm**2.
@@ -924,7 +925,7 @@ ADEG       MB/SR
  35.5        0.012
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015035   20040830
+SUBENT        R0015035   20040830              20050926       0000
 BIB                  3          7
 REACTION   (8-O-16(HE3,A)8-O-15,PAR,DA)
 SAMPLE     Vanadium oxide consolidated by a small quantity of
@@ -948,7 +949,7 @@ ADEG       MB/SR      MB/SR
  19.8        6.9        2.0
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        R0015036   20040830
+SUBENT        R0015036   20040830              20050926       0000
 BIB                  3          7
 REACTION   (8-O-16(HE3,A)8-O-15,PAR,DA)
 SAMPLE     Vanadium oxide consolidated by a small quantity of
@@ -972,7 +973,7 @@ ADEG       MB/SR      MB/SR
  19.8        1.3        0.3
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        R0015037   20040830
+SUBENT        R0015037   20040830              20050926       0000
 BIB                  3          7
 REACTION   (8-O-16(HE3,A)8-O-15,PAR,DA)
 SAMPLE     Vanadium oxide consolidated by a small quantity of
@@ -996,7 +997,7 @@ ADEG       MB/SR      MB/SR
  19.8        0.16       0.02
 ENDDATA              6
 ENDSUBENT           22
-SUBENT        R0015038   20040830
+SUBENT        R0015038   20040830              20050926       0000
 BIB                  3          5
 REACTION   (8-O-16(HE3,A)8-O-15,PAR,DA)
 SAMPLE     Vanadium oxide consolidated by a small quantity of
@@ -1018,7 +1019,7 @@ ADEG       MB/SR
  19.8        0.091
 ENDDATA              6
 ENDSUBENT           20
-SUBENT        R0015039   20040830
+SUBENT        R0015039   20040830              20050926       0000
 BIB                  3          5
 REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -1054,7 +1055,7 @@ ADEG       MB/SR      MB/SR
  26.0        0.024      0.005
 ENDDATA             20
 ENDSUBENT           34
-SUBENT        R0015040   20040830
+SUBENT        R0015040   20040830              20050926       0000
 BIB                  3          5
 REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -1092,7 +1093,7 @@ ADEG       MB/SR      MB/SR
  26.0       0.044     0.017
 ENDDATA             22
 ENDSUBENT           36
-SUBENT        R0015041   20040830
+SUBENT        R0015041   20040830              20050926       0000
 BIB                  3          5
 REACTION   (40-ZR-90(HE3,A)40-ZR-89,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -1128,7 +1129,7 @@ ADEG       MB/SR      MB/SR
  26.3        0.09       0.03
 ENDDATA             20
 ENDSUBENT           34
-SUBENT        R0015042   20040830
+SUBENT        R0015042   20040830              20050926       0000
 BIB                  3          3
 REACTION   (50-SN-118(HE3,A)50-SN-117,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -1149,7 +1150,7 @@ ADEG       MB/SR
  16.7        0.71
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015043   20040830
+SUBENT        R0015043   20040830              20050926       0000
 BIB                  3          5
 REACTION   (50-SN-118(HE3,A)50-SN-117,PAR,DA)
 SAMPLE     Thickness of target was 75 mg/cm**2.
@@ -1172,7 +1173,7 @@ ADEG       MB/SR      MB/SR
  16.7        0.26       0.03
 ENDDATA              7
 ENDSUBENT           21
-SUBENT        R0015044   20040830
+SUBENT        R0015044   20040830              20050926       0000
 BIB                  3          3
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -1193,7 +1194,7 @@ ADEG       MB/SR
  16.2        0.10
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015045   20040830
+SUBENT        R0015045   20040830              20050926       0000
 BIB                  3          3
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -1214,7 +1215,7 @@ ADEG       MB/SR
  16.2        0.06
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015046   20040830
+SUBENT        R0015046   20040830              20050926       0000
 BIB                  3          3
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
@@ -1235,7 +1236,7 @@ ADEG       MB/SR
  16.3        0.10
 ENDDATA              7
 ENDSUBENT           19
-SUBENT        R0015047   20040830
+SUBENT        R0015047   20040830              20050926       0000
 BIB                  3          3
 REACTION   (82-PB-208(HE3,A)82-PB-207,PAR,DA)
 SAMPLE     Thickness of target was 50 mg/cm**2.
