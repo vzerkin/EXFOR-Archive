@@ -3,16 +3,16 @@
 #        |  v.zerkin@gmail.com, ver.2024-05-27  |
 #        +--------------------------------------+
 #
-#Script:./show_history_fast.sh 2025-08-11,23:31:21 on zerkin-VirtualBox/Linux
-#Step-1: 2025-08-11,23:31:21 get full log. Wait...
-#Step-1: 2025-08-11,23:31:25 get full log. Finished. Time:4.sec
-#Step-2: 2025-08-11,23:31:25 process full log. Wait...
-	10000) EXFOR/4/415/41582.x4 t:1.sec
-	20000) EXFOR/4/405/40581.x4 t:3.sec
-	30000) EXFOR/C/C14/C1428.x4 t:4.sec
-	40000) EXFOR/M/M04/M0451.x4 t:6.sec
-#Step-2: 2025-08-11,23:31:32 process full log. Finished. #Updates:46954. Time:7.sec
-#Step-3: 2025-08-11,23:31:32 output history. Wait...
+#Script:./show_history_fast.sh 2025-08-12,22:06:19 on zerkin-VirtualBox/Linux
+#Step-1: 2025-08-12,22:06:19 get full log. Wait...
+#Step-1: 2025-08-12,22:06:21 get full log. Finished. Time:2.sec
+#Step-2: 2025-08-12,22:06:21 process full log. Wait...
+	10000) EXFOR/D/D51/D5166.x4 t:2.sec
+	20000) EXFOR/D/D05/D0505.x4 t:3.sec
+	30000) EXFOR/D/D03/D0385.x4 t:5.sec
+	40000) EXFOR/4/410/41044.x4 t:6.sec
+#Step-2: 2025-08-12,22:06:29 process full log. Finished. #Updates:47003. Time:8.sec
+#Step-3: 2025-08-12,22:06:29 output history. Wait...
 	1000) EXFOR/1/110/11000.x4 0.sec 0:0
 	2000) EXFOR/1/120/12000.x4 1.sec 0:1
 	3000) EXFOR/1/130/13000.x4 1.sec 0:1
@@ -22,23 +22,23 @@
 	7000) EXFOR/2/222/22283.x4 3.sec 0:3
 	8000) EXFOR/2/232/23290.x4 3.sec 0:3
 	9000) EXFOR/3/305/30598.x4 4.sec 0:4
-	10000) EXFOR/3/326/32649.x4 4.sec 0:4
-	11000) EXFOR/4/405/40563.x4 5.sec 0:5
-	12000) EXFOR/4/415/41565.x4 5.sec 0:5
-	13000) EXFOR/A/A08/A0854.x4 6.sec 0:6
-	14000) EXFOR/C/C02/C0252.x4 6.sec 0:6
-	15000) EXFOR/C/C12/C1252.x4 7.sec 0:7
-	16000) EXFOR/C/C23/C2323.x4 7.sec 0:7
-	17000) EXFOR/D/D03/D0338.x4 7.sec 0:7
-	18000) EXFOR/D/D43/D4300.x4 8.sec 0:8
-	19000) EXFOR/E/E01/E0120.x4 8.sec 0:8
-	20000) EXFOR/E/E24/E2466.x4 9.sec 0:9
-	21000) EXFOR/F/F07/F0751.x4 9.sec 0:9
-	22000) EXFOR/G/G40/G4078.x4 9.sec 0:9
-	23000) EXFOR/M/M05/M0575.x4 10.sec 0:10
-	24000) EXFOR/O/O05/O0528.x4 10.sec 0:10
-	25000) EXFOR/O/O16/O1625.x4 11.sec 0:11
-	26000) EXFOR/P/P00/P0091.x4 11.sec 0:11
-#Step-3: 2025-08-11,23:31:43 output history. Finished. #Entries:26647. Time:11.sec
-#Script:./show_history_fast.sh 2025-08-11,23:31:43 finished.
-#Elapsed time: 0:0:22
+	10000) EXFOR/3/326/32632.x4 4.sec 0:4
+	11000) EXFOR/4/405/40554.x4 5.sec 0:5
+	12000) EXFOR/4/415/41556.x4 5.sec 0:5
+	13000) EXFOR/A/A08/A0845.x4 6.sec 0:6
+	14000) EXFOR/C/C02/C0243.x4 6.sec 0:6
+	15000) EXFOR/C/C12/C1243.x4 6.sec 0:6
+	16000) EXFOR/C/C23/C2314.x4 7.sec 0:7
+	17000) EXFOR/D/D03/D0329.x4 7.sec 0:7
+	18000) EXFOR/D/D42/D4265.x4 7.sec 0:7
+	19000) EXFOR/E/E00/E0037.x4 8.sec 0:8
+	20000) EXFOR/E/E24/E2410.x4 8.sec 0:8
+	21000) EXFOR/F/F07/F0711.x4 8.sec 0:8
+	22000) EXFOR/G/G40/G4033.x4 9.sec 0:9
+	23000) EXFOR/M/M05/M0528.x4 9.sec 0:9
+	24000) EXFOR/O/O04/O0481.x4 10.sec 0:10
+	25000) EXFOR/O/O15/O1577.x4 10.sec 0:10
+	26000) EXFOR/P/P00/P0043.x4 10.sec 0:10
+#Step-3: 2025-08-12,22:06:40 output history. Finished. #Entries:26694. Time:11.sec
+#Script:./show_history_fast.sh 2025-08-12,22:06:40 finished.
+#Elapsed time: 0:0:21
