@@ -1,13 +1,14 @@
-ENTRY            11722   20131029   20140110   20131216       1394
-SUBENT        11722001   20131029   20140110   20131216       1394
-BIB                 13         25
+ENTRY            11722   20250629   20250825   20250825       1521
+SUBENT        11722001   20250629   20250825   20250825       1521
+BIB                 13         28
 INSTITUTE  (1USAGIT)
 REFERENCE  (J,PR,154,1023,1967)
+           #doi:10.1103/PhysRev.154.1023
            (R,ORO-3346-2,1966) Data superseded.
 AUTHOR     (P.Venugopala Rao,R.W.Fink)
 TITLE      Neutron Reaction Cross Sections of Selenium and Iron at
            14.4 MeV
-INC-SOURCE (D-T) T(d,n) source
+INC-SOURCE (D-T)
 METHOD     (ACTIV)
 DETECTOR   (GELI)
 MONITOR    ((MONIT1)26-FE-56(N,P)25-MN-56,,SIG)
@@ -20,20 +21,22 @@ ERR-ANALYS (DATA-ERR) Quoted errors include those in statistics,
             gammas), half-lives, and monitor cross sections.
             Those in decay schemes are not included.
            (ERR-S,,1.) Statistical error <1%
-STATUS     (TABLE) Data from Table II, Phys.Rev.154,1023
+STATUS     (TABLE,,P.Venugopala Rao+,J,PR,154,1023,1967)
+            Data from Table II, Phys.Rev.154,1023
 HISTORY    (19760730T) Translated from SCISRS
            (19831011A) Converted to REACTION formalism
            (19860206A) BIB correction.
            (20131023A) OS. Monitor errors added, MONIT-REF,
              DECAY-MON and ERR-ANALYS added, minor BIB updates
-ENDBIB              25
+           (20250625A) OS. Correction in sub.6
+ENDBIB              28
 COMMON               4          3
 MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR
 MB         MB         MB         MB
  100.         6.        114.       6.
 ENDCOMMON            3
-ENDSUBENT           32
-SUBENT        11722002     831011              20050926       0000
+ENDSUBENT           35
+SUBENT        11722002   19831011              20050926       0000
 BIB                  2          2
 REACTION   (26-FE-54(N,A)24-CR-51,,SIG)
 DECAY-DATA (24-CR-51,27.8D,DG,320.,0.09)
@@ -45,7 +48,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 9.0    -02 1.0    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722003     831011              20050926       0000
+SUBENT        11722003   19831011              20050926       0000
 BIB                  2          2
 REACTION   (26-FE-54(N,P)25-MN-54,,SIG)
 DECAY-DATA (25-MN-54,313.5D,DG,835.,1.0)
@@ -57,7 +60,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 2.59   -01 2.6    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722004     860206              20050926       0000
+SUBENT        11722004   19860206              20050926       0000
 BIB                  3          4
 REACTION   (34-SE-80(N,A)32-GE-77,,SIG)
 DECAY-DATA (32-GE-77-G,11.3HR,DG,210.) USED ABUNDANCE = 0.14 -
@@ -71,7 +74,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 2.     -03 9.     -03
 ENDDATA              3
 ENDSUBENT           12
-SUBENT        11722005     831011              20050926       0000
+SUBENT        11722005   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-74(N,2N)34-SE-73-G,,SIG)
 DECAY-DATA (34-SE-73-G,7.0HR,DG,360.,0.99)
@@ -83,19 +86,20 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 2.93   -01 2.9    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722006     831011              20050926       0000
-BIB                  2          2
+SUBENT        11722006   20250629   20250825   20250825       1521
+BIB                  3          3
 REACTION   (34-SE-74(N,2N)34-SE-73-M,,SIG)
-DECAY-DATA (34-SE-73-M,42.MIN,AR,1.7)
-ENDBIB               2
+DECAY-DATA (34-SE-73-M,42.MIN,AR,,1.7)
+HISTORY    (20250625A) DECAY-DATA corrected
+ENDBIB               3
 NOCOMMON             0          0
 DATA                 4          1
 EN         EN-RSL     DATA       DATA-ERR
 MEV        MEV        B          B
  1.44   +01 3.     -01 6.5    -02 1.5    -02
 ENDDATA              3
-ENDSUBENT           10
-SUBENT        11722007     831011              20050926       0000
+ENDSUBENT           11
+SUBENT        11722007   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-74(N,P)33-AS-74,,SIG)
 DECAY-DATA (33-AS-74,18.7D,DG,596.,0.612)
@@ -107,7 +111,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 1.07   -01 1.1    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722008     831011              20050926       0000
+SUBENT        11722008   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-76(N,P)33-AS-76,,SIG)
 DECAY-DATA (33-AS-76,26.4HR,DG,559.,0.392)
@@ -119,7 +123,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 5.60   -02 5.6    -03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722009     831011              20050926       0000
+SUBENT        11722009   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-76(N,2N)34-SE-75,,SIG)
 DECAY-DATA (34-SE-75,120.D,DG,401.,0.12)
@@ -131,7 +135,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 8.08   -01 8.1    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722010     831011              20050926       0000
+SUBENT        11722010   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-78(N,A)32-GE-75,,SIG)
 DECAY-DATA (32-GE-75,82.MIN,DG,265.,0.11)
@@ -143,7 +147,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 6.     -03 1.     -03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722011     831011              20050926       0000
+SUBENT        11722011   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-78(N,P)33-AS-78,,SIG)
 DECAY-DATA (33-AS-78,90.MIN,DG,615.,0.42)
@@ -155,7 +159,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 2.40   -02 2.4    -03
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722012     831011              20050926       0000
+SUBENT        11722012   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-80(N,2N)34-SE-79-M,,SIG)
 DECAY-DATA (34-SE-79-M,3.9MIN,DG,96.,0.078)
@@ -167,7 +171,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 6.80   -01 1.00   -01
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722013     831011              20050926       0000
+SUBENT        11722013   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-82(N,2N)34-SE-81-M,,SIG)
 DECAY-DATA (34-SE-81-M,57.MIN,DG,103.,0.119)
@@ -179,7 +183,7 @@ MEV        MEV        B          B
  1.44   +01 3.     -01 8.94   -01 8.9    -02
 ENDDATA              3
 ENDSUBENT           10
-SUBENT        11722014     831011              20050926       0000
+SUBENT        11722014   19831011              20050926       0000
 BIB                  2          2
 REACTION   (34-SE-82(N,2N)34-SE-81-G,,SIG)
 DECAY-DATA (34-SE-81-G,18.6MIN,DG,276./290.,0.014)
