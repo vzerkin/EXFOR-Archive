@@ -1,6 +1,6 @@
-ENTRY            13698   20190808   20191217   20191216       1457
-SUBENT        13698001   20190808   20191217   20191216       1457
-BIB                 12         66
+ENTRY            13698   20250707   20250828   20250828       1522
+SUBENT        13698001   20250707   20250828   20250828       1522
+BIB                 13         66
 TITLE      Cold (neutronless) alpha ternary fission of 252Cf
 AUTHOR     (A.V.Ramayya,J.H.Hamilton,J.K.Hwang,L.K.Peker,
            J.Kormicki,B.R.S.Babu,T.N.Ginter,A.Sandulescu,
@@ -13,7 +13,6 @@ AUTHOR     (A.V.Ramayya,J.H.Hamilton,J.K.Hwang,L.K.Peker,
            R.Donangelo)
 INSTITUTE  (1USABRK,1USAVBT,1USAORL,3RUMBUC,2GERFRK,4ZZZDUB,
            1USAMSS,1USAINL,1USALRL,3CPRBJG,1USAMHG,3BZLUFR)
-            Brazil - U. Fed. do Rio de Janeiro
 REFERENCE  (J,PR/C,57,2370,1998)
            #doi:10.1103/PhysRevC.57.2370
            #NSR: 1998RA09
@@ -55,7 +54,7 @@ MONITOR    Yields normalized using tables of Wahl.
 MONIT-REF  (,A.C.Wahl,J,AND,39,1,1988)
 CORRECTION Method 1 data corrected for detector efficiency and
             internal conversion.
-           (APRVD) Approved by A. Ramayya, 28 August 1998.
+STATUS     (APRVD) Approved by A. Ramayya, 28 August 1998.
 HISTORY    (19980807C)
            (20010212A) Authors converted to lower case.
            (20030107A) BIB update.
@@ -67,6 +66,7 @@ HISTORY    (19980807C)
            #doi added. STATUS in Sub001-005 updated.
            Sub003-004 combined. Sub004 deleted.
            Sub005-006 combined. Sub006 deleted.
+           (20250704U) OS. Minor BIB updates
 ENDBIB              66
 NOCOMMON             0          0
 ENDSUBENT           69
