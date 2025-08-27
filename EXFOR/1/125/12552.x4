@@ -1,8 +1,8 @@
-ENTRY            12552   20051110   20060315                  1338
-SUBENT        12552001   20051110   20060315                  1338
-BIB                  7          9
+ENTRY            12552   20250707   20250828   20250828       1522
+SUBENT        12552001   20250707   20250828   20250828       1522
+BIB                  7         10
 INSTITUTE  (1USALAS)
-REFERENCE  (C,66WASH,2,903(F5),1966)
+REFERENCE  (C,66WASH,,903,1966)
 AUTHOR     (D.H.Byers,B.C.Diven,M.G.Silbert)
 TITLE      Capture and fission cross section of Pu240.
 INC-SOURCE (EXPLO) Nuclear explosion.
@@ -10,10 +10,11 @@ STATUS     (SCSRS)
 HISTORY    (19760804T) Translated from SCISRS
            (19841004A) Converted to reaction formalism
            (20051110C) DR Format updated
-ENDBIB               9
+           (20250703U) OS. Minor correction in REFERENCE
+ENDBIB              10
 NOCOMMON             0          0
-ENDSUBENT           12
-SUBENT        12552002   19841004   20060315                  1338
+ENDSUBENT           13
+SUBENT        12552002   19841004   20060315   20060313       1338
 BIB                  2          2
 REACTION   (94-PU-240(N,F),,SIG)
 METHOD     (TOF)      Time-of-flight
@@ -2398,7 +2399,7 @@ MEV        B          PER-CENT
   9.779E-01  1.395E+00   13.
 ENDDATA           2376
 ENDSUBENT         2383
-SUBENT        12552003     841004
+SUBENT        12552003   19841004              20050926       0000
 BIB                  1          1
 REACTION   (94-PU-240(N,0),,EN)
 ENDBIB               1
@@ -2460,7 +2461,7 @@ EV         EV
 1004.         5.
 ENDDATA             54
 ENDSUBENT           60
-SUBENT        12552004     841004
+SUBENT        12552004   19841004              20050926       0000
 BIB                  1          5
 REACTION  1(94-PU-240(N,0),,EN)
           2(94-PU-240(N,TOT),,WID)
