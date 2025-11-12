@@ -2,8 +2,9 @@
         |  List: EXFOR updates (backup files)  |
         |  v.zerkin@gmail.com, ver.2024-05-12  |
         +--------------------------------------+
-Script:./list_exfor_updates.sh 2025-11-07,23:28:19 on zerkin-VirtualBox/Linux
+Script:./list_exfor_updates.sh 2025-11-12,23:50:15 on zerkin-VirtualBox/Linux
 
+2025-11-12 EXFOR.entry.csv:2025.09.25 items:26802
 2025-11-07 EXFOR.entry.csv:2025.10.03 items:26800
 2025-11-03 EXFOR.entry.csv:2025.09.28 items:26797
 2025-10-17 EXFOR.entry.csv:2025.08.25 items:26757
@@ -566,4 +567,4 @@ Script:./list_exfor_updates.sh 2025-11-07,23:28:19 on zerkin-VirtualBox/Linux
 2005-08-12 EXFOR.entry.csv:2005.08.01 items:15838
 2005-06-16 EXFOR.entry.csv:2005.05.26 items:15654
 ----------------------------------------------------
-Total: 561 updates from [2005-06-16] to [2025-11-07]
+Total: 562 updates from [2005-06-16] to [2025-11-12]
