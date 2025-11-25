@@ -1,4 +1,4 @@
-#Full history 2025-11-12,23:50:45
+#Full history 2025-11-25,23:57:16
 ## Entry #Hist  EXFOR-date Center:TRANS Entry:N2   Latest-HISTORY-record
 1) 10001 1	2005-06-16 NNDC 10001:19980914 (19931229U) BIB update. Converted to lower case.
 2) 10002 2	2012-09-21 NNDC:1382 10002:20120601 (20120413A) BP: Details of the data analysis were
@@ -23992,7 +23992,8 @@
 		2005-06-16 CAJaD A0210:870115 (870115U)
 12483) A0211 2	2011-06-21 CAJaD:A070 A0211:20110330 (20110210A) .New reference was added-English translation
 		2005-06-16 CAJaD A0211:870303 (870303U)
-12484) A0212 3	2016-07-01 CAJaD:A084 A0212:20160129 (20160129A) SD: DATA units were returned to original
+12484) A0212 4	2025-11-25 CAJaD:A127 A0212:20250928 (20250928A) SD: Correction in Subent 045.
+		2016-07-01 CAJaD:A084 A0212:20160129 (20160129A) SD: DATA units were returned to original
 		2011-06-21 CAJaD:A070 A0212:20110330 (20110210A) BIB section upgrated.
 		2005-06-16 CAJaD A0212:870326 (870326U)
 12485) A0213 2	2008-09-18 CAJaD:A063 A0213:20080603 (20080603D) Deleted as dublication with E1952 and part
@@ -24886,7 +24887,8 @@
 12843) A0573 3	2024-04-11 CAJaD:A107 A0573:20240201 (20240201U) SD: Ref. RCA,54,57,1991 added.
 		2020-04-13 CAJaD:A093 A0573:20200205 (20200205A) SD: DECAY-DATA corrected in Subent 001.
 		2005-06-16 CAJaD:Y000 A0573:970220 (970220U) Last checking has been done.
-12844) A0574 3	2019-10-08 CAJaD:A092 A0574:20190714 (20190714A) SD: Major corrections in all Subents.
+12844) A0574 4	2025-11-25 CAJaD:A127 A0574:20250928 (20250928A) SD: Correction in Subent 008.
+		2019-10-08 CAJaD:A092 A0574:20190714 (20190714A) SD: Major corrections in all Subents.
 		2014-12-03 CAJaD:A082 A0574:20140903 (20140903U) SD: Issue number to ref. was added.
 		2005-06-16 CAJaD:Y000 A0574:970220 (970220U) Last checking has been done.
 12845) A0575 2	2022-12-23 CAJaD:A102 A0575:20220815 (20220815A) SD: Corrections in all Subents.
@@ -25128,7 +25130,8 @@
 12955) A0688 1	2005-06-16 CAJaD A0688:20040730 (20040730U) Last checking has been done.
 12956) A0689 2	2016-07-01 CAJaD:A084 A0689:20160302 (20160302A) SD: DECAY-DATA corrected in 002. Small
 		2005-06-16 CAJaD A0689:20050314 (20050314U) Last checking has been done.
-12957) A0690 2	2024-03-13 CAJaD:A106 A0690:20231228 (20231228U) SD: FACILITY added; BIB updated.
+12957) A0690 3	2025-11-25 CAJaD:A128 A0690:20251001 (20251001A) SD: Corrections in all Subents.
+		2024-03-13 CAJaD:A106 A0690:20231228 (20231228U) SD: FACILITY added; BIB updated.
 		2005-06-16 CAJaD A0690:20040716 (20040716U) Last checking has been done.
 12958) A0691 3	2025-10-17 CAJaD:A122 A0691:20250728 (20250728A) SD: Correction in Subents 015, 016.
 		2016-07-01 CAJaD:A084 A0691:20160302 (20160302A) SD: DECAY-DATA corrected in Subent 019.
@@ -25478,7 +25481,8 @@
 		2013-05-02 CAJaD:A078 A0942:20130201 (20130201C) SB
 13144) A0943 1	2013-05-02 CAJaD:A078 A0943:20130201 (20130201C) SB
 13145) A0944 1	2013-05-02 CAJaD:A078 A0944:20130205 (20130205C) SB
-13146) A0945 3	2022-07-05 CAJaD:A099 A0945:20220323 (20220323A) SD: Corrections in Subents 004, 005.
+13146) A0945 4	2025-11-25 CAJaD:A127 A0945:20250729 (20250729A) SD: Corrections in several Subents.
+		2022-07-05 CAJaD:A099 A0945:20220323 (20220323A) SD: Corrections in Subents 004, 005.
 		2020-06-23 CAJaD:A094 A0945:20200410 (20200410A) SD: Subent 003 split in two.
 		2013-05-02 CAJaD:A078 A0945:20130208 (20130208C) sb
 13147) A0946 1	2014-02-28 CAJaD:A079 A0946:20130403 (20130403C) SB
@@ -25721,7 +25725,8 @@
 		2005-06-16 CNPD A1114:19990319 (19990115U) CNPD: corrected 4-dig. year and lower cases.
 13266) A1115 2	2024-08-20 CNPD:A113 A1115:20240707 (20240707A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1115:19990319 (19990214U) CNPD: corrected 4-dig. year and lower cases.
-13267) A1116 2	2024-08-20 CNPD:A113 A1116:20240707 (20240707A) SD: Corrections in all Subents.
+13267) A1116 3	2025-11-25 CNPD:A128 A1116:20251001 (20251001A) SD: MONITOR added.
+		2024-08-20 CNPD:A113 A1116:20240707 (20240707A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1116:19990319 (19990214U) CNPD: corrected 4-dig. year and lower cases.
 13268) A1117 2	2018-04-23 CNPD:A088 A1117:20180129 (20180129A) SD: SF9=EXP deleted from REACTION code in
 		2005-06-16 CNPD A1117:19990319 (19990214U) CNPD: corrected 4-dig. year and lower cases.
@@ -25851,7 +25856,8 @@
 		2005-06-16 CNPD A1181:19990319 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13329) A1182 2	2014-12-03 CNPD:A082 A1182:20140903 (20140903U) SD: Ref. on Engl.transl. added. SF9=EXP
 		2005-06-16 CNPD A1182:19990319 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13330) A1183 1	2005-06-16 CNPD A1183:19990319 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13330) A1183 2	2025-11-25 CNPD:A127 A1183:20250731 (20250731A) SD: Entry was re-compiled. Subents 003-006
+		2005-06-16 CNPD A1183:19990319 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13331) A1184 2	2025-10-17 CNPD:A123 A1184:20250804 (20250804A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1184:19990319 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13332) A1185 2	2011-12-15 CNPD:A074 A1185:20110814 (20110814A) SD: BIB updated. Units for energy in
@@ -25890,7 +25896,8 @@
 13349) A1204 3	2025-10-17 CNPD:A123 A1204:20250803 (20250803D) SD: Entry deleted (the same data presented
 		2019-10-08 CNPD:A092 A1204:20190712 (20190712A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1204:19990319 (19990305U) CNPD: corrected 4-dig. year and lower cases.
-13350) A1205 1	2005-06-16 CNPD A1205:19990319 (19990305U) CNPD: corrected 4-dig. year and lower cases.
+13350) A1205 2	2025-11-25 CNPD:A127 A1205:20250808 (20250808A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1205:19990319 (19990305U) CNPD: corrected 4-dig. year and lower cases.
 13351) A1206 2	2025-10-17 CNPD:A123 A1206:20250816 (20250816A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1206:19990319 (19990305U) CNPD: corrected 4-dig. year and lower cases.
 13352) A1209 2	2025-10-17 CNPD:A123 A1209:20250816 (20250816A) SD: Corrections in all Subents.
@@ -26111,7 +26118,8 @@
 		2005-06-16 CNPD A1364:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13460) A1365 2	2022-12-26 CNPD:A103 A1365:20220817 (20220817U) On. SAMPLE, METHOD, DETECTOR and
 		2005-06-16 CNPD A1365:20010620 (20010620U) Last checking has been done.
-13461) A1366 1	2005-06-16 CNPD A1366:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13461) A1366 2	2025-11-25 CNPD:A126 A1366:20250916 (20250916A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1366:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13462) A1367 2	2025-11-07 CNPD:A125 A1367:20250916 (20250916A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1367:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13463) A1368 2	2025-11-07 CNPD:A125 A1368:20250916 (20250916A) SD: Corrections in all Subents.
@@ -26120,15 +26128,22 @@
 		2005-06-16 CNPD A1369:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13465) A1370 2	2025-11-07 CNPD:A125 A1370:20250916 (20250916A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1370:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13466) A1371 1	2005-06-16 CNPD A1371:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13467) A1372 1	2005-06-16 CNPD A1372:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13468) A1373 1	2005-06-16 CNPD A1373:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13469) A1374 1	2005-06-16 CNPD A1374:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13470) A1375 1	2005-06-16 CNPD A1375:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13471) A1376 1	2005-06-16 CNPD A1376:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13466) A1371 2	2025-11-25 CNPD:A126 A1371:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1371:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13467) A1372 2	2025-11-25 CNPD:A126 A1372:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1372:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13468) A1373 2	2025-11-25 CNPD:A126 A1373:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1373:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13469) A1374 2	2025-11-25 CNPD:A126 A1374:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1374:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13470) A1375 2	2025-11-25 CNPD:A126 A1375:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1375:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13471) A1376 2	2025-11-25 CNPD:A126 A1376:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1376:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13472) A1377 2	2018-10-08 CNPD:A089 A1377:20180421 (20180421U) SD: BIB was updated in all Subents.
 		2005-06-16 CNPD A1377:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13473) A1378 1	2005-06-16 CNPD A1378:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13473) A1378 2	2025-11-25 CNPD:A126 A1378:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1378:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13474) A1379 4	2022-07-05 CNPD:A099 A1379:20220323 (20220323A) SD: Major revision in Subent 008.
 		2020-07-17 CNPD:A095 A1379:20200609 (20200609A) SD: Corrections Subents 007, 009. Numerical
 		2018-09-17 CNPD:A090 A1379:20180615 (20180615A) SD: BIB, ERR-ANALYS and REACTION code were
@@ -26144,20 +26159,32 @@
 13479) A1384 3	2013-05-02 CNPD:A078 A1384:20120409 (20120409A) .Correction was made according Naohiko
 		2008-10-29 CNPD:Y007 A1384:20081015 (20081015A) NDS: ref.was corrected.
 		2005-06-16 CNPD A1384:20040630 (20040630U) Last checking has been done.
-13480) A1385 1	2005-06-16 CNPD A1385:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13481) A1386 1	2005-06-16 CNPD A1386:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13480) A1385 2	2025-11-25 CNPD:A126 A1385:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1385:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13481) A1386 2	2025-11-25 CNPD:A126 A1386:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1386:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13482) A1387 2	2011-12-15 CNPD:A074 A1387:20110819 (20110819A) SD: In Subent 004 number of col. in COMMON
 		2005-06-16 CNPD A1387:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13483) A1388 1	2005-06-16 CNPD A1388:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13484) A1389 1	2005-06-16 CNPD A1389:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13485) A1390 1	2005-06-16 CNPD A1390:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13486) A1391 1	2005-06-16 CNPD A1391:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13487) A1392 1	2005-06-16 CNPD A1392:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13488) A1393 1	2005-06-16 CNPD A1393:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13489) A1395 1	2005-06-16 CNPD A1395:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13490) A1397 1	2005-06-16 CNPD A1397:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13491) A1398 1	2005-06-16 CNPD A1398:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
-13492) A1399 1	2005-06-16 CNPD A1399:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13483) A1388 2	2025-11-25 CNPD:A126 A1388:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1388:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13484) A1389 2	2025-11-25 CNPD:A126 A1389:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1389:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13485) A1390 2	2025-11-25 CNPD:A126 A1390:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1390:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13486) A1391 2	2025-11-25 CNPD:A126 A1391:20250919 (20250919A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1391:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13487) A1392 2	2025-11-25 CNPD:A126 A1392:20250920 (20250920A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1392:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13488) A1393 2	2025-11-25 CNPD:A126 A1393:20250920 (20250916A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1393:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13489) A1395 2	2025-11-25 CNPD:A126 A1395:20250920 (20250920D) SD: Entry deleted (duplication with D0034).
+		2005-06-16 CNPD A1395:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13490) A1397 2	2025-11-25 CNPD:A126 A1397:20250920 (20250916A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1397:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13491) A1398 2	2025-11-25 CNPD:A126 A1398:20250920 (20250916A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1398:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
+13492) A1399 2	2025-11-25 CNPD:A126 A1399:20250918 (20250918A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1399:19990322 (19990317U) CNPD: corrected 4-dig. year and lower cases.
 13493) A1400 2	2022-12-26 CNPD:A103 A1400:20220817 (20220817U) On. AUTHOR: Upper to upper+lower cases.
 		2005-06-16 CNPD A1400:20010620 (20010620U) Last checking has been done.
 13494) A1401 3	2020-06-23 CNPD:A094 A1401:20200323 (20200323A) SD: Subents 005 and 006 merged. Data were
@@ -26167,38 +26194,52 @@
 		2005-06-16 CNPD A1402:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13496) A1403 2	2020-07-17 CNPD:A095 A1403:20200528 (20200528D) SD: Entry deleted. Duplication with D0039.
 		2005-06-16 CNPD A1403:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13497) A1404 1	2005-06-16 CNPD A1404:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13498) A1405 1	2005-06-16 CNPD A1405:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13499) A1406 1	2005-06-16 CNPD A1406:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13497) A1404 2	2025-11-25 CNPD:A126 A1404:20250921 (20250921A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1404:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13498) A1405 2	2025-11-25 CNPD:A126 A1405:20250921 (20250921A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1405:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13499) A1406 2	2025-11-25 CNPD:A126 A1406:20250921 (20250921A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1406:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13500) A1407 4	2024-04-11 CNPD:A108 A1407:20240204 (20240204U) SD: Correction in all Subents.
 		2021-04-06 CNPD:A096 A1407:20210211 (20210211A) SD: Data were re-digitized. BIB updated.
 		2014-08-20 CNPD:A081 A1407:20140302 (20140302A) SD: Title corrected. SF9=EXP deleted from
 		2005-06-16 CNPD A1407:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13501) A1408 1	2005-06-16 CNPD A1408:20030526 (20030526U) Last checking has been done.
-13502) A1409 1	2005-06-16 CNPD A1409:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13502) A1409 2	2025-11-25 CNPD:A126 A1409:20250921 (20250921A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1409:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13503) A1410 2	2020-06-23 CNPD:A094 A1410:20200329 (20200329A) SD: BIB updated. Corrections in all Subents
 		2005-06-16 CNPD A1410:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13504) A1412 1	2005-06-16 CNPD A1412:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13504) A1412 2	2025-11-25 CNPD:A126 A1412:20250921 (20250921A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1412:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13505) A1413 2	2016-07-01 CNPD:A084 A1413:20160302 (20160302D) SD: Duplication with D0037 (in D0037 -
 		2005-06-16 CNPD A1413:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13506) A1414 2	2020-07-17 CNPD:A095 A1414:20200530 (20200530A) SD: Corrections in all Subents according to
 		2005-06-16 CNPD A1414:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13507) A1415 1	2005-06-16 CNPD A1415:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13508) A1416 1	2005-06-16 CNPD A1416:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13507) A1415 2	2025-11-25 CNPD:A127 A1415:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1415:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13508) A1416 2	2025-11-25 CNPD:A127 A1416:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1416:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13509) A1417 2	2020-04-13 CNPD:A093 A1417:20200130 (20200130A) SD: Corrections in all Subents according to
 		2005-06-16 CNPD A1417:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13510) A1418 1	2005-06-16 CNPD A1418:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13511) A1419 1	2005-06-16 CNPD A1419:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13512) A1420 1	2005-06-16 CNPD A1420:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13513) A1421 1	2005-06-16 CNPD A1421:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13514) A1423 1	2005-06-16 CNPD A1423:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13515) A1424 1	2005-06-16 CNPD A1424:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13511) A1419 2	2025-11-25 CNPD:A127 A1419:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1419:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13512) A1420 2	2025-11-25 CNPD:A127 A1420:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1420:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13513) A1421 2	2025-11-25 CNPD:A127 A1421:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1421:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13514) A1423 2	2025-11-25 CNPD:A127 A1423:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1423:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13515) A1424 2	2025-11-25 CNPD:A127 A1424:20250922 (20250922A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1424:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13516) A1425 2	2022-07-05 CNPD:A099 A1425:20220323 (20220323A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1425:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13517) A1426 2	2022-07-05 CNPD:A099 A1426:20220322 (20220322A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1426:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13518) A1427 1	2005-06-16 CNPD A1427:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13519) A1428 1	2005-06-16 CNPD A1428:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13518) A1427 2	2025-11-25 CNPD:A127 A1427:20250924 (20250924A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1427:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13519) A1428 2	2025-11-25 CNPD:A127 A1428:20250923 (20250923A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1428:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13520) A1429 3	2018-10-08 CNPD:A089 A1429:20180421 (20180421U) SD: BIB was updated in all Subents.
 		2008-10-29 CNPD:Y007 A1429:20081015 (20081015A) NDS: ref.was corrected.
 		2005-06-16 CNPD A1429:20040630 (20040630U) Last checking has been done.
@@ -26220,32 +26261,40 @@
 		2005-06-16 CNPD A1438:20010620 (20010620U) Last checking has been done.
 13529) A1439 2	2024-04-11 CNPD:A108 A1439:20240204 (20240204D) SD: Entry deleted (duplication with F0231).
 		2005-06-16 CNPD A1439:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13530) A1440 1	2005-06-16 CNPD A1440:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13531) A1441 1	2005-06-16 CNPD A1441:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13530) A1440 2	2025-11-25 CNPD:A127 A1440:20250923 (20250923A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1440:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13531) A1441 2	2025-11-25 CNPD:A127 A1441:20250925 (20250925A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1441:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13532) A1442 2	2020-04-13 CNPD:A093 A1442:20200201 (20200201A) SD: Corrections in all Subents according to
 		2005-06-16 CNPD A1442:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13533) A1443 4	2024-04-11 CNPD:A108 A1443:20240205 (20240204A) SD: Small corrections in all Subents.
 		2022-12-23 CNPD:A102 A1443:20220814 (20220814A) SD: Corrections in Subents 006, 008.
 		2009-12-24 CNPD:A066 A1443:20090930 (20090930A) By CAJAD-correction in sub002-008 has been
 		2005-06-16 CNPD A1443:19990330 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13534) A1444 1	2005-06-16 CNPD A1444:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13534) A1444 2	2025-11-25 CNPD:A127 A1444:20250926 (20250926A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1444:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13535) A1445 3	2021-09-21 CNPD:A098 A1445:20210625 (20210625A) SD: Energy units modified according to
 		2019-10-08 CNPD:A092 A1445:20190625 (20190625A) SD: Major updated in BIB section.
 		2005-06-16 CNPD A1445:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13536) A1446 1	2005-06-16 CNPD A1446:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13537) A1447 1	2005-06-16 CNPD A1447:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13536) A1446 2	2025-11-25 CNPD:A127 A1446:20250926 (20250924A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1446:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13537) A1447 2	2025-11-25 CNPD:A127 A1447:20250926 (20250926A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1447:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
 13538) A1448 1	2005-06-16 CNPD A1448:980309 (980309A) Deleted, same as P0117.
 13539) A1449 2	2022-12-26 CNPD:A103 A1449:20220817 (20220817U) On. METHOD, SAMPLE, DETECTOR and COMMENT
 		2005-06-16 CNPD A1449:20010620 (20010620U) Last checking has been done.
-13540) A1450 1	2005-06-16 CNPD A1450:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
-13541) A1452 1	2005-06-16 CNPD A1452:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13540) A1450 2	2025-11-25 CNPD:A127 A1450:20250926 (20250924A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1450:19990323 (19990220U) CNPD: corrected 4-dig. year and lower cases.
+13541) A1452 2	2025-11-25 CNPD:A127 A1452:20250928 (20250928A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1452:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13542) A1453 2	2013-05-02 CNPD:A078 A1453:20120409 (20120409A) .Correction was made according Naohiko
 		2005-06-16 CNPD A1453:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13543) A1454 2	2019-10-08 CNPD:A092 A1454:20190626 (20190626A) SD: BIB updated. Data were checked.
 		2005-06-16 CNPD A1454:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13544) A1455 2	2009-12-24 CNPD:A066 A1455:20090930 (20090930A) By CAJAD-correction in sub001 has been
 		2005-06-16 CNPD A1455:971014 (971014U) Last checking has been done.
-13545) A1456 1	2005-06-16 CNPD A1456:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13545) A1456 2	2025-11-25 CNPD:A127 A1456:20250928 (20250928A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1456:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13546) A1457 2	2020-07-17 CNPD:A095 A1457:20200517 (20200517A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1457:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13547) A1458 4	2022-07-05 CNPD:A099 A1458:20220322 (20220322U) SD: Correction in Subent 005.
@@ -26266,46 +26315,63 @@
 		2005-06-16 CNPD A1465:20010620 (20010620U) Last checking has been done.
 13554) A1466 2	2016-07-01 CNPD:A084 A1466:20160318 (20160318A) SD: data re-digitized, Subent 005 added.
 		2005-06-16 CNPD A1466:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13555) A1467 1	2005-06-16 CNPD A1467:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13556) A1468 1	2005-06-16 CNPD A1468:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13557) A1469 1	2005-06-16 CNPD A1469:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13555) A1467 2	2025-11-25 CNPD:A127 A1467:20250928 (20250928A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1467:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13556) A1468 2	2025-11-25 CNPD:A127 A1468:20250929 (20250929A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1468:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13557) A1469 2	2025-11-25 CNPD:A128 A1469:20251002 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1469:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13558) A1470 3	2016-07-01 CNPD:A084 A1470:20160302 (20160302D) SD: Duplication with D0038 (in D0038 -
 		2013-05-02 CNPD:A078 A1470:20120410 (20120410A) Correction was made has been performed,
 		2005-06-16 CNPD A1470:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13559) A1471 3	2022-07-05 CNPD:A099 A1471:20220322 (20220322U) SD: Corrections in all Subents.
 		2011-12-15 CNPD:A074 A1471:20110819 (20110808A) SD: ref. in MONIT-REF corrected:
 		2005-06-16 CNPD A1471:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13560) A1472 1	2005-06-16 CNPD A1472:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13561) A1473 1	2005-06-16 CNPD A1473:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13560) A1472 2	2025-11-25 CNPD:A128 A1472:20251002 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1472:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13561) A1473 2	2025-11-25 CNPD:A128 A1473:20251002 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1473:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13562) A1475 2	2024-04-11 CNPD:A108 A1475:20240204 (20240204A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1475:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13563) A1476 1	2005-06-16 CNPD A1476:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13563) A1476 2	2025-11-25 CNPD:A128 A1476:20251002 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1476:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13564) A1479 2	2017-05-04 CNPD:A087 A1479:20170206 (20170206A) SD: Small corrections in all Subents.
 		2005-06-16 CNPD A1479:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13565) A1480 1	2005-06-16 CNPD A1480:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13566) A1482 2	2012-05-30 CNPD:A077 A1482:20120327 (20120327A) BIB section upgrated
+13565) A1480 2	2025-11-25 CNPD:A128 A1480:20251002 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1480:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13566) A1482 3	2025-11-25 CNPD:A128 A1482:20251006 (20251006A) SD: Corrections in all Subents.
+		2012-05-30 CNPD:A077 A1482:20120327 (20120327A) BIB section upgrated
 		2005-06-16 CNPD A1482:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13567) A1483 1	2005-06-16 CNPD A1483:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13567) A1483 2	2025-11-25 CNPD:A128 A1483:20251006 (20251006A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1483:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13568) A1484 2	2014-08-20 CNPD:A081 A1484:20140302 (20140302U) SD: Ref. on translation was added.
 		2005-06-16 CNPD A1484:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13569) A1485 1	2005-06-16 CNPD A1485:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13570) A1486 1	2005-06-16 CNPD A1486:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13569) A1485 2	2025-11-25 CNPD:A128 A1485:20251006 (20251006A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1485:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13570) A1486 2	2025-11-25 CNPD:A128 A1486:20251007 (20251007A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1486:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13571) A1487 2	2011-12-15 CNPD:A074 A1487:20110814 (20110808A) SD:ref. corrected: NP,103 -> NP/A,103
 		2005-06-16 CNPD A1487:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13572) A1488 2	2009-12-24 CNPD:A066 A1488:20090930 (20090930A) By CAJAD-correction in sub002-007 has been
 		2005-06-16 CNPD A1488:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13573) A1489 2	2013-05-02 CNPD:A078 A1489:20120410 (20120410D) Subent002 was deleted-Background counting-sb
+13573) A1489 3	2025-11-25 CNPD:A128 A1489:20251006 (20251006A) SD: Corrections in all Subents.
+		2013-05-02 CNPD:A078 A1489:20120410 (20120410D) Subent002 was deleted-Background counting-sb
 		2005-06-16 CNPD A1489:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13574) A1490 1	2005-06-16 CNPD A1490:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13575) A1491 1	2005-06-16 CNPD A1491:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13576) A1492 1	2005-06-16 CNPD A1492:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13574) A1490 2	2025-11-25 CNPD:A128 A1490:20251006 (20251006A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1490:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13575) A1491 2	2025-11-25 CNPD:A128 A1491:20251006 (20251006A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1491:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13576) A1492 2	2025-11-25 CNPD:A128 A1492:20251005 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1492:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13577) A1493 2	2011-12-15 CNPD:A074 A1493:20110819 (20110819A) SD: from Subent 002 one point was deleted -
 		2005-06-16 CNPD A1493:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13578) A1495 3	2014-03-31 CNPD:A080 A1495:20140226 (20140226A) EN-RSL deleted
 		2013-05-02 CNPD:A078 A1495:20120410 (20120410A) .Corrections were made according Naohiko
 		2005-06-16 CNPD A1495:20031013 (20031013U) Last checking has been done.
-13579) A1496 1	2005-06-16 CNPD A1496:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
-13580) A1497 1	2005-06-16 CNPD A1497:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13579) A1496 2	2025-11-25 CNPD:A128 A1496:20251005 (20251005A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1496:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
+13580) A1497 2	2025-11-25 CNPD:A128 A1497:20251003 (20251002A) SD: Corrections in all Subents.
+		2005-06-16 CNPD A1497:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13581) A1498 2	2021-04-06 CNPD:A096 A1498:20210201 (20210201A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1498:19990324 (19990321U) CNPD: corrected 4-dig. year and lower cases.
 13582) A1499 2	2011-12-15 CNPD:A074 A1499:20110819 (20110819U) SD: page of the ref. in MONIT-REF corrected
@@ -26378,7 +26444,7 @@
 		2005-06-16 CNPD A1600:19990324 (19990323U) CNPD: corrected 4-dig. year and lower cases.
 13625) A1616 2	2025-11-03 CNPD:A124 A1616:20250906 (20250906A) SD: Corrections in all Subents.
 		2005-06-16 CNPD A1616:970502 (840427C) Compilation produced by RFNC-VNIIEF Sarov
-#---------------Area:A #Entry:1349 #Updates:3017 #maxHistory=8:Entry=A0068
+#---------------Area:A #Entry:1349 #Updates:3083 #maxHistory=8:Entry=A0068
 #
 13626) B0001 1	2005-06-16 KACHAPAG:Y000 B0001:20020220 (20020220U) Last checking has been done.
 13627) B0002 2	2023-01-17 KACHAPAG:B034 B0002:20220930 (20220930U) On. Minor revisions in 002-010.
@@ -47588,5 +47654,5 @@
 		2012-12-03 NDS:V031 V1002:20120801 (20120801C) BP, approved by S.F. Mughabghab.
 #---------------Area:V #Entry:49 #Updates:130 #maxHistory=7:Entry=V1002
 #
-#---------------Total #Entry:26808 #Updates:47544 #maxHistory=14:Entry=M0635
+#---------------Total #Entry:26808 #Updates:47610 #maxHistory=14:Entry=M0635
 #
