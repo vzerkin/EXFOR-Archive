@@ -17,6 +17,6 @@
 #---------------Area:O	#Entry:2440	#Updates:3893	#maxHistory=9:Entry=O0276
 #---------------Area:P	#Entry:144	#Updates:272	#maxHistory=4:Entry=P0009
 #---------------Area:R	#Entry:52	#Updates:131	#maxHistory=4:Entry=R0014
-#---------------Area:S	#Entry:210	#Updates:324	#maxHistory=5:Entry=S0033
+#---------------Area:S	#Entry:227	#Updates:341	#maxHistory=5:Entry=S0033
 #---------------Area:T	#Entry:280	#Updates:416	#maxHistory=7:Entry=T0126
 #---------------Area:V	#Entry:49	#Updates:130	#maxHistory=7:Entry=V1002
