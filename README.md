@@ -1,5 +1,5 @@
-# EXFOR-Archive (2005-2025)
-_by V.Zerkin, IAEA, 2000-2025_
+# EXFOR-Archive (2005-2026)
+_by V.Zerkin, IAEA, 2000-2026_
 
 ### Content
 - Archive of all [EXFOR](EXFOR) Entries compiled and officially exchanged by International Network of Nuclear Reaction Data Centres (NRDC) since 2005
