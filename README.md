@@ -10,24 +10,24 @@ _by V.Zerkin, IAEA, 2000-2026_
 ### Data structure
 ```
     +---EXFOR/
-        ¦   EXFOR.entry.csv    #Index of Entries                  
-        ¦   *.sh               #Shell-scripts                     
-        ¦   *.tto              #Terminal output from Shell-scripts
+        |   EXFOR.entry.csv    #Index of Entries                  
+        |   *.sh               #Shell-scripts                     
+        |   *.tto              #Terminal output from Shell-scripts
         +---1/                 #EXFOR Compilation Area:1
-        ¦   +---100/
-        ¦   ¦       10001.x4   #EXFOR ENTRY File
-        ¦   ¦       ...
-        ¦   ¦       10099.x4   #EXFOR ENTRY File
-        ¦   +---101/
-        ¦   ¦       10100.x4
-        ¦   ¦       ...
-        ¦   +---102/
-        ¦   ...
+        |   +---100/
+        |   |       10001.x4   #EXFOR ENTRY File
+        |   |       ...
+        |   |       10099.x4   #EXFOR ENTRY File
+        |   +---101/
+        |   |       10100.x4
+        |   |       ...
+        |   +---102/
+        |   ...
         +---2/                 #EXFOR Compilation Area:2
-        ¦   +---200/
-        ¦   ...
+        |   +---200/
+        |   ...
         +---3/                 #EXFOR Compilation Area:3
-        ¦...
+        |...
         +---V/                 #EXFOR Compilation Area:V
 ```
 
