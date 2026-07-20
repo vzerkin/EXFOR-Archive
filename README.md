@@ -33,8 +33,11 @@ _by V.Zerkin, IAEA, 2000-2026_
 
 ### Download
 
-- Download current repository files using Web_browser: (1) click ![alt text](img/code.png "Code"),
- (2) click ![alt text](img/download.png "Download")
+- Download current repository files using Web_browser: (1) click ![Code](img/code.png "Code"),
+ (2) click ![Download](img/download.png "Download")
+
+- Set current repository to selected date (Tag) in Web_browser: (1) click ![master](img/master.png "master"),
+ (2) click on tab "Tags" and (3) select Tag EXFOR-YYYY-MM-YY
 
 - If you have installed **git**, you can download full repository using terminal command:
 ```shell
