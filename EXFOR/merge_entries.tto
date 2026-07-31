@@ -1,42 +1,581 @@
-$ ./merge_entries.sh 
-        +------------------------------------------+
-        |   Merge Entries to a single EXFOR file   |
-        |  v.zerkin@gmail.com, version 2024-05-11  |
-        +------------------------------------------+
-Create single EXFOR file from X4 files stored in sub-directories
-Script:./merge_entries.sh 2024-05-12,13:11:45 on zerkin-VBox/Linux
-
- 4689/26238) 1/148/14819.x4 Entry:14819 N2=20230314 N3=20240318 03:08 #E+4689 
- 8346/26238) 2/238/23819.x4 Entry:23819 N2=20210712 N3=20220001 05:35 #E+3657 
-10329/26238) 3/331/33195.x4 Entry:33195 N2=20231114 N3=20240400 06:56 #E+1983 
-12095/26238) 4/417/41769.x4 Entry:41769 N2=20230914 N3=20240202 08:08 #E+1766 
-13444/26238) A/A16/A1616.x4 Entry:A1616 N2=19970502 N3=0        09:02 #E+1349 
-13624/26238) B/B01/B0180.x4 Entry:B0180 N2=20011220 N3=20020122 09:09 #E+180 
-16401/26238) C/C29/C2922.x4 Entry:C2922 N2=20230210 N3=20240405 10:59 #E+2777 
-18633/26238) D/D80/D8098.x4 Entry:D8098 N2=20240222 N3=20240417 12:28 #E+2232 
-19932/26238) E/E27/E2774.x4 Entry:E2774 N2=20240315 N3=20240503 13:19 #E+1299 
-21388/26238) F/F14/F1493.x4 Entry:F1493 N2=20231215 N3=20240313 14:17 #E+1456 
-21643/26238) G/G41/G4102.x4 Entry:G4102 N2=20230619 N3=20240215 14:28 #E+255 
-21666/26238) J/J26/J2663.x4 Entry:J2663 N2=20220818 N3=20220818 14:29 #E+23 
-21755/26238) K/K26/K2694.x4 Entry:K2694 N2=20220621 N3=20220818 14:32 #E+89 
-22027/26238) L/L02/L0284.x4 Entry:L0284 N2=20221107 N3=20240411 14:43 #E+272 
-23065/26238) M/M10/M1048.x4 Entry:M1048 N2=20240126 N3=20240408 15:25 #E+1038 
-25505/26238) O/O25/O2577.x4 Entry:O2577 N2=20230615 N3=20231027 17:04 #E+2440 
-25649/26238) P/P01/P0148.x4 Entry:P0148 N2=20000815 N3=20010330 17:10 #E+144 
-25701/26238) R/R00/R0053.x4 Entry:R0053 N2=20130411 N3=20130502 17:12 #E+52 
-25909/26238) S/S02/S0295.x4 Entry:S0295 N2=20220928 N3=20230118 17:21 #E+208 
-26189/26238) T/T04/T0411.x4 Entry:T0411 N2=20050413 N3=20050707 17:32 #E+280 
-26238/26238) V/V10/V1002.x4 Entry:V1002 N2=20220907 N3=20230118 17:34 #E+49 
-
-Script:./merge_entries.sh 2024-05-12,13:29:22
-Output:
--rw-rw-r-- 1 zerkin zerkin 968M Mai 12 13:29 EXFOR--20240506.bck
--rw-rw-r-- 1 zerkin zerkin   54 Mai 12 13:29 EXFOR--20240506.log
--rw-rw-r-- 1 zerkin zerkin 385K Mai 12 13:11 EXFOR--20240506.lst
-#Lines:    26070281
-#Entry:    26238
-#Subent:   194199
-#NoSubent: 22384
-
-Script:./merge_entries.sh 2024-05-12,13:29:22 finished.
-Elapsed time: 0:17:37
+$ ./merge_entries.sh 
+   +------------------------------------------+
+   | Merge Entry files to a single EXFOR file |
+   +------------------------------------------+
+   |  v.zerkin@gmail.com, version 2026-07-31  |
+   +------------------------------------------+
+   Platform: Linux 6.8.0-136-generic x86_64
+   Computer: zerkin-VirtualBox
+   Shell:    GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+   Bash-ver: 5.1.16(1)-release
+   Script:   ./merge_entries.sh
+   Now Dir:  /home/zerkin/mygit/clone1/EXFOR
+
+Running: 2026-07-31,18:21:53
+Input:   */*/*.x4 27070
+Output:  EXFOR  format:[copy]
+
+ 4757/27070) 1/148/14869.x4 Entry:14869 N2=20260407 N3=20260617 Trans:1529 01:30 #E+4757 
+ 8449/27070) 2/239/23908.x4 Entry:23908 N2=20240428 N3=20241029 Trans:2320 02:42 #E+3692 
+10549/27070) 3/332/33226.x4 Entry:33226 N2=20260406 N3=20260528 Trans:3223 03:23 #E+2100 
+12336/27070) 4/417/41791.x4 Entry:41791 N2=20251222 N3=20260518 Trans:4228 03:58 #E+1787 
+13685/27070) A/A16/A1616.x4 Entry:A1616 N2=20250906 N3=20251103 Trans:A124 04:24 #E+1349 
+13865/27070) B/B01/B0180.x4 Entry:B0180 N2=20011220 N3=20020122 Trans:     04:27 #E+180 
+16856/27070) C/C31/C3125.x4 Entry:C3125 N2=20260325 N3=20260518 Trans:C257 05:24 #E+2991 
+19217/27070) D/D81/D8120.x4 Entry:D8120 N2=20260316 N3=20260508 Trans:D151 06:10 #E+2361 
+20561/27070) E/E28/E2828.x4 Entry:E2828 N2=20260227 N3=20260508 Trans:E157 06:36 #E+1344 
+22068/27070) F/F15/F1544.x4 Entry:F1544 N2=20260122 N3=20260305 Trans:F106 07:05 #E+1507 
+22365/27070) G/G41/G4120.x4 Entry:G4120 N2=20260422 N3=20260528 Trans:G060 07:10 #E+297 
+22388/27070) J/J26/J2663.x4 Entry:J2663 N2=20220818 N3=20220818 Trans:J011 07:10 #E+23 
+22485/27070) K/K28/K2806.x4 Entry:K2806 N2=20250824 N3=20250828 Trans:K023 07:12 #E+97 
+22768/27070) L/L02/L0293.x4 Entry:L0293 N2=20260423 N3=20260617 Trans:L059 07:17 #E+283 
+23825/27070) M/M10/M1067.x4 Entry:M1067 N2=20260405 N3=20260518 Trans:M145 07:37 #E+1057 
+26318/27070) O/O26/O2631.x4 Entry:O2631 N2=20241004 N3=20260114 Trans:O100 08:22 #E+2493 
+26462/27070) P/P01/P0148.x4 Entry:P0148 N2=20000815 N3=20010330 Trans:     08:25 #E+144 
+26514/27070) R/R00/R0053.x4 Entry:R0053 N2=20260116 N3=20260228 Trans:R033 08:26 #E+52 
+26741/27070) S/S03/S0322.x4 Entry:S0322 N2=20251018 N3=20260003 Trans:S035 08:30 #E+227 
+27021/27070) T/T04/T0411.x4 Entry:T0411 N2=20241025 N3=20250015 Trans:C242 08:35 #E+280 
+27070/27070) V/V10/V1002.x4 Entry:V1002 N2=20220907 N3=20230118 Trans:V041 08:36 #E+49 
+
+   Script:        ./merge_entries.sh
+   Finished:      2026-07-31,18:30:32
+   Input files:   */*/*.x4 (27070, 1032MiB)
+   Output file:   EXFOR-20260617.bck
+   Output format: copy
+   Size:          1082850946 bytes (1032MiB)
+   Lines:         27658459
+   Entry:         27070
+   Subent:        200465
+   NoSubent:      22812
+   DataTables:    171600
+   DataRows:      20330591
+
+Script:./merge_entries.sh 2026-07-31,18:30:32 finished.
+Elapsed time: 00:08:39 = 519 sec
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ ./merge_entries.sh "*/*/*.x4" EXFOR canonic
+   +------------------------------------------+
+   | Merge Entry files to a single EXFOR file |
+   +------------------------------------------+
+   |  v.zerkin@gmail.com, version 2026-07-31  |
+   +------------------------------------------+
+   Platform: Linux 6.8.0-136-generic x86_64
+   Computer: zerkin-VirtualBox
+   Shell:    GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+   Bash-ver: 5.1.16(1)-release
+   Script:   ./merge_entries.sh
+   Now Dir:  /home/zerkin/mygit/clone1/EXFOR
+
+Running: 2026-07-31,18:31:03
+Input:   */*/*.x4 27070
+Output:  EXFOR  format:[canonic]
+
+ 4757/27070) 1/148/14869.x4 Entry:14869 N2=20260407 N3=20260617 Trans:1529 02:05 #E+4757 
+ 8449/27070) 2/239/23908.x4 Entry:23908 N2=20240428 N3=20241029 Trans:2320 04:05 #E+3692 
+10549/27070) 3/332/33226.x4 Entry:33226 N2=20260406 N3=20260528 Trans:3223 04:58 #E+2100 
+12336/27070) 4/417/41791.x4 Entry:41791 N2=20251222 N3=20260518 Trans:4228 05:41 #E+1787 
+13685/27070) A/A16/A1616.x4 Entry:A1616 N2=20250906 N3=20251103 Trans:A124 06:12 #E+1349 
+13865/27070) B/B01/B0180.x4 Entry:B0180 N2=20011220 N3=20020122 Trans:     06:16 #E+180 
+16856/27070) C/C31/C3125.x4 Entry:C3125 N2=20260325 N3=20260518 Trans:C257 07:27 #E+2991 
+19217/27070) D/D81/D8120.x4 Entry:D8120 N2=20260316 N3=20260508 Trans:D151 08:23 #E+2361 
+20561/27070) E/E28/E2828.x4 Entry:E2828 N2=20260227 N3=20260508 Trans:E157 08:57 #E+1344 
+22068/27070) F/F15/F1544.x4 Entry:F1544 N2=20260122 N3=20260305 Trans:F106 09:33 #E+1507 
+22365/27070) G/G41/G4120.x4 Entry:G4120 N2=20260422 N3=20260528 Trans:G060 09:40 #E+297 
+22388/27070) J/J26/J2663.x4 Entry:J2663 N2=20220818 N3=20220818 Trans:J011 09:40 #E+23 
+22485/27070) K/K28/K2806.x4 Entry:K2806 N2=20250824 N3=20250828 Trans:K023 09:42 #E+97 
+22768/27070) L/L02/L0293.x4 Entry:L0293 N2=20260423 N3=20260617 Trans:L059 09:49 #E+283 
+23825/27070) M/M10/M1067.x4 Entry:M1067 N2=20260405 N3=20260518 Trans:M145 10:14 #E+1057 
+26318/27070) O/O26/O2631.x4 Entry:O2631 N2=20241004 N3=20260114 Trans:O100 11:13 #E+2493 
+26462/27070) P/P01/P0148.x4 Entry:P0148 N2=20000815 N3=20010330 Trans:     11:17 #E+144 
+26514/27070) R/R00/R0053.x4 Entry:R0053 N2=20260116 N3=20260228 Trans:R033 11:18 #E+52 
+26741/27070) S/S03/S0322.x4 Entry:S0322 N2=20251018 N3=20260003 Trans:S035 11:23 #E+227 
+27021/27070) T/T04/T0411.x4 Entry:T0411 N2=20241025 N3=20250015 Trans:C242 11:30 #E+280 
+27070/27070) V/V10/V1002.x4 Entry:V1002 N2=20220907 N3=20230118 Trans:V041 11:31 #E+49 
+
+   Script:        ./merge_entries.sh
+   Finished:      2026-07-31,18:42:37
+   Input files:   */*/*.x4 (27070, 1032MiB)
+   Output file:   EXFOR-20260617.bck
+   Output format: canonic
+   Size:          1083408583 bytes (1033MiB)
+   Lines:         27658459
+   Entry:         27070
+   Subent:        200465
+   NoSubent:      22812
+   DataTables:    171600
+   DataRows:      20330591
+
+Script:./merge_entries.sh 2026-07-31,18:42:37 finished.
+Elapsed time: 00:11:34 = 694 sec
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ bash merge_entries.sh "/home/zerkin/x4master-tst1/entry/*/*.txt" entry canonic
+   +------------------------------------------+
+   | Merge Entry files to a single EXFOR file |
+   +------------------------------------------+
+   |  v.zerkin@gmail.com, version 2026-07-31  |
+   +------------------------------------------+
+   Platform: Linux 6.8.0-136-generic x86_64
+   Computer: zerkin-VirtualBox
+   Shell:    GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+   Bash-ver: 5.1.16(1)-release
+   Script:   merge_entries.sh
+   Now Dir:  /home/zerkin/mygit/clone1/EXFOR
+
+Running: 2026-07-31,18:43:34
+Input:   /home/zerkin/x4master-tst1/entry/*/*.txt 27070
+Output:  entry  format:[canonic]
+
+ 4757/27070) /home/zerkin/x4master-tst1/entry/1/14869.txt Entry:14869 N2=20260407 N3=0        Trans:1529 02:40 #E+4757 
+ 8449/27070) /home/zerkin/x4master-tst1/entry/2/23908.txt Entry:23908 N2=20240428 N3=0        Trans:2320 05:01 #E+3692 
+10549/27070) /home/zerkin/x4master-tst1/entry/3/33226.txt Entry:33226 N2=20260406 N3=0        Trans:3223 05:55 #E+2100 
+12336/27070) /home/zerkin/x4master-tst1/entry/4/41791.txt Entry:41791 N2=20251222 N3=0        Trans:4228 06:42 #E+1787 
+13685/27070) /home/zerkin/x4master-tst1/entry/a/a1616.txt Entry:A1616 N2=20250906 N3=0        Trans:A124 07:18 #E+1349 
+13865/27070) /home/zerkin/x4master-tst1/entry/b/b0180.txt Entry:B0180 N2=20011220 N3=0        Trans:0000 07:23 #E+180 
+16856/27070) /home/zerkin/x4master-tst1/entry/c/c3125.txt Entry:C3125 N2=20260325 N3=0        Trans:C257 08:45 #E+2991 
+19217/27070) /home/zerkin/x4master-tst1/entry/d/d8120.txt Entry:D8120 N2=20260316 N3=0        Trans:D151 09:48 #E+2361 
+20561/27070) /home/zerkin/x4master-tst1/entry/e/e2828.txt Entry:E2828 N2=20260227 N3=0        Trans:E157 10:26 #E+1344 
+22068/27070) /home/zerkin/x4master-tst1/entry/f/f1544.txt Entry:F1544 N2=20260122 N3=0        Trans:F106 11:08 #E+1507 
+22365/27070) /home/zerkin/x4master-tst1/entry/g/g4120.txt Entry:G4120 N2=20260422 N3=0        Trans:G060 11:16 #E+297 
+22388/27070) /home/zerkin/x4master-tst1/entry/j/j2663.txt Entry:J2663 N2=20220818 N3=0        Trans:J011 11:16 #E+23 
+22485/27070) /home/zerkin/x4master-tst1/entry/k/k2806.txt Entry:K2806 N2=20250824 N3=0        Trans:K023 11:19 #E+97 
+22768/27070) /home/zerkin/x4master-tst1/entry/l/l0293.txt Entry:L0293 N2=20260423 N3=0        Trans:L059 11:26 #E+283 
+23825/27070) /home/zerkin/x4master-tst1/entry/m/m1067.txt Entry:M1067 N2=20260405 N3=0        Trans:M145 11:54 #E+1057 
+26318/27070) /home/zerkin/x4master-tst1/entry/o/o2631.txt Entry:O2631 N2=20241004 N3=0        Trans:O100 13:01 #E+2493 
+26462/27070) /home/zerkin/x4master-tst1/entry/p/p0148.txt Entry:P0148 N2=20000815 N3=0        Trans:0000 13:05 #E+144 
+26514/27070) /home/zerkin/x4master-tst1/entry/r/r0053.txt Entry:R0053 N2=20260116 N3=0        Trans:R033 13:06 #E+52 
+26741/27070) /home/zerkin/x4master-tst1/entry/s/s0322.txt Entry:S0322 N2=20251018 N3=0        Trans:S035 13:12 #E+227 
+27021/27070) /home/zerkin/x4master-tst1/entry/t/t0411.txt Entry:T0411 N2=20241025 N3=0        Trans:C242 13:20 #E+280 
+27070/27070) /home/zerkin/x4master-tst1/entry/v/v1002.txt Entry:V1002 N2=20220907 N3=0        Trans:V041 13:21 #E+49 
+
+   Script:        merge_entries.sh
+   Finished:      2026-07-31,18:56:58
+   Input files:   /home/zerkin/x4master-tst1/entry/*/*.txt (27070, 2136MiB)
+   Output file:   entry-20260508.bck
+   Output format: canonic
+   Size:          1083408583 bytes (1033MiB)
+   Lines:         27658459
+   Entry:         27070
+   Subent:        200465
+   NoSubent:      22812
+   DataTables:    171600
+   DataRows:      20330591
+
+Script:merge_entries.sh 2026-07-31,18:56:58 finished.
+Elapsed time: 00:13:24 = 804 sec
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ ./merge_entries.sh --help
+   +------------------------------------------+
+   | Merge Entry files to a single EXFOR file |
+   +------------------------------------------+
+   |  v.zerkin@gmail.com, version 2026-07-31  |
+   +------------------------------------------+
+
+----------------------Help----------------------
+Run:
+    $ [bash] [scriptdir]merge_entries.sh [-help] ["files"] [output] [format]
+Parameters:
+    -help     display this text
+    files     EXFOR file or files; default: "*/*/*.x4"
+              default: "*/*/*.x4"
+              Note. Use quots for multiple files
+    output    output file name without extension;
+              default: "EXFOR"
+              output files:
+                - EXFOR file:           output.bck
+                - list of EXFOR files:  output.lst
+                - summary of work done: output.log
+    format    output file format; option values:
+              default: "copy"
+              "copy"     filed appended to the output file without any change
+              "cut66"    cutting text after column 66, right-trim
+              "canonic"  reformat booking service text in the output file
+Examples:
+    $ bash merge_entries.sh
+    $ ./merge_entries.sh --help
+    $ ~/bin/merge_entries.sh "entry/*/*.txt" entry cut66
+    $ bash merge_entries.sh "entry/*/*.txt" entry canonic
+    $ bash merge_entries.sh "../mygit/clone1/EXFOR/*/*/*.x4" clone1 canonic
+    $ bash merge_entries.sh "../mygit/clone1/EXFOR/*/*/T*.x4" clone1t canonic
+    $ bash merge_entries.sh "../mygit/clone1/EXFOR/*/*/[2O]*.x4" EXFOR-NEA canonic
+    $ bash merge_entries.sh "G:/projects/tmp1/entry/r/*.txt"
+$
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ diff EXFOR-20260617.bck entry-20260508.bck >diff1
+$ cat diff1
+1c1
+< REQUEST              0   20260731     183102   20260731          3
+---
+> REQUEST              0   20260731     184334   20260731          3
+3265041c3265041
+< ENTRY            13093   20200120
+---
+> ENTRY            13093   20200316
+3981920c3981920
+< ENTRY            13695   20150729
+---
+> ENTRY            13695   20150610
+8608228c8608228
+< ENTRY            14544   20211107
+---
+> ENTRY            14544   20211109
+8688044c8688044
+< ENTRY            14597   20200224
+---
+> ENTRY            14597   20200415
+8689211c8689211
+< ENTRY            14607   20200305
+---
+> ENTRY            14607   20200420
+8689284c8689284
+< ENTRY            14609   20200226
+---
+> ENTRY            14609   20200415
+8689784c8689784
+< ENTRY            14617   20200305
+---
+> ENTRY            14617   20200420
+8689893c8689893
+< ENTRY            14619   20200403
+---
+> ENTRY            14619   20200420
+8691450c8691450
+< ENTRY            14624   20200325
+---
+> ENTRY            14624   20200403
+8694081c8694081
+< ENTRY            14658   20210521
+---
+> ENTRY            14658   20210530
+10010054c10010054
+< ENTRY            20384   20180713
+---
+> ENTRY            20384   20180716
+10522778c10522778
+< ENTRY            20941   20170731
+---
+> ENTRY            20941   20180123
+14850408c14850408
+< ENTRY            23274   20150222
+---
+> ENTRY            23274   20150322
+15996737c15996737
+< ENTRY            23340   20170610
+---
+> ENTRY            23340   20180119
+16388252c16388252
+< ENTRY            23370   20180726
+---
+> ENTRY            23370   20180725
+16388922c16388922
+< ENTRY            23377   20180716
+---
+> ENTRY            23377   20180724
+16392424c16392424
+< ENTRY            23396   20180825
+---
+> ENTRY            23396   20180625
+16513949c16513949
+< ENTRY            23429   20180919
+---
+> ENTRY            23429   20180920
+16514185c16514185
+< ENTRY            23433   20180922
+---
+> ENTRY            23433   20180921
+17308865c17308865
+< ENTRY            23514   20190603
+---
+> ENTRY            23514   20190604
+17309075c17309075
+< ENTRY            23517   20190603
+---
+> ENTRY            23517   20190604
+17309265c17309265
+< ENTRY            23520   20190603
+---
+> ENTRY            23520   20190604
+17309444c17309444
+< ENTRY            23521   20190603
+---
+> ENTRY            23521   20190604
+17309906c17309906
+< ENTRY            23523   20190603
+---
+> ENTRY            23523   20190604
+17309943c17309943
+< ENTRY            23524   20190603
+---
+> ENTRY            23524   20190604
+17310108c17310108
+< ENTRY            23526   20190603
+---
+> ENTRY            23526   20190604
+17310322c17310322
+< ENTRY            23527   20190603
+---
+> ENTRY            23527   20190604
+17310431c17310431
+< ENTRY            23528   20190603
+---
+> ENTRY            23528   20190604
+17310490c17310490
+< ENTRY            23529   20190603
+---
+> ENTRY            23529   20190604
+17491998c17491998
+< ENTRY            23548   20190603
+---
+> ENTRY            23548   20200406
+18335442c18335442
+< ENTRY            23701   20200505
+---
+> ENTRY            23701   20200520
+18335588c18335588
+< ENTRY            23702   20200505
+---
+> ENTRY            23702   20200520
+18335714c18335714
+< ENTRY            23703   20200505
+---
+> ENTRY            23703   20200520
+18335762c18335762
+< ENTRY            23704   20200505
+---
+> ENTRY            23704   20200520
+18335841c18335841
+< ENTRY            23705   20200505
+---
+> ENTRY            23705   20200520
+18336017c18336017
+< ENTRY            23706   20200505
+---
+> ENTRY            23706   20200520
+18336115c18336115
+< ENTRY            23707   20200505
+---
+> ENTRY            23707   20200520
+18336223c18336223
+< ENTRY            23708   20200505
+---
+> ENTRY            23708   20200520
+18336289c18336289
+< ENTRY            23709   20200505
+---
+> ENTRY            23709   20200520
+18336442c18336442
+< ENTRY            23710   20200505
+---
+> ENTRY            23710   20200520
+18336556c18336556
+< ENTRY            23711   20200505
+---
+> ENTRY            23711   20200520
+18336671c18336671
+< ENTRY            23712   20200505
+---
+> ENTRY            23712   20200520
+19563778c19563778
+< ENTRY            31858   20230808
+---
+> ENTRY            31858   20230809
+19731707c19731707
+< ENTRY            33205   20250217
+---
+> ENTRY            33205   20250105
+20122027c20122027
+< ENTRY            40960   20190227
+---
+> ENTRY            40960   20190225
+20349460c20349460
+< ENTRY            41661   20190211
+---
+> ENTRY            41661   20181203
+20351003c20351003
+< ENTRY            41669   20190513
+---
+> ENTRY            41669   20190520
+20353277c20353277
+< ENTRY            41683   20200131
+---
+> ENTRY            41683   20191216
+20362301c20362301
+< ENTRY            41711   20201028
+---
+> ENTRY            41711   20201112
+20367314c20367314
+< ENTRY            41733   20210118
+---
+> ENTRY            41733   20210208
+20921793c20921793
+< ENTRY            C0062   20230616
+---
+> ENTRY            C0062   20240405
+21042608c21042608
+< ENTRY            C0312   20230802
+---
+> ENTRY            C0312   20240405
+21912681c21912681
+< ENTRY            C1791   20100705
+---
+> ENTRY            C1791   20170705
+22110561c22110561
+< ENTRY            C2194   20160206
+---
+> ENTRY            C2194   20160403
+22122161c22122161
+< ENTRY            C2240   20160920
+---
+> ENTRY            C2240   20161006
+22129768c22129768
+< ENTRY            C2303   20230802
+---
+> ENTRY            C2303   20240405
+22174764c22174764
+< ENTRY            C2452   20191223
+---
+> ENTRY            C2452   20200205
+22177221c22177221
+< ENTRY            C2469   20230802
+---
+> ENTRY            C2469   20240405
+22220970c22220970
+< ENTRY            C2614   20211107
+---
+> ENTRY            C2614   20211109
+22221165c22221165
+< ENTRY            C2615   20211107
+---
+> ENTRY            C2615   20211109
+22271594c22271594
+< ENTRY            C2707   20220120
+---
+> ENTRY            C2707   20220121
+22311320c22311320
+< ENTRY            C2824   20221005
+---
+> ENTRY            C2824   20221010
+22320235c22320235
+< ENTRY            C2853   20221207
+---
+> ENTRY            C2853   20240405
+22380075c22380075
+< ENTRY            C2992   20240917
+---
+> ENTRY            C2992   20240922
+23274014c23274014
+< ENTRY            D4058   20230720
+---
+> ENTRY            D4058   20231023
+23281633c23281633
+< ENTRY            D4093   20231004
+---
+> ENTRY            D4093   20231024
+23447722c23447722
+< ENTRY            D5177   20191118
+---
+> ENTRY            D5177   20191218
+23447830c23447830
+< ENTRY            D5178   20191118
+---
+> ENTRY            D5178   20191218
+23544735c23544735
+< ENTRY            D6251   20170308
+---
+> ENTRY            D6251   20170224
+23705621c23705621
+< ENTRY            E0072   20231010
+---
+> ENTRY            E0072   20231007
+25615520c25615520
+< ENTRY            G4074   20191119
+---
+> ENTRY            G4074   20191218
+25615632c25615632
+< ENTRY            G4075   20191120
+---
+> ENTRY            G4075   20191218
+25615718c25615718
+< ENTRY            G4076   20191120
+---
+> ENTRY            G4076   20191218
+25722356c25722356
+< ENTRY            L0058   20150127
+---
+> ENTRY            L0058   20150313
+25768048c25768048
+< ENTRY            L0269   20210314
+---
+> ENTRY            L0269   20210322
+26061818c26061818
+< ENTRY            M0972   20180823
+---
+> ENTRY            M0972   20180923
+26066673c26066673
+< ENTRY            M0989   20180330
+---
+> ENTRY            M0989   20191113
+26066737c26066737
+< ENTRY            M0990   20180330
+---
+> ENTRY            M0990   20191113
+26066791c26066791
+< ENTRY            M0991   20180330
+---
+> ENTRY            M0991   20191113
+26077909c26077909
+< ENTRY            M1047   20230119
+---
+> ENTRY            M1047   20240119
+27206970c27206970
+< ENDSUBENT           41          0
+---
+> ENDSUBENT           45          0
+27357077,27357078c27357077,27357078
+< ENTRY            S0007   20100531
+< SUBENT        S0007001   20100531
+---
+> ENTRY            S0007   20110112
+> SUBENT        S0007001   20110112
+27357117c27357117
+< SUBENT        S0007002   20100531
+---
+> SUBENT        S0007002   20110112
+27658459c27658459
+< ENDREQUEST       27070   20260508   20260617
+---
+> ENDREQUEST       27070   20260508   20260508
+$ 
+$ 
+$ 
