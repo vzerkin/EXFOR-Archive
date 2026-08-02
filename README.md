@@ -36,13 +36,34 @@ _by V.Zerkin, IAEA, 2000-2026_
 - Download current repository files using Web_browser: (1) click ![Code](img/code.png "Code"),
  (2) click ![Download](img/download.png "Download")
 
-- Set current repository to selected date (Tag) in Web_browser: (1) click ![master](img/master.png "master"),
- (2) click on tab "Tags" and (3) select Tag EXFOR-YYYY-MM-YY
-
 - If you have installed **git**, you can download full repository using terminal command:
 ```shell
       git clone https://github.com/IAEA-NRDCNetwork/EXFOR-Archive.git
       git clone https://github.com/vzerkin/EXFOR-Archive.git
+```
+
+### Tags
+EXFOR database (and library) is updated by one or several TRANS files in average 80 times a year.
+EXFOR-Archive repository uses **"Tags"** to mark EXFOR updates giving a point-in-time 
+snapshot of EXFOR library so that user can easily refer back to them and roll back 
+to those points if needed. User can switch working directory to the tagged state 
+(version of EXFOR) in both Web-interface and local git:
+
+- Set current repository to selected date (Tag) in Web_browser: (1) click ![master](img/master.png "master"),
+ (2) click on tab "Tags" and (3) select Tag EXFOR-YYYY-MM-YY
+
+- Using Tags in your local git (commands in terminal):
+```shell
+    #--list tags
+       git tag         >list-tags.txt   #list tag names
+       git tag -n      >short-tags.txt  #list tags with short summary
+       git tag -n77777 >full-tags.txt   #list tags with details
+       git tag -n100 --sort -version:refname >full-tags.txt  #list tags in reverse order
+    #--switch working directory to existing tag
+       git chechout EXFOR-2007-03-07    #switch content of working directory to tag EXFOR-2007-03-07
+    #--return
+       git switch -                     #undo previous operation
+       git checkout master              #switch to branch master (latest state)
 ```
 
 ### Scripts
